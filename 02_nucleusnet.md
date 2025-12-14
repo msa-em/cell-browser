@@ -31,6 +31,16 @@ False-positive detections by cellpose were rare but expected as a consequence of
 
 **Figure 1A: Embed OpenSeadragon viewer with this [image](https://russellbarkley.github.io/cellpose_masks/)**
 
+::::{figure}
+:label: open_seadragon_demo
+:::{any:bundle} https://raw.githubusercontent.com/curvenote/widgets/refs/heads/main/dev/openseadragon/dist/widget.mjs
+{
+    "prefixUrl": "images/",
+    "tileSources": "https://openseadragon.github.io/example-images/duomo/duomo.dzi"
+}
+:::
+::::
+
 ## NucleusNet-10K
 
 A small version (N=10,000) of the single-cell dataset was created with one-hundred random images chosen from each imaging session.
