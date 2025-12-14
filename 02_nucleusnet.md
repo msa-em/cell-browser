@@ -33,10 +33,10 @@ False-positive detections by cellpose were rare but expected as a consequence of
 
 ::::{figure}
 :label: open_seadragon_demo
-:::{any:bundle} https://raw.githubusercontent.com/curvenote/widgets/refs/heads/main/dev/openseadragon/dist/widget.mjs
+:::{openseadragon:szi} https://openseadragon.github.io/example-images/duomo/duomo.dzi
+
 {
-    "prefixUrl": "images/",
-    "tileSources": "https://openseadragon.github.io/example-images/duomo/duomo.dzi"
+    "prefixUrl": "images/"
 }
 :::
 ::::
