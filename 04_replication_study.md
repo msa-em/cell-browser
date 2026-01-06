@@ -23,3 +23,13 @@ Heterogeneity was expected in the population due to viral permissivity and incom
 Another confounding variable was interferon induction from liposomal transfection reagents [@doi:10.1089/jir.1998.18.947] and plasmid DNA.
 
 # Results
+
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:class: w-full
+
+{
+  "source": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0048A/9846152.zarr",
+  "height": "600px"
+}
+
+:::
