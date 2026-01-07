@@ -28,7 +28,7 @@ Another confounding variable was interferon induction from liposomal transfectio
 :class: w-full
 
 {
-  "source": "https://uk1s3.embassy.ebi.ac.uk/idr/zarr/v0.4/idr0048A/9846152.zarr",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
   "height": "600px"
 }
 
