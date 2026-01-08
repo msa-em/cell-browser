@@ -27,7 +27,7 @@ Another confounding variable was interferon induction from liposomal transfectio
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "height": "200px"
+  "height": "400px"
 }
 
 :::
@@ -37,7 +37,7 @@ Another confounding variable was interferon induction from liposomal transfectio
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample2.zarr/",
-  "height": "200px"
+  "height": "400px"
 }
 
 :::
@@ -47,7 +47,7 @@ Another confounding variable was interferon induction from liposomal transfectio
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample3.zarr/",
-  "height": "200px"
+  "height": "400px"
 }
 
 :::
@@ -57,7 +57,7 @@ Another confounding variable was interferon induction from liposomal transfectio
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample4.zarr/",
-  "height": "200px"
+  "height": "400px"
 }
 
 :::
