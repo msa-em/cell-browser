@@ -7,11 +7,7 @@ label : replication_page
 
 # Background
 
-[Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge.
-Repeatability in the same study by the same researchers is distinguished from replicability by independent researchers using the same methodology.
-Barkley noticed a lack of methods for reproducing representative images and proposed virtual nanoscopy as a method to assess the replicability of observations evidenced by representative images.
-Results should be observed again with a high degree of reliability, therefore the original claim should be evident within a sample of hundreds of cells.
-To test this, Barkley challenged the claim that reovirus remodels the ER [@doi:10.1128/mBio.01253-18].
+
 Most evidence, including key findings, were representative images without quantitation ([](#table4)), which is problematic given the inability to communicate population variation and uncertainty.
 The study concluded that reovirus induced fragmented, collapsed, and aggregated ER elements, shown in images of infected cells expressing mCherry-KDEL.
 This fluorescent ER reporter was expressed using plasmid transfection or with engineered cell lines.
@@ -24,12 +20,46 @@ Another confounding variable was interferon induction from liposomal transfectio
 
 # Results
 
+::::{grid}
+
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 :class: w-full
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "height": "600px"
+  "height": "400px"
 }
 
 :::
+
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:class: w-full
+
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample2.zarr/",
+  "height": "400px"
+}
+
+:::
+
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:class: w-full
+
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample3.zarr/",
+  "height": "400px"
+}
+
+:::
+
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:class: w-full
+
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample4.zarr/",
+  "height": "400px"
+}
+
+:::
+
+::::
