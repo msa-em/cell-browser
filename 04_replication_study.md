@@ -16,7 +16,7 @@ label : replication_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "height": "400px"
+  "height": "350px"
 }
 
 :::
@@ -26,7 +26,7 @@ label : replication_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample2.zarr/",
-  "height": "400px"
+  "height": "350px"
 }
 
 :::
@@ -36,7 +36,7 @@ label : replication_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample3.zarr/",
-  "height": "400px"
+  "height": "350px"
 }
 
 :::
@@ -46,7 +46,7 @@ label : replication_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample4.zarr/",
-  "height": "400px"
+  "height": "350px"
 }
 
 :::
