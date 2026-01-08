@@ -20,14 +20,14 @@ Another confounding variable was interferon induction from liposomal transfectio
 
 # Results
 
-::::{grid}
+::::{grid} 2 2 2 2
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 :class: w-full
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "height": "400px"
+  "height": "200px"
 }
 
 :::
@@ -37,7 +37,7 @@ Another confounding variable was interferon induction from liposomal transfectio
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample2.zarr/",
-  "height": "400px"
+  "height": "200px"
 }
 
 :::
@@ -47,7 +47,7 @@ Another confounding variable was interferon induction from liposomal transfectio
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample3.zarr/",
-  "height": "400px"
+  "height": "200px"
 }
 
 :::
@@ -57,7 +57,7 @@ Another confounding variable was interferon induction from liposomal transfectio
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample4.zarr/",
-  "height": "400px"
+  "height": "200px"
 }
 
 :::
