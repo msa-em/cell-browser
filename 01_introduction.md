@@ -52,18 +52,6 @@ In contrast, microscopy maps offer greater transparency and accessibility as a v
 
 ---
 
-## Contributions
-
-1. **A single-cell confocal microscopy image dataset of 1,061,277 unique cell nuclei.**
-
-2. **Demonstration of a novel use case for autoencoders: typical image selection.**
-
-3. **Embedded microscopy maps for unbiased data sharing with virtual nanoscopy**
-
-4. **An image atlas of cellular organelles during mammalian orthoreovirus infection.**
-
----
-
 ## Definitions
 
 _Virtual nanoscopy_ was a term used to describe the process of automated image acquisition, followed by unbiased presentation in an interactive tile-based viewer. [@doi:10.1083/jcb.201201140]
