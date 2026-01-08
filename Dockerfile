@@ -1,19 +1,29 @@
 # slim uv base image
 FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
+# some additional compilation libs
+USER root
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential cmake zlib1g-dev liblz4-dev libblosc-dev pkg-config \
+    && rm -rf /var/lib/apt/lists/*
+
 # uv optimization env variables
 ENV UV_COMPILE_BYTECODE=1
 ENV UV_SYSTEM_PYTHON=1
+ENV UV_LINK_MODE=copy
 
-# install deps (system is safe, already isolated)
-COPY ./requirements.in .
-RUN uv pip install -r requirements.in
+# Copy only dependency metadata (best caching)
+COPY ./pyproject.toml ./uv.lock ./
+RUN uv sync --no-dev --no-install-project
+
+# Remove build-only packages
+RUN apt-get purge -y --auto-remove build-essential cmake pkg-config
 
 # create user with a home directory for binder
 ARG NB_USER
 ARG NB_UID
-ENV USER ${NB_USER}
-ENV HOME /home/${NB_USER}
+ENV USER=${NB_USER}
+ENV HOME=/home/${NB_USER}
 
 RUN adduser --disabled-password \
     --gecos "Default user" \

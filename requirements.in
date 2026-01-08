@@ -13,3 +13,6 @@ tifffile
 tensorflow
 pillow
 vizarr
+fsspec
+huggingface_hub
+datasets>=2.20.0
