@@ -1,20 +1,22 @@
 # slim uv base image
 FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
+# uv optimization env variables
+ENV UV_COMPILE_BYTECODE=1
+ENV UV_SYSTEM_PYTHON=1
+ENV UV_LINK_MODE=copy
+
 # some additional compilation libs
 USER root
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential cmake zlib1g-dev liblz4-dev libblosc-dev pkg-config \
     && rm -rf /var/lib/apt/lists/*
 
-# uv optimization env variables
-ENV UV_COMPILE_BYTECODE=1
-ENV UV_SYSTEM_PYTHON=1
-ENV UV_LINK_MODE=copy
+# Copy only dependency metadata
+COPY requirements.txt .
 
-# Copy only dependency metadata (best caching)
-COPY ./pyproject.toml ./uv.lock ./
-RUN uv sync --no-dev --no-install-project
+# Sync dependencies into system Python (no project install, no editable)
+RUN uv pip install --no-cache-dir -r requirements.txt
 
 # Remove build-only packages
 RUN apt-get purge -y --auto-remove build-essential cmake pkg-config
