@@ -283,15 +283,15 @@ label : replication_page
 
 ::::
 
-## Experiment 5 - Reovirus antibody validation, chicken (left) and guinea pig (right)
+## Experiment 5 - Transfected infected model
 
-::::{grid} 3 3 3 3
+::::{grid} 1 1 1 1
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",
-  "height": "400px"
+  "height": "600px"
 }
 
 :::
@@ -300,7 +300,7 @@ label : replication_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample2.zarr/",
-  "height": "400px"
+  "height": "600px"
 }
 
 :::
@@ -308,8 +308,8 @@ label : replication_page
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",
-  "height": "400px"
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample1.zarr/",
+  "height": "600px"
 }
 
 :::
