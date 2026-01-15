@@ -1,7 +1,7 @@
 ---
 title: Supplementary Data
 numbering:
-  enumerator: 9.%s
+  enumerator: 8.%s
 label : supplementary_page
 ---
 

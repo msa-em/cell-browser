@@ -1,7 +1,7 @@
 ---
 title: Materials and Methods
 numbering:
-  enumerator: 8.%s
+  enumerator: 7.%s
 label : methods_page
 ---
 
