@@ -13,7 +13,7 @@ label : experiment2_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample3.zarr/",
-  "height": "300px"
+  "height": "350px"
 }
 
 :::
@@ -22,7 +22,7 @@ label : experiment2_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample7.zarr/",
-  "height": "300px"
+  "height": "350px"
 }
 
 :::
@@ -31,7 +31,7 @@ label : experiment2_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample4.zarr/",
-  "height": "300px"
+  "height": "350px"
 }
 
 :::
@@ -40,7 +40,7 @@ label : experiment2_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample8.zarr/",
-  "height": "300px"
+  "height": "350px"
 }
 
 :::
@@ -49,7 +49,7 @@ label : experiment2_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample2.zarr/",
-  "height": "300px"
+  "height": "350px"
 }
 
 :::
@@ -58,7 +58,7 @@ label : experiment2_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample6.zarr/",
-  "height": "300px"
+  "height": "350px"
 }
 
 :::
@@ -67,7 +67,7 @@ label : experiment2_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample1.zarr/",
-  "height": "300px"
+  "height": "350px"
 }
 
 :::
@@ -76,7 +76,7 @@ label : experiment2_page
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample5.zarr/",
-  "height": "300px"
+  "height": "350px"
 }
 
 :::
