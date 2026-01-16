@@ -18,7 +18,7 @@ Slides were gently cleaned then stored at four degrees celsius.
 
 # Materials
 
-The original study used a polyclonal serum for calreticulin but did not include the product number, so it was substituted for a monoclonal antibody.
+The original study used a polyclonal serum for calreticulin but did not include the product number, so it was substituted for a monoclonal antibody in the replication study.
 Mouse calreticulin monoclonal antibody (MA5-15382, Thermo) was stored at -20C in 5μl aliquots to be used at 1:1000 dilution.
 Chicken anti-μNS serum was made by the Parker lab (1:1000 dilution).
 Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
@@ -26,8 +26,8 @@ Donkey anti-mouse antibodies conjugated to AlexaFluor488 (715-545-150), donkey a
 
 ## Calreticulin monoclonal antibody
 
-The calreticulin monoclonal antibody labelled the ER without unspecific staining, because there is no signal in the controls that lack antibodies.
-This ER antibody gave a punctate staining pattern but was sufficient to observe ER elements at high magnification.
+The calreticulin monoclonal antibody labelled the ER with specificity, and there is no signal in the controls that lack antibodies.
+This antibody has a punctate staining pattern but it was sufficient to observe ER elements at high magnification.
 
 ::::{grid} 1 1 1 1
 
@@ -75,16 +75,16 @@ This ER antibody gave a punctate staining pattern but was sufficient to observe 
 
 ## Reovirus μNS antibodies
 
-Mammalian orthoreovirus is thought to replicate and assemble viral particles in phase-separated cytoplasmic compartments of infected cells.
-μNS is an important protein for the formation of reovirus viral factories, along with σNS.
-The original study labelled reovirus viral factories with several μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
-Barkley used the same chicken polyclonal antiserum in the replication study, which was compared to another polyclonal μNS antiserum.
+Mammalian orthoreovirus is thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells.
+μNS is an important viral protein for the formation of reovirus viral factories, along with σNS.
+The original study labelled viral factories with μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
+Barkley used this chicken polyclonal antiserum in the replication study.
+Another polyclonal μNS antiserum was included for comparison.
 Both μNS antibodies labelled reovirus viral factories with specificity, as there was no background staining in the control samples that lacked primary or secondary antibodies.
-The guinea pig serum was more diluted and appeared to be the better antibody, but the chicken serum was sufficient to label virus-infected cells and observe intracellular viral factories.
-There was a malfunction of the Z-drift comprensator due to the specimen.
-Barkley interpreted that there was no difference in the appearance of the ER based on the staining pattern of calreticulin in reovirus-infected cells.
+The guinea pig serum appeared to be the better antibody, but the chicken antibody was sufficient to label virus-infected cells and observe intracellular viral factories.
+Barkley also interpreted that there was no difference in the appearance of the ER based on the staining pattern of calreticulin in reovirus-infected cells.
 
-### Chicken polyclonal antiserum (Parker lab)
+### Chicken polyclonal antiserum
 
 ::::{grid} 1 1 1 1
 
@@ -130,7 +130,7 @@ Barkley interpreted that there was no difference in the appearance of the ER bas
 
 ::::
 
-### Guinea pig polyclonal antiserum (Stanifer lab)
+### Guinea pig polyclonal antiserum
 
 ::::{grid} 1 1 1 1
 

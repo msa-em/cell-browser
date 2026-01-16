@@ -5,23 +5,31 @@ numbering:
 label : virus_page
 ---
 
-# Virus infection
+# Virus stocks
 
-The study used a mutant mammalian orthoreovirus strain Type 1 Lang (T1L) M1-P208S, which makes globular viral factories through the loss of interaction with microtubules [@doi:10.1128/JVI.76.9.4483-4496.2002].
-No rationale was provided for using the P208S mutant, nor did our lab have it, so wildtype mammalian orthoreovirus strains T1L and Type 3 Dearing (T3D) were used in the replication study.
-The important distinction is that the morphology of viral factories between strains T1L and T3D differ.
-T1L tends to form filamentous viral factories, and mutant reovirus M1-P208S used the T1L genetic backbone but formed globular viral factories.
-A stock of unpurified reovirus T3D was used in one experiment to compare strains.
+The original study used a mutant reovirus strain Type 1 Lang (T1L) M1-P208S, which makes globular viral factories from the loss of interaction with microtubules [@doi:10.1128/JVI.76.9.4483-4496.2002].
+No rationale was provided for using the P208S mutant, nor did our lab have it, so wildtype mammalian orthoreovirus strain T1L was chosen as a replacement for the replication study.
+Reovirus T1L tends to form filamentous viral factories, while the mutant reovirus M1-P208S would have formed globular viral factories.
+A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included in this experiment to compare strains.
+The important distinction is that the morphology of viral factories should differ between strains T1L and T3D.
+
+# Infection protocol
+
 Stocks of purified reovirus T1L were titrated in L-929 cells to estimate the concentration of plaque-forming units (PFU).
 L-929, or L cells are permissive to reovirus infection and were used for virus titration in the original study, so there was consistency in calculating the multiplicity of infection (MOI).
 To clarify, MOI was PFU/cell, and PFU was estimated on L-929 cells in both the original study and the replication study.
-
-For infection of cells on coverslips in 12-well plates, purified reovirus was diluted in a volume of 100ul of serum-free DMEM.
+To infect cells on coverslips in 12-well plates, purified reovirus was diluted in a volume of 100ul of serum-free DMEM.
 Media was aspirated from the cells, replaced with 100ul serum-free DMEM to wet the coverslip, then the virus-containing medium was added.
 Reovirus was adsorbed to the cells for one hour at room temperature and the plate was rocked every ten minutes to redistribute the inoculum.
 Thereafter, one milliliter of pre-warmed serum-containing DMEM was added to the cells, and the plate was incubated at 37C for 24h before PFA fixation.
 
-## Reovirus strains T1L (left) and T3D (right) at different MOIs
+## Reovirus strains T1L (left) and T3D (right)
+
+The original study infected HeLa cells with reovirus at MOI 1.
+Ten-fold dilutions of reovirus from MOI 0 (uninfected control) to MOI 100 were imaged after twenty four hours of infection.
+The microscopy maps show that HeLa cells are not permissive to reovirus, and that MOI 100 is needed to achieve high infection, consistent with others findings [@doi:10.1128/jvi.00199-19].
+Therefore, MOI 100 was chosen for the replication experiment in the transfected-infected cell model.
+No robust evidence of ER remodelling is observed in the calreticulin channel of reovirus-infected cells.
 
 ### MOI 0
 
