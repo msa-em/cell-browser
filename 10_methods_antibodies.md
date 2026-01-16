@@ -16,11 +16,10 @@ Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reag
 Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and cured overnight at room temperature in the dark.
 Slides were gently cleaned then stored at four degrees celsius.
 
-# Antibodies
+# Materials
 
 The original study used a polyclonal serum for calreticulin but did not include the product number, so it was substituted for a monoclonal antibody.
 Mouse calreticulin monoclonal antibody (MA5-15382, Thermo) was stored at -20C in 5μl aliquots to be used at 1:1000 dilution.
-
 Chicken anti-μNS serum was made by the Parker lab (1:1000 dilution).
 Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
 Donkey anti-mouse antibodies conjugated to AlexaFluor488 (715-545-150), donkey anti-chicken antibodies conjugated to AlexaFluor647 (703-605-155) and donkey anti-guinea pig conjugated to AlexaFluor594 (706-585-148) were stored diluted in 1:1 glycerol and were used at 1:800 dilutions.
@@ -76,12 +75,16 @@ This ER antibody gave a punctate staining pattern but was sufficient to observe 
 
 ## Reovirus μNS antibodies
 
-The chicken and guinea pig μNS antibodies both labelled reovirus viral factories with specificity, as there was no background staining in the control samples that lacked primary or secondary antibodies.
-The guinea pig serum was used at very low dilution and appeared to be the better antibody, but the chicken serum was sufficient to label virus-infected cells.
+Mammalian orthoreovirus is thought to replicate and assemble viral particles in phase-separated cytoplasmic compartments of infected cells.
+μNS is an important protein for the formation of reovirus viral factories, along with σNS.
+The original study labelled reovirus viral factories with several μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
+Barkley used the same chicken polyclonal antiserum in the replication study, which was compared to another polyclonal μNS antiserum.
+Both μNS antibodies labelled reovirus viral factories with specificity, as there was no background staining in the control samples that lacked primary or secondary antibodies.
+The guinea pig serum was more diluted and appeared to be the better antibody, but the chicken serum was sufficient to label virus-infected cells and observe intracellular viral factories.
 There was a malfunction of the Z-drift comprensator due to the specimen.
-Barkley interpreted that there was no difference in the appearance of the ER in reovirus-infected cells.
+Barkley interpreted that there was no difference in the appearance of the ER based on the staining pattern of calreticulin in reovirus-infected cells.
 
-### Chicken serum (Parker lab)
+### Chicken polyclonal antiserum (Parker lab)
 
 ::::{grid} 1 1 1 1
 
@@ -127,7 +130,7 @@ Barkley interpreted that there was no difference in the appearance of the ER in 
 
 ::::
 
-### Guinea pig serum (Stanifer lab)
+### Guinea pig polyclonal antiserum (Stanifer lab)
 
 ::::{grid} 1 1 1 1
 

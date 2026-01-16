@@ -1,13 +1,13 @@
 ---
-title: Experiment 5
+title: Model
 numbering:
   enumerator: 14.%s
-label : experiment5_page
+label : model_page
 ---
 
-## Experiment 5 - Transfected infected model
+## Transfected infected model
 
-::::{grid} 1 1 1 1
+### No transfection
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
@@ -18,6 +18,8 @@ label : experiment5_page
 
 :::
 
+### Mirus Transit2020
+
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
 {
@@ -27,6 +29,8 @@ label : experiment5_page
 
 :::
 
+### Lipofectamine 3000
+
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
 {
@@ -35,5 +39,3 @@ label : experiment5_page
 }
 
 :::
-
-::::
