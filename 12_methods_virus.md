@@ -5,10 +5,12 @@ numbering:
 label : virus_page
 ---
 
+# Virus stocks
+
 The original study used a mutant reovirus strain Type 1 Lang (T1L) M1-P208S, which makes globular viral factories from the loss of interaction with microtubules [@doi:10.1128/JVI.76.9.4483-4496.2002].
-No rationale was provided for using the P208S mutant, nor did our lab have it, so wildtype mammalian orthoreovirus strain T1L was chosen as a substitute for the replication study.
+No rationale was provided for using the P208S mutant, nor did our lab have it, so wildtype mammalian orthoreovirus strain T1L was chosen as a replacement for the replication study.
 Reovirus T1L tends to form filamentous viral factories, while the mutant reovirus M1-P208S would have formed globular viral factories.
-A stock of unpurified reovirus strain Type 3 Dearing (T3D) was included in this experiment to compare strains because reovirus T3D forms globular viral factories.
+A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included in this experiment to compare strains.
 The important distinction is that the morphology of viral factories should differ between strains T1L and T3D.
 
 # Infection protocol
@@ -21,11 +23,11 @@ Media was aspirated from the cells, replaced with 100ul serum-free DMEM to wet t
 Reovirus was adsorbed to the cells for one hour at room temperature and the plate was rocked every ten minutes to redistribute the inoculum.
 Thereafter, one milliliter of pre-warmed serum-containing DMEM was added to the cells, and the plate was incubated at 37C for 24h before PFA fixation.
 
-## MOI with reovirus strains T1L (left) and T3D (right) in HeLa cells
+## Reovirus strains T1L (left) and T3D (right)
 
 The original study infected HeLa cells with reovirus at MOI 1.
 Ten-fold dilutions of reovirus from MOI 0 (uninfected control) to MOI 100 were imaged after twenty four hours of infection.
-The microscopy maps show that HeLa cells are not permissive to reovirus, and that MOI 100 is needed to achieve high infection, consistent with previous work [@doi:10.1128/jvi.00199-19].
+The microscopy maps show that HeLa cells are not permissive to reovirus, and that MOI 100 is needed to achieve high infection, consistent with others findings [@doi:10.1128/jvi.00199-19].
 Therefore, MOI 100 was chosen for the replication experiment in the transfected-infected cell model.
 No robust evidence of ER remodelling is observed in the calreticulin channel of reovirus-infected cells.
 
