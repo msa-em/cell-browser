@@ -4,7 +4,7 @@ project:
   id: msa-em-cell-browser-1
   title: Unbiased replication of representative images using embedded microscopy maps
   description: Application of virtual microscopy as an unbiased method to replicate representative images.
-  short_title: Microscopy Maps
+  short_title: Virtual Microscopy
   keywords:
     - NucleusNet
     - Virtual
@@ -73,5 +73,29 @@ project:
     MSE: mean squared error
     PBS: phosphate buffered saline
     PFA: paraformaldehyde
+  toc:
+    - file: 00_index.md
+    - file: 01_introduction.md
+    - file: 02_microscopy_maps.md
+    - title: Methods
+      children:
+        - file: 03_methods_samples.md
+        - file: 04_methods_antibodies.md
+        - file: 05_methods_plasmids.md
+        - file: 06_methods_virus.md
+    - title: Results
+      children:
+        - file: 07_results_replication.md
+    - file: 08_image_selection.md
+    - title: Methods
+      children:
+        - file: 09_methods_nucleusnet.md
+        - file: 10_methods_autoencoder.md
+    - title: Results
+      children:
+        - file: 02_nucleusnet.md
+        - file: 11_results_autoencoders.md
+        - file: 12_results_supplementary.md
+    - file: 13_discussion.md
 site:
   template: book-theme
