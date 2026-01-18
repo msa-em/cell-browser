@@ -53,7 +53,7 @@ In contrast, microscopy maps offer greater transparency and accessibility as a v
 
 ## Definitions
 
-_Virtual microscopy_ is the process of sharing microscopy data over computer networks, often in clinical or teaching settings.
+_Virtual microscopy_ is the process of sharing microscopy data over computer networks, often in a clinical or teaching setting.
 _Virtual nanoscopy_ was a related term used to describe the process of automated image acquisition from an electron microscope, followed by unbiased presentation in an interactive viewer. [@doi:10.1083/jcb.201201140]
 
 _Microscopy map_ is the interactive figure used to view virtual microscopy data. [@doi:10.1083/jcb.201201140]
