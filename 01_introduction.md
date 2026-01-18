@@ -15,7 +15,7 @@ Aside from integrity, scientists can sincerely misinterpret observations.
 The problem is that it is difficult for readers to critically evaluate experiments that show representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming if at all available.
 These limitations can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>).
-An example, virtual nanoscopy [@doi:10.1083/jcb.201201140], was the unbiased sampling and presentation of high-resolution electron microscopy data to readers in an interactive digital map; a microscopy map.
+For example, virtual nanoscopy [@doi:10.1083/jcb.201201140] is the unbiased sampling and presentation of high-resolution electron microscopy data to readers in an interactive digital map; a microscopy map.
 In practice, microscopy maps are easy to implement, but external links or software for publication [@doi:10.1242/jcs.262198].
 Here, cloud-based microscopy maps were embedded into the article to introduce virtual microscopy to the scientific literature.
 
