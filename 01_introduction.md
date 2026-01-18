@@ -9,14 +9,14 @@ Representative microscopy images are visual communication tools used by microsco
 The earliest representative microscopy images were hand drawings in [Micrographia](<wiki:Micrographia>) in 1665 by Robert Hooke.
 Nowadays, roughly three-quarters of publications in biomedical journals report at least one microscopy image [@doi:10.7554/eLife.55133].
 Representative images were chosen by an author to report scientific findings in a static figure, which is necessary for publication.
-An un-spoken rule is that scientists trust the images are honest and accurate, so representative images are used as scientific evidence.
+An un-spoken rule is that scientists trust the authors are honest and accurate, so representative images are accepted as scientific evidence.
 However, microscopy image selection and quantitative analyses thereof are vulnerable to bias and deception [@doi:10.1242/jcs.261567].
 Aside from integrity, scientists can sincerely misinterpret observations.
 The problem is that it is difficult for readers to critically evaluate experiments that show representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming if at all available.
 These limitations can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>).
 For example, virtual nanoscopy [@doi:10.1083/jcb.201201140] is the unbiased sampling and presentation of high-resolution electron microscopy data to readers in an interactive digital map; a microscopy map.
-In practice, microscopy maps are easy to implement, but external links or software for publication [@doi:10.1242/jcs.262198].
+In practice, microscopy maps are easy to implement, but external links or software are required for publication [@doi:10.1242/jcs.262198].
 Here, cloud-based microscopy maps were embedded into the article to introduce virtual microscopy to the scientific literature.
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge and there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
@@ -53,10 +53,10 @@ In contrast, microscopy maps offer greater transparency and accessibility as a v
 
 ## Definitions
 
-_Virtual nanoscopy_ was a term used to describe the process of automated image acquisition with an electron microscope, followed by presentation in an interactive tile-based viewer. [@doi:10.1083/jcb.201201140]
-A related term is [virtual microscopy](<wiki:Virtual_microscopy>), which fits the broader use cases of light microscopy, including digital pathology and geology.
+_Virtual microscopy_ is the process of sharing microscopy data over computer networks, often in clinical or teaching settings.
+_Virtual nanoscopy_ was a related term used to describe the process of automated image acquisition from an electron microscope, followed by unbiased presentation in an interactive viewer. [@doi:10.1083/jcb.201201140]
 
-_Microscopy map_ is the interactive figure used to view virtual nanoscopy data. [@doi:10.1083/jcb.201201140]
+_Microscopy map_ is the interactive figure used to view virtual microscopy data. [@doi:10.1083/jcb.201201140]
 The original term '_electron_ microscopy map' was redefined to fit a broader use case including light microscopy.
 
 A _representative image_ is defined as a visual communication tool used by microscopists to communicate research findings to other scientists.
