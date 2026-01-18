@@ -1,6 +1,6 @@
 ---
-title: 'Unbiased representative images using embedded microscopy maps'
-short_title: Re-Imaging the Wheel
+title: 'Unbiased replication of representative images using embedded microscopy maps'
+short_title: Microscopy Maps
 numbering:
   heading_2: false
 ---

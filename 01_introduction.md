@@ -31,12 +31,12 @@ Results should be observed again with a high degree of reliability, therefore or
 To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen for replication with virtual microscopy because most experiments reported representative microscopy images without numerical results.
 An immunofluorescence experiment was replicated using fully automated confocal microscopy for unbiased sampling of the coverslip at high-resolution.
-Microscopy maps of the replication study were shared using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.31219/10.1038/s41592-022-01482-7].
+Microscopy maps of the replication study were shared using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
 Barkley interpreted that the key findings of the original study were not robust and replicable, and virtual microscopy allows the reader to scrutinize this conclusion.
 
 Microscopy maps are interactive figures, but static figures predominate scientific publishing as a relic of printed journals.
 Despite its benefits, adoption of interactive figures by the scientific community is uncertain.
-Therefore, another solution was explored to work with static figures, contributing to a small body of literature on the topic of objective representative image selection.
+Therefore, another solution was explored for static figures, contributing to a small body of literature on the topic of objective representative image selection.
 A study critical of representative microscopy images focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The authors implemented a web server that chose typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
 This idea was revisited as objective image selection was thought to be an interesting use case for artificial intelligence.
