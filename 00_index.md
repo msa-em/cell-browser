@@ -1,6 +1,6 @@
 ---
 title: 'Unbiased replication of representative images using embedded microscopy maps'
-short_title: Microscopy Maps
+short_title: Virtual Microscopy
 numbering:
   heading_2: false
 ---

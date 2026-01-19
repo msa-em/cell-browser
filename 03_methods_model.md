@@ -1,8 +1,8 @@
 ---
-title: Samples
+title: Model
 numbering:
   enumerator: 3.%s
-label : samples_page
+label : model_page
 ---
 
 ## Cell culture

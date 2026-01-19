@@ -1,8 +1,8 @@
 ---
 title: Autoencoders
 numbering:
-  enumerator: 2.%s
-label : autoencoder_page
+  enumerator: 9.%s
+label : autoencoders_page
 ---
 
 # Preliminaries

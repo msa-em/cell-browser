@@ -14,10 +14,10 @@ However, microscopy image selection and quantitative analyses thereof are vulner
 Aside from integrity, scientists can sincerely misinterpret observations.
 The problem is that it is difficult for readers to critically evaluate experiments that show representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming if at all available.
-These limitations can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>).
-For example, virtual nanoscopy [@doi:10.1083/jcb.201201140] is the unbiased sampling and presentation of high-resolution electron microscopy data to readers in an interactive digital map; a microscopy map.
-In practice, microscopy maps are easy to implement, but external links or software are required for publication [@doi:10.1242/jcs.262198].
-Here, cloud-based microscopy maps were embedded into the article to introduce virtual microscopy to the scientific literature.
+These limitations can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that share image data over computer networks.
+An example is the unbiased sampling and presentation of electron microscopy data to readers in an interactive digital map; a microscopy map [@doi:10.1083/jcb.201201140].
+In practice, microscopy maps are easy to implement, but external links or software are required for scientific discourse [@doi:10.1242/jcs.262198].
+Here, cloud-based microscopy maps were embedded into the article to introduce virtual microscopy to the literature.
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge and there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
 From the perspective of biomedical researchers, the perceived cause is the pressure to publish [@doi:10.1371/journal.pbio.3002870].
@@ -53,7 +53,7 @@ In contrast, microscopy maps offer greater transparency and accessibility as a v
 
 ## Definitions
 
-_Virtual microscopy_ is the process of sharing microscopy data over computer networks, often in a clinical or teaching setting.
+_Virtual microscopy_ is the process of sharing images over computer networks, often in a clinical or teaching environment.
 _Virtual nanoscopy_ was a related term used to describe the process of automated image acquisition from an electron microscope, followed by unbiased presentation in an interactive viewer. [@doi:10.1083/jcb.201201140]
 
 _Microscopy map_ is the interactive figure used to view virtual microscopy data. [@doi:10.1083/jcb.201201140]
