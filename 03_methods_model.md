@@ -17,45 +17,18 @@ In the original study, cells were transfected before virus infection, each incub
 The cells in this model were imaged after two days of transfection and one day of infection.
 A confounding variable is interference of viral infection from transfection, so two transfection reagents were compared.
 Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reovirus infection, which was the reagent used in the original study.
-All samples were infected with reovirus strain T1L at MOI 100 then were stained with calreticulin antibodies.
-These samples are an early look at the replication experiment.
-There is evidence of aberrant ER in the mCherry channel as bright concentrations of signal, observed in both transfected-uninfected and transfected-infected cells.
+All samples were infected with reovirus strain T1L at MOI 100 and were stained with reovirus and calreticulin antibodies.
+In the original study, aberrant ER was shown as bright concentrations of mCherry in cells expressing mCherry-KDEL, described as 'aggregated' and 'collapsed' ER elements induced by reovirus.
+Replicate microscopy maps show that this phenotype is observed in both infected and uninfected cells, which suggests that it is not attributed to the virus.
 
 ## Imaging
 
-Samples were imaged on an Olympus Fluoview FV3000 laser-scanning confocal microscope with a 100X objective lens using immersion oil. 
-The pinhole was opened for all channels for the widest depth of field. 
-Z-draft compensation was used to autofocus the samples during acquisition. 
-Each channel was excited separately and care was taken to avoid spectral overlap. 
-The coordinates for a 10x10 grid with 5% overlap was set and the one hundred fields were captured using the multi-area time lapse protocol.
+Coverslips were imaged on an Olympus Fluoview FV3000 laser-scanning confocal microscope with a 100X objective lens using immersion oil. 
+The pinholes were maximally opened to capture the widest depth of field in all channels.
+Z-draft compensation was used to autofocus the samples during acquisition of a 10x10 or 15x15 grid (5% overlap) with a motorized XY stage (Olympus IX3-SSU).
+Therefore, the process of data collection was fully-motorized in XYZ for an unbiased sample of the coverslip.
 
-:::{figure}
-:name: Untransfected infected cells
-
-::::{grid} 1 1 1 1
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "height": "600px"
-}
-:::
-::::
-
-Your figure caption goes here. This appears below the viewer and can be referenced.
-:::
-
-### Untransfected cells
-
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",
-  "height": "600px"
-}
-
-:::
-
-### Mirus Transit2020-transfected cells
+### Transfection (mCherry-KDEL) using TransIT-2020 before infection
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
@@ -66,13 +39,28 @@ Your figure caption goes here. This appears below the viewer and can be referenc
 
 :::
 
-### Lipofectamine 3000-transfected cells
+### Untransfected control (left), lipofectamine transfection (right)
+
+::::{grid} 2 2 2 2
+
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",
+  "height": "350px"
+}
+
+:::
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample1.zarr/",
-  "height": "600px"
+  "height": "350px"
 }
 
 :::
+
+::::
+
+
