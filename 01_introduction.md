@@ -12,52 +12,53 @@ Representative images were chosen by an author to report scientific findings in 
 An un-spoken rule is that scientists trust the authors are honest and accurate, so representative images are accepted as scientific evidence.
 However, microscopy image selection and quantitative analyses thereof are vulnerable to bias and deception [@doi:10.1242/jcs.261567].
 Aside from integrity, scientists can sincerely misinterpret observations.
-The problem is that it is difficult for readers to critically evaluate experiments that show representative images.
+The problem is that it is difficult for readers to critically evaluate experiments that report representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming if at all available.
-These limitations can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that share image data over computer networks.
+These limitations can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) by sharing images over computer networks.
 An example is the unbiased sampling and presentation of electron microscopy data to readers in an interactive digital map; a microscopy map [@doi:10.1083/jcb.201201140].
-In practice, microscopy maps are easy to implement, but external links or software are required for scientific discourse [@doi:10.1242/jcs.262198].
-Here, cloud-based microscopy maps were embedded into the article to introduce virtual microscopy to the literature.
+In practice, microscopy maps are easy to implement, but must be viewed using external links or software [@doi:10.1242/jcs.262198].
+Here, interactive microscopy maps were embedded into the article to introduce cloud-based virtual microscopy to the literature.
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge and there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
 From the perspective of biomedical researchers, the perceived cause is the pressure to publish [@doi:10.1371/journal.pbio.3002870].
 Repeatability in the same study by the same researchers is distinguished from replicability by independent researchers using the same methodology.
 Large-scale replicability studies performed by Amgen and Bayer assessed that 11% [@doi:10.1038/483531a] and 25% [@doi:10.1038/nrd3439-c1] of key findings from preclinical cancer research papers were replicable.
 Another project evaluated replication success with other criteria, though the 'lowest bar' determined a replication rate of 79% for representative images [@doi:10.7554/eLife.71601].
-26% of claimed effects were evidenced by a representative image without quantitative analysis.
+Further, 26% of claimed effects were evidenced by a representative image without quantitative analysis.
 Consider that representative images cannot describe population variation and the uncertainty of an observation.
-A feature of microscopy maps is the unbiased communication of population effects, making them useful as a method to replicate published representative images.
-Results should be observed again with a high degree of reliability, therefore original claims should be seen in microscopy maps.
-To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
-This study was chosen for replication with virtual microscopy because most experiments reported representative microscopy images without numerical results.
-An immunofluorescence experiment was replicated using fully automated confocal microscopy for unbiased sampling of the coverslip at high-resolution.
-Microscopy maps of the replication study were shared using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
-Barkley interpreted that the key findings of the original study were not robust and replicable, and virtual microscopy allows the reader to scrutinize this conclusion.
+A feature of microscopy maps is the unbiased communication of multi-scale data, making them useful as a method to replicate high-magnification representative images.
+Results should be observed again with a high degree of reliability, therefore original claims should be evident in microscopy maps of replicate studies.
+To test this idea, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
+This study was chosen for replication because most experiments showed high-magnification representative microscopy images without numerical results.
+An immunofluorescence experiment was replicated independently and imaged with a fully-motorized confocal microscope for unbiased sampling of the coverslip at high-resolution.
+Microscopy maps were made using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
+With this method, all parties have access to the same data, from which Barkley interpreted that the key findings of the original study were not robust and replicable.
+Importantly, virtual microscopy leaves this conclusion open to public scrutiny.
 
 Microscopy maps are interactive figures, but static figures predominate scientific publishing as a relic of printed journals.
-Despite its benefits, adoption of interactive figures by the scientific community is uncertain.
-Therefore, another solution was explored for static figures, contributing to a small body of literature on the topic of objective representative image selection.
-A study critical of representative microscopy images focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
+Despite the benefits of interactive figures, their adoption by the scientific community is uncertain.
+To work within the restrictions of most biomedical journals, the second chapter of this article explored methods of objective representative image selection.
+This built on a study critical of representative microscopy images that focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The authors implemented a web server that chose typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
-This idea was revisited as objective image selection was thought to be an interesting use case for artificial intelligence.
+We revisited this idea as we thought that representative image selection was an interesting use case for artificial intelligence.
 Barkley automated the process of sample collection and image selection from a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
-Stitched panoramas and cropped images were presented in interactive microscopy maps.
+Stitched panoramas of the specimen and cropped images of single cells were presented in interactive microscopy maps.
 Representative images were then selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
 Representative images were defined near the centroid of latent space, although counter-examples showed that this method does not generalize to all datasets.
 To define what is representative, both the subjective determinations made by humans and the objective determinations made by autoencoders are opaque.
-In contrast, microscopy maps offer greater transparency and accessibility as a visual communication tool compared to representative images.
+In contrast, as a visual communication tool, microscopy maps offer greater transparency and accessibility compared to representative images.
 
 ---
 
 ## Definitions
 
-_Virtual microscopy_ is the process of sharing images over computer networks, often in a clinical or teaching environment.
-_Virtual nanoscopy_ was a related term used to describe the process of automated image acquisition from an electron microscope, followed by unbiased presentation in an interactive viewer. [@doi:10.1083/jcb.201201140]
+_Virtual microscopy_ is the process of sharing image data over computer networks, often used for clinical pedagogy.
+A related term _virtual nanoscopy_ was used to describe the process of automated image acquisition from an electron microscope, followed by unbiased presentation to readers in an interactive viewer. [@doi:10.1083/jcb.201201140]
 
-_Microscopy map_ is the interactive figure used to view virtual microscopy data. [@doi:10.1083/jcb.201201140]
-The original term '_electron_ microscopy map' was redefined to fit a broader use case including light microscopy.
+A _microscopy map_ is the interactive figure used to view pyramidal virtual microscopy data. [@doi:10.1083/jcb.201201140]
+The original term '_electron_ microscopy map' was redefined to fit the broader use case to include light microscopy.
 
 A _representative image_ is defined as a visual communication tool used by microscopists to communicate research findings to other scientists.
 This definition is agnostic to the research context and it emphasizes the use of pictures as scientific evidence.
