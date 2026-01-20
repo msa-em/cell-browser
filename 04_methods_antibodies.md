@@ -5,6 +5,14 @@ numbering:
 label : antibodies_page
 ---
 
+# Materials
+
+The original study used a polyclonal serum for calreticulin with no product number, so it was substituted for a monoclonal antibody in the replication study.
+Mouse calreticulin monoclonal antibody (MA5-15382, Thermo) was stored at -20C in 5μl aliquots to be used at 1:1000 dilution.
+Chicken anti-μNS serum from the Parker lab (1:1000 dilution) was the same used in the original study.
+Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
+Donkey anti-mouse antibodies conjugated to AlexaFluor488 (715-545-150), donkey anti-chicken antibodies conjugated to AlexaFluor647 (703-605-155) and donkey anti-guinea pig conjugated to AlexaFluor594 (706-585-148) were stored diluted in 1:1 glycerol and were used at 1:800 dilutions.
+
 # Immunofluorescence protocol
 
 Cells were seeded on 12mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar).
@@ -16,18 +24,17 @@ Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reag
 Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and cured overnight at room temperature in the dark.
 Slides were gently cleaned then stored at four degrees celsius.
 
-# Materials
-
-The original study used a polyclonal serum for calreticulin but did not include the product number, so it was substituted for a monoclonal antibody in the replication study.
-Mouse calreticulin monoclonal antibody (MA5-15382, Thermo) was stored at -20C in 5μl aliquots to be used at 1:1000 dilution.
-Chicken anti-μNS serum was made by the Parker lab (1:1000 dilution).
-Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
-Donkey anti-mouse antibodies conjugated to AlexaFluor488 (715-545-150), donkey anti-chicken antibodies conjugated to AlexaFluor647 (703-605-155) and donkey anti-guinea pig conjugated to AlexaFluor594 (706-585-148) were stored diluted in 1:1 glycerol and were used at 1:800 dilutions.
+```{admonition} Potential artifacts caused by the specimen
+:class: warning
+The Olympus IX3-ZDC is only guaranteed to work with 35-mm glass-bottom dishes with 0.16 to 0.18mm coverglass. Therefore, the coverslips used in the immunofluorescence experiments detailed here were incompatible with proper auto-focusing, and could contain aberrations. The replication study and some validation experiments were repeated with 35-mm glass-bottom dish specimens.
+```
 
 ## Calreticulin monoclonal antibody
 
-The calreticulin monoclonal antibody labelled the ER with specificity, and there is no signal in the controls that lack antibodies.
-This antibody has a punctate staining pattern but it was sufficient to observe ER elements at high magnification.
+An immunofluorescence experiment first validated the calreticulin antibody in HeLa cells fixed on coverslips.
+The antibody labelled the ER with high specificity, though the staining pattern was punctate, it was sufficient to observe ER elements.
+In this experiment, the variable was treatment with primary and secondary antibodies.
+Control samples lacking primary or secondary antibodies do not show background or unspecific staining.
 
 ::::{grid} 1 1 1 1
 
@@ -41,6 +48,8 @@ This antibody has a punctate staining pattern but it was sufficient to observe E
 :::
 
 ::::
+
+### Controls 
 
 ::::{grid} 3 3 3 3
 
@@ -73,18 +82,15 @@ This antibody has a punctate staining pattern but it was sufficient to observe E
 
 ::::
 
-## Reovirus μNS antibodies
+# Reovirus μNS antibodies
 
-Mammalian orthoreovirus is thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells.
-μNS is an important viral protein for the formation of reovirus viral factories, along with σNS.
-The original study labelled viral factories with μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
-Barkley used this chicken polyclonal antiserum in the replication study.
-Another polyclonal μNS antiserum was included for comparison.
-Both μNS antibodies labelled reovirus viral factories with specificity, as there was no background staining in the control samples that lacked primary or secondary antibodies.
-The guinea pig serum appeared to be the better antibody, but the chicken antibody was sufficient to label virus-infected cells and observe intracellular viral factories.
-Barkley also interpreted that there was no difference in the appearance of the ER based on the staining pattern of calreticulin in reovirus-infected cells.
+Mammalian orthoreovirus is thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells called viral factories.
+The protein μNS forms a matrix that recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
+The original study labelled viral factories in immunofluorescence experiments with μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
+This serum was compared to another polyclonal μNS antiserum in an immunofluorescence experiment of infected cells, with controls missing primary or secondary antibodies.
+Barkley used the chicken polyclonal antiserum in the replication study for consistency, because it was sufficient to label virus-infected cells and observe intracellular viral factories.
 
-### Chicken polyclonal antiserum
+## Chicken polyclonal antiserum
 
 ::::{grid} 1 1 1 1
 
@@ -98,6 +104,8 @@ Barkley also interpreted that there was no difference in the appearance of the E
 :::
 
 ::::
+
+### Controls
 
 ::::{grid} 3 3 3 3
 
@@ -130,7 +138,7 @@ Barkley also interpreted that there was no difference in the appearance of the E
 
 ::::
 
-### Guinea pig polyclonal antiserum
+## Guinea pig polyclonal antiserum
 
 ::::{grid} 1 1 1 1
 
@@ -144,6 +152,8 @@ Barkley also interpreted that there was no difference in the appearance of the E
 :::
 
 ::::
+
+### Controls 
 
 ::::{grid} 3 3 3 3
 

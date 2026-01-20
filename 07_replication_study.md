@@ -7,6 +7,11 @@ label : replication_page
 
 # Results
 
+In the original study, aberrant ER was shown as bright concentrations of mCherry in cells expressing mCherry-KDEL, described as 'aggregated' and 'collapsed' ER elements induced by reovirus.
+Replicate microscopy maps show that this phenotype is observed in both infected and uninfected cells transiently expressing mCherry-KDEL, suggesting that it is not attributed to the virus.
+Changes in ER morphology between infected and uninfected cells are unclear in the calreticulin channel, which supports the null hypothesis that reovirus does not remodel the ER.
+Barkley made these interpretations from the embedded microscopy maps, using the same data available to the public for scrutiny.
+
 ## Experiment 6 - Replication experiment
 
 ::::{grid} 2 2 2 2

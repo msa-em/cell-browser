@@ -22,11 +22,14 @@ Therefore, data collection was fully-motorized in XYZ for an unbiased sample of 
 This experiment aims to observe cells with a co-incidence of plasmid transfection and virus infection.
 In the original study, cells were transfected before virus infection, each incubated for twenty four hours.
 The cells in this model were imaged after two days of transfection and one day of infection.
-A confounding variable is interference of viral infection from transfection, so two transfection reagents were compared.
-Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reovirus infection, which was the reagent used in the original study.
-This microscopy map is an early look at the replication experiment.
+A confounding variable is interference of viral infection from transfection, so two transfection reagents were compared in the transfected-infected cell model.
+These maps are an early look at the replication experiment.
+All samples were infected with reovirus strain T1L at MOI 100 and were stained with reovirus and calreticulin antibodies.
 
-### Transfection of mCherry-KDEL with TransIT-2020 before reovirus infection
+### mCherry-KDEL transfection with TransIT-2020 before reovirus infection
+
+Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reovirus infection, which was the reagent used in the original study.
+The Mirus TransIT-2020 transfection reagent did not significantly interfere with reovirus infection compared to the untransfected control.
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
@@ -37,13 +40,10 @@ This microscopy map is an early look at the replication experiment.
 
 :::
 
-All samples were infected with reovirus strain T1L at MOI 100 and were stained with reovirus and calreticulin antibodies.
-In the original study, aberrant ER was shown as bright concentrations of mCherry in cells expressing mCherry-KDEL, described as 'aggregated' and 'collapsed' ER elements induced by reovirus.
-Replicate microscopy maps show that this phenotype is observed in both infected and uninfected cells transiently expressing mCherry-KDEL, suggesting that it is not attributed to the virus.
-Changes in ER morphology between infected and uninfected cells are unclear in the calreticulin channel, which supports the null hypothesis that reovirus does not remodel the ER.
-Barkley made these interpretations from the embedded microscopy maps, using the same data available to the public for scrutiny.
-
 ### Untransfected control (left) and transfection with lipofectamine (right)
+
+The untransfected sample was more confluent than transfected samples.
+Lipofectamine 3000 was less favourable as there was lower cell confluence and viral infection.
 
 ::::{grid} 2 2 2 2
 
