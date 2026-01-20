@@ -2,7 +2,7 @@
 title: Antibodies
 numbering:
   enumerator: 4.%s
-label : methods_antibodies
+label : antibodies_page
 ---
 
 # Immunofluorescence protocol
