@@ -30,5 +30,6 @@ In the replication study, OME-Zarr data (v0.4) was hosted in Amazon Web Services
 ## OpenSeadragon
 
 An alternative method was shown in the second chapter of this article based on free and open-source options [@doi:10.1242/jcs.262198].
-This approach uses the Deep Zoom Image format, hosted in a Github repository, read by the [OpenSeadragon viewer](https://openseadragon.github.io/).
+This approach used the Deep Zoom Image format, hosted in a Github repository, read by the [OpenSeadragon viewer](https://openseadragon.github.io/).
 The reader has limited control of dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
+Importantly, hosting Deep Zoom Image data in the cloud is free within the memory limitations of Github pages.
