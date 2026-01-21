@@ -5,15 +5,15 @@ numbering:
 label : replication_page
 ---
 
-The replication experiment was designed to be consistent with an original experiment, but some adaptations were made to fit internal needs.
-Notably, the virus strain, MOI, and calreticulin antibody were changed.
-The cell line, plasmid, transfection reagent, and reovirus antibody were the same.
+# Results
 
-## Replication experiment
-
+The replication experiment mostly used consistent reagents and protocols, but some adaptations were made to fit internal needs.
 HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by infection with reovirus T1L at MOI 100.
 Samples were fixed after one day of infection for immunofluorescence staining of viral and ER antigens.
 Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling in the replicate experiment.
+Original claims of virus-induced ER remodelling could have been artifacts caused by the fluorescent reporter.
+
+## Replication experiment
 
 ::::{grid} 1 1 1 1
 
@@ -29,9 +29,6 @@ Barkley interpreted that there was no robust evidence of reovirus-induced ER rem
 ::::
 
 ## Controls and additional samples
-
-Control samples for the transfected-infected cell model include untransfected and uninfected cells.
-Three additional mCherry-ER reporters were included for comparison to mCherry-KDEL.
 
 ::::{grid} 2 2 2 2
 
