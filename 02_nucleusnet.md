@@ -5,41 +5,32 @@ numbering:
 label : nucleusnet_page
 ---
 
-# NucleusNet: one million single-cell microscopy images
-
-## 1600 tiled panoramas
-
-Artificial intelligence models need to train on lots of data, motivating Barkley to create a large collection cropped images of the [cell nucleus](<wiki:Cell_nucleus>), called NucleusNet.
-It is the sum of 100 automated imaging experiments that sampled ~37.25cm² of cultured cells, yielding 1,061,277 cropped single-cell images extracted from 1600 stitched panoramas.
-Images of cell monolayers were collected over twenty-one passages of the same cell line.
-[CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed in paraformaldehyde (PFA) after at least one day of incubation, so the populations had asynchronous cell cycles.
-Fixed cells were stained with DAPI which binds to DNA, making the cell nucleus fluoresce upon excitation with ultraviolet light.
-As expected, we observed variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig1a)).
-Ten stitched images closest to the centroid were selected to represent those with an average number and brightness of ROIs ([](#table1)).
-
-## 1,061,277 single-cell images
+Artificial intelligence models demand large datasets for training, motivating Barkley to create a large collection of cropped images of the [cell nucleus](<wiki:Cell_nucleus>), called NucleusNet.
+It is the sum of 100 automated imaging experiments that sampled an area of ~37.25cm², yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
+Samples were collected over twenty-one passages of the same cell line.
+[CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed in paraformaldehyde (PFA) after at least one day, so the populations had asynchronous cell cycles.
+Nuclei of fixed cells were visualized with DAPI which binds to DNA.
+As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig1a)).
 
 Nuclei were masked in the stitched images with a custom [cellpose](https://github.com/MouseLand/cellpose) segmentation model [@doi:10.1038/s41592-020-01018-x].
 Cellpose was suitable for segmentation because cell division created instances where two nuclear bodies were separated in space but should count as one ROI.
 Specifically, mitotic figures in [anaphase](#anaphase) or [telophase](#telophase) were considered one ROI, and [micronuclei](<wiki:Micronucleus>) and nuclei were masked together.
 There were also instances where two or more distinct nuclei made contact but should be separate masks.
-Barkley re-trained and tuned the cellpose model until it handled these challenges sufficiently.
-Browse the ten representative stitched images ([](#table3)) from [](#sfig1a) to evaluate the cellpose segmentation model using an overlay.
+Masking by the cellpose segmentation model can be evaluated on ten representative stitched images [here](https://russellbarkley.github.io/cellpose_masks/).
 Unique masks were assigned random colours to help differentiate ROIs.
 False-positive detections by cellpose were rare but expected as a consequence of high-throughput automation.
+Pixels were set to zero outside of the mask, leaving some background signal around the nucleus.
+This was notable because this property later emerged in reconstructions from the autoencoder.
+Otherwise, cropped images in this version of NucleusNet were not processed further.
+Generally, nuclei were centered and well-masked, with their orientations pre-aligned.
 
-**Figure 1A: Embed OpenSeadragon viewer with this [image](https://russellbarkley.github.io/cellpose_masks/)**
+## NucleusNet-10K
 
-::::{figure}
-:label: open_seadragon_demo
-
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
-{
-    "prefixUrl": "images/",
-    "tileSources": "https://openseadragon.github.io/example-images/duomo/duomo.dzi"
-}
-:::
-::::
+A small version (n=10,000) of the single-cell dataset was created with one-hundred random images from each imaging session, called NucleusNet-10K.
+NucleusNet-10K was stitched and converted to Deep Zoom Image format and hosted in a Github repository to be viewed in the article with OpenSeadragon [@doi:10.1242/jcs.262198].
+This represents a random sample of one percent of NucleusNet with experiments organized by row.
+There was variation in signal intensity across experiments, warranting image pre-processing techniques that normalize or standardize pixel intensities.
+Interestingly, there is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy used to present 200,000 single-cell images of human-induced pluripotent stem cells.
 
 ::::{figure}
 
@@ -50,28 +41,6 @@ False-positive detections by cellpose were rare but expected as a consequence of
 :::
 
 ::::
-
-## NucleusNet-10K
-
-A small version (n=10,000) of the single-cell dataset was created with one-hundred random images from each imaging session.
-An interactive cell browser was made that shows random examples from NucleusNet-10K [](#fig1b), so every reader will see a different subset of the collection.
-Generally, nuclei were properly centered, well segemented, and pre-aligned in the cropped images.
-Pixels were set to zero outside of the mask, leaving background signal around the nucleus, which was notable because this property seemed to emerge in the reconstructions from the trained autoencoder.
-Otherwise, cropped images in this version of NucleusNet were not processed further.
-
-:::{figure} #nucleusnet10k_cellbrowser
-:label: fig1b
-:placeholder: ./figures/cellbrowser.png
-Figure legend.
-:::
-
-With collections of images in the literature, it is common to see several random examples presented in a static figure.
-Barkley fused NucleusNet-10K into a 100x100 tile grid and embedded the stitched image (Figure 1C).
-Experiments were reported in chronological order by row from top to bottom and clearly there was variation in signal intensity between experiments.
-This observation would warrant image pre-processing techniques that normalize or standardize pixel intensities in NucleusNet.
-Interestingly, there is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy used to present 200,000 single-cell images of human-induced pluripotent stem cells.
-
-**Figure 1C: Embed OpenSeadragon viewer with NucleusNet-10K**
 
 # Materials and Methods
 

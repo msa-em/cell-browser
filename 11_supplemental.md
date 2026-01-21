@@ -14,7 +14,7 @@ The number and brightness of ROIs in the stitched images was measured using the 
 :::
 
 ```{list-table} Representative stitched images ranked by distance to centroid: 694.5 ROIs, 79.0 mean intensity
-:label: table3
+:label: tableS1
 :header-rows: 1
 
 * - Filename
