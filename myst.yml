@@ -78,17 +78,18 @@ project:
     - file: 01_introduction.md
     - title: Microscopy Maps
       children:
-        - file: 02_methods_maps.md
+        - file: 02_methods_background.md
         - file: 03_methods_model.md
         - file: 04_methods_antibodies.md
         - file: 05_methods_plasmids.md
         - file: 06_methods_virus.md
         - file: 07_replication_study.md
-    - title: Autoencoders
+    - title: Neural Networks
       children:
-        - file: 02_nucleusnet.md
-        - file: 09_autoencoders.md
-    - file: 10_discussion.md
-    - file: 11_supplemental.md
+        - file: 08_background.md
+        - file: 09_nucleusnet.md
+        - file: 10_autoencoders.md
+    - file: 11_discussion.md
+    - file: 12_supplementary.md
 site:
   template: book-theme

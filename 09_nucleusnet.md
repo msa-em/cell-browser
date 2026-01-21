@@ -5,26 +5,10 @@ numbering:
 label : nucleusnet_page
 ---
 
-## Background
-
-To approach objective representative image selection with autoencoders, we created a large but relatively simple dataset of the [cell nucleus](<wiki:Cell_nucleus>), called NucleusNet.
-It is the sum of 100 automated imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
-With datasets of this scale, it is unrealistic for a human to interpret all examples, while machine learning models train better on big datasets.
 Samples were collected over twenty-one passages of the same cell line.
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed in paraformaldehyde (PFA) after at least one day, so the populations had asynchronous cell cycles.
 Nuclei of fixed cells were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig1a)).
-
-Nuclei were masked in the stitched images with a custom [cellpose](https://github.com/MouseLand/cellpose) segmentation model [@doi:10.1038/s41592-020-01018-x].
-Cellpose was suitable for segmentation because cell division created instances where two nuclear bodies were separated in space but should count as one ROI.
-Specifically, mitotic figures in [anaphase](#anaphase) or [telophase](#telophase) were considered one ROI, and [micronuclei](<wiki:Micronucleus>) and nuclei were masked together.
-There were also instances where two or more distinct nuclei made contact but should be separate masks.
-Masking by the cellpose segmentation model can be evaluated on ten representative stitched images [here](https://russellbarkley.github.io/cellpose_masks/).
-Unique masks were assigned random colours to help differentiate ROIs.
-False-positive detections by cellpose were rare but expected as a consequence of high-throughput automation.
-Pixels were set to zero outside of the mask in cropped images, leaving background signal around the nucleus.
-This was notable because this property later emerged in reconstructions from the autoencoder.
-Otherwise, cropped images in NucleusNet were not processed further.
 
 ## NucleusNet-10K
 
@@ -32,7 +16,7 @@ A small version (n=10,000) of the single-cell dataset was created with one-hundr
 NucleusNet-10K was stitched and converted to Deep Zoom Image format and hosted in a Github repository to be viewed in the article with OpenSeadragon [@doi:10.1242/jcs.262198].
 This represents a random sample of one percent of NucleusNet with experiments organized by row.
 There was variation in signal intensity across experiments, warranting image pre-processing techniques that normalize or standardize pixel intensities.
-Interestingly, there is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy used to present 200,000 single-cell images of human-induced pluripotent stem cells.
+Interestingly, there is an [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy to show 200,000 single-cell images of human-induced pluripotent stem cells.
 
 ::::{figure}
 
@@ -146,11 +130,16 @@ The stitched quarter was displayed and saved, named by run and position.
 For example, Run53TL was from the top left quarter of the 53rd imaging experiment.
 The stitched quarters were then cropped into four quarters, yielding n=16 stitched images per coverslip ([](#fig4)) and N=1600 stitched images from all one-hundred experiments.
 
-(cellpose-segmentation)=
 3. Segmentation with cellpose
 
 Nuclei were masked in the stitched images using a custom [cellpose](https://github.com/MouseLand/cellpose) model [@doi:10.1038/s41592-020-01018-x].
-The pre-trained cellpose nucleus model was re-trained on N=125000 fields from NucleusNet, including n=1000 fields with manually-segmented nuclei.
+Cellpose was suitable for segmentation because cell division created instances where two nuclear bodies were separated in space but should count as one ROI.
+Specifically, mitotic figures in [anaphase](#anaphase) or [telophase](#telophase) were considered one ROI, and [micronuclei](<wiki:Micronucleus>) and nuclei were masked together.
+There were also instances where two or more distinct nuclei made contact but should be separate masks.
+Masking by the cellpose segmentation model can be evaluated on ten representative stitched images [here](https://russellbarkley.github.io/cellpose_masks/).
+Unique masks were assigned random colours in the overlay to help differentiate ROIs.
+
+The cellpose nucleus model was re-trained on N=125000 fields from NucleusNet, including n=1000 fields with manually-segmented nuclei.
 Weights were saved as CP_20250418_Nuclei_1Kmasks.
 Advanced parameters in the graphical user interface were adjusted to flow_threshold: 0.5, cellprob_threshold: -2.0, diameter (pixels): 152.91.
 The cellpose model segmented the nuclei in all stitched images and the mask files were saved as PNG files where each region of interest (ROI) is defined by a unique pixel value.
@@ -161,3 +150,5 @@ The orientation of a cell is known to confound the vector embedding of autoencod
 Similarly, a multi-encoder variational autoencoder model controlled for several transformational features like orientation that were 'uninformative' in single-cell analyses [@doi:10.1038/s42003-022-03218-x].
 Barkley [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) and by fitting and rotating a minimal area rectangle to the cellpose mask.
 Nuclei were center-cropped and all values outside of the mask were set to zero in the cropped images.
+This was notable because it left background signal around the nucleus, which later emerged in reconstructions from the autoencoder.
+Otherwise, cropped images in NucleusNet were not processed further.

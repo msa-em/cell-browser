@@ -33,7 +33,7 @@ There are variations of autoencoders that have been compared to show the efficie
 
 # Representative images from the MNIST dataset
 
-## Literature reproduction
+## Literature replication
 
 A method of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342] was tested on real-world data like the [MNIST database](<wiki:MNIST_database>), which is a collection of 70,000 images of handwritten numbers that were manually annotated into ten classes corresponding to the digits 0-9.
 Briefly, the proposed two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in a vector space.
@@ -88,7 +88,7 @@ The resulting images were remarkably similar, if not identical to the practical 
 Closest examples to the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
-## Limitation to current methods of objective image selection
+## Limitation of this approach
 
 These examples of image selection, while clearly effective, relied on class information from an annotated dataset.
 As a counterexample, both methods of image selection fell apart when reconstructing the theoretical average using the global centroid.
