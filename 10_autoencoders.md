@@ -40,7 +40,7 @@ Briefly, the proposed two-step approach to objective representative image select
 Measures of central tendency to compute theoretical representative images were the arithmetic mean, median and geometric median, chosen due to their ease of computation.
 Averages were calculated as a 784-dimensional vector then reshaped to reconstruct 28x28 pixel theoretical images.
 One of the examples shown in the literature used a sub-set of MNIST images (n=720) labelled "four".
-Though the reproduction used all MNIST "four" images (N=6824), the outcome was consistent with the primary literature ([](#fig2a)) [@doi:10.1109/BIP60195.2023.10379342].
+Though the replication used all MNIST "four" images (N=6824), the outcome was consistent with the primary literature ([](#fig2a)) [@doi:10.1109/BIP60195.2023.10379342].
 
 :::{figure} #fig2a_data
 :label: fig2a

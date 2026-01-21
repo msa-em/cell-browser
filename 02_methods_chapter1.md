@@ -1,8 +1,8 @@
 ---
-title: Background
+title: Chapter 1
 numbering:
   enumerator: 2.%s
-label : background_page
+label : chapter1_page
 ---
 
 This article scrutinizes the reproducibility and quality of representative images as scientific evidence.
