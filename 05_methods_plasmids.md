@@ -5,11 +5,6 @@ numbering:
 label : plasmids_page
 ---
 
-# Transfection protocol
-
-Lipofectamine 3000 (L3000015, Invitrogen) was used with 12-well plates; 62.5ul Opti-MEM (31985-062, Gibco) was mixed with 2.5ul P3000 reagent and 1.25ug DNA, and another tube of 62.5ul Opti-MEM was mixed with 1.875ul lipofectamine 3000 reagent. The tubes were mixed, incubated for 20 minutes, then added dropwise to the samples.
-TransIT-2020 Reagent (MIR 5400, Mirus) was used with 12-well plates; 125ul Opti-MEM was mixed with 1.25ug DNA, mixed gently, then 3.75ul TransIT-2020 was added and mixed, followed by 20 minutes of incubation and dropwise addition to the samples.
-
 # mCherry-ER reporters
 
 The mCherry-KDEL construct was the same as the original study; mCherry-ER-3 plasmid (55041, Addgene), which retains mCherry in the lumen of the ER.
@@ -18,15 +13,17 @@ mCherry-CytERM was considered a positive control for ER remodelling because of t
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
 mCherry-Climp63 was a control for ER remodelling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
 
+# Transfection protocol
+
+Lipofectamine 3000 (L3000015, Invitrogen) was used with 12-well plates; 62.5ul Opti-MEM (31985-062, Gibco) was mixed with 2.5ul P3000 reagent and 1.25ug DNA, and another tube of 62.5ul Opti-MEM was mixed with 1.875ul lipofectamine 3000 reagent. The tubes were mixed, incubated for 20 minutes, then added dropwise to the samples.
+TransIT-2020 Reagent (MIR 5400, Mirus) was used with 12-well plates; 125ul Opti-MEM was mixed with 1.25ug DNA, mixed gently, then 3.75ul TransIT-2020 was added and mixed, followed by 20 minutes of incubation and dropwise addition to the samples.
+
 ## Transfection with Lipofectamine 3000 (left) or Mirus Transit2020 (right)
 
-HeLa cells were transfected for twenty four hours, fixed then stained with calreticulin antibodies (ER marker) and DAPI (nucleus marker) and one hundred fields (10x10 grid) were imaged.
-Transfection efficiency and protein expression was better with lipofectamine.
-All four mCherry-ER constructs show aberrant ER morphology in the microscopy maps, including the mCherry-KDEL construct used in the original study.
-To be more specific - in the mCherry channel of all eight microscopy maps, some cells have concentrated regions of signal that could be interpreted as irregular morphology.
-The original study reported these observations in representative images and described them as collapsed and aggregated ER elements, supposedly caused by reovirus.
-Our microscopy maps show that aberrant ER morphologies can be observed in some cells expressing mCherry-ER constructs in the absence of reovirus.
-Therefore, an alternative explanation for the original claim is that artifacts were misinterpreted as virus-induced ER remodelling.
+Transfection efficiency and protein expression were better with lipofectamine at one day post-transfection.
+All four mCherry-ER constructs showed aberrant ER morphology in microscopy maps, including mCherry-KDEL which was used in the original study.
+To be specific - ER remodelling was claimed in representative images of cells expressing mCherry-KDEL, described as 'aggregated' and 'collapsed' ER elements induced by reovirus.
+Microscopy maps show that mCherry-ER reporters cause ER remodelling in the absence of infection.
 
 ### mCherry-KDEL
 

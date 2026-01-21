@@ -84,7 +84,7 @@ Mammalian orthoreoviruses are thought to replicate and assemble viral particles 
 The protein μNS forms self-assembles to form a matrix that recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
 The original study labelled viral factories with μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
 This serum was compared to another polyclonal μNS antiserum in an immunofluorescence experiment of infected cells, with controls varying primary or secondary antibodies.
-All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies.
+All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies and DAPI.
 
 ## Chicken polyclonal antiserum
 

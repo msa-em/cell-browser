@@ -24,7 +24,7 @@ In the original study, cells were transfected before virus infection, each incub
 The cells in this model were imaged after two days of transfection and one day of infection.
 A confounding variable is interference of viral infection from transfection, so two transfection reagents were compared in the transfected-infected cell model.
 These maps are an early look at the replication experiment.
-All samples were infected with reovirus strain T1L at MOI 100 and were stained with reovirus and calreticulin antibodies.
+All samples were infected with reovirus strain T1L at MOI 100 and were co-stained with reovirus and calreticulin antibodies and DAPI.
 
 ### mCherry-KDEL transfection with TransIT-2020 before reovirus infection
 
