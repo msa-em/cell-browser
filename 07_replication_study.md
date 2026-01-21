@@ -5,11 +5,11 @@ numbering:
 label : replication_page
 ---
 
-The replication experiment was designed to be consistent with an original experiment, but some adaptations were made to fit internal needs.
-Notably, the virus strain, MOI, and calreticulin antibody were changed.
+The replicate experiment was kept consistent with the original study, but some adaptations were made for internal needs.
+Specifically, the reovirus strain, MOI, and calreticulin antibody were changed.
 The cell line, plasmid, transfection reagent, and reovirus antibody were the same.
 
-## Replication experiment
+## Immunofluorescence imaging of transfected-infected cells
 
 HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by infection with reovirus T1L at MOI 100.
 Samples were fixed after one day of infection for immunofluorescence staining of viral and ER antigens.

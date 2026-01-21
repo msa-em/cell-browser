@@ -5,7 +5,7 @@ numbering:
 label : virus_page
 ---
 
-# Virus stocks
+# Mammalian orthoreovirus strains
 
 The original study used the mutant reovirus strain Type 1 Lang (T1L) M1-P208S, which forms globular viral factories from a loss of interaction with microtubules [@doi:10.1128/JVI.76.9.4483-4496.2002].
 No rationale was provided for using the P208S mutant, nor did our lab have it, so wildtype mammalian orthoreovirus strain T1L was substituted in the replication study.
@@ -24,10 +24,10 @@ Thereafter, one milliliter of pre-warmed serum-containing DMEM was added to the 
 
 ## Reovirus strains T1L (left) and T3D (right)
 
-The original study infected HeLa cells with reovirus at MOI 1.
+The original study infected HeLa cells at MOI 1.
 Ten-fold dilutions of reovirus from MOI 0 (uninfected control) to MOI 100 were imaged after twenty four hours of infection.
 Microscopy maps show that HeLa cells are not permissive to reovirus, and that MOI 100 was needed for high infection, consistent with others findings [@doi:10.1128/jvi.00199-19].
-MOI 100 was chosen for the replication experiment in the transfected-infected cell model.
+Therefore, MOI 100 was chosen for the replication experiment in the transfected-infected cell model.
 
 ### MOI 0
 
