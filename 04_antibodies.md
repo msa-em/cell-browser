@@ -44,7 +44,6 @@ The antibody labelled the ER with high specificity, though the staining pattern 
 
 ### Controls 
 
-In this experiment, the variable was treatment with primary and secondary antibodies.
 Control samples lacking primary or secondary antibodies do not show background or unspecific staining.
 
 ::::{grid} 3 3 3 3
@@ -83,7 +82,7 @@ Control samples lacking primary or secondary antibodies do not show background o
 Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells called viral factories.
 The protein μNS forms self-assembles to form a matrix that recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
 The original study labelled viral factories with μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
-This serum was compared to another polyclonal μNS antiserum in an immunofluorescence experiment of infected cells, with controls varying primary or secondary antibodies.
+This serum was compared to another polyclonal μNS antiserum, with controls varying primary or secondary antibodies.
 All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies and DAPI.
 
 ## Chicken polyclonal antiserum
@@ -105,7 +104,7 @@ The chicken polyclonal antiserum was chosen for the replication study for consis
 
 ### Controls
 
-No signal in immunofluorescence controls of reovirus-infected cells missing primary or secondary antibodies to viral antigens.
+No signal in controls lacking primary or secondary antibodies to viral antigens.
 
 ::::{grid} 3 3 3 3
 
@@ -140,7 +139,7 @@ No signal in immunofluorescence controls of reovirus-infected cells missing prim
 
 ## Guinea pig polyclonal antiserum
 
-Another μNS antiserum, used at a lower dilution, labels reovirus viral factories with high specificity.
+Another μNS antiserum, used at a lower dilution, nicely labelled reovirus viral factories.
 
 ::::{grid} 1 1 1 1
 
@@ -157,7 +156,7 @@ Another μNS antiserum, used at a lower dilution, labels reovirus viral factorie
 
 ### Controls 
 
-Immunofluorescence samples without primary or secondary antibodies to viral antigens show no signal.
+No signal in immunofluorescence samples without primary or secondary antibodies to viral antigens.
 
 ::::{grid} 3 3 3 3
 

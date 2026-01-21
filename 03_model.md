@@ -17,19 +17,17 @@ Pinholes were maximally opened to capture the widest depth of field.
 Z-draft compensation autofocused the samples during acquisition of 10x10 or 15x15 field grids (5% overlap) with a motorized XY stage (Olympus IX3-SSU).
 Data collection was fully-motorized for unbiased samples of the replicate immunofluorescence experiments.
 
-## Transfection-infection
+## Transfected-infected cell model
 
 This experiment aims to observe cells with a co-incidence of plasmid transfection and virus infection.
 In the original study, cells were transfected before virus infection, each incubated for twenty four hours.
-The cells in this model were imaged after two days of transfection and one day of infection.
+Therefore, the cells were imaged after two days of transfection and one day of infection.
 A confounding variable is interference of viral infection from transfection, so two transfection reagents were compared in the transfected-infected cell model.
-These maps are an early look at the replication experiment.
 All samples were infected with reovirus strain T1L at MOI 100 and were co-stained with reovirus and calreticulin antibodies and DAPI.
 
 ### mCherry-KDEL transfection with TransIT-2020 before reovirus infection
 
 Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reovirus infection, which was the reagent used in the original study.
-The Mirus TransIT-2020 transfection reagent did not significantly interfere with reovirus infection compared to the untransfected control.
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
@@ -42,8 +40,7 @@ The Mirus TransIT-2020 transfection reagent did not significantly interfere with
 
 ### Untransfected control (left) and transfection with lipofectamine (right)
 
-Untransfected cells appeared more confluent than transfected cells.
-Lipofectamine 3000 transfection was less favourable in the transfected-infected model because the cells were less confluent and infected.
+Lipofectamine 3000 transfection was less favourable in this model because of reduced cell confluence and reovirus infection.
 
 ::::{grid} 2 2 2 2
 

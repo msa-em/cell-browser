@@ -1,8 +1,8 @@
 ---
-title: Chapter 1
+title: Chapter One
 numbering:
   enumerator: 2.%s
-label : chapter1_page
+label : one_page
 ---
 
 This article criticizes the quality and reproducibility of representative images.

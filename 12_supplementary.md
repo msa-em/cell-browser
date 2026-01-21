@@ -64,6 +64,8 @@ The number and brightness of ROIs in the stitched images was measured using the 
 ```
 Z-score-normalized euclidean distance was used for equal weighting because the features had different scales.
 
+---
+
 # MNIST autoencoder
 
 ## Loss plot
@@ -73,6 +75,46 @@ Z-score-normalized euclidean distance was used for equal weighting because the f
 :placeholder: ./figures/sfig2a.png
 Autoencoder reconstruction loss over one-hundred epochs of training on the MNIST dataset.
 :::
+
+---
+
+# NucleusNet autoencoder
+
+## Model training
+
+The entire single-cell image collection was sharded into [TFRecords](https://www.tensorflow.org/tutorials/load_data/tfrecord) to better load the dataset into memory and shuffle it during training.
+Barkley trained an autoencoder model for fifty epochs on the full dataset and saved the encoder and decoder weights after training, then encoded the grayscale images into latent vectors.
+The purpose of this analysis was not to interpret the latent space for scientific inquiry or biological discovery, because artificial models are black boxes.
+Rather, the goal was to show that the autoencoder formed a latent space, then images were chosen near the centroid for presentation as representative images.
+
+### Loss plot
+
+:::{figure} #ae1m-loss-plot
+:label: fig2g
+:placeholder: ./figures/fig2g.png
+Mean squared error (MSE) reconstruction loss (batch size: 32) plot for the training and validation datasets recorded during training.
+:::
+
+## Latent space interpolation
+
+A method to evaluate the quality of latent space is interpolation, whereby mixing codes in latent space and decoding the result creates a semantically meaningful combination of the datapoints [@doi:10.48550/arXiv.1807.07543].
+Interpolating with an autoencoder describes the process of using the decoder to decode a convex combination of two latent vectors [@doi:10.48550/arXiv.1807.07543].
+A high-quality interpolation should have two characteristics: intermediate points along the interpolation should resemble real data and they should provide a semantically meaningful transition between the endpoints [@doi:10.48550/arXiv.1807.07543].
+Interpolating between any two latent vectors of embedded NucleusNet images produced reasonable intermediate reconstructions from the decoder with a smooth transition between endpoints ([](#fig2h)).
+This result is consistent with the literature describing smooth interpolations with base model autoencoders [@doi:10.48550/arXiv.1807.07543].
+The authors noted that intermediate points did not always resemble real data, which was true with some of the NucleusNet-10K interpolations.
+
+:::{figure} #nucleusnet10k-interpolation
+:label: fig2h
+:placeholder: ./figures/fig2h.png
+
+Decoded latent vectors along intermediate points of interpolations between random pairs of images from NucleusNet-10K.
+Executing the code will randomly draw fifty pairs for interpolation.
+Images that you see are decoded latent vectors, with t=0.00 and t=1.00 representing latent vectors corresponding to real images.
+Four intermediate interpolations at t=0.20, t=0.40, t=0.60 and t=0.80 are mixed codes.
+:::
+
+---
 
 # Replication study
 

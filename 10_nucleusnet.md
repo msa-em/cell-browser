@@ -28,6 +28,32 @@ Interestingly, there is an [example](https://www.allencell.org/deep-cell-zoom.ht
 
 ::::
 
+---
+
+# Autoencoder-based determination of representative images
+
+1. Computation of a theoretical image
+
+Barkley calculated theoretical latent vectors using measures of central tendency, including the arithmetic mean, median and geometric median in latent space.
+Averaged latent vectors were reconstructed with the decoder to synthesize theoretical representative images of the nucleus ([](#fig2i)).
+Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342], so these reconstructions do not represent real data.
+Otherwise, theoretical average nuclei appeared to blend all image features from the dataset.
+There is also what appears to be background signal around the theoretical nucleus.
+
+:::{figure} #ae1m-theoretical
+:label: fig2i
+:placeholder: ./figures/fig2i.png
+Figure legend.
+:::
+
+2. Determination of a prototypical image
+
+Real images were selected based on distance to a theoretical centroid in latent space.
+There are various distance metrics and measures of central tendency.
+For simplicity, representative images were defined by euclidean distance to the mean vector, and 10,000 examples were fused to browse with OpenSeadragon.
+
+---
+
 # Materials and Methods
 
 ## Cell culture

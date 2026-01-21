@@ -13,7 +13,6 @@ The cell line, plasmid, transfection reagent, and reovirus antibody were the sam
 
 HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by infection with reovirus T1L at MOI 100.
 Samples were fixed after one day of infection for immunofluorescence staining of viral and ER antigens.
-Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling in the replicate experiment.
 
 ::::{grid} 1 1 1 1
 
@@ -90,3 +89,9 @@ Three additional mCherry-ER reporters were included for comparison to mCherry-KD
 :::
 
 ::::
+
+## Conclusion
+
+**Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling in replicate microscopy maps.**
+The absence of evidence in microscopy maps does not disprove original claims evidenced by representative images.
+However, virtual microscopy as a method of replication leaves these conclusions open to public scrutiny.

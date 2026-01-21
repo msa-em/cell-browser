@@ -20,14 +20,14 @@ To be clear, MOI was considered PFU/cell, and PFU was estimated on L-929 cells i
 To infect cells on coverslips in 12-well plates, purified reovirus was diluted in a volume of 100ul of serum-free DMEM.
 Media was aspirated from the cells, replaced with 100ul serum-free DMEM to wet the coverslip, then the virus-containing medium was added.
 Reovirus was adsorbed to the cells for one hour at room temperature and the plate was rocked every ten minutes to redistribute the inoculum.
-Thereafter, one milliliter of pre-warmed serum-containing DMEM was added to the cells, and the plate was incubated at 37C for 24h before PFA fixation.
+Thereafter, one milliliter of pre-warmed serum-containing DMEM was added to the cells, and the plate was incubated for one day before PFA fixation.
 
 ## Reovirus strains T1L (left) and T3D (right)
 
-The original study infected HeLa cells at MOI 1.
 Ten-fold dilutions of reovirus from MOI 0 (uninfected control) to MOI 100 were imaged after twenty four hours of infection.
 Microscopy maps show that HeLa cells are not permissive to reovirus, and that MOI 100 was needed for high infection, consistent with others findings [@doi:10.1128/jvi.00199-19].
 Therefore, MOI 100 was chosen for the replication experiment in the transfected-infected cell model.
+This is an increase from the original study that used MOI 1.
 
 ### MOI 0
 
