@@ -42,8 +42,8 @@ The Mirus TransIT-2020 transfection reagent did not significantly interfere with
 
 ### Untransfected control (left) and transfection with lipofectamine (right)
 
-The untransfected sample was more confluent than transfected samples.
-Lipofectamine 3000 was less favourable as there was lower cell confluence and viral infection.
+Untransfected cells appeared more confluent than transfected cells.
+Lipofectamine 3000 transfection was less favourable in the transfected-infected model because the cells were less confluent and infected.
 
 ::::{grid} 2 2 2 2
 

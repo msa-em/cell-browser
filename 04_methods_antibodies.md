@@ -24,17 +24,10 @@ Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reag
 Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and cured overnight at room temperature in the dark.
 Slides were gently cleaned then stored at four degrees celsius.
 
-```{admonition} Potential artifacts caused by the specimen
-:class: warning
-The Olympus IX3-ZDC is only guaranteed to work with 35-mm glass-bottom dishes with 0.16 to 0.18mm coverglass. Therefore, the coverslips used in the immunofluorescence experiments detailed here were incompatible with proper auto-focusing, and could contain aberrations. The replication study and some validation experiments were repeated with 35-mm glass-bottom dish specimens.
-```
-
 ## Calreticulin monoclonal antibody
 
-An immunofluorescence experiment first validated the calreticulin antibody in HeLa cells fixed on coverslips.
+An immunofluorescence experiment validated the calreticulin antibody in HeLa cells fixed on coverslips.
 The antibody labelled the ER with high specificity, though the staining pattern was punctate, it was sufficient to observe ER elements.
-In this experiment, the variable was treatment with primary and secondary antibodies.
-Control samples lacking primary or secondary antibodies do not show background or unspecific staining.
 
 ::::{grid} 1 1 1 1
 
@@ -50,6 +43,9 @@ Control samples lacking primary or secondary antibodies do not show background o
 ::::
 
 ### Controls 
+
+In this experiment, the variable was treatment with primary and secondary antibodies.
+Control samples lacking primary or secondary antibodies do not show background or unspecific staining.
 
 ::::{grid} 3 3 3 3
 
@@ -84,13 +80,15 @@ Control samples lacking primary or secondary antibodies do not show background o
 
 # Reovirus μNS antibodies
 
-Mammalian orthoreovirus is thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells called viral factories.
-The protein μNS forms a matrix that recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
-The original study labelled viral factories in immunofluorescence experiments with μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
-This serum was compared to another polyclonal μNS antiserum in an immunofluorescence experiment of infected cells, with controls missing primary or secondary antibodies.
-Barkley used the chicken polyclonal antiserum in the replication study for consistency, because it was sufficient to label virus-infected cells and observe intracellular viral factories.
+Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells called viral factories.
+The protein μNS forms self-assembles to form a matrix that recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
+The original study labelled viral factories with μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
+This serum was compared to another polyclonal μNS antiserum in an immunofluorescence experiment of infected cells, with controls varying primary or secondary antibodies.
+All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies.
 
 ## Chicken polyclonal antiserum
+
+The chicken polyclonal antiserum was chosen for the replication study for consistency, as it was deemed sufficient to label virus-infected cells and observe intracellular viral factories.
 
 ::::{grid} 1 1 1 1
 
@@ -106,6 +104,8 @@ Barkley used the chicken polyclonal antiserum in the replication study for consi
 ::::
 
 ### Controls
+
+No signal in immunofluorescence controls of reovirus-infected cells missing primary or secondary antibodies to viral antigens.
 
 ::::{grid} 3 3 3 3
 
@@ -140,6 +140,8 @@ Barkley used the chicken polyclonal antiserum in the replication study for consi
 
 ## Guinea pig polyclonal antiserum
 
+Another μNS antiserum, used at a lower dilution, labels reovirus viral factories with high specificity.
+
 ::::{grid} 1 1 1 1
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
@@ -154,6 +156,8 @@ Barkley used the chicken polyclonal antiserum in the replication study for consi
 ::::
 
 ### Controls 
+
+Immunofluorescence samples without primary or secondary antibodies to viral antigens show no signal.
 
 ::::{grid} 3 3 3 3
 

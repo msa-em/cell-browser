@@ -42,13 +42,13 @@ This built on a study critical of representative microscopy images that focused 
 The authors implemented a web server that chose typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
 We revisited this idea as we thought that representative image selection was an interesting use case for artificial intelligence.
 Barkley automated the process of sample collection and image selection from a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
-Stitched panoramas of the specimen and cropped images of single cells were presented in interactive microscopy maps.
+Stitched panoramas of specimens and cropped images of single cells were presented in interactive microscopy maps.
 Representative images were then selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
 Representative images were defined near the centroid of latent space, although counter-examples showed that this method does not generalize to all datasets.
 To define what is representative, both the subjective determinations made by humans and the objective determinations made by autoencoders are opaque.
-In contrast, as a visual communication tool, microscopy maps offer greater transparency and accessibility compared to representative images.
+In contrast, as a visual communication tool, microscopy maps offer greater transparency and accessibility for readers compared to representative images.
 
 ---
 
