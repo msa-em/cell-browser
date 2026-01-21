@@ -41,6 +41,19 @@ False-positive detections by cellpose were rare but expected as a consequence of
 :::
 ::::
 
+::::{figure}
+
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": {
+        "type": "zoomifytileservice",
+        "tilesUrl": "https://russellbarkley.github.io/full_panorama/stitched_full_zoomify"
+    }
+}
+:::
+
+::::
+
 ## NucleusNet-10K
 
 A small version (n=10,000) of the single-cell dataset was created with one-hundred random images from each imaging session.
