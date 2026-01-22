@@ -2,12 +2,12 @@
 title: Approach
 numbering:
   enumerator: 8.%s
-label : approach_two_page
+label : AEapproach_page
 ---
 
 ---
 
-# Computational image selection using machine learning
+# Computational image selection with machine learning
 
 The process of representative microscopy image selection remains a subjective, non-repeatable step in the scientific process.
 To address this, automated methods of objective representative image selection from microscopy datasets were introduced (https://doi.org/10.1016/s0006-3495(99)77379-0).
