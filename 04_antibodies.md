@@ -5,6 +5,8 @@ numbering:
 label : antibodies_page
 ---
 
+---
+
 # Materials
 
 The original study used a polyclonal serum for calreticulin with no product number, so it was substituted for a monoclonal antibody in the replication study.
@@ -24,9 +26,11 @@ Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reag
 Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and cured overnight at room temperature in the dark.
 Slides were gently cleaned then stored at four degrees celsius.
 
-## Calreticulin monoclonal antibody
+---
 
-Barkley validated the calreticulin antibody in an immunofluorescence experiment.
+## Calreticulin
+
+Barkley validated the calreticulin monoclonal antibody as an immunofluorescence marker for ER antigens.
 The staining pattern was punctate, but it was sufficient to observe ER elements.
 
 ::::{grid} 1 1 1 1
@@ -42,9 +46,9 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 
 ::::
 
-### Controls 
+### Controls
 
-Control samples without primary or secondary antibodies do not show background or unspecific staining.
+Samples without primary or secondary antibodies had no background or unspecific staining.
 
 ::::{grid} 3 3 3 3
 
@@ -77,17 +81,17 @@ Control samples without primary or secondary antibodies do not show background o
 
 ::::
 
-# Reovirus μNS antibodies
+# Reovirus μNS
 
 Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells called viral factories.
-The protein μNS forms self-assembles to form a matrix that recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
-The original study labelled viral factories with μNS and σNS antibodies, including a chicken polyclonal μNS antiserum from our laboratory.
-This antibody was cross-validated with another polyclonal μNS antiserum.
-All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies and DAPI.
+The viral protein μNS self-assembles to form the matrix and recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
+The original study stained viral factories with μNS and σNS antibodies, including chicken polyclonal μNS antiserum from our laboratory.
+Barkley cross-validated with antibody with another polyclonal μNS antiserum.
+All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies.
 
 ## Chicken polyclonal antiserum
 
-The chicken antibody was chosen to be used in the replication study for consistency. 
+The chicken antibody was used in the original and replication study.
 Virus-infected cells are distinguishable and intracellular viral factories can be observed at high-magnification.
 
 ::::{grid} 1 1 1 1
@@ -105,7 +109,7 @@ Virus-infected cells are distinguishable and intracellular viral factories can b
 
 ### Controls
 
-No signal in samples without primary or secondary antibodies to viral antigens.
+No background or unspecific staining in samples without primary or secondary antibodies.
 
 ::::{grid} 3 3 3 3
 
@@ -138,9 +142,9 @@ No signal in samples without primary or secondary antibodies to viral antigens.
 
 ::::
 
-## Guinea pig polyclonal antiserum
+---
 
-Another μNS antiserum used at a lower dilution.
+## Guinea pig polyclonal antiserum
 
 ::::{grid} 1 1 1 1
 
@@ -156,8 +160,6 @@ Another μNS antiserum used at a lower dilution.
 ::::
 
 ### Controls 
-
-No signal in samples without primary or secondary antibodies to viral antigens.
 
 ::::{grid} 3 3 3 3
 

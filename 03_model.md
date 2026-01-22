@@ -5,6 +5,8 @@ numbering:
 label : model_page
 ---
 
+---
+
 ## Cells
 
 HeLa CCL-2 cells were cultured in Dulbecco’s modification of Eagle’s Medium (DMEM) (50-003-PB, Corning) supplemented with 10% fetal bovine serum (FS-0500-AD, Atlas).
@@ -17,13 +19,14 @@ Pinholes were maximally opened to capture the widest depth of field.
 Z-draft compensation autofocused the samples during acquisition of 10x10 or 15x15 field grids (5% overlap) with a motorized XY stage (Olympus IX3-SSU).
 Data collection was fully-motorized for unbiased samples of the replicate immunofluorescence experiments.
 
-## Transfected-infected cell model
+---
 
-This experiment aims to observe cells with a co-incidence of plasmid transfection and virus infection.
+## Immunofluorescence imaging of transfected-infected cells
+
+This replication experiment aimed to observe cells with a co-incidence of plasmid transfection and virus infection.
 In the original study, cells were transfected before virus infection, each incubated for twenty four hours.
-Therefore, the cells were imaged after two days of transfection and one day of infection.
-A confounding variable is interference of viral infection from transfection, so two transfection reagents were compared in the transfected-infected cell model.
-All samples were infected with reovirus strain T1L at MOI 100 and were co-stained with reovirus and calreticulin antibodies and DAPI.
+A confounding variable in this model is interference of viral infection, so two transfection reagents were tested.
+All samples were infected with reovirus strain T1L at MOI 100 and were co-stained for reovirus and ER antigens.
 
 ### mCherry-KDEL transfection with TransIT-2020 before reovirus infection
 

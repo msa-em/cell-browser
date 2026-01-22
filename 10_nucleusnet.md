@@ -22,7 +22,7 @@ Interestingly, there is an [example](https://www.allencell.org/deep-cell-zoom.ht
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
-    "tileSources": "https://russellbarkley.github.io/NucleusNet-10K-DZI/images/nucleusnet_10k.dzi"
+    "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
 }
 :::
 
@@ -30,7 +30,7 @@ Interestingly, there is an [example](https://www.allencell.org/deep-cell-zoom.ht
 
 ---
 
-# Autoencoder-based selection of images
+# Autoencoder-based representative image selection
 
 1. Computation of theoretical average images
 

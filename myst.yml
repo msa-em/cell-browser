@@ -12,6 +12,7 @@ project:
     - Map
     - Replication
     - OME-Zarr
+    - Deep Zoom
   github: https://github.com/msa-em/cell-browser 
   jupyter: true
   # jupyter:

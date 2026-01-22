@@ -1,28 +1,26 @@
 ---
-title: Approach
+title: Interactive Approach
 numbering:
   enumerator: 2.%s
-label : approach_page
+label : interactive_page
 ---
 
 # Chapter One
 
-This article criticizes the quality and reproducibility of representative microscopy images.
-The problem is that static figures encourage scientists to cherry-pick desirable examples.
+This section criticizes the quality and reproducibility of representative microscopy images.
+The problem is that immutable figures encourage scientists to cherry-pick desirable examples.
 Scientists also lack tools to evaluate the replicability of published representative images.
-A solution is [virtual microscopy](<wiki:Virtual_microscopy>), the process of sharing image data over computer networks.
-Often used for pedagogy, virtual microscopy could benefit science.
+A solution is [virtual microscopy](<wiki:Virtual_microscopy>); sharing image data over computer networks.
+Often used for pedagogy, virtual microscopy could benefit the acquisition of knowledge in research.
 Academics have proposed a variation of virtual microscopy for the unbiased presentation of transmission electron microscopy data [@doi:10.1083/jcb.201201140].
-There are free and open-source methods [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be implemented in scientific journals.
-Our approach to virtual microscopy is automated image acquisition, stitching a multi-scale [pyramid](<wiki:Pyramid_(image_processing)>), and an interactive viewer streaming data from the cloud ([](#abstract)).
+Today, there are free and open-source methods [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be implemented in scientific journals.
+Our approach to virtual microscopy involved automated image acquisition, a stitched multi-scale [pyramid](<wiki:Pyramid_(image_processing)>), and an embedded interactive viewer ([](#abstract)).
+This journal supported two viewers; Vizarr [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), which were embedded for cloud-based virtual microscopy.
 
 ```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
 Figure Legend.
 ```
-
-This journal currently supports two interactive viewers; Vizarr [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), which were embedded as demonstrations of cloud-based virtual microscopy.
-Both methods of microscopy maps were implemented using software from open-source communities.
 
 ## Vizarr
 

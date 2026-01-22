@@ -5,9 +5,13 @@ numbering:
 label : replication_page
 ---
 
-The replicate experiment was kept consistent with the original study, but some adaptations were made for internal needs.
-Specifically, the reovirus strain, MOI, and calreticulin antibody were changed.
+---
+
+The replicate experiment was kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
+Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted.
 The cell line, plasmid, transfection reagent, and reovirus antibody were the same.
+
+---
 
 ## Immunofluorescence imaging of transfected-infected cells
 
@@ -92,8 +96,8 @@ Three additional mCherry-ER reporters were included for comparison to mCherry-KD
 
 ---
 
-## Conclusion
+## Conclusions
 
 Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling in replicate microscopy maps.
 The absence of reliable observations does not disprove original claims in representative images.
-However, virtual microscopy can provide an unbiased assessment of replicability that is open to public scrutiny.
+However, virtual microscopy provides an unbiased assessment of replicability that is open to scrutiny.

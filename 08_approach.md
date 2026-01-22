@@ -1,8 +1,8 @@
 ---
-title: Approach
+title: Static Approach
 numbering:
   enumerator: 8.%s
-label : approach2_page
+label : static_page
 ---
 
 # Chapter Two
@@ -18,7 +18,5 @@ Though this assumption is flawed [@doi:10.48550/arXiv.2501.13864] and autoencode
 
 Artificial intelligence models must train on large datasets, so Barkley created an image collection of the [cell nucleus](<wiki:Cell_nucleus>) called NucleusNet.
 It is the sum of 100 automated confocal imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
-A random selection of ~1% of NucleusNet can be browsed using [OpenSeadragon](https://openseadragon.github.io/).
-An autoencoder model was trained on NucleusNet, and representative images were defined near the centroid of the embedding.
-It is impossible interpret the embedding and justify this approach because neural networks are black boxes.
-However, this method is useful as it is unlikely to choose anomalies as representative images from datasets of this scale.
+An autoencoder model was trained on NucleusNet, and representative images were defined near the centroid of latent space.
+It is impossible interpret the embedding to justify this approach, but it is unlikely to select anomalies as representative images from datasets of this scale.
