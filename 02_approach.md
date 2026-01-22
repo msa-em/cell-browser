@@ -1,14 +1,16 @@
 ---
-title: Chapter One
+title: Approach
 numbering:
   enumerator: 2.%s
-label : one_page
+label : approach_page
 ---
 
-This article criticizes the quality and reproducibility of representative images.
+# Chapter One
+
+This article criticizes the quality and reproducibility of representative microscopy images.
 The problem is that static figures encourage scientists to cherry-pick desirable examples.
 Scientists also lack tools to evaluate the replicability of published representative images.
-A solution is [virtual microscopy](<wiki:Virtual_microscopy>), sharing scientific images over computer networks.
+A solution is [virtual microscopy](<wiki:Virtual_microscopy>), the process of sharing image data over computer networks.
 Often used for pedagogy, virtual microscopy could benefit science.
 Academics have proposed a variation of virtual microscopy for the unbiased presentation of transmission electron microscopy data [@doi:10.1083/jcb.201201140].
 There are free and open-source methods [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be implemented in scientific journals.

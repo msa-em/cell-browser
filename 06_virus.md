@@ -22,6 +22,10 @@ Media was aspirated from the cells, replaced with 100ul serum-free DMEM to wet t
 Reovirus was adsorbed to the cells for one hour at room temperature and the plate was rocked every ten minutes to redistribute the inoculum.
 Thereafter, one milliliter of pre-warmed serum-containing DMEM was added to the cells, and the plate was incubated for one day before PFA fixation.
 
+---
+
+# Results
+
 ## Reovirus strains T1L (left) and T3D (right)
 
 Ten-fold dilutions of reovirus from MOI 0 (uninfected control) to MOI 100 were imaged after twenty four hours of infection.

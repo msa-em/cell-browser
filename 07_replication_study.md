@@ -90,8 +90,10 @@ Three additional mCherry-ER reporters were included for comparison to mCherry-KD
 
 ::::
 
+---
+
 ## Conclusion
 
-**Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling in replicate microscopy maps.**
-The absence of evidence in microscopy maps does not disprove original claims evidenced by representative images.
-However, virtual microscopy as a method of replication leaves these conclusions open to public scrutiny.
+Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling in replicate microscopy maps.
+The absence of reliable observations does not disprove original claims in representative images.
+However, virtual microscopy can provide an unbiased assessment of replicability that is open to public scrutiny.
