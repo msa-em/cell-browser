@@ -13,10 +13,10 @@ As expected, there was variation in cell confluence and signal intensity between
 ## NucleusNet-10K
 
 A small version (n=10,000) of the single-cell dataset was created with one-hundred random images from each imaging session, called NucleusNet-10K.
-NucleusNet-10K was stitched and converted to Deep Zoom Image format and hosted in a Github repository to be viewed in the article with OpenSeadragon [@doi:10.1242/jcs.262198].
-This represents a random sample of one percent of NucleusNet with experiments organized by row.
-There was variation in signal intensity across experiments, warranting image pre-processing techniques that normalize or standardize pixel intensities.
-Interestingly, there is an [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy to show 200,000 single-cell images of human-induced pluripotent stem cells.
+NucleusNet-10K was stitched and converted to Deep Zoom Image format, hosted on Github Pages, to be viewed in OpenSeadragon [@doi:10.1242/jcs.262198].
+This map represents a random sample of ~1% of NucleusNet with experiments organized by row.
+There was variation in signal intensity across experiments, warranting image processing to normalize or standardize pixel intensities.
+There is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy with 200,000 human-induced pluripotent stem cells.
 
 ::::{figure}
 

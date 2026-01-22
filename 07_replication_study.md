@@ -13,6 +13,8 @@ The cell line, plasmid, transfection reagent, and reovirus antibody were the sam
 
 ---
 
+# Results
+
 ## Immunofluorescence imaging of transfected-infected cells
 
 HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by infection with reovirus T1L at MOI 100.

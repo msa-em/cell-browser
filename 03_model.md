@@ -14,23 +14,26 @@ Antibiotics were not used in the replication study, although the original study 
 
 ## Imaging
 
-Coverslips were imaged on an Olympus Fluoview FV3000 laser-scanning confocal microscope with a 100X objective lens using immersion oil. 
-Pinholes were maximally opened to capture the widest depth of field.
-Z-draft compensation autofocused the samples during acquisition of 10x10 or 15x15 field grids (5% overlap) with a motorized XY stage (Olympus IX3-SSU).
-Data collection was fully-motorized for unbiased samples of the replicate immunofluorescence experiments.
+Data collection was fully-motorized for unbiased samples of replicate immunofluorescence experiments.
+The coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens in immersion oil. 
+Pinholes in each channel were opened to capture the widest depth of field.
+Acquisition of 10x10 or 15x15 grids (5% overlap) with the Olympus IX3-SSU motorized XY stage were autofocused with Z-drift compensation.
+Care was taken to avoid spectral overlap, but aberrations are possible.
 
 ---
+
+# Results
 
 ## Immunofluorescence imaging of transfected-infected cells
 
 This replication experiment aimed to observe cells with a co-incidence of plasmid transfection and virus infection.
 In the original study, cells were transfected before virus infection, each incubated for twenty four hours.
-A confounding variable in this model is interference of viral infection, so two transfection reagents were tested.
+A confounding variable was interference of viral infection from transfection, so two reagents were tested.
 All samples were infected with reovirus strain T1L at MOI 100 and were co-stained for reovirus and ER antigens.
 
 ### mCherry-KDEL transfection with TransIT-2020 before reovirus infection
 
-Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reovirus infection, which was the reagent used in the original study.
+Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reovirus infection.
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
@@ -43,7 +46,7 @@ Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reoviru
 
 ### Untransfected control (left) and transfection with lipofectamine (right)
 
-Lipofectamine 3000 transfection was less favourable in this model because of reduced cell confluence and reovirus infection.
+Lipofectamine 3000 transfection reduced cell confluence and reovirus infection in this model.
 
 ::::{grid} 2 2 2 2
 

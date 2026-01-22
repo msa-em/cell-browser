@@ -26,6 +26,8 @@ Thereafter, 1ml of pre-warmed serum-containing DMEM was added to the cells, and 
 
 ---
 
+# Results
+
 ## Reovirus strains T1L (left) and T3D (right)
 
 Ten-fold dilutions of reovirus from MOI 0 (uninfected control) to MOI 100 were imaged after twenty four hours of infection.

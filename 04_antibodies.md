@@ -28,6 +28,8 @@ Slides were gently cleaned then stored at four degrees celsius.
 
 ---
 
+# Results
+
 ## Calreticulin
 
 Barkley validated the calreticulin monoclonal antibody as an immunofluorescence marker for ER antigens.
@@ -47,8 +49,6 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 ::::
 
 ### Controls
-
-Samples without primary or secondary antibodies had no background or unspecific staining.
 
 ::::{grid} 3 3 3 3
 
@@ -81,6 +81,8 @@ Samples without primary or secondary antibodies had no background or unspecific 
 
 ::::
 
+---
+
 # Reovirus μNS
 
 Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells called viral factories.
@@ -108,8 +110,6 @@ Virus-infected cells are distinguishable and intracellular viral factories can b
 ::::
 
 ### Controls
-
-No background or unspecific staining in samples without primary or secondary antibodies.
 
 ::::{grid} 3 3 3 3
 
@@ -141,8 +141,6 @@ No background or unspecific staining in samples without primary or secondary ant
 :::
 
 ::::
-
----
 
 ## Guinea pig polyclonal antiserum
 
