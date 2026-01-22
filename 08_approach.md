@@ -1,8 +1,8 @@
 ---
-title: Background
+title: Approach
 numbering:
   enumerator: 8.%s
-label : background_page
+label : approach2_page
 ---
 
 # Chapter Two
