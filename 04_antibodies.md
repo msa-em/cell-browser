@@ -7,7 +7,7 @@ label : antibodies_page
 
 ---
 
-# Materials
+## Materials
 
 The original study used a polyclonal serum for calreticulin with no product number, so it was substituted for a monoclonal antibody in the replication study.
 Mouse calreticulin monoclonal antibody (MA5-15382, Thermo) was stored at -20C in 5μl aliquots to be used at 1:1000 dilution.
@@ -15,7 +15,7 @@ Chicken anti-μNS serum from the Parker lab (1:1000 dilution) was the same used 
 Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
 Donkey anti-mouse antibodies conjugated to AlexaFluor488 (715-545-150), donkey anti-chicken antibodies conjugated to AlexaFluor647 (703-605-155) and donkey anti-guinea pig conjugated to AlexaFluor594 (706-585-148) were stored diluted in 1:1 glycerol and were used at 1:800 dilutions.
 
-# Immunofluorescence protocol
+## Immunofluorescence protocol
 
 Cells were seeded on 12mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar).
 To fix the cells, media was aspirated and 4% PFA solution was applied without washing.
@@ -83,7 +83,7 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 
 ---
 
-# Reovirus μNS
+## Reovirus μNS
 
 Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells called viral factories.
 The viral protein μNS self-assembles to form the matrix and recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].

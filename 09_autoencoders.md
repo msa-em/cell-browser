@@ -10,7 +10,9 @@ Autoencoders originated in the eighties and its primary application was dimensio
 Autoencoders consist of two parts: an encoder and a decoder with hidden layers that describe the code used to represent the data.
 The autoencoder is restricted in some way that it is forced to prioritize which aspects of the input to copy, so it often learns useful properties of the data.
 
-## Model architecture
+---
+
+# Model architecture
 
 During training, the input to the model was a fixed-size $256*256$ grayscale image.
 The architecture of the networks in this study followed a common configuration in autoencoder-based anomaly detection methods [@doi:10.48550/arXiv.2501.13864].
@@ -26,9 +28,7 @@ Models varied in the number of layers, number of filters, latent dimensions, lea
 In deciding on a model, Barkley considered the importance of limiting the number of parameters in the model and decided on the vanilla model.
 There are variations of autoencoders that have been compared to show the efficiencies and trade-offs of different models at image reconstruction, latent representation and accuracy at anomaly detection [@doi:10.1016/j.mlwa.2024.100572].
 
----
-
-# Representative images from the MNIST dataset
+# MNIST dataset
 
 ## Literature replication
 
