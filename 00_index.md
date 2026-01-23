@@ -1,5 +1,5 @@
 ---
-title: 'Unbiased replication of representative images using virtual microscopy'
+title: 'Unbiased replication of representative images using cloud-based virtual microscopy'
 short_title: Virtual Microscopy
 numbering:
   heading_2: false
@@ -35,5 +35,5 @@ Add your competing interests, if any, here.
 
 ## Data availability
 
-NucleusNet was [deposited](#huggingface-upload) to Hugging Face to facilitate data sharing and the repository was streamed to present images in interactive figures.
-The full collection of 250,000 microscopy fields, 1,600 stitched images and corresponding mask files, as well as the cropped images were zipped and archived at Zenodo.
+[NucleusNet] is archived on Zenodo.
+Model weights are saved in this repository.

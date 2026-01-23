@@ -5,9 +5,8 @@ numbering:
 label : replication_page
 ---
 
-The replicate experiment was kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
-Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted.
-The cell line, plasmid, transfection reagent, and reovirus antibody were the same.
+Conditions of the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
+Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
 
 ---
 
@@ -15,8 +14,9 @@ The cell line, plasmid, transfection reagent, and reovirus antibody were the sam
 
 ## Immunofluorescence imaging of transfected-infected cells
 
-HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by infection with reovirus T1L at MOI 100.
-Samples were fixed after one day of infection for immunofluorescence detection of viral (chicken μNS antibody) and ER antigens.
+HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by infection with reovirus T1L at MOI 100 for one day.
+Samples were fixed for immunofluorescence detection of viral and ER antigens.
+Chicken polyclonal μNS antiserum was used to label reovirus viral factories.
 
 ::::{grid} 1 1 1 1
 
@@ -33,8 +33,8 @@ Samples were fixed after one day of infection for immunofluorescence detection o
 
 ## Controls and additional samples
 
-Control samples for the transfected-infected cell model include untransfected and uninfected cells.
-Three additional mCherry-ER reporters were included for comparison to mCherry-KDEL.
+Controls for the transfected-infected cell model included untransfected and uninfected cells.
+Three additional mCherry-ER reporters are shown to substitute mCherry-KDEL.
 
 ::::{grid} 2 2 2 2
 
@@ -100,5 +100,5 @@ Three additional mCherry-ER reporters were included for comparison to mCherry-KD
 
 Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling in replicate microscopy maps.
 Irregular ER morphology was observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
-Otherwise, there was also no clear indication of ER stress in cells infected with reovirus.
-This does not disprove original claims, but virtual microscopy provides an unbiased assessment that is open to public scrutiny.
+Otherwise, there was no clear indication of ER stress in cells infected with reovirus.
+This finding does not disprove original claims, but this method provides an unbiased assessment of replicability that is open to scrutiny.

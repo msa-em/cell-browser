@@ -8,15 +8,14 @@ label : introduction_page
 Representative microscopy images are visual communication tools used by microscopists to present the results of research to other scientists.
 The earliest representative microscopy images were hand drawings in [Micrographia](<wiki:Micrographia>) in 1665 by Robert Hooke.
 Nowadays, roughly three-quarters of publications in biomedical journals report at least one microscopy image [@doi:10.7554/eLife.55133].
-These images are stereotypical examples chosen by the microscopist and were accepted as scientific evidence.
-An un-spoken rule is that scientists trust the representative images are honest and accurate.
+An unspoken rule is that scientists trust the chosen images are honest and accurate.
 However, microscopy image selection and quantitative analyses thereof are vulnerable to bias and deception [@doi:10.1242/jcs.261567].
-Aside from integrity, scientists can sincerely misinterpret observations.
-The problem is that it is difficult for readers to critically evaluate experiments that report representative images.
+Aside from cherry-picking, scientists can sincerely misinterpret observations.
+The problem is that it is difficult for readers to critically evaluate experiments from representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming, if at all available.
-These limitations can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that share microscopy data over computer networks.
+These inefficiencies can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that share microscopy data over computer networks.
 An example is the unbiased sampling and presentation of electron microscopy data to readers in interactive digital maps; a microscopy map [@doi:10.1083/jcb.201201140].
-In practice, microscopy maps are easy to implement, but are viewed using external links or software [@doi:10.1242/jcs.262198].
+In practice, microscopy maps are easy to implement, but require external links or software [@doi:10.1242/jcs.262198].
 Here, interactive microscopy maps were embedded into the article to introduce cloud-based virtual microscopy to the literature.
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge and there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
@@ -26,20 +25,20 @@ Large-scale replicability studies performed by Amgen and Bayer assessed that 11%
 Another project evaluated replication success with other criteria, but their 'lowest bar' determined a replication rate of 79% for representative images [@doi:10.7554/eLife.71601].
 Further, 26% of claimed effects were evidenced by a representative image without quantitative analysis.
 Consider that representative images cannot describe population variation and the uncertainty of an observation.
-A feature of virtual microscopy is the unbiased record of multi-scale image data, making microscopy maps useful to replicate high-magnification representative images.
-Results should be observed again with a high degree of reliability, therefore original claims should be evident in microscopy maps of replicate studies.
+A feature of cloud-based virtual microscopy is the unbiased sampling of multi-scale image data, making it useful to replicate high-magnification representative images.
+Results should be observed again with a high degree of reliability, therefore original claims should be evident in replicate microscopy maps.
 To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
-This study was chosen because most experiments showed high-magnification representative microscopy images without numerical results.
-An immunofluorescence experiment was replicated and imaged with a fully-motorized confocal microscope for an unbiased population-scale sample at high-resolution.
-Microscopy maps were made with the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
-All parties have access to the raw data from which Barkley interpreted that the key findings of the original study were not robust and replicable.
+This study was chosen because most results were high-magnification representative microscopy images without quantification.
+For unbiased immunofluorescence imaging, a fully-motorized confocal microscope was used to sample coverslips at high-magnification.
+Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
+This approach gives all parties access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
 
 Microscopy maps are interactive figures, but static figures still predominate scientific publishing as a relic of print journals.
-Despite the benefits of virtual microscopy, representative images will persist until mainstream scientific journals adopt interactive figures.
-Given the widespread use of static figures, the second chapter of this article focused on computational image selection.
+Despite the benefits of virtual microscopy, representative images will persist until mainstream journals allow interactive visualization tools.
+Given the widespread use of static figures in scientific discourse, the second chapter of this project focused on automated image selection.
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The authors implemented a web server that chose typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
-This idea was revisited as representative image selection was an interesting use case for artificial intelligence.
+Representative image selection is an interesting use case for artificial intelligence.
 Barkley automated the process of sample collection and image selection from a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
 Representative images were then selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.

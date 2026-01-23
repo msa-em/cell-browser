@@ -5,7 +5,17 @@ numbering:
 label : nucleusnet_page
 ---
 
-Samples were collected over twenty-one passages of the same cell line.
+::::{figure}
+
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": "https://russellbarkley.github.io/NucleusNetRun72/Run72.dzi"
+}
+:::
+
+::::
+
+One-hundred coverslips were sampled over twenty-one passages of the same cell line.
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed in paraformaldehyde (PFA) after at least one day, so the populations had asynchronous cell cycles.
 Nuclei of fixed cells were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig1a)).
