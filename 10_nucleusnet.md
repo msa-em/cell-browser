@@ -18,13 +18,13 @@ As expected, there was variation in cell confluence and signal intensity between
 }
 :::
 
-Representative coverslip. Four stitched sixteenths from Run 72 ranked in the top ten with an average number and brightness of ROIs ([](#tableS1)). Stitched images from this experiment were fused, with some artifacts, then converted to DZI format and hosted on Github pages.
+Zoomable coverslip from experiment 72. Four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#tableS1)). Stitched images were fused and reformatted to DZI then hosted on Github pages.
 ::::
 
 ## NucleusNet-10K
 
-A small version of the single-cell dataset, NucleusNet-10K, contains 100 random images from each experiment.
-NucleusNet-10K was stitched and converted to Deep Zoom Image format, then hosted on Github Pages to be viewed in OpenSeadragon [@doi:10.1242/jcs.262198].
+A small version of the single-cell dataset, NucleusNet-10K, has 100 random cropped images from each experiment.
+NucleusNet-10K was fused and converted to DZI format, hosted on Github Pages and viewed with OpenSeadragon [@doi:10.1242/jcs.262198].
 This map represents a random sample of ~1% of NucleusNet with experiments organized in chronological order by row.
 There was variation in signal intensity across experiments, which could warrant the normalization or standardization of pixel intensities.
 There is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy with 200,000 human-induced pluripotent stem cells.
@@ -37,7 +37,7 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
 }
 :::
 
-NucleusNet-10K. One hundred experiments are organized by row, with one hundred random images per coverslip.
+NucleusNet-10K. One hundred random cropped images from one hundred experiments are shown.
 ::::
 
 ---
@@ -173,7 +173,7 @@ Nuclei were masked in the stitched images using a custom [cellpose](https://gith
 Cellpose was suitable for segmentation because cell division created instances where two nuclear bodies were separated in space but should count as one ROI.
 Specifically, mitotic figures in [anaphase](#anaphase) or [telophase](#telophase) were considered one ROI, and [micronuclei](<wiki:Micronucleus>) and nuclei were masked together.
 There were also instances where two or more distinct nuclei made contact but should be separate masks.
-Masking by the cellpose segmentation model can be evaluated on ten representative stitched images [here](https://russellbarkley.github.io/cellpose_masks/).
+Masking by the cellpose segmentation model can be evaluated on ten representative stitched images [here](https://russellbarkley.github.io/cellpose_masks/) ([](#tableS1)).
 Unique masks were assigned random colours in the overlay to help differentiate ROIs.
 
 The cellpose nucleus model was re-trained on N=125000 fields from NucleusNet, including n=1000 fields with manually-segmented nuclei.
@@ -185,7 +185,7 @@ The cellpose model segmented the nuclei in all stitched images and the mask file
 
 The orientation of a cell is known to confound the vector embedding of autoencoder models trained on single-cell microscopy data, motivating the development of orientation-invariant autoencoder models [@doi:10.1038/s41467-024-45362-4].
 Similarly, a multi-encoder variational autoencoder model controlled for several transformational features like orientation that were 'uninformative' in single-cell analyses [@doi:10.1038/s42003-022-03218-x].
-Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting and rotating a minimal area rectangle to the cellpose mask.
+Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting and rotating a rectangle to the cellpose mask.
 Nuclei were center-cropped and all values outside of the mask were set to zero in the cropped images.
 This was notable because it left background signal around the nucleus, which later emerged in reconstructions from the autoencoder.
 Otherwise, cropped images in NucleusNet were not processed further.
