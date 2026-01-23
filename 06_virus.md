@@ -20,9 +20,8 @@ Stocks of purified reovirus T1L were titrated in L-929 cells to estimate the con
 L-929, or L cells are permissive to reovirus infection and were used for virus titration in the original study, so there was consistency in the calculation of multiplicity of infection (MOI).
 To clarify, MOI was PFU/cell, and PFU was estimated on L-929 cells in both the original study and the replication study.
 To infect cells on coverslips in 12-well plates, purified reovirus was diluted in a volume of 100μl of serum-free DMEM.
-Media was aspirated from the cells, replaced with 100μl serum-free DMEM to wet the coverslip, then the virus-containing medium was added.
-Reovirus was adsorbed to the cells for one hour at room temperature and the plate was rocked every ten minutes to redistribute the inoculum.
-Thereafter, 1ml of pre-warmed serum-containing DMEM was added to the cells, and the plate was incubated for one day before fixing.
+Reovirus was adsorbed to cells in 100μl inoculum for one hour at room temperature with agitation every ten minutes.
+Thereafter, 1ml of pre-warmed serum-containing DMEM was added to the cells, and the samples were incubated for one day before PFA fixation.
 
 ---
 
@@ -32,8 +31,7 @@ Thereafter, 1ml of pre-warmed serum-containing DMEM was added to the cells, and 
 
 Ten-fold dilutions of reovirus from MOI 0 (uninfected control) to MOI 100 were imaged after twenty four hours of infection.
 Microscopy maps show that HeLa cells are not permissive to reovirus, and that MOI 100 was needed for high infection, consistent with others findings [@doi:10.1128/jvi.00199-19].
-Therefore, MOI 100 was chosen for the replication experiment in the transfected-infected cell model.
-This was an increase from the original study that used MOI 1.
+Therefore, MOI 100 was chosen for the replication experiment in the transfected-infected cell model, which is an increase from the original study that used MOI 1.
 
 ### MOI 0
 

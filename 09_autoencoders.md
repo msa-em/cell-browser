@@ -10,9 +10,7 @@ Autoencoders originated in the eighties and its primary application was dimensio
 Autoencoders consist of two parts: an encoder and a decoder with hidden layers that describe the code used to represent the data.
 The autoencoder is restricted in some way that it is forced to prioritize which aspects of the input to copy, so it often learns useful properties of the data.
 
----
-
-# Model architecture
+## Model architecture
 
 During training, the input to the model was a fixed-size $256*256$ grayscale image.
 The architecture of the networks in this study followed a common configuration in autoencoder-based anomaly detection methods [@doi:10.48550/arXiv.2501.13864].
@@ -28,16 +26,17 @@ Models varied in the number of layers, number of filters, latent dimensions, lea
 In deciding on a model, Barkley considered the importance of limiting the number of parameters in the model and decided on the vanilla model.
 There are variations of autoencoders that have been compared to show the efficiencies and trade-offs of different models at image reconstruction, latent representation and accuracy at anomaly detection [@doi:10.1016/j.mlwa.2024.100572].
 
+---
+
 # MNIST dataset
 
 ## Literature replication
 
 A method of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342] was tested on real-world data like the [MNIST database](<wiki:MNIST_database>), which is a collection of 70,000 images of handwritten numbers that were manually annotated into ten classes corresponding to the digits 0-9.
-Briefly, the proposed two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in a vector space.
-Measures of central tendency to compute theoretical representative images were the arithmetic mean, median and geometric median, chosen due to their ease of computation.
-Averages were calculated as a 784-dimensional vector then reshaped to reconstruct 28x28 pixel theoretical images.
-One of the examples shown in the literature used a sub-set of MNIST images (n=720) labelled "four".
-Though the replication used all MNIST "four" images (N=6824), the outcome was consistent with the primary literature ([](#fig2a)) [@doi:10.1109/BIP60195.2023.10379342].
+Briefly, the two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in vector space.
+Measures of central tendency were the arithmetic mean, median and geometric median, calculated as 784-dimensional vectors then reshaped to reconstruct 28x28 pixel theoretical images.
+An example in the literature used a sub-set of MNIST images (n=720) labelled "four".
+Although our replication used all MNIST "four" images (N=6824), the outcome was consistent with the primary literature ([](#fig2a)) [@doi:10.1109/BIP60195.2023.10379342].
 
 :::{figure} #fig2a_data
 :label: fig2a
@@ -46,7 +45,7 @@ Computation of theoretical representative images of the MNIST digit '4'.
 N=6824 grayscale images with the label '4' were flattened to 784-dimensional vectors to compute then reshape reconstructed images of the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
-Chosen exemplars were not the same as the literature ([](#fig2b)) [@doi:10.1109/BIP60195.2023.10379342], though this was unsurprising because our subset of MNIST was not the same.
+Chosen exemplars were not the same as the literature ([](#fig2b)) [@doi:10.1109/BIP60195.2023.10379342], though this was not surprising given the difference in data.
 
 :::{figure} #fig2b_data
 :label: fig2b
@@ -56,15 +55,15 @@ Computation of practical representative images of the MNIST digit '4' using the 
 
 ## Using autoencoders to select average MNIST digits
 
-Barkley adopted this approach to representative image selection using the latent space of an autoencoder model.
-First, theoretical average latent vectors were calculated using the same measures of central tendency.
+This approach to representative image selection was adopted to use the latent space of an autoencoder model.
+First, theoretical average latent vectors were calculated using measures of central tendency.
 Then, practical examples in the embedding were ranked by Euclidean distance to the calculated centroids.
 
 ### 1. Compute and decode centroid latent vectors
 
-Barkley trained a convolutional autoencoder model on the MNIST dataset and saved the encoder and decoder weights ([](#sfig2a)). 
+A convolutional autoencoder model was trained on the MNIST dataset and the encoder and decoder weights were saved ([](#sfig2a)). 
 n=6824 latent vectors labelled "four" were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit "four" ([](#fig2c)).
-Interestingly, the decoded centroid latent vectors appeared like the mean and median reconstructions calculated using independent pixel values ([](#fig2a)).
+The decoded centroid latent vectors appeared similar to the mean and median reconstructions calculated using independent pixel values ([](#fig2a)).
 
 :::{figure} #fig2c_data
 :name: fig2c
@@ -77,7 +76,7 @@ Decoded latent vectors: arithmetic mean (left), median (middle) and geometric me
 The behaviour of the theoretical image generally does not correspond to a distinct image, therefore it is not considered the final representative image.
 However, it can be used to select representative examples from the dataset [@doi:10.1109/BIP60195.2023.10379342].
 The closest latent vector to each centroid was found based on the lowest Euclidean distance in the vector embedding ([](#fig2d)).
-The resulting images were remarkably similar, if not identical to the practical representative images in [](#fig2b), which suggests that these methods were comparable.
+The chosen images were remarkably similar, if not identical to the practical representative images in [](#fig2b), which suggests that these methods are comparable.
 
 :::{figure} #fig2d_data
 :name: fig2d
@@ -87,9 +86,8 @@ Closest examples to the arithmetic mean (left), median (middle) and geometric me
 
 ## Limitations
 
-These examples of image selection, while effective, relied on class information from an annotated dataset.
-As counterexamples, both methods of image selection fell apart when reconstructing theoretical averages using the global centroid.
-Reconstructed images from the latent space had characteristics similar to the pixel-wise average reconstructions that are difficult to describe, shedding light into the black box.
+These examples of image selection relied on class information from an annotated dataset.
+As counter-examples, both methods fell apart when reconstructing theoretical averages using the global centroid.
 
 :::{figure} #fig2e_data
 :name: fig2e
@@ -103,7 +101,7 @@ Figure legend.
 Figure legend.
 :::
 
-Reconstructing the global average did not produce meaningful images given our knowledge of the digits 0-9.
-This suggests that determinations on computing the global or class average will make or break this two step approach to image selection, therefore these methods are not generalizable.
-Conceptually it made sense to find an average image of the digit 4, but not to find the average of all digits.
-Perhaps this approach to image selection would be viable if averaging by label, but this would involve an upstream classifier model or manual annotation.
+Reconstructing the global average did not produce meaningful images.
+This suggests that determinations to compute the global or class average will make or break this two step approach to image selection, therefore it is not generalizable.
+Conceptually, it made sense to find an average image of the digit 4, but not to find the average of all digits.
+Perhaps this approach to image selection would be more consistent if averaging by label, but this would involve an upstream classifier model or manual annotation.

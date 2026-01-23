@@ -1,7 +1,7 @@
 ---
 title: NucleusNet
 numbering:
-  enumerator: 8.%s
+  enumerator: 10.%s
 label : nucleusnet_page
 ---
 
@@ -12,10 +12,10 @@ As expected, there was variation in cell confluence and signal intensity between
 
 ## NucleusNet-10K
 
-A small version of the single-cell dataset, NucleusNet-10K, contains a random draw of 100 images from each experiment.
+A small version of the single-cell dataset, NucleusNet-10K, contains 100 random images from each experiment.
 NucleusNet-10K was stitched and converted to Deep Zoom Image format, then hosted on Github Pages to be viewed in OpenSeadragon [@doi:10.1242/jcs.262198].
-This map represents a random sample of ~1% of NucleusNet with experiments organized by row.
-There was variation in signal intensity across experiments, warranting image processing to normalize or standardize pixel intensities.
+This map represents a random sample of ~1% of NucleusNet with experiments organized in chronological order by row.
+There was variation in signal intensity across experiments, which could warrant the normalization or standardization of pixel intensities.
 There is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy with 200,000 human-induced pluripotent stem cells.
 
 ::::{figure}
@@ -34,11 +34,10 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
 
 1. Computation of theoretical average images
 
-Barkley calculated theoretical latent vectors using measures of central tendency, including the arithmetic mean, median and geometric median in latent space.
-Averaged latent vectors were reconstructed with the decoder to synthesize theoretical representative images of the nucleus ([](#fig2i)).
+Theoretical latent vectors were calculated using measures of central tendency, including the arithmetic mean, median and geometric median.
+Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig2i)).
 Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342], so these reconstructions do not represent real data.
-Otherwise, theoretical average nuclei appeared to blend all image features from the dataset.
-There is also what appears to be background signal around the theoretical nucleus.
+They appeared to blend all image features from the dataset, and there is what appears to be background signal around the theoretical nucleus.
 
 :::{figure} #ae1m-theoretical
 :label: fig2i
@@ -48,9 +47,15 @@ Figure legend.
 
 2. Determination of prototypical images
 
-Real images were selected based on distance to a theoretical centroid in latent space.
-There are various distance metrics and measures of central tendency.
-For simplicity, representative images were defined by euclidean distance to the mean vector, with 10,000 examples presented using OpenSeadragon.
+Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
+Using this measure, for simplicity, yields a representative image of a nucleus ([](#fig2j)).
+
+```{figure} ./figures/chosen_one.tif
+:label: fig2j
+Representative image of NucleusNet.
+Image selected by nearest Euclidean distance (5.30907535552978) to the mean latent vector. 
+ROI_300 from the Run11BR_bottom_right stitched image.
+```
 
 ---
 

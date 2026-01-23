@@ -21,7 +21,10 @@ This journal supports two viewers; Vizarr [@doi:10.1038/s41592-022-01482-7] and 
 
 ```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
-Figure Legend.
+General approach to cloud-based virtual microscopy. 
+1) Automated image acquisition with a microscope.
+2) Convert microscopy data to a pyramidal format, host in the cloud.
+3) Retrieve chunks of data from the cloud as readers interact with viewers embedded in the article.
 ```
 
 ## Vizarr

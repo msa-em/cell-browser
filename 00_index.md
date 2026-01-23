@@ -1,5 +1,5 @@
 ---
-title: 'Unbiased replication of representative images using embedded microscopy maps'
+title: 'Unbiased replication of representative images using virtual microscopy'
 short_title: Virtual Microscopy
 numbering:
   heading_2: false
@@ -7,8 +7,8 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Add your abstract here.
-Avoid complicated equations / citations here, for crossref compatibility.
+Microscopes are 
+
 
 +++
 

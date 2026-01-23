@@ -31,7 +31,7 @@ Illumination settings in the mCherry channel were set based on the mCherry-KDEL 
 In comparison, transfection efficiency and protein expression was better with lipofectamine, causing saturated signal in these samples.
 All four mCherry-ER constructs showed aberrant ER morphology, including mCherry-KDEL, which was used in the original study.
 ER remodelling was claimed in representative images of cells expressing mCherry-KDEL, described as 'aggregated' and 'collapsed' ER elements induced by reovirus.
-However, microscopy maps show that this phenotype is observed in some cells expressing mCherry-KDEL in the absence of reovirus infection.
+However, replicate microscopy maps show that this phenotype is observable in cells expressing mCherry-KDEL in the absence of reovirus infection.
 
 ### mCherry-KDEL
 

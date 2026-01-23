@@ -17,7 +17,7 @@ Antibiotics were not used in the replication study, although the original study 
 Data collection was fully-motorized for unbiased samples of replicate immunofluorescence experiments.
 The coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens in immersion oil. 
 Pinholes in each channel were opened to capture the widest depth of field.
-Acquisition of 10x10 or 15x15 grids (5% overlap) with the Olympus IX3-SSU motorized XY stage were autofocused with Z-drift compensation.
+High-magnification tiles were acquired in 10x10 or 15x15 grids (5% overlap) with a motorized stage (Olympus IX3-SSU) and Z-drift compensation.
 Care was taken to avoid spectral overlap, but aberrations are possible.
 
 ---
@@ -26,12 +26,12 @@ Care was taken to avoid spectral overlap, but aberrations are possible.
 
 ## Immunofluorescence imaging of transfected-infected cells
 
-This replication experiment aimed to observe cells with a co-incidence of plasmid transfection and virus infection.
+This experiment aimed to observe cells with a co-incidence of plasmid transfection and virus infection.
 In the original study, cells were transfected before virus infection, each incubated for twenty four hours.
-A confounding variable was interference of viral infection from transfection, so two reagents were tested.
+Interference of viral infection from plasmid transfection was a confounding variable, so two transfection reagents were tested.
 All samples were infected with reovirus strain T1L at MOI 100 and were co-stained for reovirus and ER antigens.
 
-### mCherry-KDEL transfection with TransIT-2020 before reovirus infection
+### mCherry-KDEL transfection (TransIT-2020) before reovirus infection
 
 Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reovirus infection.
 
@@ -44,7 +44,7 @@ Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reoviru
 
 :::
 
-### Untransfected control (left) and transfection with lipofectamine (right)
+### Untransfected control (left) and lipofectamine transfection (right)
 
 Lipofectamine 3000 transfection reduced cell confluence and reovirus infection in this model.
 

@@ -5,8 +5,6 @@ numbering:
 label : replication_page
 ---
 
----
-
 The replicate experiment was kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted.
 The cell line, plasmid, transfection reagent, and reovirus antibody were the same.
@@ -18,7 +16,7 @@ The cell line, plasmid, transfection reagent, and reovirus antibody were the sam
 ## Immunofluorescence imaging of transfected-infected cells
 
 HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by infection with reovirus T1L at MOI 100.
-Samples were fixed after one day of infection for immunofluorescence staining of viral and ER antigens.
+Samples were fixed after one day of infection for immunofluorescence detection of viral (chicken μNS antibody) and ER antigens.
 
 ::::{grid} 1 1 1 1
 

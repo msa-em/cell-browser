@@ -32,31 +32,30 @@ To test this, Barkley challenged the claim that mammalian orthoreovirus remodels
 This study was chosen because most experiments showed high-magnification representative microscopy images without numerical results.
 An immunofluorescence experiment was replicated and imaged with a fully-motorized confocal microscope for an unbiased population-scale sample at high-resolution.
 Microscopy maps were made with the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
-All parties have access to the same raw data from which Barkley interpreted that the key findings of the original study were not robust and replicable.
+All parties have access to the raw data from which Barkley interpreted that the key findings of the original study were not robust and replicable.
 
 Microscopy maps are interactive figures, but static figures still predominate scientific publishing as a relic of print journals.
-Despite the benefits of virtual microscopy, its adoption by the scientific community is uncertain.
-For discourse in static figures, this article explored computational methods of objective representative image selection.
-This work builds on a study critical of representative microscopy images that focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
+Despite the benefits of virtual microscopy, representative images will persist until mainstream scientific journals adopt interactive figures.
+Given the widespread use of static figures, the second chapter of this article focused on computational image selection.
+This follows a study critical of representative microscopy images that focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The authors implemented a web server that chose typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
-Representative image selection is an interesting use case for artificial intelligence.
+This idea was revisited as representative image selection was an interesting use case for artificial intelligence.
 Barkley automated the process of sample collection and image selection from a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
-Stitched panoramas were presented to readers as microscopy maps.
 Representative images were then selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
-Representative images were defined near the centroid of latent space, though counter-examples suggest that this approach does not generalize.
+Representative images were defined near the centroid of latent space, though counter-examples show that this approach does not generalize.
 To define what is representative, both the subjective determinations made by humans and the objective determinations made by autoencoders are opaque.
-In contrast, as a visual communication tool, microscopy maps offer greater transparency and accessibility compared to representative images.
+In contrast, microscopy maps offer greater transparency and accessibility compared to representative images as an alternative visual communication tool.
 
 ---
 
 ## Definitions
 
 _Virtual microscopy_ is the process of sharing image data over computer networks.
-A related term _virtual nanoscopy_ described the process of automated image acquisition from an electron microscope and unbiased sharing to readers in interactive viewers. [@doi:10.1083/jcb.201201140]
+A related term _virtual nanoscopy_ described the process of automated image acquisition from an electron microscope and unbiased sharing to readers in interactive viewers [@doi:10.1083/jcb.201201140].
 
-A _microscopy map_ is the interactive figure used to view virtual microscopy data. [@doi:10.1083/jcb.201201140]
+A _microscopy map_ is the interactive figure used to view virtual microscopy data [@doi:10.1083/jcb.201201140].
 The original term '_electron_ microscopy map' was redefined to fit broader use cases like light microscopy.
 
 A _representative image_ is defined as a visual communication tool used by microscopists to communicate research findings to other scientists.

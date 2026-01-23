@@ -23,8 +23,7 @@ To fix the cells, media was aspirated and 4% PFA solution was applied without wa
 After fixation the cells were permeabilized and blocked for twenty minutes in PBS with Triton X-100 and bovine serum albumin.
 Antibodies were diluted in this buffer and were incubated for one hour at room temperature in the dark, both followed by three PBS washes.
 Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS.
-Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and cured overnight at room temperature in the dark.
-Slides were gently cleaned then stored at four degrees celsius.
+Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and cured overnight in the dark.
 
 ---
 
@@ -88,12 +87,11 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells called viral factories.
 The viral protein μNS self-assembles to form the matrix and recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
 The original study stained viral factories with μNS and σNS antibodies, including chicken polyclonal μNS antiserum from our laboratory.
-Barkley cross-validated with antibody with another polyclonal μNS antiserum.
+The chicken antibody was cross-validated with a guinea pig polyclonal μNS antiserum.
 All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies.
 
 ## Chicken polyclonal antiserum
 
-The chicken antibody was used in the original and replication study.
 Virus-infected cells are distinguishable and intracellular viral factories can be observed at high-magnification.
 
 ::::{grid} 1 1 1 1

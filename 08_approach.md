@@ -7,7 +7,7 @@ label : AEapproach_page
 
 ---
 
-# Computational image selection with machine learning
+# Computational image selection with machine learning models
 
 The process of representative microscopy image selection remains a subjective, non-repeatable step in the scientific process.
 To address this, automated methods of objective representative image selection from microscopy datasets were introduced (https://doi.org/10.1016/s0006-3495(99)77379-0).
@@ -22,4 +22,4 @@ Though this assumption is flawed [@doi:10.48550/arXiv.2501.13864] and autoencode
 Artificial intelligence models need large datasets, so Barkley created an image collection of the [cell nucleus](<wiki:Cell_nucleus>) called NucleusNet.
 It is the sum of 100 automated confocal imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
 An autoencoder model was trained on NucleusNet, and representative images were defined near the centroid of latent space.
-It was impossible interpret the embedding to justify this approach, however it is unlikely to return anomalies from datasets of this scale.
+It is impossible to interpret the embedding to justify this approach, however this method is unlikely to return anomalies from datasets of this scale.
