@@ -35,5 +35,5 @@ Considered an advanced implementation [@doi:10.1242/jcs.262198], pyramidal OME-Z
 ## OpenSeadragon
 
 A free and open-source implementation, described elsewhere [@doi:10.1242/jcs.262198], was included as an alternative approach.
-Pyramidal Deep Zoom Image data was hosted on Github pages and tiles are streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
+Pyramidal Deep Zoom image (DZI) data was hosted on Github pages and tiles are streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
 The reader cannot control dimensions like channels or time, so it is best suited for single-channel or composite microscopy images.

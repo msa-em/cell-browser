@@ -74,6 +74,7 @@ project:
     MSE: mean squared error
     PBS: phosphate buffered saline
     PFA: paraformaldehyde
+    DZI: deep zoom image
   toc:
     - file: 00_index.md
     - file: 01_introduction.md

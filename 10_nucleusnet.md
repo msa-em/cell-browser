@@ -6,7 +6,7 @@ label : nucleusnet_page
 ---
 
 One-hundred coverslips were sampled over twenty-one passages of the same cell line.
-[CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the populations had asynchronous cell cycles.
+[CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.
 Nuclei were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig1a)).
 
@@ -18,7 +18,7 @@ As expected, there was variation in cell confluence and signal intensity between
 }
 :::
 
-Representative coverslip from imaging Run 72.
+Representative coverslip. Four stitched sixteenths from Run 72 ranked in the top ten with an average number and brightness of ROIs ([](#tableS1)). Stitched images from this experiment were fused, with some artifacts, then converted to DZI format and hosted on Github pages.
 ::::
 
 ## NucleusNet-10K
@@ -37,6 +37,7 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
 }
 :::
 
+NucleusNet-10K. One hundred experiments are organized by row, with one hundred random images per coverslip.
 ::::
 
 ---
