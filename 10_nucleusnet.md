@@ -6,8 +6,8 @@ label : nucleusnet_page
 ---
 
 One-hundred coverslips were sampled over twenty-one passages of the same cell line.
-[CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed in paraformaldehyde (PFA) after at least one day, so the populations had asynchronous cell cycles.
-Nuclei of fixed cells were visualized with DAPI which binds to DNA.
+[CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the populations had asynchronous cell cycles.
+Nuclei were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig1a)).
 
 ::::{figure}
@@ -18,6 +18,7 @@ As expected, there was variation in cell confluence and signal intensity between
 }
 :::
 
+Representative coverslip from imaging Run 72.
 ::::
 
 ## NucleusNet-10K

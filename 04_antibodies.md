@@ -18,7 +18,7 @@ Donkey anti-mouse antibodies conjugated to AlexaFluor488 (715-545-150), donkey a
 ## Immunofluorescence protocol
 
 Cells were seeded on 12mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar).
-To fix the cells, media was aspirated and 4% PFA solution was applied without washing.
+To fix the cells, media was aspirated and 4% paraformaldehyde (PFA) solution was applied without washing.
 4% PFA was incubated for twenty minutes at room temperature, followed by three PBS washes.
 After fixation the cells were permeabilized and blocked for twenty minutes in PBS with Triton X-100 and bovine serum albumin.
 Antibodies were diluted in this buffer and were incubated for one hour at room temperature in the dark, both followed by three PBS washes.
