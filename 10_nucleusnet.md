@@ -50,11 +50,9 @@ Figure legend.
 Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
 Using this measure, for simplicity, yields a representative image of a nucleus ([](#fig2j)).
 
-```{figure} ./figures/chosen_one.tif
+```{figure} ./figures/chosen_one.png
 :label: fig2j
-Representative image of NucleusNet.
-Image selected by nearest Euclidean distance (5.30907535552978) to the mean latent vector. 
-ROI_300 from the Run11BR_bottom_right stitched image.
+Representative image from NucleusNet, selected by nearest Euclidean distance (5.30907535552978) to the mean latent vector. ROI_300 from the Run11BR_bottom_right stitched image.
 ```
 
 ---
@@ -64,7 +62,7 @@ ROI_300 from the Run11BR_bottom_right stitched image.
 ## Cell culture
 
 The CV-1 cell line is fibroblast-like and derived from the kidney of an African green monkey.
-CV-1 cells were cultured in Eagle's minimal essential medium supplemented with fetal bovine serum (10% volume/volume) at 37 degrees celsius with 5 percent environmental carbon dioxide to buffer pH.
+CV-1 cells were cultured in Eagle's minimal essential medium supplemented with 10% fetal bovine serum at 37 degrees celsius with 5 percent environmental carbon dioxide to buffer pH.
 At each passage, six glass-bottom cell culture dishes with a 20mm diameter coverslip (Mattek Corporation, P35G-1.5-20-C) were seeded with varied densities of CV-1 cells (~1e4-5e4 cells) to promote heterogeneous cell confluence.
 
 ## Sample preparation
@@ -112,11 +110,7 @@ The confocal microscope was on a pressurized CleanBench isolation laboratory tab
 :label: fig4
 :align: center
 :width: 100%
-
-An overview of data collection and pre-processing. 
-A) Tiles were imaged in a 50x50 grid. 
-B) Then stitched into 25x25 tile grids (quarters). 
-C) Quarters were cropped into four stitched images.
+An overview of data collection and pre-processing. A) Tiles were imaged in a 50x50 grid. B) Then stitched into 25x25 tile grids (quarters). C) Quarters were cropped into four stitched images.
 ```
 
 1. Conversion to 8-bit .TIF format
@@ -179,7 +173,7 @@ The cellpose model segmented the nuclei in all stitched images and the mask file
 
 The orientation of a cell is known to confound the vector embedding of autoencoder models trained on single-cell microscopy data, motivating the development of orientation-invariant autoencoder models [@doi:10.1038/s41467-024-45362-4].
 Similarly, a multi-encoder variational autoencoder model controlled for several transformational features like orientation that were 'uninformative' in single-cell analyses [@doi:10.1038/s42003-022-03218-x].
-Barkley [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) and by fitting and rotating a minimal area rectangle to the cellpose mask.
+Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting and rotating a minimal area rectangle to the cellpose mask.
 Nuclei were center-cropped and all values outside of the mask were set to zero in the cropped images.
 This was notable because it left background signal around the nucleus, which later emerged in reconstructions from the autoencoder.
 Otherwise, cropped images in NucleusNet were not processed further.

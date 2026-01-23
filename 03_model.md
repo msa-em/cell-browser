@@ -18,7 +18,6 @@ Data collection was fully-motorized for unbiased samples of replicate immunofluo
 The coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens in immersion oil. 
 Pinholes in each channel were opened to capture the widest depth of field.
 High-magnification tiles were acquired in 10x10 or 15x15 grids (5% overlap) with a motorized stage (Olympus IX3-SSU) and Z-drift compensation.
-Care was taken to avoid spectral overlap, but aberrations are possible.
 
 ---
 

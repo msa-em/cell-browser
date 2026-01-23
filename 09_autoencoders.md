@@ -23,7 +23,7 @@ Latent vectors are reshaped then upsampled with Conv2DTranspose (stride 2) and C
 The network was trained with Adam optimizer [@doi:10.48550/arXiv.1412.6980] to minimize the mean squared error (MSE) between original and reconstructed images.
 These configurations were used for all autoencoders in this study.
 Models varied in the number of layers, number of filters, latent dimensions, learning rate and batch size which were parameters that were manually tuned to the dataset.
-In deciding on a model, Barkley considered the importance of limiting the number of parameters in the model and decided on the vanilla model.
+In deciding on a model, Barkley considered limiting the number of parameters.
 There are variations of autoencoders that have been compared to show the efficiencies and trade-offs of different models at image reconstruction, latent representation and accuracy at anomaly detection [@doi:10.1016/j.mlwa.2024.100572].
 
 ---
@@ -104,4 +104,4 @@ Figure legend.
 Reconstructing the global average did not produce meaningful images.
 This suggests that determinations to compute the global or class average will make or break this two step approach to image selection, therefore it is not generalizable.
 Conceptually, it made sense to find an average image of the digit 4, but not to find the average of all digits.
-Perhaps this approach to image selection would be more consistent if averaging by label, but this would involve an upstream classifier model or manual annotation.
+Perhaps this approach to image selection would be more consistent with labels, but this would involve an upstream classifier model or manual annotation.
