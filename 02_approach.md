@@ -16,13 +16,14 @@ A solution is [virtual microscopy](<wiki:Virtual_microscopy>); sharing image dat
 Often used for pedagogy, virtual microscopy could benefit research.
 Academics have proposed a variation of virtual microscopy for the unbiased presentation of transmission electron microscopy data [@doi:10.1083/jcb.201201140].
 Today, there are free and open-source methods [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be implemented in scientific journals.
-Our approach to virtual microscopy involved automated image acquisition, stitched multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats, and embedded interactive viewers ([](#abstract)).
-This journal supports two viewers; Vizarr [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/) that were used to demonstrate cloud-based virtual microscopy.
+Our approach to virtual microscopy involved automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) file formats, and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
-General approach to cloud-based virtual microscopy. 1) Automated image acquisition with a microscope. 2) Convert microscopy data to a pyramidal format, host in the cloud. 3) Retrieve chunks of data from the cloud as readers interact with viewers embedded in the article.
+Cloud-based virtual microscopy. 1) Automated image acquisition with a microscope. 2) Reformat microscopy data and host in the cloud. 3) Retrieve chunks of data from cloud storage as readers browse embedded microscopy maps.
 ```
+
+This journal supports two viewers; Vizarr [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/) that were used to demonstrate cloud-based virtual microscopy.
 
 ## Vizarr
 

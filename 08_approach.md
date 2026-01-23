@@ -7,11 +7,11 @@ label : AEapproach_page
 
 ---
 
-# Computational image selection with machine learning models
+# Computational image selection with machine learning
 
 The process of representative microscopy image selection remains a subjective, non-repeatable step in the scientific process.
 To address this, automated methods of objective representative image selection from microscopy datasets were introduced (https://doi.org/10.1016/s0006-3495(99)77379-0).
-The goal is to use computers to define representative images from datasets, and it is still an open challenge.
+The challenge is to use computers to define representative images from a dataset.
 One study used principal component analysis and K-means clustering to select representative images from medical ultrasound video series [@doi:10.3389/fonc.2021.673775].
 Another method was tested on real-world datasets [@doi:10.1109/BIP60195.2023.10379342], though it did not involve neural networks.
 Barkley proposed an approach using the latent space of an autoencoder model and compared methods on the [MNIST database](<wiki:MNIST_database>).

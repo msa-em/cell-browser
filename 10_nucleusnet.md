@@ -36,7 +36,7 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
 
 Theoretical latent vectors were calculated using measures of central tendency, including the arithmetic mean, median and geometric median.
 Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig2i)).
-Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342], so these reconstructions do not represent real data.
+Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342].
 They appeared to blend all image features from the dataset, and there is what appears to be background signal around the theoretical nucleus.
 
 :::{figure} #ae1m-theoretical
@@ -45,14 +45,14 @@ They appeared to blend all image features from the dataset, and there is what ap
 Figure legend.
 :::
 
-2. Determination of prototypical images
+2. Determination of a prototypical image
 
 Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
-Using this measure, for simplicity, yields a representative image of a nucleus ([](#fig2j)).
+Using this measure for simplicity yielded one representative image ([](#fig2j)).
 
 ```{figure} ./figures/chosen_one.png
 :label: fig2j
-Representative image from NucleusNet, selected by nearest Euclidean distance (5.30907535552978) to the mean latent vector. ROI_300 from the Run11BR_bottom_right stitched image.
+Representative image from NucleusNet, defined by nearest Euclidean distance to the mean latent vector: ROI_300 from the Run11BR_bottom_right stitched image.
 ```
 
 ---

@@ -30,9 +30,10 @@ In the original study, cells were transfected before virus infection, each incub
 Interference of viral infection from plasmid transfection was a confounding variable, so two transfection reagents were tested.
 All samples were infected with reovirus strain T1L at MOI 100 and were co-stained for reovirus and ER antigens.
 
-### mCherry-KDEL transfection (TransIT-2020) before reovirus infection
+### mCherry-KDEL transfection with TransIT-2020.
 
-Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reovirus infection.
+Transfection with TransIT-2020 was favourable for subsequent reovirus infection.
+This is an early look at the replication experiment.
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
@@ -45,7 +46,7 @@ Transfection with TransIT-2020 (Mirus Bio) was favourable for subsequent reoviru
 
 ### Untransfected control (left) and lipofectamine transfection (right)
 
-Lipofectamine 3000 transfection reduced cell confluence and reovirus infection in this model.
+Lipofectamine transfection reduced cell confluence and reovirus infection in this model.
 
 ::::{grid} 2 2 2 2
 

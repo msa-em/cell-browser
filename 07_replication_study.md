@@ -99,5 +99,6 @@ Three additional mCherry-ER reporters were included for comparison to mCherry-KD
 ## Conclusions
 
 Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling in replicate microscopy maps.
-The absence of reliable observations does not disprove original claims in representative images.
-However, virtual microscopy provides an unbiased assessment of replicability that is open to scrutiny.
+Irregular ER morphology was observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
+Otherwise, there was also no clear indication of ER stress in cells infected with reovirus.
+This does not disprove original claims, but virtual microscopy provides an unbiased assessment that is open to public scrutiny.

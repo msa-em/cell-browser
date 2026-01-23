@@ -35,7 +35,7 @@ There are variations of autoencoders that have been compared to show the efficie
 A method of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342] was tested on real-world data like the [MNIST database](<wiki:MNIST_database>), which is a collection of 70,000 images of handwritten numbers that were manually annotated into ten classes corresponding to the digits 0-9.
 Briefly, the two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in vector space.
 Measures of central tendency were the arithmetic mean, median and geometric median, calculated as 784-dimensional vectors then reshaped to reconstruct 28x28 pixel theoretical images.
-An example in the literature used a sub-set of MNIST images (n=720) labelled "four".
+An example in the literature used a sub-set of MNIST images (n=720) labelled 'four'.
 Although our replication used all MNIST "four" images (N=6824), the outcome was consistent with the primary literature ([](#fig2a)) [@doi:10.1109/BIP60195.2023.10379342].
 
 :::{figure} #fig2a_data
@@ -45,7 +45,7 @@ Computation of theoretical representative images of the MNIST digit '4'.
 N=6824 grayscale images with the label '4' were flattened to 784-dimensional vectors to compute then reshape reconstructed images of the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
-Chosen exemplars were not the same as the literature ([](#fig2b)) [@doi:10.1109/BIP60195.2023.10379342], though this was not surprising given the difference in data.
+Chosen exemplars were not the same as the literature ([](#fig2b)) [@doi:10.1109/BIP60195.2023.10379342], though this could be explained by the difference in datasets.
 
 :::{figure} #fig2b_data
 :label: fig2b
@@ -62,7 +62,7 @@ Then, practical examples in the embedding were ranked by Euclidean distance to t
 ### 1. Compute and decode centroid latent vectors
 
 A convolutional autoencoder model was trained on the MNIST dataset and the encoder and decoder weights were saved ([](#sfig2a)). 
-n=6824 latent vectors labelled "four" were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit "four" ([](#fig2c)).
+n=6824 latent vectors labelled 'four' were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit 'four' ([](#fig2c)).
 The decoded centroid latent vectors appeared similar to the mean and median reconstructions calculated using independent pixel values ([](#fig2a)).
 
 :::{figure} #fig2c_data
@@ -103,5 +103,5 @@ Figure legend.
 
 Reconstructing the global average did not produce meaningful images.
 This suggests that determinations to compute the global or class average will make or break this two step approach to image selection, therefore it is not generalizable.
-Conceptually, it made sense to find an average image of the digit 4, but not to find the average of all digits.
+Conceptually, it made sense to find an average image of the digit four, but not to find the average of all digits.
 Perhaps this approach to image selection would be more consistent with labels, but this would involve an upstream classifier model or manual annotation.
