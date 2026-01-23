@@ -18,7 +18,7 @@ As expected, there was variation in cell confluence and signal intensity between
 }
 :::
 
-Zoomable coverslip from experiment 72. Four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#tableS1)). Stitched images were fused and reformatted to DZI then hosted on Github pages.
+An example coverslip. Experiment 72 had four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#tableS1)).
 ::::
 
 ## NucleusNet-10K
@@ -37,7 +37,7 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
 }
 :::
 
-NucleusNet-10K. One hundred random cropped images from one hundred experiments are shown.
+NucleusNet-10K. One hundred random images from one hundred experiments (n=10,000) are shown.
 ::::
 
 ---

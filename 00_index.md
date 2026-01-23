@@ -1,5 +1,5 @@
 ---
-title: 'Unbiased replication of representative images using cloud-based virtual microscopy'
+title: 'Unbiased replication of representative images using virtual microscopy'
 short_title: Virtual Microscopy
 numbering:
   heading_2: false

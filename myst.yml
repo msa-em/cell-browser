@@ -2,7 +2,7 @@
 version: 1
 project:
   id: msa-em-cell-browser-1
-  title: Unbiased replication of representative images using cloud-based virtual microscopy
+  title: Unbiased replication of representative images using virtual microscopy
   description: Application of virtual microscopy as an unbiased method to replicate representative microscopy images.
   short_title: Virtual Microscopy
   keywords:
