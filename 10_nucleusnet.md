@@ -8,7 +8,7 @@ label : nucleusnet_page
 One-hundred coverslips were sampled over twenty-one passages of the same cell line.
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.
 Nuclei were visualized with DAPI which binds to DNA.
-As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig1a)).
+As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig12b)).
 
 ::::{figure}
 
@@ -18,7 +18,7 @@ As expected, there was variation in cell confluence and signal intensity between
 }
 :::
 
-An example coverslip. Experiment 72 had four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#tableS1)).
+**Figure 10.1:** An example coverslip. Experiment 72 was chosen because four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#sTable1)). The sixteen stitched images were fused then converted to DZI format which was hosted on Github pages.
 ::::
 
 ## NucleusNet-10K
@@ -37,7 +37,7 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
 }
 :::
 
-NucleusNet-10K. One hundred random images from one hundred experiments (n=10,000) are shown.
+**Figure 10.2:** NucleusNet-10K. One hundred random images from one hundred experiments (n=10,000) are shown.
 ::::
 
 ---
@@ -46,24 +46,25 @@ NucleusNet-10K. One hundred random images from one hundred experiments (n=10,000
 
 1. Computation of theoretical average images
 
+An autoencoder model was trained on NucleusNet for 50 epochs ([](#sfig12c).
 Theoretical latent vectors were calculated using measures of central tendency, including the arithmetic mean, median and geometric median.
-Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig2i)).
+Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig10c)).
 Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342].
 They appeared to blend all image features from the dataset, and there is what appears to be background signal around the theoretical nucleus.
 
-:::{figure} #ae1m-theoretical
-:label: fig2i
-:placeholder: ./figures/fig2i.png
+:::{figure} #fig10c_data
+:label: fig10c
+:placeholder: ./figures/fig10c.png
 Figure legend.
 :::
 
 2. Determination of a prototypical image
 
 Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
-Using this measure for simplicity yielded one representative image ([](#fig2j)).
+Using this measure for simplicity yielded one representative image ([](#fig10d)).
 
-```{figure} ./figures/chosen_one.png
-:label: fig2j
+```{figure} ./figures/fig10d.png
+:label: fig10d
 Representative image from NucleusNet, defined by nearest Euclidean distance to the mean latent vector: ROI_300 from the Run11BR_bottom_right stitched image.
 ```
 
@@ -118,8 +119,8 @@ The confocal microscope was on a pressurized CleanBench isolation laboratory tab
 
 ## Data pre-processing
 
-```{figure} ./figures/fig4.png
-:label: fig4
+```{figure} ./figures/sampling.png
+:label: sampling
 :align: center
 :width: 100%
 An overview of data collection and pre-processing. A) Tiles were imaged in a 50x50 grid. B) Then stitched into 25x25 tile grids (quarters). C) Quarters were cropped into four stitched images.
@@ -132,7 +133,7 @@ The raw were converted to 8-bit TIF format using FIJI [@doi:10.1038/nmeth.2019] 
 
 2. Tiles stitched with Microscopy Image Stitching Tool (MIST)
 
-The size of a full stitched image approaches the maximum value that a 32-bit integer can hold, therefore the N=2500 .tif files were divided into sub-folders containing n=625 images corresponding to four quarters ([](#fig4)).
+The size of a full stitched image approaches the maximum value that a 32-bit integer can hold, therefore the N=2500 .tif files were divided into sub-folders containing n=625 images corresponding to four quarters ([](#sampling)).
 The images in these sub-folders were stitched into 25x25 tile panoramas using the MIST plugin [@doi:10.1038/s41598-017-04567-y] in FIJI.
 MIST was useful to correct for inaccurate step sizes that sometimes occurred with the motorized stage.
 
@@ -165,7 +166,7 @@ MIST was useful to correct for inaccurate step sizes that sometimes occurred wit
 
 The stitched quarter was displayed and saved, named by run and position.
 For example, Run53TL was from the top left quarter of the 53rd imaging experiment.
-The stitched quarters were then cropped into four quarters, yielding n=16 stitched images per coverslip ([](#fig4)) and N=1600 stitched images from all one-hundred experiments.
+The stitched quarters were then cropped into four quarters, yielding n=16 stitched images per coverslip ([](#sampling)) and N=1600 stitched images from all one-hundred experiments.
 
 3. Segmentation with cellpose
 
@@ -177,7 +178,7 @@ Masking by the cellpose segmentation model can be evaluated on ten representativ
 Unique masks were assigned random colours in the overlay to help differentiate ROIs.
 
 The cellpose nucleus model was re-trained on N=125000 fields from NucleusNet, including n=1000 fields with manually-segmented nuclei.
-Weights were saved as CP_20250418_Nuclei_1Kmasks.
+The weights for the chosen model, CP_20250418_Nuclei_1Kmasks, were deposited in /data/cellpose/.
 Advanced parameters in the graphical user interface were adjusted to flow_threshold: 0.5, cellprob_threshold: -2.0, diameter (pixels): 152.91.
 The cellpose model segmented the nuclei in all stitched images and the mask files were saved as PNG files where each region of interest (ROI) is defined by a unique pixel value.
 

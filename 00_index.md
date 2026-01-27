@@ -33,7 +33,6 @@ Add your acknowledgments, if any, here.
 Add your competing interests, if any, here.
 +++
 
-## Data availability
+## Data Availability
 
-[NucleusNet] is archived on Zenodo.
-Model weights are saved in this repository.
+NucleusNet was archived on Zenodo.

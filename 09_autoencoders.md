@@ -12,7 +12,6 @@ The autoencoder is restricted in some way that it is forced to prioritize which 
 
 ## Model architecture
 
-During training, the input to the model were fixed-size $256*256$ pixel grayscale images.
 The architecture of our networks followed a common configuration in autoencoder-based anomaly detection methods [@doi:10.48550/arXiv.2501.13864].
 Rectified linear unit (ReLU) activation functions were used throughout the network for nonlinearity {cite}`NIPS2012_c399862d`, except with a sigmoid activation function at the final layer.
 Linear activation functions were used in the fully-connected dense layer connections to and from the latent space bottleneck.
@@ -36,20 +35,20 @@ A method of objective representative image selection [@doi:10.1109/BIP60195.2023
 Briefly, their two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in vector space.
 Measures of central tendency were the arithmetic mean, median and geometric median, calculated as 784-dimensional vectors then reshaped to reconstruct 28x28 pixel theoretical images.
 Their example used a sub-set of MNIST images (n=720) labelled 'four'.
-Our example used all MNIST "four" images (N=6824), but the outcome was consistent with the primary literature ([](#fig2a)) [@doi:10.1109/BIP60195.2023.10379342].
+Our example used all MNIST "four" images (N=6824), but the outcome was consistent with the primary literature ([](#fig9a)) [@doi:10.1109/BIP60195.2023.10379342].
 
-:::{figure} #fig2a_data
-:label: fig2a
-:placeholder: ./figures/fig2a.png
+:::{figure} #fig9a_data
+:label: fig9a
+:placeholder: ./figures/fig9a.png
 Computation of theoretical representative images of the MNIST digit '4'.
 N=6824 grayscale images with the label '4' were flattened to 784-dimensional vectors to compute then reshape reconstructed images of the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
 The chosen exemplars were not the same as the original study ([](#fig2b)) [@doi:10.1109/BIP60195.2023.10379342].
 
-:::{figure} #fig2b_data
-:label: fig2b
-:placeholder: ./figures/fig2b.png
+:::{figure} #fig9b_data
+:label: fig9b
+:placeholder: ./figures/fig9b.png
 Computation of practical representative images of the MNIST digit '4' using the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
@@ -65,9 +64,9 @@ A convolutional autoencoder model was trained on the MNIST dataset and the encod
 n=6824 latent vectors labelled 'four' were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit 'four' ([](#fig2c)).
 The decoded centroid latent vectors appeared similar to the mean and median reconstructions calculated using independent pixel values ([](#fig2a)).
 
-:::{figure} #fig2c_data
-:name: fig2c
-:placeholder: ./figures/fig2c.png
+:::{figure} #fig9c_data
+:name: fig9c
+:placeholder: ./figures/fig9c.png
 Decoded latent vectors: arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
@@ -78,9 +77,9 @@ However, it can be used to select representative examples from the dataset [@doi
 The closest latent vector to each centroid was found based on the lowest Euclidean distance in the vector embedding ([](#fig2d)).
 The chosen images were remarkably similar, suggesting these methods are comparable.
 
-:::{figure} #fig2d_data
-:name: fig2d
-:placeholder: ./figures/fig2d.png
+:::{figure} #fig9d_data
+:name: fig9d
+:placeholder: ./figures/fig9d.png
 Closest examples to the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
@@ -92,14 +91,14 @@ This shows that the global centroid does not generalize.
 Conceptually, it made sense to find an average image of the digit four, but not to find the average of all digits.
 Perhaps this approach would be more reliable with labels, but this would require an upstream classifier model or manual annotation.
 
-:::{figure} #fig2e_data
-:name: fig2e
-:placeholder: ./figures/fig2e.png
+:::{figure} #fig9e_data
+:name: fig9e
+:placeholder: ./figures/fig9e.png
 Figure legend.
 :::
 
-:::{figure} #fig2f_data
-:name: fig2f
-:placeholder: ./figures/fig2f.png
+:::{figure} #fig9f_data
+:name: fig9f
+:placeholder: ./figures/fig9f.png
 Figure legend.
 :::

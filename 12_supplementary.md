@@ -5,16 +5,30 @@ numbering:
 label : supplementary_page
 ---
 
+---
+
+# MNIST autoencoder
+
+## Loss plot
+
+:::{figure} #sfig12a_data
+:label: sfig12a
+:placeholder: ./figures/sfig12a.png
+Autoencoder reconstruction loss over one-hundred epochs of training on the MNIST dataset.
+:::
+
+---
+
 # NucleusNet
 
-:::{figure} #scatter-plot
-:label: sfig1a
-:placeholder: ./figures/sfig1a.png
+:::{figure} #sfig12b_data
+:label: sfig12b
+:placeholder: ./figures/sfig12b.png
 The number and brightness of ROIs in the stitched images was measured using the associated cellpose mask files. A pre-computed centroid 694.5 ROIs and 79.0 mean intensity was marked.
 :::
 
 ```{list-table} Representative stitched images ranked by distance to centroid: 694.5 ROIs, 79.0 mean intensity
-:label: tableS1
+:label: sTable1
 :header-rows: 1
 
 * - Filename
@@ -66,33 +80,21 @@ Z-score-normalized euclidean distance was used for equal weighting because the f
 
 ---
 
-# MNIST autoencoder
-
-## Loss plot
-
-:::{figure} #sfig2a_data
-:label: sfig2a
-:placeholder: ./figures/sfig2a.png
-Autoencoder reconstruction loss over one-hundred epochs of training on the MNIST dataset.
-:::
-
----
-
 # NucleusNet autoencoder
 
 ## Model training
 
 The entire single-cell image collection was sharded into [TFRecords](https://www.tensorflow.org/tutorials/load_data/tfrecord) to better load the dataset into memory and shuffle it during training.
-Barkley trained an autoencoder model for fifty epochs on the full dataset and saved the encoder and decoder weights after training, then encoded the grayscale images into latent vectors.
-The purpose of this analysis was not to interpret the latent space for scientific inquiry or biological discovery, because artificial models are black boxes.
-Rather, the goal was to show that the autoencoder formed a latent space, then images were chosen near the centroid for presentation as representative images.
+An autoencoder model was trained for 50 epochs on NucleusNet and the encoder and decoder weights were saved.
+The input was 256 by 256 pixel grayscale images that were embedded into 512-dimensional latent vectors.
+Barkley interpreted that the model overfit to the data because the training loss reduced more than validation loss at later epochs.
 
 ### Loss plot
 
-:::{figure} #ae1m-loss-plot
-:label: fig2g
-:placeholder: ./figures/fig2g.png
-Mean squared error (MSE) reconstruction loss (batch size: 32) plot for the training and validation datasets recorded during training.
+:::{figure} #sfig12c_data
+:label: sfig12c
+:placeholder: ./figures/sfig12c.png
+History of MSE reconstruction loss (batch size: 32) for the training and validation datasets over 50 epochs.
 :::
 
 ## Latent space interpolation
@@ -104,9 +106,9 @@ Interpolating between any two latent vectors of embedded NucleusNet images produ
 This result is consistent with the literature describing smooth interpolations with base model autoencoders [@doi:10.48550/arXiv.1807.07543].
 The authors noted that intermediate points did not always resemble real data, which was true with some of the NucleusNet-10K interpolations.
 
-:::{figure} #nucleusnet10k-interpolation
-:label: fig2h
-:placeholder: ./figures/fig2h.png
+:::{figure} #sfig12d_data
+:label: sfig12d
+:placeholder: ./figures/sfig12d.png
 
 Decoded latent vectors along intermediate points of interpolations between random pairs of images from NucleusNet-10K.
 Executing the code will randomly draw fifty pairs for interpolation.
@@ -325,12 +327,16 @@ Others were multi-channel or time-lapse images, which was considered one image w
   -
 ```
 
+---
+
 # Stereotypical images from NucleusNet-10K
 
 ```{image} ./figures/anaphase.png
 :label: anaphase
+Anaphase
 ```
 ```{image} ./figures/telophase.png
 :label: telophase
+Telophase
 ```
 
