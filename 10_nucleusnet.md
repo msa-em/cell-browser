@@ -6,30 +6,46 @@ label : nucleusnet_page
 ---
 
 One-hundred coverslips were sampled over twenty-one passages of the same cell line.
+An example is presented as a zoomable map ([](#fig10a)).
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.
 Nuclei were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig12b)).
 
 ::::{figure}
+:label: fig10a
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
-    "tileSources": "https://russellbarkley.github.io/NucleusNetRun72/Run72.dzi"
+    "tileSources": "https://russellbarkley.github.io/NucleusNet-coverslip/Run72.dzi"
 }
 :::
 
-**Figure 10.1:** An example coverslip. Experiment 72 was chosen because four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#table3)). The sixteen stitched images were fused then converted to DZI format which was hosted on Github pages.
+**Figure 10.1:** An example coverslip. Experiment 72 was chosen because four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#table3)).
 ::::
 
 ## NucleusNet-10K
 
-A small version of the single-cell dataset, NucleusNet-10K, has 100 random cropped images from each experiment.
-NucleusNet-10K was fused and converted to DZI format, hosted on Github Pages and viewed with OpenSeadragon [@doi:10.1242/jcs.262198].
-This map represents a random sample of ~1% of NucleusNet with experiments organized in chronological order by row.
-There was variation in signal intensity across experiments, which could warrant the normalization or standardization of pixel intensities.
+Single-cell cropped images were processed from ROI masks segmented in the stitched images ([](#fig10b)).
+
+::::{figure}
+:label: fig10b
+
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": "https://russellbarkley.github.io/NucleusNet-cellpose/Run25.dzi"
+}
+:::
+
+**Figure 10.2:** Overlay of cellpose segmentation masks. Experiment 25 was chosen because two stitched images ranked in the top ten most average ROI count and intensity. ROI colour was randomized.
+::::
+
+A small version of the dataset, NucleusNet-10K, represents a random sample of ~1% of NucleusNet.
+100 random cropped images from each experiment are shown in chronological order by row ([](#fig10c)).
+The map shows variation in signal intensity across experiments, which could warrant the normalization or standardization of pixel intensities.
 There is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy with 200,000 human-induced pluripotent stem cells.
 
 ::::{figure}
+:label: fig10c
 
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
@@ -37,7 +53,7 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
 }
 :::
 
-**Figure 10.2:** NucleusNet-10K. One hundred random images from one hundred experiments (n=10,000) are shown.
+**Figure 10.3:** NucleusNet-10K: one hundred random images from one hundred experiments (n=10,000).
 ::::
 
 ---
@@ -48,23 +64,23 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
 
 An autoencoder model was trained on NucleusNet for 50 epochs ([](#sfig12c).
 Theoretical latent vectors were calculated using measures of central tendency, including the arithmetic mean, median and geometric median.
-Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig10c)).
+Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig10d)).
 Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342].
 They appeared to blend all image features from the dataset, and there is what appears to be background signal around the theoretical nucleus.
 
-:::{figure} #fig10c_data
-:label: fig10c
-:placeholder: ./figures/fig10c.png
+:::{figure} #fig10d_data
+:label: fig10d
+:placeholder: ./figures/fig10d.png
 Figure legend.
 :::
 
 2. Determination of a prototypical image
 
 Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
-Using this measure for simplicity yielded one representative image ([](#fig10d)).
+Using this measure for simplicity yielded one representative image ([](#fig10e)).
 
-```{figure} ./figures/fig10d.png
-:label: fig10d
+```{figure} ./figures/fig10e.png
+:label: fig10e
 Representative image from NucleusNet, defined by nearest Euclidean distance to the mean latent vector: ROI_300 from the Run11BR_bottom_right stitched image.
 ```
 

@@ -9,12 +9,12 @@ label : supplementary_page
 
 # MNIST autoencoder
 
-## Loss plot
+## Training history
 
 :::{figure} #sfig12a_data
 :label: sfig12a
 :placeholder: ./figures/sfig12a.png
-Autoencoder reconstruction loss over one-hundred epochs of training on the MNIST dataset.
+Autoencoder MSE reconstruction loss over one-hundred epochs of training on the MNIST dataset.
 :::
 
 ---
@@ -82,14 +82,14 @@ Z-score-normalized euclidean distance was used for equal weighting because the f
 
 # NucleusNet autoencoder
 
-## Model training
+## Model
 
 The entire single-cell image collection was sharded into [TFRecords](https://www.tensorflow.org/tutorials/load_data/tfrecord) to better load the dataset into memory and shuffle it during training.
 An autoencoder model was trained for 50 epochs on NucleusNet and the encoder and decoder weights were saved.
 The input was 256 by 256 pixel grayscale images that were embedded into 512-dimensional latent vectors.
 Barkley interpreted that the model overfit to the data because the training loss reduced more than validation loss at later epochs.
 
-### Loss plot
+### Training history
 
 :::{figure} #sfig12c_data
 :label: sfig12c
@@ -110,7 +110,7 @@ The authors noted that intermediate points did not always resemble real data, wh
 :label: sfig12d
 :placeholder: ./figures/sfig12d.png
 
-Random pairs from NucleusNet-10K. t=0.00 and t=1.00 correspond to latent vectors of real images. Four intermediate interpolations at t=0.20, t=0.40, t=0.60 and t=0.80 are mixed codes. All images are reconstructions.
+Random pairs from NucleusNet-10K. All images are decoded vectors. t=0.00 and t=1.00 correspond to latent vectors of real images. Four intermediate interpolations at t=0.20, t=0.40, t=0.60 and t=0.80 are mixed codes. Run the notebook to resample random pairs of embedded vectors from NucleusNet-10K.
 :::
 
 ---
@@ -321,11 +321,15 @@ Multi-channel or time-lapse images were considered one image with multiple frame
   - 0
   - 0
   -
+* - Total
+  - 
+  - 45 images
+  - 69 frames
 ```
 
 ---
 
-# Stereotypical images from NucleusNet-10K
+# Stereotypical images selected from NucleusNet-10K
 
 ### Anaphase
 ```{image} ./figures/anaphase.png
@@ -336,4 +340,3 @@ Multi-channel or time-lapse images were considered one image with multiple frame
 ```{image} ./figures/telophase.png
 :label: telophase
 ```
-
