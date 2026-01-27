@@ -18,7 +18,7 @@ Academics have proposed a variation of virtual microscopy for the unbiased prese
 Today, there are free and open-source options [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be implemented in scientific journals.
 Our approach to virtual microscopy involved automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) file formats, and embedded interactive viewers ([](#abstract)).
 
-```{figure} ./figures/virtual_microscopy.png
+```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
 Cloud-based virtual microscopy. 1) Automated image acquisition with any suitable microscope. 2) Reformat data and host in the cloud. Two pyramidal formats include Deep Zoom images and OME-Zarr. 3) Retrieve tiles or data chunks as readers interact with embedded microscopy maps.
 ```

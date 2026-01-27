@@ -331,12 +331,13 @@ Others were multi-channel or time-lapse images, which was considered one image w
 
 # Stereotypical images from NucleusNet-10K
 
+### Anaphase
 ```{image} ./figures/anaphase.png
 :label: anaphase
-Anaphase
 ```
+
+### Telophase
 ```{image} ./figures/telophase.png
 :label: telophase
-Telophase
 ```
 
