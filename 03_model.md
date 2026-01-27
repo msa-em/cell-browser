@@ -35,6 +35,8 @@ All samples were infected with reovirus strain T1L at MOI 100 and were co-staine
 Transfection with TransIT-2020 was favourable for subsequent reovirus infection.
 This is an early look at the replication experiment.
 
+::::{figure}
+:label: fig3a
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 
 {
@@ -43,6 +45,7 @@ This is an early look at the replication experiment.
 }
 
 :::
+::::
 
 ### Untransfected control (left) and lipofectamine transfection (right)
 

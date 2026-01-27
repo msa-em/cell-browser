@@ -5,11 +5,11 @@ numbering:
 label : nucleusnet_page
 ---
 
-One-hundred coverslips were sampled over twenty-one passages of the same cell line.
-An example is presented as a zoomable map ([](#fig10a)).
+One-hundred coverslips were sampled over twenty-one passages of the same cell line ([](#fig10a)).
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.
 Nuclei were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig12b)).
+One million single-cell cropped images were processed from ROI masks segmented in 1600 stitched images ([](#fig10b)).
 
 ::::{figure}
 :label: fig10a
@@ -20,12 +20,8 @@ As expected, there was variation in cell confluence and signal intensity between
 }
 :::
 
-**Figure 10.1:** An example coverslip. Experiment 72 was chosen because four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#table3)).
+An example coverslip. Experiment 72 was chosen because four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#table3)).
 ::::
-
-## NucleusNet-10K
-
-Single-cell cropped images were processed from ROI masks segmented in the stitched images ([](#fig10b)).
 
 ::::{figure}
 :label: fig10b
@@ -36,8 +32,10 @@ Single-cell cropped images were processed from ROI masks segmented in the stitch
 }
 :::
 
-**Figure 10.2:** Overlay of cellpose segmentation masks. Experiment 25 was chosen because two stitched images ranked in the top ten most average ROI count and intensity. ROI colour was randomized.
+Overlay of cellpose segmentation masks. Experiment 25 was chosen because two stitched images ranked in the top ten most average ROI count and intensity. ROI colour was randomized.
 ::::
+
+## NucleusNet-10K
 
 A small version of the dataset, NucleusNet-10K, represents a random sample of ~1% of NucleusNet.
 100 random cropped images from each experiment are shown in chronological order by row ([](#fig10c)).
