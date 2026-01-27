@@ -28,7 +28,7 @@ The number and brightness of ROIs in the stitched images was measured using the 
 :::
 
 ```{list-table} Representative stitched images ranked by distance to centroid: 694.5 ROIs, 79.0 mean intensity
-:label: sTable1
+:label: table3
 :header-rows: 1
 
 * - Filename
@@ -110,24 +110,20 @@ The authors noted that intermediate points did not always resemble real data, wh
 :label: sfig12d
 :placeholder: ./figures/sfig12d.png
 
-Decoded latent vectors along intermediate points of interpolations between random pairs of images from NucleusNet-10K.
-Executing the code will randomly draw fifty pairs for interpolation.
-Images that you see are decoded latent vectors, with t=0.00 and t=1.00 representing latent vectors corresponding to real images.
-Four intermediate interpolations at t=0.20, t=0.40, t=0.60 and t=0.80 are mixed codes.
+Random pairs from NucleusNet-10K. t=0.00 and t=1.00 correspond to latent vectors of real images. Four intermediate interpolations at t=0.20, t=0.40, t=0.60 and t=0.80 are mixed codes. All images are reconstructions.
 :::
 
 ---
 
 # Replication study
 
-Barkley noted the type of data in each figure and supplementary figure, excluding videos, in order of presentation.
-For data type, there were four possible options; light microscopy image, electron microscopy image, correlative light-electron microscopy image, quantitation.
-Quantitation was considered any analysis with numbers, while the other three data types were representative images.
+Barkley noted the type of result for all data in the original study.
+There were four possible data types; light microscopy image, electron microscopy image, correlative light-electron microscopy image, and quantitative analysis.
 Some figure panels had multiple images.
-If the images were of different samples, then they were counted as unique images (>1 images).
-Others were multi-channel or time-lapse images, which was considered one image with multiple frames.
+If the images were unique examples, then the figure counted as more than one image.
+Multi-channel or time-lapse images were considered one image with multiple frames.
 
-```{list-table} Assessment of the types of data in the original study [@doi:10.1128/mBio.01253-18].
+```{list-table} Assessment of results by data type
 :label: table4
 :header-rows: 1
 * - Figure
@@ -316,12 +312,12 @@ Others were multi-channel or time-lapse images, which was considered one image w
   - 3
   - Channel
 * - 6A
-  - Quantitation
+  - Quantitative
   - 0
   - 0
   -
 * - 6C
-  - Quantitation
+  - Quantitative
   - 0
   - 0
   -

@@ -19,10 +19,11 @@ Stacked $3*3$ kernels were used throughout the network, so each layer had two co
 Spatial pooling is carried out by average pooling layers, which is performed over a $2*2$ window with a stride of 2.
 A stack of four convolutional layers was followed by a fully-connected dense layer into latent space $z$. 
 The decoder mirrors the encoder.
-Latent vectors are reshaped then upsampled with Conv2DTranspose (stride 2) and Conv2D through a stack of convolutional layers to reconstruct a $256*256$ pixel grayscale image.
+Latent vectors are reshaped then upsampled with Conv2DTranspose (stride 2) and Conv2D through a stack of convolutional layers to reconstruct a grayscale image.
 The network was trained with Adam optimizer [@doi:10.48550/arXiv.1412.6980] to minimize the mean squared error (MSE) between original and reconstructed images.
 These configurations were used for all autoencoders in this study.
 Models varied in the number of layers, number of filters, latent dimensions, learning rate and batch size which were parameters that were manually tuned to the dataset.
+The dimensions of the inputs varied; 28 by 28 pixels for MNIST and 256 by 256 pixels for NucleusNet.
 There are variations of autoencoders that have been compared to show the efficiencies and trade-offs of different models at image reconstruction, latent representation and accuracy at anomaly detection [@doi:10.1016/j.mlwa.2024.100572].
 
 ---
@@ -44,7 +45,7 @@ Computation of theoretical representative images of the MNIST digit '4'.
 N=6824 grayscale images with the label '4' were flattened to 784-dimensional vectors to compute then reshape reconstructed images of the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
-The chosen exemplars were not the same as the original study ([](#fig2b)) [@doi:10.1109/BIP60195.2023.10379342].
+The chosen exemplars were not the same as the original study ([](#fig9b)).
 
 :::{figure} #fig9b_data
 :label: fig9b
@@ -60,9 +61,9 @@ Then, practical examples in the embedding were ranked by Euclidean distance to t
 
 ### 1. Compute and decode centroid latent vectors
 
-A convolutional autoencoder model was trained on the MNIST dataset and the encoder and decoder weights were saved ([](#sfig2a)). 
-n=6824 latent vectors labelled 'four' were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit 'four' ([](#fig2c)).
-The decoded centroid latent vectors appeared similar to the mean and median reconstructions calculated using independent pixel values ([](#fig2a)).
+A convolutional autoencoder model was trained on the MNIST dataset and the encoder and decoder weights were saved ([](#sfig12a)). 
+n=6824 latent vectors labelled 'four' were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit 'four' ([](#fig9c)).
+The decoded centroid latent vectors appeared similar to the mean and median reconstructions calculated using independent pixel values ([](#fig9a)).
 
 :::{figure} #fig9c_data
 :name: fig9c
@@ -74,7 +75,7 @@ Decoded latent vectors: arithmetic mean (left), median (middle) and geometric me
 
 The behaviour of the theoretical image generally does not correspond to a distinct image, therefore it is not considered the final representative image.
 However, it can be used to select representative examples from the dataset [@doi:10.1109/BIP60195.2023.10379342].
-The closest latent vector to each centroid was found based on the lowest Euclidean distance in the vector embedding ([](#fig2d)).
+The closest latent vector to each centroid was found based on the lowest Euclidean distance in the vector embedding ([](#fig9d)).
 The chosen images were remarkably similar, suggesting these methods are comparable.
 
 :::{figure} #fig9d_data
@@ -86,8 +87,8 @@ Closest examples to the arithmetic mean (left), median (middle) and geometric me
 ## Limitations
 
 These examples of objective image selection relied on class information from an annotated dataset.
-Both methods fell apart when reconstructing theoretical averages using the global centroid, which did not produce meaningful images.
-This shows that the global centroid does not generalize.
+Both methods fell apart reconstructing theoretical averages of global centroids without labels ([](#fig9e) and [](#fig9f)).
+This shows that the approach does not generalize.
 Conceptually, it made sense to find an average image of the digit four, but not to find the average of all digits.
 Perhaps this approach would be more reliable with labels, but this would require an upstream classifier model or manual annotation.
 

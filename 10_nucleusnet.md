@@ -18,7 +18,7 @@ As expected, there was variation in cell confluence and signal intensity between
 }
 :::
 
-**Figure 10.1:** An example coverslip. Experiment 72 was chosen because four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#sTable1)). The sixteen stitched images were fused then converted to DZI format which was hosted on Github pages.
+**Figure 10.1:** An example coverslip. Experiment 72 was chosen because four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#table3)). The sixteen stitched images were fused then converted to DZI format which was hosted on Github pages.
 ::::
 
 ## NucleusNet-10K
