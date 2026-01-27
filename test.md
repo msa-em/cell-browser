@@ -22,4 +22,5 @@ label : test_page
 :::
 Figure legend.
 ::::
+Figure legend.
 `````
