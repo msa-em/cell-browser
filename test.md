@@ -5,6 +5,7 @@ numbering:
 label : test_page
 ---
 
+`````{figure}
 ::::{grid} 2 2 2 2
 :label: fig13
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
@@ -21,3 +22,4 @@ label : test_page
 :::
 Figure legend.
 ::::
+`````

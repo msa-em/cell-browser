@@ -32,7 +32,7 @@ An example coverslip. Experiment 72 was chosen because four stitched images rank
 }
 :::
 
-Overlay of cellpose segmentation masks. Experiment 25 was chosen because two stitched images ranked in the top ten most average ROI count and intensity. ROI colour was randomized.
+Overlay of cellpose segmentation masks. Experiment 25 was chosen because two stitched images ranked in the top ten with an average ROI count and intensity. ROI colour was randomized.
 ::::
 
 ## NucleusNet-10K
