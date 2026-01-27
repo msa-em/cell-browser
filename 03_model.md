@@ -33,7 +33,7 @@ All samples were infected with reovirus strain T1L at MOI 100 and were co-staine
 ### mCherry-KDEL transfection with TransIT-2020.
 
 Transfection with TransIT-2020 was favourable for subsequent reovirus infection.
-This is an early look at the replication experiment.
+This sample is an early look at the replication experiment.
 
 ::::{figure}
 :label: fig3a
@@ -52,8 +52,6 @@ Figure legend.
 
 Lipofectamine transfection reduced cell confluence and reovirus infection in this model.
 
-:::::{figure}
-:label: fig3b
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
@@ -68,5 +66,3 @@ Lipofectamine transfection reduced cell confluence and reovirus infection in thi
 }
 :::
 ::::
-Figure legend.
-:::::
