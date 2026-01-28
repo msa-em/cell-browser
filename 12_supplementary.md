@@ -87,7 +87,7 @@ Z-score-normalized euclidean distance was used for equal weighting because the f
 The entire single-cell image collection was sharded into [TFRecords](https://www.tensorflow.org/tutorials/load_data/tfrecord) to better load the dataset into memory and shuffle it during training.
 An autoencoder model was trained for 50 epochs on NucleusNet and the encoder and decoder weights were saved.
 The input was 256 by 256 pixel grayscale images that were embedded into 512-dimensional latent vectors.
-Barkley interpreted that the model overfit to the data because the training loss reduced more than validation loss at later epochs.
+Barkley interpreted that the model overfit because the training loss and validation loss diverged at later epochs.
 
 ### Training history
 
@@ -102,9 +102,7 @@ History of MSE reconstruction loss (batch size: 32) for the training and validat
 A method to evaluate the quality of latent space is interpolation, whereby mixing codes in latent space and decoding the result creates a semantically meaningful combination of the datapoints [@doi:10.48550/arXiv.1807.07543].
 Interpolating with an autoencoder describes the process of using the decoder to decode a convex combination of two latent vectors [@doi:10.48550/arXiv.1807.07543].
 A high-quality interpolation should have two characteristics: intermediate points along the interpolation should resemble real data and they should provide a semantically meaningful transition between the endpoints [@doi:10.48550/arXiv.1807.07543].
-Interpolating between any two latent vectors of embedded NucleusNet images produced reasonable intermediate reconstructions from the decoder with a smooth transition between endpoints ([](#fig2h)).
-This result is consistent with the literature describing smooth interpolations with base model autoencoders [@doi:10.48550/arXiv.1807.07543].
-The authors noted that intermediate points did not always resemble real data, which was true with some of the NucleusNet-10K interpolations.
+Interpolating between any two latent vectors of embedded NucleusNet images produced reasonable intermediate reconstructions from the decoder with a smooth transition between endpoints ([](#sfig12d)).
 
 :::{figure} #sfig12d_data
 :label: sfig12d

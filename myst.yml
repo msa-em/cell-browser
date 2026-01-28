@@ -93,6 +93,5 @@ project:
         - file: 10_nucleusnet.md
     - file: 11_discussion.md
     - file: 12_supplementary.md
-    - file: test.md
 site:
   template: book-theme

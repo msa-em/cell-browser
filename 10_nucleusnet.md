@@ -9,29 +9,25 @@ One-hundred coverslips were sampled over twenty-one passages of the same cell li
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.
 Nuclei were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig12b)).
-One million single-cell cropped images were processed from ROI masks segmented in 1600 stitched images ([](#fig10b)).
+The single-cell dataset was cropped from ROIs segmented in stitched images ([](#fig10b)).
 
 ::::{figure}
 :label: fig10a
-
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/NucleusNet-coverslip/Run72.dzi"
 }
 :::
-
 An example coverslip. Experiment 72 was chosen because four stitched images ranked in the top ten with an average number and brightness of ROIs ([](#table3)).
 ::::
 
 ::::{figure}
 :label: fig10b
-
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/NucleusNet-cellpose/Run25.dzi"
 }
 :::
-
 Overlay of cellpose segmentation masks. Experiment 25 was chosen because two stitched images ranked in the top ten with an average ROI count and intensity. ROI colour was randomized.
 ::::
 
@@ -44,19 +40,17 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
 
 ::::{figure}
 :label: fig10c
-
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
 }
 :::
-
-**Figure 10.3:** NucleusNet-10K: one hundred random images from one hundred experiments (n=10,000).
+NucleusNet-10K: one hundred random images from one hundred experiments (n=10,000).
 ::::
 
 ---
 
-# Autoencoder-based representative image selection
+# Representative image selection using autoencoders
 
 1. Computation of theoretical average images
 
@@ -79,8 +73,16 @@ Using this measure for simplicity yielded one representative image ([](#fig10e))
 
 ```{figure} ./figures/fig10e.png
 :label: fig10e
-Representative image from NucleusNet, defined by nearest Euclidean distance to the mean latent vector: ROI_300 from the Run11BR_bottom_right stitched image.
+Representative image of NucleusNet, defined as the encoded vector closest to the mean latent vector using Euclidean distance. ROI_300 from the Run11BR_bottom_right stitched image.
 ```
+
+## Conclusions
+
+Barkley interpreted that the chosen image is a boring example of an interphase nucleus.
+Given the technical and phenotypic variability shown in NucleusNet-10K ([](#fig10c)), centroid-proximal latent vectors in NucleusNet were invariably interphase nuclei with muted image features.
+Disentangling the latent space of the autoencoder is unrealistic to justify this method.
+Based on the comparison of pixel-wise mean projections ([](#fig9a)) to decoded mean latent vectors ([](#fig9c)), theoretical average nuclei ([](#fig10d)) appear to blend image features from NucleusNet.
+Barkley conjectures that the practical representative image determined with this method ([](#fig10e)) could be interpreted as representing a mix of all image features from the dataset.
 
 ---
 
