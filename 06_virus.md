@@ -1,7 +1,7 @@
 ---
 title: Virus
 numbering:
-  enumerator: 6.%s
+  enumerator: 5.%s
 label : virus_page
 ---
 

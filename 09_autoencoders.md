@@ -1,7 +1,7 @@
 ---
 title: Autoencoders
 numbering:
-  enumerator: 9.%s
+  enumerator: 8.%s
 label : autoencoders_page
 ---
 

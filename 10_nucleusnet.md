@@ -1,7 +1,7 @@
 ---
 title: NucleusNet
 numbering:
-  enumerator: 10.%s
+  enumerator: 9.%s
 label : nucleusnet_page
 ---
 
@@ -9,7 +9,7 @@ One-hundred coverslips were sampled over twenty-one passages of the same cell li
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.
 Nuclei were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig12b)).
-The single-cell dataset was cropped from ROIs segmented in stitched images ([](#fig10b)).
+NucleusNet was cropped from ROIs segmented in the stitched images ([](#fig10b)).
 
 ::::{figure}
 :label: fig10a
@@ -35,7 +35,7 @@ Overlay of cellpose segmentation masks. Experiment 25 was chosen because two sti
 
 A small version of the dataset, NucleusNet-10K, represents a random sample of ~1% of NucleusNet.
 100 random cropped images from each experiment are shown in chronological order by row ([](#fig10c)).
-The map shows variation in signal intensity across experiments, which could warrant the normalization or standardization of pixel intensities.
+This map shows variation in signal intensity across experiments, which could warrant the normalization or standardization of pixel intensities.
 There is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy with 200,000 human-induced pluripotent stem cells.
 
 ::::{figure}
@@ -73,7 +73,7 @@ Using this measure for simplicity yielded one representative image ([](#fig10e))
 
 ```{figure} ./figures/fig10e.png
 :label: fig10e
-Representative image of NucleusNet, defined as the encoded vector closest to the mean latent vector using Euclidean distance. ROI_300 from the Run11BR_bottom_right stitched image.
+Representative image of NucleusNet, defined as the encoded vector closest to the mean latent vector using Euclidean distance. ROI_300 from the stitched image Run11BR_bottom_right.
 ```
 
 ## Conclusions

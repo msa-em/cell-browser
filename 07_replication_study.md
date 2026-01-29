@@ -1,7 +1,7 @@
 ---
 title: Replication Study
 numbering:
-  enumerator: 7.%s
+  enumerator: 6.%s
 label : replication_page
 ---
 
