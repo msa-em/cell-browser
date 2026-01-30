@@ -42,8 +42,3 @@ All authors declare no conflicts of interest.
 
 ## Data Availability
 NucleusNet was archived on Zenodo.
-
-## AI Disclosure
-The text in this manuscript was not written or edited by AI.
-AI-generated code was used in the notebooks, autoencoder, and some data processing tasks.
-
