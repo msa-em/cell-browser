@@ -63,3 +63,10 @@ This definition is agnostic to the research context and it emphasizes the use of
 A _grayscale image_ is defined as a two-dimensional matrix where each pixel is a single intensity value ranging from $0-1$ that represents the amount of light or intensity information at a specific point [@doi:10.1109/BIP60195.2023.10379342].
 
 A _latent space_ is a collection of vectors that form a reduced-dimensionality embedding of the data, fit by a machine learning model [@doi:10.1111/cgf.13672].
+
+---
+
+:::{warning} AI disclosure
+The text in this manuscript was not written or edited by AI.
+AI-generated code was used in the notebooks, autoencoder, and some data processing tasks.
+:::
