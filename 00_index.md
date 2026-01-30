@@ -7,11 +7,11 @@ numbering:
 
 +++ {"part": "abstract"}
 
-The microscope is a fundamental instrument humans use to observe the universe.
-Microscopes record image data that scientists analyze and interpret to test hypotheses.
-Mainstream scientific discourse uses static figures, which limits the presentation of image data.
-This restriction is overcome with interactive visualization tools like virtual microscopy that share images over computer networks.
-To minimize accessibility barriers, interactive viewers were embedded that stream data from the cloud.
+Microscopes are fundamental instruments that humans use to observe the universe.
+Scientists analyze and interpret image data to test hypotheses and share observations.
+Mainstream scientific discourse uses static figures, which limits the authors ability to communicate image data.
+Readers are left with evaluating an 
+To minimize accessibility barriers, interactive viewers were embedded that stream image data from the cloud.
 Readers can browse large microscopy images in the manuscript as an implementation of virtual microscopy that uses the modern capabilities of this journal.
 An application for virtual microscopy is to provide an open assessment of replication experiments.
 This method was used to evaluate claims supported by representative images without quantitation.
@@ -28,17 +28,20 @@ _Updated 2025 September 27_
 
 +++
 
-+++ {"part": "acknowledgements"}
++++{"part":"acknowledgements"}
 
 Add your acknowledgments, if any, here.
 
 +++
 
-+++ {"part": "competing interests"}
++++{"part":"competing interests"}
 
-## Competing Interests
 All authors declare no conflicts of interest.
+
 +++
 
-## Data Availability
++++{"part":"data availability"}
+
 NucleusNet was archived on Zenodo.
+
++++
