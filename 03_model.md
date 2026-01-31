@@ -14,9 +14,9 @@ Antibiotics were not used in the replication study, although the original study 
 
 ## Imaging
 
-Data collection was fully-automated for unbiased sampling of replicate immunofluorescence experiments.
-Grids of 10x10 (100 fields) or 15x15 (225 fields) were acquired with an XY motorized stage (Olympus IX3-SSU) and Z-drift compensation.
-Coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens (Olympus, model UPLAPO100X, NA 1.50) in immersion oil. 
+Data collection was fully-motorized for unbiased sampling of large images from replicate immunofluorescence experiments.
+Grids of 10x10 (100 fields) or 15x15 (225 fields) were acquired with a robotic XY stage (IX3-SSU) and Z-drift compensation (IX3-ZDC).
+Coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens (Olympus model UPLAPO100X, NA 1.50) in immersion oil. 
 Pinholes in each channel were maximized to capture the widest depth of field.
 
 ---
@@ -28,9 +28,10 @@ Pinholes in each channel were maximized to capture the widest depth of field.
 This experiment aims to observe a co-incidence of plasmid transfection and virus infection in cells.
 In the original study, cells were transfected before virus infection, each incubated for twenty four hours.
 A confounding variable was interference of viral infection from plasmid transfection, so two transfection reagents were tested in this model.
-All samples were infected with reovirus strain T1L and the viral and ER antigens were co-stained.
-Transfection with TransIT-2020 appeared favourable for subsequent reovirus infection ([](#fig2a)).
-Lipofectamine transfection reduced cell confluence and reovirus infection in this model ([](#fig2b)) compared to the untransfected control ([](#fig2c)).
+All samples were infected with reovirus strain T1L. 
+Viral and ER antigens were co-stained with reovirus μNS and calreticulin antibodies for immunofluorescence imaging.
+Transfection with the TransIT-2020 reagent appeared to be favourable in this model ([](#fig2a)) compared to Lipofectamine 3000 ([](#fig2b)).
+The TransIT-2020 sample was more similar to the untransfected control ([](#fig2c)) in terms of cell confluence and viral infection.
 
 ::::{figure}
 :label: fig2a
@@ -42,7 +43,7 @@ Lipofectamine transfection reduced cell confluence and reovirus infection in thi
 }
 
 :::
-Transfected-infected HeLa cells. mCherry-KDEL transfection with TransIT-2020 transfection reagent followed by reovirus T1L infection (MOI 100).
+Transfected-infected cells. mCherry-KDEL transfection with **TransIT-2020** transfection reagent was followed by reovirus T1L infection (MOI 100).
 ::::
 
 ::::{figure}
@@ -53,7 +54,7 @@ Transfected-infected HeLa cells. mCherry-KDEL transfection with TransIT-2020 tra
   "height": "600px"
 }
 :::
-Transfected-infected HeLa cells. mCherry-KDEL transfection with Lipofectamine 3000 transfection reagent followed by reovirus T1L infection (MOI 100).
+Transfected-infected cells. mCherry-KDEL transfection with **Lipofectamine 3000** transfection reagent was followed by reovirus T1L infection (MOI 100).
 ::::
 
 ::::{figure}
@@ -64,5 +65,5 @@ Transfected-infected HeLa cells. mCherry-KDEL transfection with Lipofectamine 30
   "height": "600px"
 }
 :::
-Infected cells. Untransfected control infected with reovirus T1L (MOI 100) for 24h.
+Infected cells, **untransfected** control.
 ::::

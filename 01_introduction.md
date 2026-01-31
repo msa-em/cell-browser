@@ -11,7 +11,7 @@ Nowadays, roughly three-quarters of publications in biomedical journals report a
 An unspoken rule is that scientists trust the chosen images are honest and accurate.
 However, microscopy image selection and quantitative analyses thereof are vulnerable to bias and deception [@doi:10.1242/jcs.261567].
 Aside from cherry-picking, scientists can sincerely misinterpret observations.
-The problem is that it is difficult for readers to critically evaluate experiments from representative images.
+The problem is that it is difficult for readers to critically evaluate representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming, if at all available.
 These inefficiencies can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that share microscopy data over computer networks.
 An example was the unbiased sampling and presentation of electron microscopy data to readers as interactive digital maps; a microscopy map [@doi:10.1083/jcb.201201140].
@@ -29,7 +29,7 @@ A feature of cloud-based virtual microscopy is the unbiased robotic sampling of 
 Results should be observed again with a high degree of reliability, therefore original claims should be evident in replicate microscopy maps.
 To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen because most results were representative microscopy images without quantification ([](#table4)).
-A fully-motorized confocal microscope recorded unbiased samples of replicate immunofluorescence experiments at high-magnification.
+A fully-motorized confocal microscope recorded large samples of replicate immunofluorescence experiments at high-magnification.
 Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
 All parties have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
 
