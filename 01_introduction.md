@@ -15,7 +15,7 @@ The problem is that it is difficult for readers to critically evaluate experimen
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming, if at all available.
 These inefficiencies can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that share microscopy data over computer networks.
 An example was the unbiased sampling and presentation of electron microscopy data to readers as interactive digital maps; a microscopy map [@doi:10.1083/jcb.201201140].
-In practice, microscopy maps are easy to implement, but require external links or software [@doi:10.1242/jcs.262198].
+In practice, microscopy maps are easy to implement, but are viewed with external links or software [@doi:10.1242/jcs.262198].
 Here, interactive microscopy maps were embedded in the article to pilot cloud-based virtual microscopy in the literature.
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge, yet there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
@@ -55,7 +55,7 @@ _Virtual microscopy_ is the process of sharing image data over computer networks
 A related term _virtual nanoscopy_ described the process of automated imaging with an electron microscope and unbiased data presentation using interactive viewers [@doi:10.1083/jcb.201201140].
 
 A _microscopy map_ is the interactive figure used to view virtual microscopy data [@doi:10.1083/jcb.201201140].
-This nomenclature fits a broader use case including light microscopy.
+This name fits broader use cases including light and electron microscopy.
 
 A _representative image_ is defined as a visual communication tool used by microscopists to communicate research findings to other scientists.
 This definition is agnostic to the research context and it emphasizes the use of pictures as scientific evidence.
@@ -67,6 +67,6 @@ A _latent space_ is a collection of vectors that form a reduced-dimensionality e
 ---
 
 :::{warning} AI disclosure
-The text in this manuscript was not written or edited by AI.
-AI-generated code was used in the notebooks, autoencoder, and some data processing tasks.
+All text in this manuscript was written and edited by humans without AI assistance.
+AI-generated code was used in the notebooks, autoencoder, and data processing tasks.
 :::

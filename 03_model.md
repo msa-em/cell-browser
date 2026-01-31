@@ -38,6 +38,7 @@ Lipofectamine transfection reduced cell confluence and reovirus infection in thi
 
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample2.zarr/",
+  "height": "600px"
 }
 
 :::
@@ -49,6 +50,7 @@ Figure legend. Mirus TransIT-2020.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample1.zarr/",
+  "height": "600px"
 }
 :::
 Figure legend. Lipofectamine.
@@ -59,6 +61,7 @@ Figure legend. Lipofectamine.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",
+  "height": "600px"
 }
 :::
 Figure legend. Untransfected control.

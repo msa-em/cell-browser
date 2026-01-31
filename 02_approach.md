@@ -13,10 +13,10 @@ This chapter criticizes the quality and reproducibility of representative micros
 The problem is that static figures motivate authors to cherry-pick desirable examples.
 Scientists also lack tools to evaluate the replicability of representative images.
 A solution is cloud-based [virtual microscopy](<wiki:Virtual_microscopy>); sharing image data over computer networks.
-Often used for pedagogy, virtual microscopy could benefit biomedical research.
+Often used for pedagogy, virtual microscopy could benefit biomedical and biological research.
 Academics have proposed a variation of virtual microscopy for the unbiased presentation of transmission electron microscopy data [@doi:10.1083/jcb.201201140].
-Today, there are free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be implemented in scientific journals.
-Our implementation of virtual microscopy involved automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) file formats, and embedded interactive viewers ([](#abstract)).
+Today, there are free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have not been introduced to scientific journals.
+Our implementations of virtual microscopy involved automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) file formats, and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
@@ -34,6 +34,6 @@ Considered an advanced implementation [@doi:10.1242/jcs.262198], pyramidal OME-Z
 
 ## OpenSeadragon
 
-A free and open-source implementation, described elsewhere [@doi:10.1242/jcs.262198], was advanced by embedding the viewer in an article.
+A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], was advanced here by embedding the viewers for readers.
 Pyramidal Deep Zoom image (DZI) data was hosted on Github Pages and tiles are streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
-Readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images.
+Readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
