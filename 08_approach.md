@@ -11,7 +11,7 @@ label : ml_page
 
 The process of representative microscopy image selection remains a subjective, non-repeatable step in the scientific process.
 To address this, automated methods of objective representative image selection from microscopy datasets were introduced (https://doi.org/10.1016/s0006-3495(99)77379-0).
-The open challenge is to use computers to choose representative images from datasets.
+The challenge is to automate representative image selection from datasets.
 One study proposed principal component analysis and K-means clustering to select representative images from medical ultrasound video series [@doi:10.3389/fonc.2021.673775].
 Another method was proposed using real-world datasets [@doi:10.1109/BIP60195.2023.10379342], though it did not involve neural networks.
 We used an autoencoder model to define representative images in latent space and compared methods on the [MNIST database](<wiki:MNIST_database>).

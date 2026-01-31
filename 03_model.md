@@ -14,10 +14,10 @@ Antibiotics were not used in the replication study, although the original study 
 
 ## Imaging
 
-Data collection was fully-motorized for unbiased sampling of replicate immunofluorescence experiments.
+Data collection was fully-automated for unbiased sampling of replicate immunofluorescence experiments.
+Grids of 10x10 (100 fields) or 15x15 (225 fields) were acquired with an XY motorized stage (Olympus IX3-SSU) and Z-drift compensation.
 Coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens (Olympus, model UPLAPO100X, NA 1.50) in immersion oil. 
 Pinholes in each channel were maximized to capture the widest depth of field.
-Grids of 10x10 (100 fields) or 15x15 (225 fields) were acquired with a motorized stage (Olympus IX3-SSU) and Z-drift compensation.
 
 ---
 
@@ -42,7 +42,7 @@ Lipofectamine transfection reduced cell confluence and reovirus infection in thi
 }
 
 :::
-Figure legend. Mirus TransIT-2020.
+Transfected-infected HeLa cells. mCherry-KDEL transfection with TransIT-2020 transfection reagent followed by reovirus T1L infection (MOI 100).
 ::::
 
 ::::{figure}
@@ -53,7 +53,7 @@ Figure legend. Mirus TransIT-2020.
   "height": "600px"
 }
 :::
-Figure legend. Lipofectamine.
+Transfected-infected HeLa cells. mCherry-KDEL transfection with Lipofectamine 3000 transfection reagent followed by reovirus T1L infection (MOI 100).
 ::::
 
 ::::{figure}
@@ -64,5 +64,5 @@ Figure legend. Lipofectamine.
   "height": "600px"
 }
 :::
-Figure legend. Untransfected control.
+Infected cells. Untransfected control infected with reovirus T1L (MOI 100) for 24h.
 ::::
