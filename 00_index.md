@@ -7,15 +7,14 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Microscopes are fundamental instruments that humans use to observe the universe.
-Scientists analyze and interpret image data to test hypotheses and share observations.
-Mainstream scientific discourse is restricted to static figures, which limits the communication of image data.
-This information bottleneck can be overcome with modern visualization tools that use computer networks.
-Interactive viewers were embedded in the article to improve the accessibility to microscopy image data.
-Readers can browse large microscopy images in the manuscript as an implementation of virtual microscopy that uses the modern capabilities of this journal.
-An application for virtual microscopy is to provide an open assessment of replication experiments.
-This method was used to evaluate claims supported by representative images without quantitation.
-For static figures, an objective method of image selection was explored and delimited.
+Mainstream scientific discourses predominantly uses static figures.
+This approach to scientific communication is outdated and necessitates the presentation of microscopy image data as representative images and plots.
+Here, modern visualization tools were used to embed large microscopy images as digital maps, introducing virtual microscopy to scientific publishing.
+Our implementations of cloud-based virtual microscopy used open-source technologies and the interactive capabilities of this journal.
+As an alternative to representative images, virtual microscopy benefits the transparency, accessibility, and archival of primary microscopy data.
+These features make it useful to provide an unbiased assessment of image data from replication studies involving representative images.
+An immunofluorescence experiment was replicated using virtual microscopy and the original claims were not reliably observed, though this conclusion is uniquely open to scrutiny.
+To work within the constraints of conventional journals, an objective method of representative image selection was explored and delimited.
 
 +++
 
@@ -28,13 +27,19 @@ _Updated 2025 September 27_
 
 +++
 
-## Acknowledgements
++++{"part":"acknowledgements"}
 
 Add acknowledgements, if any, here.
+
++++
+
++++{"part":"competing interests"}
 
 ## Competing Interests
 
 All authors declare no conflicts of interest.
+
++++
 
 ## Data availability
 
