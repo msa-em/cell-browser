@@ -12,9 +12,9 @@ This approach to scientific communication is outdated and necessitates the prese
 Here, modern visualization tools were used to embed large microscopy images as digital maps, introducing virtual microscopy to scientific publishing.
 Our implementations of cloud-based virtual microscopy used open-source technologies and the interactive capabilities of this journal.
 As an alternative to representative images, virtual microscopy benefits the transparency, accessibility, and archival of primary microscopy data.
-These features make it useful to provide an unbiased assessment of image data from replication studies involving representative images.
+These features make it useful to provide an unbiased assessment of image data from replication studies of representative images.
 An immunofluorescence experiment was replicated using virtual microscopy and the original claims were not reliably observed, though this conclusion is uniquely open to scrutiny.
-To work within the constraints of conventional journals, an objective method of representative image selection was explored and delimited.
+To work within the constraints of conventional journals, an objective method of representative image selection was also explored and delimited.
 
 +++
 
@@ -29,7 +29,7 @@ _Updated 2025 September 27_
 
 +++{"part":"acknowledgements"}
 
-Add acknowledgements, if any, here.
+Barkley wants to thank the Baker Institute for Animal Health at Cornell for their financial support of my graduate training which allowed me to pursue this unfunded project.
 
 +++
 
