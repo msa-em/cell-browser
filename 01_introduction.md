@@ -15,8 +15,8 @@ The problem is that it is difficult for readers to critically evaluate represent
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming, if at all available.
 These inefficiencies can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that share microscopy data over computer networks.
 An example was the unbiased sampling and presentation of electron microscopy data to readers as interactive digital maps; a microscopy map [@doi:10.1083/jcb.201201140].
-In practice, microscopy maps are easy to implement, but are viewed with external links or software [@doi:10.1242/jcs.262198].
-Here, interactive microscopy maps were embedded in the article to pilot cloud-based virtual microscopy in the literature.
+In practice, microscopy maps are easy to implement, but must be viewed with external links or software [@doi:10.1242/jcs.262198].
+Here, interactive microscopy maps were embedded in the article to introduce virtual microscopy to the literature.
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge, yet there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
 From the perspective of biomedical researchers, the perceived cause is the pressure to publish [@doi:10.1371/journal.pbio.3002870].
@@ -28,8 +28,8 @@ Consider that highly magnified representative images cannot describe population 
 A feature of cloud-based virtual microscopy is the unbiased robotic sampling of multi-scale image data, making it useful as a method to replicate representative images.
 Results should be observed again with a high degree of reliability, therefore original claims should be evident in replicate microscopy maps.
 To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
-This study was chosen because most results were representative microscopy images without quantification ([](#table4)).
-A fully-motorized confocal microscope recorded large samples of replicate immunofluorescence experiments at high-magnification.
+This study was chosen because most results were representative images without quantification ([](#table4)).
+A fully-motorized confocal microscope recorded large images from replicate immunofluorescence experiments at high-magnification.
 Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
 All parties have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
 
@@ -67,6 +67,6 @@ A _latent space_ is a collection of vectors that form a reduced-dimensionality e
 ---
 
 :::{warning} AI disclosure
-All text in this manuscript was written and edited by humans without AI assistance.
+The text in this manuscript was written and edited by humans without AI assistance.
 AI-generated code was used in the notebooks, autoencoder, and data processing tasks.
 :::

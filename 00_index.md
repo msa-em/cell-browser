@@ -1,5 +1,5 @@
 ---
-title: 'Unbiased replication of representative images using virtual microscopy'
+title: 'You are being misled with representative images'
 short_title: Virtual Microscopy
 numbering:
   heading_2: false
@@ -7,13 +7,11 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Mainstream scientific discourses predominantly uses static figures.
-This approach to scientific communication is outdated and necessitates the presentation of microscopy image data as representative images and plots.
-Here, modern visualization tools were used to embed large microscopy images as digital maps, introducing virtual microscopy to scientific publishing.
-Our implementations of cloud-based virtual microscopy used open-source technologies and the interactive capabilities of this journal.
-As an alternative to representative images, virtual microscopy benefits the transparency, accessibility, and archival of primary microscopy data.
-These features make it useful to provide an unbiased assessment of image data from replication studies of representative images.
-An immunofluorescence experiment was replicated using virtual microscopy and the original claims were not reliably observed, though this conclusion is uniquely open to scrutiny.
+Mainstream scientific discourse predominantly involves static figures, which is outdated and necessitates the presentation of microscopy results as representative images and plots.
+Here, modern technologies were used to embed large panoramas as zoomable microscopy maps in the article, advancing virtual microscopy to the scientific literature.
+As an alternative visualization tool, virtual microscopy benefits the transparency, accessibility, and archival of bioimaging data.
+These features made it useful to evaluate the replicability of representative images.
+In a replication study, Barkley found that original claims were not reliably replicable using virtual microscopy, though this interpretation is open to scrutiny.
 To work within the constraints of conventional journals, an objective method of representative image selection was also explored and delimited.
 
 +++
@@ -38,6 +36,7 @@ Barkley wants to thank the Baker Institute for Animal Health at Cornell and its 
 ## Competing Interests
 
 All authors declare no conflicts of interest.
+Last names were used to separate the authors voices, interpretations, and contributions in the text.
 
 +++
 

@@ -30,8 +30,6 @@ Thereafter, 1ml of pre-warmed serum-containing DMEM was added to the cells, and 
 ## Reovirus strains T1L (left) and T3D (right)
 
 Ten-fold dilutions of reovirus from MOI 0 (uninfected control) to MOI 100 were imaged after twenty four hours of infection.
-Microscopy maps show that HeLa cells are not permissive to reovirus, and that MOI 100 was needed for high infection, consistent with others findings [@doi:10.1128/jvi.00199-19].
-Therefore, MOI 100 was chosen for the replication experiment in the transfected-infected cell model, which is an increase from the original study that used MOI 1.
 
 ### MOI 0
 
@@ -128,3 +126,13 @@ Therefore, MOI 100 was chosen for the replication experiment in the transfected-
 :::
 
 ::::
+
+## Conclusions
+
+More than half of the sampled HeLa cells were infected with reovirus T1L at MOI 100.
+Therefore, MOI 100 was chosen for experiments in the replication study, which was an increase from MOI 1 in the original study.
+Others have noted that HeLa cells are not permissive to reovirus and used MOI 100 [@doi:10.1128/jvi.00199-19].
+
+Another consideration is the morphology of reovirus viral factories.
+Parker described T1L factories as 'filamentous' and T3D factories as 'globular' in representative images of infected CV-1 cells [@doi:10.1128/JVI.76.9.4483-4496.2002].
+Barkley does not dispute this finding, but notes that T1L factories are commonly globular in microscopy maps of infected HeLa cells.
