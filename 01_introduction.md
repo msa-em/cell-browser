@@ -13,9 +13,9 @@ However, microscopy image selection and quantitative analyses thereof are vulner
 Aside from cherry-picking, scientists can sincerely misinterpret observations.
 The problem is that it is difficult for readers to critically evaluate representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming, if at all available.
-These inefficiencies can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that share microscopy data over computer networks.
-An example was the unbiased sampling and presentation of electron microscopy data to readers as interactive digital maps; a microscopy map [@doi:10.1083/jcb.201201140].
-In practice, microscopy maps are easy to implement, but must be viewed with external links or software [@doi:10.1242/jcs.262198].
+These inefficiencies can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that transmit images over the internet.
+An example was the unbiased sampling and presentation of electron microscopy data to readers as interactive digital maps; microscopy maps [@doi:10.1083/jcb.201201140].
+In practice, microscopy maps are easy to implement, but are viewed with external links or software [@doi:10.1242/jcs.262198].
 Here, interactive microscopy maps were embedded in the article to introduce virtual microscopy to the literature.
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge, yet there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
@@ -23,9 +23,9 @@ From the perspective of biomedical researchers, the perceived cause is the press
 Repeatability in the same study by the same researchers is distinguished from replicability by independent researchers using the same methodology.
 Large-scale replicability studies performed by Amgen and Bayer assessed that 11% [@doi:10.1038/483531a] and 25% [@doi:10.1038/nrd3439-c1] of key findings from preclinical cancer research papers were replicable.
 Another project evaluated replication success with other criteria, but their 'lowest bar' determined a replication rate of 79% for representative images [@doi:10.7554/eLife.71601].
-Further, 26% of claimed effects were evidenced by a representative image without quantitative analysis.
+Further, 26% of claimed effects were evidenced by representative images without quantitative analysis.
 Consider that highly magnified representative images cannot describe population variation and the uncertainty of an observation.
-A feature of cloud-based virtual microscopy is the unbiased robotic sampling of multi-scale image data, making it useful as a method to replicate representative images.
+A feature of virtual microscopy is the unbiased sampling of multi-scale image data, making it useful as a method to replicate representative images.
 Results should be observed again with a high degree of reliability, therefore original claims should be evident in replicate microscopy maps.
 To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen because most results were representative images without quantification ([](#table4)).
@@ -33,7 +33,7 @@ A fully-motorized confocal microscope recorded large images from replicate immun
 Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
 All parties have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
 
-Microscopy maps are interactive figures, but static figures still predominate scientific publishing as a relic of print journals.
+Microscopy maps are interactive figures, but static figures predominate scientific publishing as an outdated relic of print journals.
 Despite the benefits of virtual microscopy, representative images will persist until mainstream journals adopt modern visualization tools.
 Given the widespread use of static figures in scientific discourse, the second chapter of this project was dedicated to computational image selection.
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).

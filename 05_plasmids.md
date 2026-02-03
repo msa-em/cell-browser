@@ -9,9 +9,10 @@ label : plasmids_page
 
 ## mCherry-ER reporters
 
-The mCherry-KDEL construct was the same as the original study; mCherry-ER-3 plasmid (55041, Addgene), which retains mCherry in the lumen of the ER.
-Barkley included mCherry-CytERM-N-17 (55024, Addgene) to retain mCherry on the cytoplasmic side of the ER.
-mCherry-CytERM was considered a positive control for ER remodelling because of the propensity of fluorescent proteins to cause organized smooth endoplasmic reticulum (OSER) whorls [@doi:10.1083/jcb.200306020].
+mCherry-KDEL was the same construct used in the original study; mCherry-ER-3 plasmid (55041, Addgene), which retains mCherry in the lumen of the ER.
+Barkley included mCherry-CytERM-N-17 (55024, Addgene) to retain mCherry on the cytoplasmic side.
+mCherry-CytERM was considered a positive control for ER remodelling because organized smooth endoplasmic reticulum (OSER) whorls form through fluorescent protein dimerization [@doi:10.1083/jcb.200306020] in roughly 5% of transfected cells [@doi:10.1038/nmeth.3891].
+Calreticulin should also be detectable by immunofluorescence in OSER whorls [@doi:10.1083/jcb.200306020]. 
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
 mCherry-Climp63 was a control for ER remodelling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
 
@@ -29,7 +30,7 @@ TransIT-2020 Reagent (MIR 5400, Mirus) was used with 12-well plates; 125ul Opti-
 HeLa cells were imaged after one day of transfection with mCherry-ER reporters.
 Illumination settings in the mCherry channel were set based on the mCherry-KDEL sample transfected with TransIT-2020.
 In comparison, transfection efficiency and protein expression was better with lipofectamine, causing saturated signal in these samples.
-All four mCherry-ER constructs showed aberrant ER morphology, including mCherry-KDEL, which was used in the original study.
+All four mCherry-ER constructs showed aberrant ER morphology, including mCherry-KDEL.
 ER remodelling was claimed in representative images of cells expressing mCherry-KDEL, described as 'aggregated' and 'collapsed' ER elements induced by reovirus.
 However, replicate microscopy maps show that this phenotype is observable in cells expressing mCherry-KDEL in the absence of reovirus infection.
 

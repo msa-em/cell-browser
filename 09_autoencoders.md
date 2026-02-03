@@ -12,8 +12,8 @@ The autoencoder is restricted in some way that it is forced to prioritize which 
 
 ## Model architecture
 
-The architecture of our networks followed a common configuration in autoencoder-based anomaly detection methods [@doi:10.48550/arXiv.2501.13864].
-Rectified linear unit (ReLU) activation functions were used throughout the network for nonlinearity {cite}`NIPS2012_c399862d`, except with a sigmoid activation function at the final layer.
+The architecture followed a common configuration in autoencoder-based anomaly detection methods [@doi:10.48550/arXiv.2501.13864].
+Rectified linear unit (ReLU) activation functions were used throughout the network for nonlinearity, except with a sigmoid activation function at the final layer.
 Linear activation functions were used in the fully-connected dense layer connections to and from the latent space bottleneck.
 Stacked $3*3$ kernels were used throughout the network, so each layer had two convolutions without spatial pooling in between, giving an effective receptive field of $5*5$ with fewer parameters and greater nonlinearity [@doi:10.48550/arXiv.1409.1556].
 Spatial pooling is carried out by average pooling layers, which is performed over a $2*2$ window with a stride of 2.
@@ -41,7 +41,7 @@ Our example used all MNIST "four" images (N=6824), but the outcome was consisten
 :::{figure} #fig9a_data
 :label: fig9a
 :placeholder: ./figures/fig9a.png
-Computation of theoretical representative images of the MNIST digit '4'.
+Replication of theoretical images of the MNIST digit '4'.
 N=6824 grayscale images with the label '4' were flattened to 784-dimensional vectors to compute then reshape reconstructed images of the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
@@ -50,14 +50,14 @@ The chosen exemplars were not the same as the original study ([](#fig9b)).
 :::{figure} #fig9b_data
 :label: fig9b
 :placeholder: ./figures/fig9b.png
-Computation of practical representative images of the MNIST digit '4' using the arithmetic mean (left), median (middle) and geometric median (right).
+Replication of practical images of the MNIST digit '4' using the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
-## Using autoencoders to select average MNIST digits
+## Autoencoder-based selection of average MNIST digits
 
-This approach to representative image selection was adopted to use the latent space of an autoencoder model.
+The previous approach to representative image selection was adopted to use the latent space of an autoencoder model.
 First, theoretical average latent vectors were calculated using measures of central tendency.
-Then, practical examples in the embedding were ranked by Euclidean distance to the calculated centroids.
+Then, practical examples were ranked by Euclidean distance to the calculated centroids in the embedding.
 
 ### 1. Compute and decode centroid latent vectors
 
@@ -87,19 +87,19 @@ Closest examples to the arithmetic mean (left), median (middle) and geometric me
 ## Limitations
 
 These examples of objective image selection relied on class information from an annotated dataset.
-Both methods fell apart reconstructing theoretical averages of global centroids without labels ([](#fig9e) and [](#fig9f)).
-This shows that the approach does not generalize.
-Conceptually, it made sense to find an average image of the digit four, but not to find the average of all digits.
-Perhaps this approach would be more reliable with labels, but this would require an upstream classifier model or manual annotation.
+Reconstructing theoretical averages of global centroids without labels produced counterexamples ([](#fig9e) and [](#fig9f)).
+This revealed that the approach does not generalize and that decisions about model design affect the perceived outcome.
+Conceptually, it made sense to find an average image of the digit four, but not to find the average example of all digits.
+Perhaps the approach would be more consistent with label averages, but this would require an upstream classifier model or manual annotation.
 
 :::{figure} #fig9e_data
 :name: fig9e
 :placeholder: ./figures/fig9e.png
-Figure legend.
+Theoretical average MNIST digits without label information, following methods from the original study. The average of each pixel was measured and reconstructed using all N=60,000 images.
 :::
 
 :::{figure} #fig9f_data
 :name: fig9f
 :placeholder: ./figures/fig9f.png
-Figure legend.
+Autoencoder reconstructions of global average latent vectors using the full embedding of N=60,000 vectors.
 :::

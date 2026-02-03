@@ -98,7 +98,6 @@ Three additional mCherry-ER reporters are shown to substitute mCherry-KDEL.
 
 ## Conclusions
 
-Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling in replicate microscopy maps.
-Irregular ER morphology was observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
+Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling.
+Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
 Otherwise, there was no clear indication of ER stress in cells infected with reovirus.
-This finding does not disprove original claims, but this method provides an unbiased assessment of replicability that is open to scrutiny.

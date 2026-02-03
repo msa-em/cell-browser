@@ -31,7 +31,7 @@ A confounding variable was interference of viral infection from plasmid transfec
 All samples were infected with reovirus strain T1L. 
 Viral and ER antigens were co-stained with reovirus μNS and calreticulin antibodies for immunofluorescence imaging.
 Transfection with the TransIT-2020 reagent appeared to be favourable in this model ([](#fig2a)) compared to Lipofectamine 3000 ([](#fig2b)).
-The TransIT-2020 sample was more similar to the untransfected control ([](#fig2c)) in terms of cell confluence and viral infection.
+The TransIT-2020 sample was comparable to the untransfected control ([](#fig2c)) with respect to cell confluence and viral infection.
 
 ::::{figure}
 :label: fig2a
