@@ -1,5 +1,5 @@
 ---
-title: 'You are being misled with representative images'
+title: 'You are being misled by representative images'
 short_title: Virtual Microscopy
 numbering:
   heading_2: false
@@ -7,11 +7,11 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Mainstream scientific discourse predominantly involves static figures, which is outdated and necessitates the presentation of microscopy results as representative images and plots.
-Here, modern technologies were used to embed large panoramas as zoomable microscopy maps in the article, advancing virtual microscopy to the scientific literature.
-As an alternative visualization tool, virtual microscopy benefits the transparency, accessibility, and archival of bioimaging data.
-These features made it useful to evaluate the replicability of representative images.
-In a replication study, Barkley found that original claims were not reliably replicable using virtual microscopy, though this interpretation is open to scrutiny.
+Mainstream scientific discourse predominantly uses static figures, which necessitates the presentation of microscopy results as representative images and plots.
+This article focuses on novel visualization strategies, advancing virtual microscopy to the scientific literature.
+Interactive microscopy maps were embedded in the article, improving the transparency, accessibility, and archival of bioimaging data.
+These features made virtual microscopy useful to evaluate the replicability of representative images.
+In a replication study, Barkley found that original claims were not reliably observed in the microscopy maps, though this interpretation is open to scrutiny.
 To work within the constraints of conventional journals, an objective method of representative image selection was also explored and delimited.
 
 +++

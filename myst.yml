@@ -2,7 +2,7 @@
 version: 1
 project:
   id: msa-em-cell-browser-1
-  title: You are being misled with representative images
+  title: You are being misled by representative images
   description: Application of virtual microscopy as an unbiased method to replicate representative microscopy images.
   short_title: Virtual Microscopy
   keywords:
