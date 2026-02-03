@@ -27,7 +27,7 @@ _Updated 2025 September 27_
 
 +++{"part":"acknowledgements"}
 
-Barkley wants to thank the Baker Institute for Animal Health at Cornell and the philanthropic donors for the financial support of this unfunded project.
+Barkley wants to thank the Baker Institute for Animal Health at Cornell and its philanthropic donors for the financial support of this unfunded project.
 
 +++
 

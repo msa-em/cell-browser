@@ -43,7 +43,7 @@ The TransIT-2020 sample was comparable to the untransfected control ([](#fig2c))
 }
 
 :::
-Transfected-infected cells. mCherry-KDEL transfection with **TransIT-2020** transfection reagent was followed by reovirus T1L infection (MOI 100).
+Transfected-infected cells. mCherry-KDEL transfection with TransIT-2020 transfection reagent was followed by reovirus T1L infection (MOI 100).
 ::::
 
 ::::{figure}
@@ -54,7 +54,7 @@ Transfected-infected cells. mCherry-KDEL transfection with **TransIT-2020** tran
   "height": "600px"
 }
 :::
-Transfected-infected cells. mCherry-KDEL transfection with **Lipofectamine 3000** transfection reagent was followed by reovirus T1L infection (MOI 100).
+Transfected-infected cells. mCherry-KDEL transfection with Lipofectamine 3000 transfection reagent was followed by reovirus T1L infection (MOI 100).
 ::::
 
 ::::{figure}
@@ -65,5 +65,5 @@ Transfected-infected cells. mCherry-KDEL transfection with **Lipofectamine 3000*
   "height": "600px"
 }
 :::
-Infected cells, **untransfected** control.
+Infected cells, untransfected control.
 ::::

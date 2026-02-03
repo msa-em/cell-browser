@@ -58,7 +58,7 @@ An autoencoder model was trained on NucleusNet for 50 epochs ([](#sfig12c).
 Theoretical latent vectors were calculated using measures of central tendency, including the arithmetic mean, median and geometric median.
 Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig10d)).
 Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342].
-They appeared to blend all image features from the dataset, and there is what appears to be background signal around the theoretical nucleus.
+These examples appeared to blend all image features from the dataset.
 
 :::{figure} #fig10d_data
 :label: fig10d
@@ -69,20 +69,19 @@ Figure legend.
 2. Determination of a prototypical image
 
 Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
-Using this measure for simplicity yielded one representative image ([](#fig10e)).
+Using this measure yielded one representative image ([](#fig10e)).
 
 ```{figure} ./figures/fig10e.png
 :label: fig10e
-Representative image of NucleusNet, defined as the encoded vector closest to the mean latent vector using Euclidean distance. ROI_300 from the stitched image Run11BR_bottom_right.
+Representative image from NucleusNet: ROI_300 from the stitched image Run11BR_bottom_right.
 ```
 
 ## Conclusions
 
-Barkley interpreted that the chosen image is a boring example of an interphase nucleus.
-Given the technical and phenotypic variability shown in NucleusNet-10K ([](#fig10c)), centroid-proximal latent vectors in NucleusNet were invariably interphase nuclei with muted image features.
-Disentangling the latent space of the autoencoder is unrealistic to justify this method.
-Based on the comparison of pixel-wise mean projections ([](#fig9a)) to decoded mean latent vectors ([](#fig9c)), theoretical average nuclei ([](#fig10d)) appear to blend image features from NucleusNet.
-Barkley conjectures that the practical representative image determined with this method ([](#fig10e)) could be interpreted as representing a mix of all image features from the dataset.
+Barkley interpreted the chosen image as a boring example of an interphase nucleus, given the technical and phenotypic variability shown in NucleusNet-10K ([](#fig10c)).
+Disentangling the dimensions of latent space is unrealistic, so it is impossible to justify this method.
+However, based on the reconstructed average MNIST digits ([](#fig9a) and [](#fig9c)), Barkley conjectures that decoded latent centroids act like pixel-wise mean projections.
+From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that mixes all image features from the dataset.
 
 ---
 
@@ -201,8 +200,7 @@ The cellpose model segmented the nuclei in all stitched images and the mask file
 4. Cropped single cell masked dataset
 
 The orientation of a cell is known to confound the vector embedding of autoencoder models trained on single-cell microscopy data, motivating the development of orientation-invariant autoencoder models [@doi:10.1038/s41467-024-45362-4].
-Similarly, a multi-encoder variational autoencoder model controlled for several transformational features like orientation that were 'uninformative' in single-cell analyses [@doi:10.1038/s42003-022-03218-x].
-Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting and rotating a rectangle to the cellpose mask.
+Similarly, a multi-encoder variational autoencoder model controlled for several transformational features like orientation that were deemed 'uninformative' in single-cell analyses [@doi:10.1038/s42003-022-03218-x].
+Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting a minimal-area rectangle to the mask for rotation. 
 Nuclei were center-cropped and all values outside of the mask were set to zero in the cropped images.
-This was notable because it left background signal around the nucleus, which later emerged in reconstructions from the autoencoder.
-Otherwise, cropped images in NucleusNet were not processed further.
+Otherwise, the cropped images in NucleusNet were not processed further.

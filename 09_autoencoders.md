@@ -41,7 +41,7 @@ Our example used all MNIST "four" images (N=6824), but the outcome was consisten
 :::{figure} #fig9a_data
 :label: fig9a
 :placeholder: ./figures/fig9a.png
-Replication of theoretical images of the MNIST digit '4'.
+Replicating theoretical images of the MNIST digit '4'.
 N=6824 grayscale images with the label '4' were flattened to 784-dimensional vectors to compute then reshape reconstructed images of the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
@@ -50,7 +50,7 @@ The chosen exemplars were not the same as the original study ([](#fig9b)).
 :::{figure} #fig9b_data
 :label: fig9b
 :placeholder: ./figures/fig9b.png
-Replication of practical images of the MNIST digit '4' using the arithmetic mean (left), median (middle) and geometric median (right).
+Replicating practical MNIST '4' digits using the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
 ## Autoencoder-based selection of average MNIST digits
@@ -101,5 +101,5 @@ Theoretical average MNIST digits without label information, following methods fr
 :::{figure} #fig9f_data
 :name: fig9f
 :placeholder: ./figures/fig9f.png
-Autoencoder reconstructions of global average latent vectors using the full embedding of N=60,000 vectors.
+Autoencoder reconstructions of global average latent vectors using all N=60,000 vectors without labels. 64-dimensional vectors were averaged per dimension then decoded using saved weights.
 :::

@@ -14,7 +14,7 @@ Specifically, the reovirus strain, MOI, and calreticulin antibody were substitut
 
 ## Immunofluorescence imaging of transfected-infected cells
 
-HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by infection with reovirus T1L at MOI 100 for one day.
+HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by infection with reovirus T1L at MOI 100 for another day.
 Samples were fixed for immunofluorescence detection of viral and ER antigens.
 Chicken polyclonal μNS antiserum was used to label reovirus viral factories.
 
