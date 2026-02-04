@@ -5,30 +5,29 @@ numbering:
 label : discussion_page
 ---
 
-There is no consensus definition of science or the scientific method, but an essential principle is reproducibility.
-Repeatability in microscopy is often shown with quantitative analyses.
+There is not a consensus on the scientific method, but a core principle is reproducibility.
+Repeatability in microscopy is often described with quantitative analyses.
 However, without numerical results, representative images alone cannot communicate repeatability.
 The reality is that representative images can show rare, idealized, or exaggerated examples to embellish results.
-Microscopists are incentivized to show their best evidence and readers are none the wiser because the primary data is inaccessible.
-This bottleneck in scientific communication can be expanded with virtual microscopy.
-Barkley presented stitched panoramas of confocal data, but the approach is relevant to the broader bioimaging community.
+Microscopists are incentivized to show the best images, while the rest of the data is inaccessible.
+This bottleneck in scientific communication can be expanded with virtual microscopy, which is applicable to the broader bioimaging community.
 For example, OME-Zarr supports several modalities including multiplexed imaging, spatial transcriptomics, light-sheet, infrared, scanning EM and digital pathology.
-To improve accessibility for readers, it was important to use cloud storage and embedded viewers, which was supported by this journal.
-Virtual microscopy requires an internet connection, but this limitation is unimportant because present and future scientific discourse uses computers, not paper.
-This new tool for scientific communication can give all parties unprecedented exposure to data for review and critical evaluation.
-Fraud prevention could incentivize publishers to adopt this technology to provide an alternative to representative images.
+To maximize accessibility for readers, it was important to use cloud storage and embedded viewers, which was supported by this journal.
+Virtual microscopy requires an internet connection, but this limitation is unimportant because scientific publishing is now web-based.
+This new tool for scientific communication gives all parties unprecedented exposure to the data for rigorous review and critical evaluation.
+Fraud prevention could incentivize publishers to adopt this technology as an alternative visualization tool.
 
-Barkley pushed for the utility of virtual microscopy in replication studies.
-Unbiased replication involves automated sampling of reasonable populations from which the original claim should be reliably observed.
-Barkley replicated a study that reported representative images without numerical results.
-The original report observed ER remodelling in reovirus-infected cells expressing mCherry-KDEL.
+Barkley recognized the value of virtual microscopy for replication studies.
+The process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
+Barkley replicated an experiment that reported representative images without numerical results.
+The original results showed apparent ER remodelling in reovirus-infected cells expressing mCherry-KDEL.
 In our replication study, Barkley observed ER remodelling in cells expressing mCherry-KDEL in the absence of reovirus infection.
-This suggests that artifacts could have been misinterpreted as reovirus-induced ER remodelling in the original study.
-In replicate microscopy maps, it was not clear that ER morphology was affected by reovirus, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
-This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18] but it is open to scrutiny, just look for yourself.
+This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as symptoms of reovirus infection.
+In replicate experiments, it was not clear that reovirus affected ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
+This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18] and it is open to public scrutiny.
 
-Representative images are chosen by humans, who are flawed and biased, but the process of image selection is challenging to automate.
-An approach with autoencoders was demonstrated, but it is irresponsible to use this method because neural networks are black boxes.
-There is opportunity to improve the model with representation learning, but interpretability remains opaque.
-Further, it could be that this approach requires label information for generalization ([](#fig9c) and [](#fig9f)).
-To truly prevent cherry-picking, image selection can be avoided with virtual microscopy.
+The task of image selection was difficult to automate.
+An approach was demonstrated, but it was irresponsible to use autoencoders because neural networks are black boxes.
+There is room for improvement with representation learning, but the interpretability remains opaque.
+It could be that this approach requires labels for generalization ([](#fig9c) and [](#fig9f)).
+To truly prevent cherry-picking, image selection is avoided with virtual microscopy.

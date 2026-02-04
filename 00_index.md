@@ -11,7 +11,7 @@ Mainstream scientific discourse predominantly uses static figures, which necessi
 This article focuses on novel visualization strategies, advancing virtual microscopy to the scientific literature.
 Interactive microscopy maps were embedded in the article, improving the transparency, accessibility, and archival of bioimaging data.
 These features made it useful to evaluate the replicability of representative images.
-Virtual microscopy was applied to replicate experiments and the original claims were not reliably observed, but this conclusion is open to scrutiny.
+Virtual microscopy was used to replicate experiments and the original claim was not reliably observed, but this conclusion is open to scrutiny.
 To work within the constraints of conventional journals, an objective method of image selection was explored and delimited.
 
 +++
