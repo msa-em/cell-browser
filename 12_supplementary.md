@@ -121,7 +121,7 @@ Some figure panels had multiple images.
 If the images were unique examples, then the figure counted as more than one image.
 Multi-channel or time-lapse images were considered one image with multiple frames.
 
-```{list-table} Assessment of results by data type
+```{list-table} Assessment of results by data type: 45/47 (96%) were representative images.
 :label: table4
 :header-rows: 1
 * - Figure
