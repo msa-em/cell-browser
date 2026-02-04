@@ -10,7 +10,7 @@ numbering:
 Mainstream scientific discourse predominantly uses static figures, which necessitates the presentation of microscopy results as representative images and plots.
 This article focuses on novel visualization strategies, advancing virtual microscopy to the scientific literature.
 Interactive microscopy maps were embedded in the article, improving the transparency, accessibility, and archival of bioimaging data.
-These features made virtual microscopy useful to evaluate the replicability of representative images.
+These features made it useful to evaluate the replicability of representative images.
 In a replication study, original claims were not reliably observed in microscopy maps, though this interpretation is open to scrutiny.
 To work within the constraints of conventional journals, an objective method of representative image selection was also explored and delimited.
 
