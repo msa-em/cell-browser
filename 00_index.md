@@ -9,9 +9,9 @@ numbering:
 
 Mainstream scientific discourse predominantly uses static figures, which necessitates the presentation of microscopy results as representative images and plots.
 This article focuses on novel visualization strategies, advancing virtual microscopy to the scientific literature.
-Interactive microscopy maps were embedded in the article, improving the transparency, accessibility, and archival of bioimaging data.
-These features made it useful to evaluate the replicability of representative images.
-Virtual microscopy was used to replicate experiments and the original claim was not reliably observed, but this conclusion is open to scrutiny.
+Interactive microscopy maps were embedded to improve the transparency, accessibility, and archival of bioimaging data.
+These features made virtual microscopy useful to evaluate the replicability of representative images.
+In replicate experiments, an original claim of organelle remodelling during reovirus infection was not reliably observed, but this conclusion is open to scrutiny.
 To work within the constraints of conventional journals, an objective method of image selection was explored and delimited.
 
 +++

@@ -16,7 +16,7 @@ Furthermore, archival and review of primary microscopy data is disorganized and 
 These inefficiencies can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that transmit images over the internet.
 An example was the unbiased sampling and presentation of electron microscopy data to readers as interactive digital maps; microscopy maps [@doi:10.1083/jcb.201201140].
 In practice, microscopy maps are easy to implement but are viewed with external links or software [@doi:10.1242/jcs.262198].
-Here, interactive microscopy maps were embedded in the article to introduce virtual microscopy to the literature.
+Here, interactive microscopy maps were embedded in the article to advance virtual microscopy for researchers.
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge, yet there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
 From the perspective of biomedical researchers, the perceived cause is the pressure to publish [@doi:10.1371/journal.pbio.3002870].
@@ -33,7 +33,7 @@ A fully motorized confocal microscope recorded large images from replicate immun
 Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
 All parties have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
 
-Microscopy maps are interactive figures, but static figures predominate scientific publishing as an outdated relic of print journals.
+Microscopy maps are interactive figures but static figures predominate scientific publishing.
 Despite the benefits of virtual microscopy, representative images will persist until mainstream journals adopt modern visualization tools.
 Given the widespread use of static figures in scientific discourse, the second chapter of this project was dedicated to computational image selection.
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
