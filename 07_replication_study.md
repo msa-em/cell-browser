@@ -5,7 +5,7 @@ numbering:
 label : replication_page
 ---
 
-Conditions of the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
+Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
 
 ---

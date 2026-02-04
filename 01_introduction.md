@@ -15,7 +15,7 @@ The problem is that it is difficult for readers to critically evaluate represent
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming, if at all available.
 These inefficiencies can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that transmit images over the internet.
 An example was the unbiased sampling and presentation of electron microscopy data to readers as interactive digital maps; microscopy maps [@doi:10.1083/jcb.201201140].
-In practice, microscopy maps are easy to implement, but are viewed with external links or software [@doi:10.1242/jcs.262198].
+In practice, microscopy maps are easy to implement but are viewed with external links or software [@doi:10.1242/jcs.262198].
 Here, interactive microscopy maps were embedded in the article to introduce virtual microscopy to the literature.
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge, yet there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
@@ -26,10 +26,10 @@ Another project evaluated replication success with other criteria, but their 'lo
 Further, 26% of claimed effects were evidenced by representative images without quantitative analysis.
 Consider that highly magnified representative images cannot describe population variation and the uncertainty of an observation.
 A feature of virtual microscopy is the unbiased sampling of multi-scale image data, making it useful as a method to replicate representative images.
-Results should be observed again with a high degree of reliability, therefore original claims should be evident in replicate microscopy maps.
+Results should be observed again with a high degree of reliability; therefore original claims should be evident in replicate microscopy maps.
 To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen because most results were representative images without quantification ([](#table4)).
-A fully-motorized confocal microscope recorded large images from replicate immunofluorescence experiments at high-magnification.
+A fully motorized confocal microscope recorded large images from replicate immunofluorescence experiments at high-magnification.
 Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
 All parties have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
 
@@ -43,7 +43,7 @@ Barkley automated the process of sample collection and image selection from a da
 Representative images were then selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
-Representative images were defined near the centroid of latent space, though counter-examples show that this approach does not generalize.
+Representative images were defined near the centroid of latent space, though counterexamples show that this approach does not generalize.
 To define what is representative, both the subjective determinations made by humans and the objective determinations made by autoencoders are opaque.
 In contrast, microscopy maps offer greater transparency and accessibility compared to representative images as an alternative visual communication tool.
 
