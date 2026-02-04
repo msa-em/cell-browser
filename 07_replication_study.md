@@ -96,7 +96,7 @@ Three additional mCherry-ER reporters are shown to substitute mCherry-KDEL.
 
 ---
 
-## Conclusions
+## Conclusion
 
 Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling.
 Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.

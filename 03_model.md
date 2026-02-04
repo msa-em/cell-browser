@@ -30,8 +30,6 @@ In the original study, cells were transfected before virus infection, each incub
 A confounding variable was interference of viral infection from plasmid transfection, so two transfection reagents were tested in this model.
 All samples were infected with reovirus strain T1L. 
 Viral and ER antigens were co-stained with reovirus μNS and calreticulin antibodies for immunofluorescence imaging.
-The TransIT-2020 sample ([](#fig2a)) was comparable to the untransfected control ([](#fig2b)) in terms of cell confluence and viral infection.
-Transfection with the TransIT-2020 reagent ([](#fig2a)) was favourable over the Lipofectamine 3000 reagent ([](#fig2c)) in this model.
 
 ::::{figure}
 :label: fig2a
@@ -50,20 +48,25 @@ Transfected-infected cells. mCherry-KDEL transfection with TransIT-2020 transfec
 :label: fig2b
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",
-  "height": "600px"
-}
-:::
-Untransfected control. These cells were just infected with reovirus T1L (MOI 100).
-::::
-
-::::{figure}
-:label: fig2c
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-{
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample1.zarr/",
   "height": "600px"
 }
 :::
 Transfected-infected cells. mCherry-KDEL transfection with Lipofectamine 3000 transfection reagent was followed by reovirus T1L infection (MOI 100).
 ::::
+
+::::{figure}
+:label: fig2c
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",
+  "height": "600px"
+}
+:::
+Untransfected control. The cells were infected with reovirus T1L (MOI 100).
+::::
+
+## Interpretation
+
+Transfection with the TransIT-2020 reagent was favourable over Lipofectamine 3000 in this model.
+The TransIT-2020 sample was comparable to the untransfected control in terms of cell confluence and viral infection.
