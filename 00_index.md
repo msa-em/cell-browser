@@ -16,7 +16,7 @@ To work within the constraints of conventional journals, an objective method of 
 
 +++
 
-+++{"part":"epigraph"}
++++ {"part":"epigraph"}
 
 :::{warning} Pre-print
 This article has not yet been peer-reviewed.  
@@ -25,13 +25,13 @@ _Updated 2025 September 27_
 
 +++
 
-+++{"part":"acknowledgements"}
++++ {"part":"acknowledgements"}
 
 Barkley wants to thank the Baker Institute for Animal Health at Cornell and its philanthropic donors for the financial support of this unfunded project.
 
 +++
 
-+++{"part":"competing interests"}
++++ {"part":"competing interests"}
 
 ## Competing Interests
 
