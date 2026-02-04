@@ -1,18 +1,23 @@
 ---
-title: 'Unbiased representative images using embedded microscopy maps'
-short_title: Re-Imaging the Wheel
+title: 'You are being misled by representative images'
+short_title: Virtual Microscopy
 numbering:
   heading_2: false
 ---
 
 +++ {"part": "abstract"}
 
-Add your abstract here.
-Avoid complicated equations / citations here, for crossref compatibility.
+Mainstream scientific discourse predominantly uses static figures, which necessitates the presentation of microscopy results as representative images and plots.
+This article focuses on novel visualization strategies, advancing virtual microscopy to the scientific literature.
+Interactive microscopy maps were embedded to improve the transparency, accessibility, and archival of bioimaging data.
+These features made virtual microscopy useful to evaluate the replicability of representative images.
+In replicate experiments, an original claim of organelle remodelling during reovirus infection was not reliably observed, but this conclusion is open to scrutiny.
+To work within the constraints of conventional journals, an objective method of image selection was explored and delimited.
 
 +++
 
 +++{"part":"epigraph"}
+
 :::{warning} Pre-print
 This article has not yet been peer-reviewed.  
 _Updated 2025 September 27_
@@ -20,20 +25,21 @@ _Updated 2025 September 27_
 
 +++
 
-+++ {"part": "acknowledgements"}
++++{"part":"acknowledgements"}
 
-Add your acknowledgments, if any, here.
+Barkley wants to thank the Baker Institute for Animal Health at Cornell and its philanthropic donors for the financial support of this unfunded project.
 
 +++
 
-+++ {"part": "competing interests"}
++++{"part":"competing interests"}
 
 ## Competing Interests
 
-Add your competing interests, if any, here.
+All authors declare no conflicts of interest.
+Last names were used to separate the authors voices, interpretations, and contributions in the text.
+
 +++
 
 ## Data availability
 
-NucleusNet was [deposited](#huggingface-upload) to Hugging Face to facilitate data sharing and the repository was streamed to present images in interactive figures.
-The full collection of 250,000 microscopy fields, 1,600 stitched images and corresponding mask files, as well as the cropped images were zipped and archived at Zenodo.
+NucleusNet was zipped and archived on Zenodo.

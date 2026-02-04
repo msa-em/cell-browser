@@ -2,16 +2,17 @@
 version: 1
 project:
   id: msa-em-cell-browser-1
-  title: Unbiased representative images using embedded microscopy maps
-  description: Using automated imaging and next generation file formats for honest presentation and archival of light microscopy data.
-  short_title: Re-Imaging the Wheel
+  title: You are being misled by representative images
+  description: Application of virtual microscopy as an unbiased method to replicate representative microscopy images.
+  short_title: Virtual Microscopy
   keywords:
     - NucleusNet
+    - Virtual
     - Microscopy
-    - Maps
-    - Virtual nanoscopy
-    - Reproducibility
+    - Map
+    - Replication
     - OME-Zarr
+    - Deep Zoom
   github: https://github.com/msa-em/cell-browser 
   jupyter: true
   # jupyter:
@@ -73,5 +74,24 @@ project:
     MSE: mean squared error
     PBS: phosphate buffered saline
     PFA: paraformaldehyde
+    DZI: deep zoom image
+  toc:
+    - file: 00_index.md
+    - file: 01_introduction.md
+    - title: Microscopy Maps
+      children:
+        - file: 02_approach.md
+        - file: 03_model.md
+        - file: 04_antibodies.md
+        - file: 05_plasmids.md
+        - file: 06_virus.md
+        - file: 07_replication_study.md
+    - title: Objective Image Selection
+      children:
+        - file: 08_approach.md
+        - file: 09_autoencoders.md
+        - file: 10_nucleusnet.md
+    - file: 11_discussion.md
+    - file: 12_supplementary.md
 site:
   template: book-theme
