@@ -12,10 +12,10 @@ label : approach_page
 This chapter critiques the quality and reproducibility of representative microscopy images as scientific evidence.
 The problem is that static figures motivate authors to cherry-pick desirable examples.
 Scientists also lack tools to evaluate the replicability of claims from representative images.
-A solution is cloud-based [virtual microscopy](<wiki:Virtual_microscopy>); using the internet to share images.
-Often used for pedagogy, virtual microscopy could benefit scientific research.
-Academics have proposed a variation of virtual microscopy for the unbiased presentation of transmission electron microscopy data [@doi:10.1083/jcb.201201140].
-Today, there are free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be implemented in scientific publishing.
+A solution is cloud-based [virtual microscopy](<wiki:Virtual_microscopy>); using the internet to share image data.
+Often used for pedagogy, virtual microscopy could benefit research.
+Academics have proposed a variation of virtual microscopy for the unbiased presentation of electron microscopy data [@doi:10.1083/jcb.201201140].
+Today, there are free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be used in scientific publishing.
 Our approach involved automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) file formats, and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png

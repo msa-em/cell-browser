@@ -84,8 +84,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 
 ## Reovirus μNS
 
-Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments of infected cells called viral factories.
-The viral protein μNS self-assembles to form the matrix and recruits other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
+Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments called viral factories.
+The viral protein μNS self-assembles to form the scaffold that concentrates other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
 The original study stained viral factories with μNS and σNS antibodies, including chicken polyclonal μNS antiserum from our laboratory.
 The chicken antibody was cross-validated with a guinea pig polyclonal μNS antiserum.
 All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies.

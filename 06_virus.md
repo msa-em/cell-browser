@@ -9,8 +9,8 @@ label : virus_page
 
 ## Mammalian orthoreovirus strains
 
-The original study used the mutant reovirus strain Type 1 Lang (T1L) M1-P208S, which forms globular viral factories from a loss of interaction with microtubules [@doi:10.1128/JVI.76.9.4483-4496.2002].
-No rationale was provided for using the P208S mutant, nor did our lab have it, so wildtype mammalian orthoreovirus strain T1L was substituted in the replication study.
+The original study used the mutant reovirus strain Type 1 Lang (T1L) M1-P208S, which forms globular viral factories from the loss of interaction with microtubules [@doi:10.1128/JVI.76.9.4483-4496.2002].
+No rationale was provided for using the P208S mutant, nor did our lab have it, so wildtype mammalian orthoreovirus strain T1L was used in the replication study.
 Reovirus T1L tends to form filamentous viral factories, while the mutant reovirus M1-P208S would have formed globular viral factories.
 A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included in this experiment to compare factory morphology between reovirus strains T1L and T3D.
 

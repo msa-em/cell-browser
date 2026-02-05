@@ -9,7 +9,7 @@ numbering:
 
 Mainstream scientific discourse predominantly uses static figures, which necessitates the presentation of microscopy results as representative images and plots.
 This article focuses on novel visualization strategies, advancing virtual microscopy to the scientific literature.
-Web-based microscopy maps improved the transparency, accessibility, and archival of bioimaging data as an alternative to representative images.
+Web-based microscopy maps improve the transparency, accessibility, and archival of bioimaging data as an alternative to representative images.
 These features made virtual microscopy useful to evaluate the replicability of representative images.
 In replication experiments, an original claim of reovirus-induced organelle remodelling was not reliably observed in microscopy maps, but this conclusion is open to scrutiny.
 To work within the constraints of conventional journals, an objective method of image selection was explored and delimited.

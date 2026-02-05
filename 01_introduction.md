@@ -14,7 +14,7 @@ Aside from cherry-picking, scientists can sincerely misinterpret observations.
 The problem is that it is difficult for readers to critically evaluate representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming, if at all available.
 These inefficiencies can be overcome with interactive visualization stategies like [virtual microscopy](<wiki:Virtual_microscopy>) that transmit images over the internet.
-An example was the unbiased sampling and presentation of electron microscopy data to readers as interactive digital maps; microscopy maps [@doi:10.1083/jcb.201201140].
+An example was the unbiased presentation of electron microscopy data to readers as interactive digital maps; microscopy maps [@doi:10.1083/jcb.201201140].
 In practice, microscopy maps are easy to implement but are viewed with external links or software [@doi:10.1242/jcs.262198].
 Here, interactive microscopy maps were embedded in the article to advance virtual microscopy for researchers.
 
@@ -25,7 +25,7 @@ Large-scale replicability studies performed by Amgen and Bayer assessed that 11%
 Another project evaluated replication success with other criteria, but their 'lowest bar' determined a replication rate of 79% for representative images [@doi:10.7554/eLife.71601].
 Further, 26% of claimed effects were evidenced by representative images without quantitative analysis.
 Consider that highly magnified representative images cannot describe population variation and the uncertainty of an observation.
-A feature of virtual microscopy is the unbiased sampling of multi-scale image data, making it useful as a method to replicate representative images.
+A feature of virtual microscopy is the unbiased sampling and transmission of multi-scale image data, making it useful as a method to replicate representative images.
 Results should be observed again with a high degree of reliability; therefore original claims should be evident in replicate microscopy maps.
 To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen because most results were representative images without quantification ([](#table4)).
