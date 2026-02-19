@@ -78,7 +78,7 @@ Representative image from NucleusNet: ROI_300 from the stitched image Run11BR_bo
 
 ## Conclusions
 
-Barkley interpreted the chosen image as a boring example of an interphase nucleus, given the technical and phenotypic variability shown in NucleusNet-10K ([](#fig10c)).
+Barkley interpreted the image as a boring example of an interphase nucleus, given the variability shown in NucleusNet-10K ([](#fig10c)).
 Disentangling the dimensions of latent space is unrealistic, so it is impossible to justify this method.
 However, based on the reconstructed average MNIST digits ([](#fig9a) and [](#fig9c)), Barkley conjectures that decoded latent centroids act like pixel-wise mean projections.
 From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that mixes all image features from the dataset.
