@@ -29,7 +29,7 @@ A feature of virtual microscopy is the unbiased sampling and transmission of mul
 Results should be observed again with a high degree of reliability; therefore original claims should be evident in replicate microscopy maps.
 To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen because most results were representative images without quantification ([](#table4)).
-A fully motorized confocal microscope recorded large images from replicate immunofluorescence experiments at high-magnification.
+A fully motorized confocal microscope recorded large samples from replicate immunofluorescence experiments at high-magnification.
 Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
 All parties have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
 
@@ -38,7 +38,8 @@ Despite the benefits of virtual microscopy, representative images will persist u
 Given the widespread use of static figures in scientific discourse, the second chapter of this project was dedicated to computational image selection.
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The authors implemented a web server that chose typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
-Representative image selection is an interesting use case for artificial intelligence.
+Researchers have proposed other methods [@doi:10.1109/BIP60195.2023.10379342], but there is no consensus.
+We thought that representative image selection was an interesting use case for machine learning models.
 Barkley automated the process of sample collection and image selection from a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
 Representative images were then selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
