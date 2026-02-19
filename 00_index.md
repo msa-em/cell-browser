@@ -7,7 +7,7 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Mainstream scientific discourse predominantly uses static figures, which necessitates the presentation of microscopy results as representative images and plots.
+Mainstream scientific discourse predominantly uses static figures, which necessitates the presentation of microscopy data as representative images and plots.
 This article focuses on novel visualization strategies, advancing virtual microscopy to the scientific literature.
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimaging data as an alternative to representative images.
 These features made virtual microscopy useful to evaluate the replicability of representative images.

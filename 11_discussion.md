@@ -6,7 +6,7 @@ label : discussion_page
 ---
 
 Every academic discipline has its own ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
-If biomedical researchers endorse [empiricism](<wiki:Empiricism>) and objectivity, then why are representative images acceptable results?
+If biomedical researchers endorse [empiricism](<wiki:Empiricism>) and objectivity, then why are representative images acceptable?
 There is no consensus on the scientific method, but a general principle is reproducibility.
 Repeatability in microscopy is shown with quantitative analyses.
 However, without numerical results, representative images alone cannot communicate repeatability.
