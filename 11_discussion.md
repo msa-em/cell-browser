@@ -1,29 +1,32 @@
 ---
 title: Discussion
 numbering:
-  enumerator: 0.%s
+  enumerator: 10.%s
 label : discussion_page
 ---
 
-Every academic discipline has its own ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
-If biomedical researchers endorse [empiricism](<wiki:Empiricism>) and objectivity, then why are representative images acceptable?
-There is no consensus on the scientific method, but a general principle is reproducibility.
-Repeatability in microscopy is shown with quantitative analyses.
-However, without numerical results, representative images alone cannot communicate repeatability.
+Every academic discipline has its ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
+If biomedical researchers endorse [empiricism](<wiki:Empiricism>) and objectivity, then why are representative microscopy images sufficient to make claims?
+A representative image definitively shows that an observation is possible, but it does not describe frequency or variance.
+There is disagreement on the scientific method, but a general principle is reproducibility.
+Repeatability in microscopy can be described with quantitative analyses.
+However, without numerical results, representative images cannot communicate repeatability.
 The reality is that representative images can show rare, idealized, or exaggerated examples to embellish results.
-Microscopists are incentivized to show the best evidence and omit contradictory data.
-Figures are not to be confused with data.
-Data is the raw file from the microscope, while figures are visual representations of data shaped by the microscopist.
-Indeed, the peer review process involving coauthors, principal investigators, reviewers, and readers is limited to the information provided in figures.
-The literature is full of exciting outcomes, but at the bench, data is messy, nuanced, and experiments are prone to failure. 
+Microscopists are incentivized to show compelling evidence and omit contradictory data.
+The literature is full of exciting outcomes, but at the bench, data is messy, nuanced, and experiments are prone to failure.
 
-This bottleneck in peer review is expanded with virtual microscopy, which is relevant to the broader bioimaging community.
+Representative images are figures, which is not to be confused with data.
+Data is the raw file from the microscope, while figures are visual representations of data, shaped by the microscopist.
+Figures are the interface for peer review between the experimentalist and coauthors, principal investigators, reviewers and readers.
+Indeed, peer review seldom involves data and discourse is limited to the information provided in figures.
+This bottleneck can be expanded with virtual microscopy, which is relevant to the broader bioimaging community.
 For example, the OME-Zarr format supports several modalities including multiplexed imaging, spatial transcriptomics, light-sheet, infrared, scanning EM and digital pathology.
-To maximize accessibility for readers, it was important to embed viewports that retrieved data from the cloud, which was supported by this journal.
-Virtual microscopy requires a computer with internet connection, but this limitation is unimportant for contemporary and future publishing which is online.
-This new tool gives readers unprecedented exposure to data, promoting open peer review and critical evaluation.
-Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so virtual microscopy could help skeptical reviewers evaluate representative images in the peer review of other journals.
-Fraud prevention could incentivize publishers to adopt this technology and offer it to microscopists as an alternative to representative images.
+To maximize accessibility for readers, we embedded interactive viewports that stream data from the cloud, which was supported by this journal.
+Virtual microscopy requires an internet connection, but this limitation is relatively unimportant for future and contemporary publishing.
+This new tool gives readers unprecedented exposure to data, promoting open peer review.
+Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so virtual microscopy could be requested from reviewers during peer review in other journals.
+Fraud prevention could incentivize journals to adopt this technology as an alternative to representative images.
+Scientists and principal investigators could be motivated to use virtual microscopy to make robust claims.
 
 Barkley recognized the value of virtual microscopy for replication studies.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
@@ -34,8 +37,8 @@ This suggests that artifacts from mCherry-ER reporters could have been misinterp
 In replicate experiments, it was not clear that reovirus affected ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
 This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18] but it is open to public scrutiny.
 
-There are at least ten examples of objective representative image selection cited in a recent article [@doi:10.1109/BIP60195.2023.10379342].
-This means that researchers have proposed various methods but there is no agreement, in part because it remains challenging to define 'representativeness' (https://doi.org/10.1016/s0006-3495(99)77379-0).
-Thus, the task of image selection is unsuitable for computer algorithms because interpeting the output is subjective and context-dependent.
+There are at least ten examples of objective representative image selection that were cited in the most recent article [@doi:10.1109/BIP60195.2023.10379342].
+However, there is no consensus, in part because it is challenging to define representativeness (https://doi.org/10.1016/s0006-3495(99)77379-0).
+The task of image selection remains unsuitable for computer algorithms because interpeting the output is subjective and context-dependent.
 It could be that the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] requires labels for generalization ([](#fig9c) and [](#fig9f)).
-In that case, a future direction could be image categorization with an upstream classifier model before downstream objective image selection.
+Perhaps these methods would benefit from image categorization with an upstream classifier model before objective image selection.
