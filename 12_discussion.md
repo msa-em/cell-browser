@@ -33,12 +33,7 @@ The wildtype full-length construct on the left formed more [biomolecular condens
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
-    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/FL.dzi"
-}
-:::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
-{
-    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/MR.dzi"
+    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/FL_MR.dzc"
 }
 :::
 ::::
