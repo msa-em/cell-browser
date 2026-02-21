@@ -30,7 +30,7 @@ Scientists and principal investigators could use virtual microscopy to make more
 For example, below are microscopy maps of transfected cells expressing moxGFP::μNS.
 The wildtype full-length construct on the left formed more [biomolecular condensates](<wiki:Biomolecular_condensates>) than the mutant on the right:
 
-::::{grid} 2 2 2 2
+::::{figure}
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/FL_MR.dzc"
