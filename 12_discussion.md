@@ -26,7 +26,20 @@ Virtual microscopy requires an internet connection, but this limitation is relat
 This new tool gives readers unprecedented exposure to data, promoting open peer review.
 Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so virtual microscopy could be requested from reviewers during peer review in other journals.
 Fraud prevention could incentivize journals to adopt this technology as an alternative to representative images.
-Scientists and principal investigators could be motivated to use virtual microscopy to make robust claims.
+Scientists and principal investigators might be motivated to use virtual microscopy to make stronger claims.
+
+::::{grid} 2 2 2 2
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/FL.dzi"
+}
+:::
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/MR.dzi"
+}
+:::
+::::
 
 Barkley recognized the value of virtual microscopy for replication studies.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.

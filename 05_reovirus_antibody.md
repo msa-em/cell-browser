@@ -25,7 +25,7 @@ They were infected at MOI 100 with reovirus T1L for 24 hours before fixation wit
 Antibodies for calreticulin were used in all samples.
 Combinations of primary and secondary antibodies to reovirus μNS were tested.
 AlexaFluor594-conjugated secondary antibodies were used for both sera.
-The primary antibodies were multiplexed and incubated overnight at 4C with agitation, same with the secondary antibodies.
+The primary antibodies were multiplexed and incubated overnight at 4C, same with the secondary antibodies.
 Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS and were imaged in this solution.
 
 ---
