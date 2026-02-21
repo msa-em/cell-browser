@@ -25,8 +25,6 @@ Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and c
 
 # Results
 
-## Calreticulin
-
 Barkley validated the calreticulin monoclonal antibody as an immunofluorescence marker for ER antigens.
 The staining pattern was punctate, but it was sufficient to observe ER elements.
 

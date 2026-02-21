@@ -10,6 +10,7 @@ The viral protein μNS self-assembles to form the scaffold that concentrates oth
 The original study stained viral factories with μNS and σNS antibodies, including chicken polyclonal μNS antiserum from our laboratory.
 The chicken antibody was cross-validated with a guinea pig polyclonal μNS antiserum.
 All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies.
+Both antisera were sufficient to observe virus-infected cells and intracellular viral factories at high-magnification.
 
 ## Materials
 
@@ -126,11 +127,3 @@ Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reag
 :::
 
 ::::
-
----
-
-## Conclusions
-
-Both antisera are sufficient to observe virus-infected cells and intracellular viral factories at high-magnification, but the guinea pig antibody is cleaner.
-_comments on background staining and potential colocalization of muNS with ER_
-
