@@ -19,24 +19,28 @@ Representative images are figures, which is not to be confused with data.
 Data is the raw file from the microscope, while figures are visual representations of data, shaped by the microscopist.
 Figures are the interface for peer review between the experimentalist and coauthors, principal investigators, reviewers and readers.
 Indeed, peer review seldom involves data and discourse is limited to the information provided in figures.
-This bottleneck can be expanded with virtual microscopy, which is relevant to the broader bioimaging community.
+This bottleneck can be expanded with virtual microscopy, which is practical to the broader bioimaging community.
 For example, the OME-Zarr format supports several modalities including multiplexed imaging, spatial transcriptomics, light-sheet, infrared, scanning EM and digital pathology.
 To maximize accessibility for readers, we embedded interactive viewports that stream data from the cloud, which was supported by this journal.
-Virtual microscopy requires an internet connection, but this limitation is relatively unimportant for future and contemporary publishing.
+Virtual microscopy requires an internet connection, but this limitation is relatively unimportant for contemporary publishing.
 This new tool gives readers unprecedented exposure to data, promoting open peer review.
 Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so virtual microscopy could be requested from reviewers during peer review in other journals.
-Fraud prevention could incentivize journals to adopt this technology as an alternative to representative images.
-Scientists and principal investigators might be motivated to use virtual microscopy to make stronger claims.
+Fraud prevention could incentivize journals to adopt this technology as an alternative to static figures.
+Scientists and principal investigators could use virtual microscopy to make more robust claims.
+For example, below are microscopy maps of transfected cells expressing moxGFP::μNS.
+The wildtype full-length construct on the left formed more [biomolecular condensates](<wiki:Biomolecular_condensates>) than the mutant on the right:
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/FL.dzi"
+    "height": "350px"
 }
 :::
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/MR.dzi"
+    "height": "350px"
 }
 :::
 ::::
