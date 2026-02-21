@@ -88,7 +88,7 @@ project:
             - file: 05_reovirus_antibody.md
         - file: 06_plasmids.md
         - file: 07_virus.md
-        - file: 08_replication_study.md
+        - file: 08_replication.md
     - title: Objective Image Selection
       children:
         - file: 09_approach.md

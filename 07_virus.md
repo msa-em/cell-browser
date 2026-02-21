@@ -30,12 +30,13 @@ Thereafter, 1ml of pre-warmed serum-containing DMEM was added to the cells, and 
 ## Reovirus strains T1L (left) and T3D (right)
 
 Ten-fold dilutions of reovirus from MOI 0 (uninfected control) to MOI 100 were imaged after twenty four hours of infection.
+Infected cells are observed with immunofluorescence labelling of reovirus μNS using the chicken antisera and AlexaFluor647-conjugated secondary antibodies.
 Most HeLa cells were infected at MOI 100, so it chosen for replication experiments, which was an increase from MOI 1 in the original study.
 Others have noted that HeLa cells are not permissive to reovirus and also used MOI 100 [@doi:10.1128/jvi.00199-19].
 
 Another consideration is the morphology of reovirus viral factories.
 Parker described the morphology of reovirus T1L factories as 'filamentous' and the T3D strain as 'globular' in representative images of infected CV-1 cells [@doi:10.1128/JVI.76.9.4483-4496.2002].
-Barkley does not dispute this finding, but notes that reovirus T1L factories are often globular in the microscopy maps of infected HeLa cells.
+Barkley does not dispute this finding, but notes that reovirus T1L factories are often globular.
 
 ### MOI 0
 
