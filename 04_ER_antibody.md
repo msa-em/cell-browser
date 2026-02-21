@@ -1,8 +1,8 @@
 ---
-title: Antibodies
+title: Calreticulin
 numbering:
   enumerator: 3.%s
-label : antibodies_page
+label : calreticulin_page
 ---
 
 ---
