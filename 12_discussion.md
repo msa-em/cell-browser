@@ -26,22 +26,7 @@ Virtual microscopy requires an internet connection, but this limitation is relat
 This new tool gives readers unprecedented exposure to data, promoting open peer review.
 Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so virtual microscopy could be requested from reviewers during peer review in other journals.
 Fraud prevention could incentivize journals to adopt this technology as an alternative to static figures.
-Scientists and principal investigators could use virtual microscopy to make more robust claims.
-For example, below are microscopy maps of transfected cells expressing moxGFP::μNS.
-The wildtype full-length construct on the left formed more [biomolecular condensates](<wiki:Biomolecular_condensates>) than the mutant on the right:
-
-::::{figure}
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
-{
-    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/FL.dzi"
-}
-:::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
-{
-    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/MR.dzi"
-}
-:::
-::::
+Scientists and principal investigators can use virtual microscopy to make more robust claims.
 
 Barkley recognized the value of virtual microscopy for replication studies.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
@@ -57,3 +42,7 @@ However, there is no consensus, in part because it is challenging to define repr
 The task of image selection remains unsuitable for computer algorithms because interpeting the output is subjective and context-dependent.
 It could be that the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] requires labels for generalization ([](#fig9c) and [](#fig9f)).
 Perhaps these methods would benefit from image categorization with an upstream classifier model before objective image selection.
+
+:::{iframe} https://strawpoll.com/eJnvVRj99nv
+:width: 100%
+:::

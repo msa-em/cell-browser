@@ -1,7 +1,7 @@
 ---
 title: Plasmids
 numbering:
-  enumerator: 4.%s
+  enumerator: 3.%s
 label : plasmids_page
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Approach
 numbering:
-  enumerator: 7.%s
+  enumerator: 0.%s
 label : ml_page
 ---
 
@@ -22,4 +22,4 @@ Though this assumption is flawed [@doi:10.48550/arXiv.2501.13864] and autoencode
 Barkley imaged one million unique examples of the [cell nucleus](<wiki:Cell_nucleus>), a scale suitable to train artificial intelligence models.
 It is the sum of 100 automated confocal imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
 An autoencoder was trained on NucleusNet, and representative images were defined near centroids of latent space.
-However, the embedding is uninterpretable and design limitations were encountered, so it was impossible to justify this approach.
+However, the embedding is uninterpretable and limitations were encountered, so it was impossible to justify this approach.

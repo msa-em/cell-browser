@@ -1,14 +1,14 @@
 ---
 title: Reovirus μNS
 numbering:
-  enumerator: 3.%s
+  enumerator: 6.%s
 label : μNS_page
 ---
 
 Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments called viral factories.
 The viral protein μNS self-assembles to form the scaffold that concentrates other reovirus proteins like σNS to the factory [@doi:10.1128/JVI.79.10.6194-6206.2005].
-The original study stained viral factories with μNS and σNS antibodies, including chicken polyclonal μNS antiserum from our laboratory.
-The chicken antibody was cross-validated with a guinea pig polyclonal μNS antiserum.
+The original study labelled reovirus viral factories with antibodies specific to μNS and σNS, including an α-μNS chicken polyclonal antiserum from our laboratory.
+The chicken α-μNS antibody from our lab was cross-validated with another μNS antibody.
 All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies.
 Both antisera were sufficient to observe virus-infected cells and intracellular viral factories at high-magnification.
 

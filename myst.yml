@@ -82,19 +82,24 @@ project:
       children:
         - file: 02_approach.md
         - file: 03_model.md
+        - file: 04_plasmids.md
+        - file: 05_virus.md
         - title: Antibodies
           children:
-            - file: 04_ER_antibody.md
-            - file: 05_reovirus_antibody.md
-        - file: 06_plasmids.md
-        - file: 07_virus.md
-        - file: 08_replication.md
+            - file: 06_antibody_ER.md
+            - file: 07_antibody_reovirus.md
+        - file: 08_results.md
     - title: Objective Image Selection
       children:
         - file: 09_approach.md
         - file: 10_autoencoders.md
         - file: 11_nucleusnet.md
     - file: 12_discussion.md
-    - file: 13_supplementary.md
+    - title: Supplemental
+      children:
+        - file: 13_replicate_one.md
+        - file: 14_replicate_two.md
+        - file: 15_replicate_three.md
+        - file: 16_supplemental.md
 site:
   template: book-theme

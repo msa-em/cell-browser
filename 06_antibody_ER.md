@@ -1,18 +1,19 @@
 ---
 title: Calreticulin
 numbering:
-  enumerator: 3.%s
+  enumerator: 5.%s
 label : calreticulin_page
 ---
 
-## Materials
+---
 
+:::{dropdown} Materials
 The original study used a polyclonal serum for calreticulin with no product number provided, so it was substituted for a monoclonal antibody in the replication study.
 Mouse calreticulin monoclonal antibody (MA5-15382, Thermo) was stored at -20C in 5μl aliquots for use at 1:1000 dilution.
 Donkey anti-mouse antibodies conjugated to AlexaFluor488 (715-545-150) were used at 1:800 dilution.
+:::
 
-## Immunofluorescence protocol
-
+:::{dropdown} Immunofluorescence protocol
 Cells were seeded on 12mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar).
 To fix the cells, media was aspirated and 4% paraformaldehyde (PFA) solution was applied without washing.
 4% PFA was incubated for twenty minutes at room temperature, followed by three PBS washes.
@@ -20,6 +21,7 @@ After fixation the cells were permeabilized and blocked for twenty minutes in PB
 Antibodies were diluted in this buffer and were incubated for one hour at room temperature in the dark, both followed by three PBS washes.
 Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS.
 Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and cured overnight in the dark.
+:::
 
 ---
 
@@ -28,17 +30,15 @@ Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and c
 Barkley validated the calreticulin monoclonal antibody as an immunofluorescence marker for ER antigens.
 The staining pattern was punctate, but it was sufficient to observe ER elements.
 
-::::{grid} 1 1 1 1
-
+::::{figure}
+:label: calreticulin
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
   "height": "600px"
 }
-
 :::
-
+Testing the α-calreticulin monoclonal antibody in fixed HeLa cells.
 ::::
 
 ### Controls
@@ -73,6 +73,3 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::
 
 ::::
-
----
-
