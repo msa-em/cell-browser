@@ -1,5 +1,5 @@
 ---
-title: Replicate Two
+title: Replicate Experiment 2
 numbering:
   enumerator: 12.%s
 label : two_page

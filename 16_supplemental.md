@@ -1,5 +1,5 @@
 ---
-title: Supplementary Data
+title: Supplementary Information
 numbering:
   enumerator: 11.%s
 label : supplementary_page
@@ -327,7 +327,7 @@ Multi-channel or time-lapse images were considered one image with multiple frame
 
 ---
 
-# Stereotypical images selected from NucleusNet-10K
+# Stereotypical images cherry-picked from NucleusNet-10K
 
 ### Anaphase
 ```{image} ./figures/anaphase.png

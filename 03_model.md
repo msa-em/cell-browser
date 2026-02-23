@@ -8,13 +8,13 @@ label : model_page
 ## Immunofluorescence assay of transfected-infected cells
 
 The aim of this experiment is to observe a coincidence of plasmid transfection and virus infection in cells.
-In the original study, cells were transfected with mCherry-KDEL using TransIT-2020 before reovirus infection (MOI 1). 
+In the original experiment, cells were transfected with mCherry-KDEL using TransIT-2020 transfection reagent before reovirus infection at MOI 1. 
 Viral and ER antigens were co-stained with reovirus μNS and calreticulin antibodies.
 Transfected-infected cells are desirable, but a heterogeneous population was expected.
 
 ```{figure} ./figures/transfectedinfectedmodel.png
 :label: model
-Overview of the replication experiment. Transfected cells expressing mCherry-KDEL were infected with reovirus (MOI 100) then ER and viral antigens were probed with antibodies.
+Overview of the replication experiment. mCherry-KDEL transfected cells (TransIT-2020) were infected with reovirus (MOI 100) then ER and viral antigens were detected by immunofluorescence.
 ```
 
 ---

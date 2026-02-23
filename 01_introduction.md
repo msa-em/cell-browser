@@ -50,8 +50,7 @@ In contrast, microscopy maps offer greater transparency and accessibility compar
 
 ---
 
-## Definitions
-
+:::{dropdown} Definitions
 _Virtual microscopy_ is the process of sharing image data over computer networks.
 A related term _virtual nanoscopy_ described the process of automated imaging with an electron microscope and unbiased data presentation using interactive viewers [@doi:10.1083/jcb.201201140].
 
@@ -64,8 +63,7 @@ This definition is agnostic to the research context and it emphasizes the use of
 A _grayscale image_ is defined as a two-dimensional matrix where each pixel is a single intensity value ranging from $0-1$ that represents the amount of light or intensity information at a specific point [@doi:10.1109/BIP60195.2023.10379342].
 
 A _latent space_ is a collection of vectors that form a reduced-dimensionality embedding of the data, fit by a machine learning model [@doi:10.1111/cgf.13672].
-
----
+:::
 
 :::{warning} AI disclosure
 The text in this manuscript was written and edited by humans without AI assistance.

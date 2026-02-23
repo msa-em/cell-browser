@@ -73,15 +73,15 @@ Using this measure yielded one representative image ([](#fig10e)).
 
 ```{figure} ./figures/fig10e.png
 :label: fig10e
-Representative image from NucleusNet: ROI_300 from the stitched image Run11BR_bottom_right.
+Image to represent NucleusNet: ROI_300 from stitched image Run11BR_bottom_right.
 ```
 
 ## Conclusions
 
-Barkley interpreted the image as a boring example of an interphase nucleus, given the variability shown in NucleusNet-10K ([](#fig10c)).
+Barkley interpreted the image as an interphase nucleus with muted image features given the variability in NucleusNet-10K ([](#fig10c)).
 Disentangling the dimensions of latent space is unrealistic, so it is impossible to justify this method.
-However, based on the reconstructed average MNIST digits ([](#fig9a) and [](#fig9c)), Barkley conjectures that decoded latent centroids act like pixel-wise mean projections.
-From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that mixes all image features from the dataset.
+However, based on the decoded MNIST digits ([](#fig9a) and [](#fig9c)), Barkley conjectures that decoded latent centroids behave like average projections.
+From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that blends all image features in the set.
 
 ---
 
@@ -143,8 +143,7 @@ An overview of data collection and pre-processing. A) Tiles were imaged in a 50x
 
 1. Conversion to 8-bit .TIF format
 
-Raw 12-bit files are in the proprietary Olympus .oir file format with metadata.
-The raw were converted to 8-bit TIF format using FIJI [@doi:10.1038/nmeth.2019] and were renamed 0-2500.tif corresponding to the order that the tiles were imaged.
+Raw 12-bit fields in Olympus .oir file format were converted to 8-bit TIF format using FIJI [@doi:10.1038/nmeth.2019] and were renamed 0-2500.tif corresponding to the order that the tiles were imaged (serpentine pattern starting left to right, 50x50 grid).
 
 2. Tiles stitched with Microscopy Image Stitching Tool (MIST)
 

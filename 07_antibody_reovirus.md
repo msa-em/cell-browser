@@ -6,11 +6,11 @@ label : μNS_page
 ---
 
 Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments called viral factories.
-μNS is a viral protein that self-assembles to form the scaffold of a factory that recruits other reovirus proteins like σNS [@doi:10.1128/JVI.79.10.6194-6206.2005].
+μNS is a viral protein that self-assembles to form the scaffold of factories and it recruits other viral proteins like σNS [@doi:10.1128/JVI.79.10.6194-6206.2005].
 The original study labelled reovirus viral factories with μNS and σNS antibodies, including an α-μNS chicken polyclonal serum from our laboratory.
 The chicken antiserum was cross-validated with another μNS antiserum from guinea pigs.
 All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies to observe ER elements.
-Both the chicken ([Figure 6.1](#fig6a)) and guinea pig ([Figure 6.2](#fig6b) antisera were sufficient to observe virus-infected cells and intracellular viral factories at high-magnification.
+Both the chicken ([Figure 6.1](#fig6a)) and guinea pig ([Figure 6.2](#fig6b)) α-μNS antisera were sufficient to observe virus-infected cells and intracellular viral factories at high-magnification.
 
 ## Chicken polyclonal antiserum
 
@@ -24,7 +24,7 @@ Both the chicken ([Figure 6.1](#fig6a)) and guinea pig ([Figure 6.2](#fig6b) ant
 }
 
 :::
-Testing the chicken α-μNS antiserum in cells infected with reovirus T1L. Controls below.
+Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 ::::
 
 ::::{grid} 3 3 3 3
@@ -66,7 +66,7 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L. Contr
   "height": "600px"
 }
 :::
-Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L. Controls below.
+Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 ::::
 
 ::::{grid} 3 3 3 3
