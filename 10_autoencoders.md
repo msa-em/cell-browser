@@ -10,22 +10,6 @@ Autoencoders originated in the eighties and its primary application was dimensio
 Autoencoders consist of two parts: an encoder and a decoder with hidden layers that describe the code used to represent the data.
 The autoencoder is restricted in some way that it is forced to prioritize which aspects of the input to copy, so it often learns useful properties of the data.
 
-## Model architecture
-
-The architecture followed a common configuration in autoencoder-based anomaly detection methods [@doi:10.48550/arXiv.2501.13864].
-Rectified linear unit (ReLU) activation functions were used throughout the network for nonlinearity, except with a sigmoid activation function at the final layer.
-Linear activation functions were used in the fully-connected dense layer connections to and from the latent space bottleneck.
-Stacked $3*3$ kernels were used throughout the network, so each layer had two convolutions without spatial pooling in between, giving an effective receptive field of $5*5$ with fewer parameters and greater nonlinearity [@doi:10.48550/arXiv.1409.1556].
-Spatial pooling is carried out by average pooling layers, which is performed over a $2*2$ window with a stride of 2.
-A stack of four convolutional layers was followed by a fully-connected dense layer into latent space $z$. 
-The decoder mirrors the encoder.
-Latent vectors are reshaped then upsampled with Conv2DTranspose (stride 2) and Conv2D through a stack of convolutional layers to reconstruct a grayscale image.
-The network was trained with Adam optimizer [@doi:10.48550/arXiv.1412.6980] to minimize the mean squared error (MSE) between original and reconstructed images.
-These configurations were used for all autoencoders in this study.
-Models varied in the number of layers, number of filters, latent dimensions, learning rate and batch size which were parameters that were manually tuned to the dataset.
-The dimensions of the inputs varied; 28 by 28 pixels for MNIST and 256 by 256 pixels for NucleusNet.
-There are variations of autoencoders that have been compared to show the efficiencies and trade-offs of different models at image reconstruction, latent representation and accuracy at anomaly detection [@doi:10.1016/j.mlwa.2024.100572].
-
 ---
 
 # MNIST dataset
@@ -102,4 +86,22 @@ Theoretical average MNIST digits without label information, following methods fr
 :name: fig9f
 :placeholder: ./figures/fig9f.png
 Autoencoder reconstructions of global average latent vectors using all N=60,000 vectors without labels. 64-dimensional vectors were averaged per dimension then decoded using saved weights.
+:::
+
+---
+
+:::{dropdown} Model architecture
+The architecture followed a common configuration in autoencoder-based anomaly detection methods [@doi:10.48550/arXiv.2501.13864].
+Rectified linear unit (ReLU) activation functions were used throughout the network for nonlinearity, except with a sigmoid activation function at the final layer.
+Linear activation functions were used in the fully-connected dense layer connections to and from the latent space bottleneck.
+Stacked $3*3$ kernels were used throughout the network, so each layer had two convolutions without spatial pooling in between, giving an effective receptive field of $5*5$ with fewer parameters and greater nonlinearity [@doi:10.48550/arXiv.1409.1556].
+Spatial pooling is carried out by average pooling layers, which is performed over a $2*2$ window with a stride of 2.
+A stack of four convolutional layers was followed by a fully-connected dense layer into latent space $z$. 
+The decoder mirrors the encoder.
+Latent vectors are reshaped then upsampled with Conv2DTranspose (stride 2) and Conv2D through a stack of convolutional layers to reconstruct a grayscale image.
+The network was trained with Adam optimizer [@doi:10.48550/arXiv.1412.6980] to minimize the mean squared error (MSE) between original and reconstructed images.
+These configurations were used for all autoencoders in this study.
+Models varied in the number of layers, number of filters, latent dimensions, learning rate and batch size which were parameters that were manually tuned to the dataset.
+The dimensions of the inputs varied; 28 by 28 pixels for MNIST and 256 by 256 pixels for NucleusNet.
+There are variations of autoencoders that have been compared to show the efficiencies and trade-offs of different models at image reconstruction, latent representation and accuracy at anomaly detection [@doi:10.1016/j.mlwa.2024.100572].
 :::

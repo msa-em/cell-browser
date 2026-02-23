@@ -52,12 +52,12 @@ In contrast, microscopy maps offer greater transparency and accessibility compar
 
 :::{dropdown} Definitions
 _Virtual microscopy_ is the process of sharing image data over computer networks.
-A related term _virtual nanoscopy_ described the process of automated imaging with an electron microscope and unbiased data presentation using interactive viewers [@doi:10.1083/jcb.201201140].
+A related term _virtual nanoscopy_ described the process of automated imaging and unbiased presentation of electron microscopy data using interactive viewers [@doi:10.1083/jcb.201201140].
 
 A _microscopy map_ is the interactive figure used to view virtual microscopy data [@doi:10.1083/jcb.201201140].
 This name fits broader use cases including light and electron microscopy.
 
-A _representative image_ is defined as a visual communication tool used by microscopists to communicate research findings to other scientists.
+A _representative image_ is defined as a figure made by microscopists to communicate research findings to other scientists.
 This definition is agnostic to the research context and it emphasizes the use of pictures as scientific evidence.
 
 A _grayscale image_ is defined as a two-dimensional matrix where each pixel is a single intensity value ranging from $0-1$ that represents the amount of light or intensity information at a specific point [@doi:10.1109/BIP60195.2023.10379342].

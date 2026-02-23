@@ -16,7 +16,7 @@ One study proposed principal component analysis and K-means clustering to select
 Another method was proposed using real-world datasets [@doi:10.1109/BIP60195.2023.10379342], though it did not involve neural networks.
 We propose a method using autoencoder models to define representative images in latent space and compared methods on the [MNIST database](<wiki:MNIST_database>).
 
-Autoencoders are commonly used for anomaly detection, which is based on the assumption that the autoencoder learns an optimal latent space to describe the normal data, so that when images are reconstructed, anomalous data will have a higher reconstruction error than normal data [@doi:10.1109/WTS.2018.8363930].
+[Autoencoders](<wiki:Autoencoder>) are commonly used for anomaly detection, which is based on the assumption that the autoencoder learns an optimal latent space to describe the normal data, so that when images are reconstructed, anomalous data will have a higher reconstruction error than normal data [@doi:10.1109/WTS.2018.8363930].
 Though this assumption is flawed [@doi:10.48550/arXiv.2501.13864] and autoencoders can be unreliable anomaly detectors [@doi:10.1109/ICUFN57995.2023.10199315], it would suggest that autoencoders could be useful to select normal images from datasets.
 
 Barkley imaged one million unique examples of the [cell nucleus](<wiki:Cell_nucleus>), a scale suitable to train artificial intelligence models.

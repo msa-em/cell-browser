@@ -34,15 +34,10 @@ The original study showed apparent ER remodelling in reovirus-infected cells exp
 In our replication study, Barkley observed ER remodelling in cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as a symptom of viral infection.
 In replicate experiments, it was not clear that reovirus affected ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
-This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18] but it is open to public scrutiny.
+This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to public scrutiny.
 
-:::{iframe} https://poll-maker.com/frame5722826xCc2544cc-167
-:width: 100%
-:height: 600px
-:::
-
-There are at least ten examples of objective representative image selection that were cited in the most recent article [@doi:10.1109/BIP60195.2023.10379342].
-However, there is no consensus, in part because it is challenging to define representativeness (https://doi.org/10.1016/s0006-3495(99)77379-0).
-The task of image selection remains unsuitable for computer algorithms because interpeting the output is subjective and context-dependent.
-It could be that the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] requires labels for generalization ([](#fig9c) and [](#fig9f)).
-Perhaps these methods would benefit from image categorization with an upstream classifier model for objective image selection by label.
+There are at least ten examples of objective representative image selection that were cited in a recent article [@doi:10.1109/BIP60195.2023.10379342].
+However, there is no consensus because of challenges in defining what is representative (https://doi.org/10.1016/s0006-3495(99)77379-0).
+The task of image selection is unsuitable for computer algorithms because interpeting the output is subjective and context-dependent.
+To this end, image categorization with upstream classifier models could be a useful future direction.
+The two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] worked better with labels ([subset](#fig9c) versus [dataset](#fig9f)).
