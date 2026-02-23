@@ -27,6 +27,9 @@ Chicken polyclonal μNS antiserum was used to label reovirus viral factories.
 Replicate immunofluorescence assay of transfected-infected HeLa cells. The panorama consists of 225 fields (15x15 grid). Transfected cells express mCherry, infected cells are detected with μNS antibodies, and the ER is also shown with calreticulin antibodies.
 ::::
 
+This sample was chosen because the 
+
+
 Controls and additional samples from this experiment are found in [the supplemental section](#three_page).
 There are also two repetitions repetitions of this sample; [Supplemental Figure 12.1](#sfig12a) and [Supplemental Figure 13.1](#sfig13a)).
 
