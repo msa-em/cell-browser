@@ -8,8 +8,6 @@ label : results_page
 Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
 
----
-
 # Results
 
 HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by reovirus T1L infection at MOI 100 for another day.
@@ -27,13 +25,10 @@ Chicken polyclonal μNS antiserum was used to label reovirus viral factories.
 Replicate immunofluorescence assay of transfected-infected HeLa cells. The panorama consists of 225 fields (15x15 grid). Transfected cells express mCherry, infected cells are detected with μNS antibodies, and the ER is also shown with calreticulin antibodies.
 ::::
 
-This sample was chosen because the 
-
-
-Controls and additional samples from this experiment are found in [the supplemental section](#three_page).
-There are also two repetitions repetitions of this sample; [Supplemental Figure 12.1](#sfig12a) and [Supplemental Figure 13.1](#sfig13a)).
-
----
+This specific protocol was repeated three times (see [Supplementary Figure 11.1](#sfig11a) and [Supplementary Figure 12.1](#sfig12a)) with additional controls and samples.
+The sample above was shown was from [the third experiment](#three_page).
+[The first experiment](#one_page) found that [TransIT-2020](#sfig11a) was the better transfection reagent compared to [lipofectamine 3000](#sfig11b) in the transfected-infected cell model.
+[The second experiment](#two_page) had controls and other mCherry-ER reporters, but low signal intensity in some channels.
 
 ## Conclusion
 
@@ -41,8 +36,3 @@ Barkley interpreted that there was no robust evidence of reovirus-induced ER rem
 Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
 Otherwise, there was no clear indication of ER stress in cells infected with reovirus.
 
----
-
-:::{iframe} https://poll-maker.com/frame5722826xCc2544cc-167
-:width: 100%
-:::

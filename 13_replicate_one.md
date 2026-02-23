@@ -1,10 +1,8 @@
 ---
-title: Experiment One
+title: Replicate One
 numbering:
   enumerator: 11.%s
 label : one_page
----
-
 ---
 
 ## Comparing transfection reagents in the transfected-infected cell model
@@ -13,7 +11,7 @@ Transfection with the TransIT-2020 reagent was better than Lipofectamine 3000 in
 The TransIT-2020 sample was comparable to the untransfected control in terms of cell confluence and viral infection.
 
 ::::{figure}
-:label: fig2a
+:label: sfig11a
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample2.zarr/",
@@ -24,7 +22,7 @@ Transfected-infected cells. mCherry-KDEL transfection with TransIT-2020 transfec
 ::::
 
 ::::{figure}
-:label: fig2b
+:label: sfig11b
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample1.zarr/",
@@ -35,7 +33,7 @@ Transfected-infected cells. mCherry-KDEL transfection with Lipofectamine 3000 tr
 ::::
 
 ::::{figure}
-:label: fig2c
+:label: sfig11c
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",

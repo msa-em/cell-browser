@@ -5,12 +5,10 @@ numbering:
 label : calreticulin_page
 ---
 
----
-
 :::{dropdown} Materials
-The original study used a polyclonal serum for calreticulin with no product number provided, so it was substituted for a monoclonal antibody in the replication study.
+The original study used an undisclosed polyclonal antiserum for calreticulin, so it was substituted with a monoclonal antibody for the replication.
 Mouse calreticulin monoclonal antibody (MA5-15382, Thermo) was stored at -20C in 5μl aliquots for use at 1:1000 dilution.
-Donkey anti-mouse antibodies conjugated to AlexaFluor488 (715-545-150) were used at 1:800 dilution.
+Donkey α-mouse antibodies conjugated to AlexaFluor488 (715-545-150) were used at 1:800 dilution.
 :::
 
 :::{dropdown} Immunofluorescence protocol
@@ -22,8 +20,6 @@ Antibodies were diluted in this buffer and were incubated for one hour at room t
 Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS.
 Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and cured overnight in the dark.
 :::
-
----
 
 # Results
 
@@ -44,32 +40,22 @@ Testing the α-calreticulin monoclonal antibody in fixed HeLa cells.
 ### Controls
 
 ::::{grid} 3 3 3 3
-
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample2.zarr/",
   "height": "250px"
 }
-
 :::
-
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample3.zarr/",
   "height": "250px"
 }
-
 :::
-
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample4.zarr/",
   "height": "250px"
 }
-
 :::
-
 ::::
