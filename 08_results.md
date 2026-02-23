@@ -7,12 +7,9 @@ label : results_page
 
 Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
-
-# Results
-
 HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by reovirus T1L infection at MOI 100 for another day.
 Samples were fixed for immunofluorescence detection of viral and ER antigens.
-Chicken polyclonal μNS antiserum was used to label reovirus viral factories.
+Chicken polyclonal μNS antiserum was used to label the reovirus viral factories.
 
 ::::{figure}
 :label: fig7a
