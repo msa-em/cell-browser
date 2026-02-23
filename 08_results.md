@@ -36,3 +36,9 @@ Two repetitions are also available ([Supplemental Figure 12.1](#sfig12a) and [Su
 Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling.
 Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
 Otherwise, there was no clear indication of ER stress in cells infected with reovirus.
+
+---
+
+:::{iframe} https://www.mentimeter.com/app/presentation/alwie4gu5c2jt4q2af2p6dk8vcaak211/embed
+:width: 100%
+:::

@@ -43,6 +43,6 @@ The task of image selection remains unsuitable for computer algorithms because i
 It could be that the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] requires labels for generalization ([](#fig9c) and [](#fig9f)).
 Perhaps these methods would benefit from image categorization with an upstream classifier model before objective image selection.
 
-:::{iframe} https://strawpoll.com/eJnvVRj99nv
+:::{iframe} <div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alwie4gu5c2jt4q2af2p6dk8vcaak211/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
 :width: 100%
 :::
