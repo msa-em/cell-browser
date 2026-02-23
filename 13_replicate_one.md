@@ -5,10 +5,10 @@ numbering:
 label : one_page
 ---
 
-## Comparing transfection reagents in the transfected-infected cell model
+## Comparison of transfection reagents in the transfected-infected cell model
 
-Transfection with the TransIT-2020 reagent was better than Lipofectamine 3000 in this model.
-The TransIT-2020 sample was comparable to the untransfected control in terms of cell confluence and viral infection.
+A confounding variable is the interference of reovirus infection from plasmid transfection.
+Transfection with the TransIT-2020 reagent was better than Lipofectamine 3000 because TransIT-2020 was comparable to the untransfected control in terms of cell confluence and viral infection.
 
 ::::{figure}
 :label: sfig11a

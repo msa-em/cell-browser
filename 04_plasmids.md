@@ -14,7 +14,7 @@ Calreticulin should also be detectable in OSER whorls with immunofluorescence im
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
 mCherry-Climp63 was a control for ER remodelling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
 
-## Transfection with Lipofectamine 3000 (left) or TransIT-2020 (right)
+## Comparison of Lipofectamine 3000 (left) and TransIT-2020 (right)
 
 HeLa cells were imaged after one day of transfection with mCherry-ER reporters.
 Illumination settings in the mCherry channel were set based on the mCherry-KDEL sample transfected with TransIT-2020.
@@ -88,6 +88,8 @@ All four mCherry-ER constructs show irregular ER morphologies, including mCherry
 }
 :::
 ::::
+
+---
 
 :::{dropdown} Transfection protocol
 Lipofectamine 3000 (L3000015, Invitrogen) was used with 12-well plates; 62.5ul Opti-MEM (31985-062, Gibco) was mixed with 2.5ul P3000 reagent and 1.25ug DNA, and another tube of 62.5ul Opti-MEM was mixed with 1.875ul lipofectamine 3000 reagent. The tubes were mixed, incubated for 20 minutes, then added dropwise to the samples.

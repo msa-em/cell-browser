@@ -42,6 +42,8 @@ Testing the α-calreticulin monoclonal antibody in fixed HeLa cells.
 :::
 ::::
 
+---
+
 :::{dropdown} Materials
 The original study used an undisclosed polyclonal antiserum for calreticulin, so it was substituted with a monoclonal antibody for the replication.
 Mouse calreticulin monoclonal antibody (MA5-15382, Thermo) was stored at -20C in 5μl aliquots for use at 1:1000 dilution.

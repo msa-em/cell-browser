@@ -7,16 +7,17 @@ label : model_page
 
 ## Immunofluorescence assay of transfected-infected cells
 
-This experiment aims to observe a co-incidence of plasmid transfection and virus infection in cultured cells.
-In the original study, HeLa cells were transfected before virus infection, each incubated for twenty four hours.
-A confounding variable is the interference of viral infection from plasmid transfection.
-All samples were infected with reovirus strain T1L at MOI 100.
-Viral and ER antigens were co-stained with reovirus μNS and calreticulin antibodies for immunofluorescence imaging.
+The aim of this experiment is to observe a coincidence of plasmid transfection and virus infection in cells.
+In the original study, cells were transfected with mCherry-KDEL using TransIT-2020 before reovirus infection (MOI 1). 
+Viral and ER antigens were co-stained with reovirus μNS and calreticulin antibodies.
+Transfected-infected cells are desirable, but a heterogeneous population was expected.
 
 ```{figure} ./figures/transfectedinfectedmodel.png
 :label: model
-Overview of the replication experiment. HeLa cells cultured on glass coverslips were transfected with plasmids expressing mCherry-ER reporters for 24 hours before infection with reovirus T1L (MOI 100) for another 24 hours. The cells were fixed then ER and reovirus antigens were immunolabelled. A heterogeneous population was expected, but transfected-infected cells were considered desirable.
+Overview of the replication experiment. Transfected cells expressing mCherry-KDEL were infected with reovirus (MOI 100) then ER and viral antigens were probed with antibodies.
 ```
+
+---
 
 :::{dropdown} Cells
 HeLa CCL-2 cells were cultured in Dulbecco’s modification of Eagle’s Medium (DMEM) (50-003-PB, Corning) supplemented with 10% fetal bovine serum (FS-0500-AD, Atlas).

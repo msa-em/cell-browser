@@ -94,6 +94,8 @@ Testing the chicken α-μNS antiserum with AlexaFluor594 secondary antibodies in
 :::
 ::::
 
+---
+
 :::{dropdown} Materials
 Chicken anti-μNS serum from the Parker lab (1:1000 dilution) was the same used in the original study.
 Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
