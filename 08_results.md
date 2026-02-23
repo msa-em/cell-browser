@@ -1,8 +1,8 @@
 ---
-title: Replication Study
+title: Results
 numbering:
   enumerator: 7.%s
-label : replication_page
+label : results_page
 ---
 
 Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
@@ -17,6 +17,7 @@ Samples were fixed for immunofluorescence detection of viral and ER antigens.
 Chicken polyclonal μNS antiserum was used to label reovirus viral factories.
 
 ::::{figure}
+:label: fig7a
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample2.zarr/",
@@ -27,7 +28,7 @@ Replicate immunofluorescence assay of transfected-infected HeLa cells. The panor
 ::::
 
 Controls and additional samples from this experiment are found in [the supplemental section](#three_page).
-Two repetitions are also available ([Supplemental Figure 12.1](#sfig12a) and [Supplemental Figure 13.1](#sfig13a)).
+There are also two repetitions repetitions of this sample; [Supplemental Figure 12.1](#sfig12a) and [Supplemental Figure 13.1](#sfig13a)).
 
 ---
 
@@ -39,5 +40,6 @@ Otherwise, there was no clear indication of ER stress in cells infected with reo
 
 ---
 
-:::{include} ./data/poll.html
+:::{iframe} https://poll-maker.com/frame5722826xCc2544cc-167
+:width: 100%
 :::

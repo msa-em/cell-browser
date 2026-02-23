@@ -95,7 +95,7 @@ project:
         - file: 10_autoencoders.md
         - file: 11_nucleusnet.md
     - file: 12_discussion.md
-    - title: Supplemental
+    - title: Supplementary Data
       children:
         - file: 13_replicate_one.md
         - file: 14_replicate_two.md
