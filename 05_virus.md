@@ -5,6 +5,8 @@ numbering:
 label : virus_page
 ---
 
+---
+
 ## Infection protocol
 
 Stocks of purified reovirus T1L were titrated in L-929 cells to estimate the concentration of plaque-forming units (PFU).
@@ -13,15 +15,15 @@ To clarify, MOI was PFU/cell, and PFU was estimated on L-929 cells in both the o
 For infection, purified reovirus was diluted in a volume of 100μl of serum-free DMEM which was adsorbed to cells for one hour at room temperature with agitation every ten minutes.
 Thereafter, pre-warmed serum-containing DMEM was added to the cells, and the samples were incubated for one day before PFA fixation.
 
-## Mammalian orthoreovirus T1L (left) and T3D (right)
+## Mammalian reovirus strains T1L (left) and T3D (right)
 
-Parker described the morphology of reovirus strain Type 1 Lang (T1L) factories as 'filamentous' and T3D factories as 'globular' and identified an M1-P208S reovirus T1L mutant that formed globular viral factories from a loss of interaction with microtubules [@doi:10.1128/JVI.76.9.4483-4496.2002].
-No rationale was provided in the mBio study for using the M1-P208S mutant, so it was substituted for wildtype reovirus strain T1L in the replication study.
-The distinction is that wildtype reovirus T1L tends to form filamentous viral factories, while the mutant reovirus M1-P208S would have formed globular viral factories.
-A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included in this experiment to compare factory morphology between strains.
-Ten-fold dilutions from MOI 0 to 100 were compared, and the infected cells were detected with α-μNS chicken serum and AlexaFluor647-conjugated secondary antibodies.
-Most but not all HeLa cells were infected at MOI 100, which was chosen for the replication experiments, an increase from MOI 1 in the original study.
-Others have also reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19].
+Parker described the morphology of reovirus strain Type 1 Lang (T1L) factories as _filamentous_ and T3D factories as _globular_ and found the M1(T1L)-P208S mutation that disrupted an interaction between μ2 and microtubules that determined the filamentous phenotype [@doi:10.1128/JVI.76.9.4483-4496.2002].
+No rationale was provided in the mBio study for using this M1-P208S mutant, so it was substituted for wildtype reovirus strain T1L in the replication study.
+The distinction is that wildtype reovirus tends to form filamentous viral factories, while the M1(T1L)-P208S mutant would have formed globular factories.
+A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included in this experiment to compare factory morphologies.
+Others have reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19], so ten-fold dilutions from MOI 0 to 100 are tested.
+Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conjugated secondary antibodies.
+Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for replication experiments.
 
 ### MOI 0
 

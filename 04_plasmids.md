@@ -5,6 +5,8 @@ numbering:
 label : plasmids_page
 ---
 
+---
+
 ## mCherry-ER reporters
 
 mCherry-KDEL was the same construct used in the original study; mCherry-ER-3 plasmid (55041, Addgene), which retains mCherry in the lumen of the ER.
@@ -14,7 +16,7 @@ Calreticulin should also be detectable in OSER whorls with immunofluorescence im
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
 mCherry-Climp63 was a control for ER remodelling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
 
-## Comparison of Lipofectamine 3000 (left) and TransIT-2020 (right)
+## Lipofectamine 3000 (left) and TransIT-2020 (right) reagents
 
 HeLa cells were imaged after one day of transfection with mCherry-ER reporters.
 Illumination settings in the mCherry channel were set based on the mCherry-KDEL sample transfected with TransIT-2020.

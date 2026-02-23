@@ -24,10 +24,8 @@ Both the chicken ([Figure 6.1](#fig6a)) and guinea pig ([Figure 6.2](#fig6b) ant
 }
 
 :::
-Testing the chicken α-μNS antiserum with AlexaFluor594 secondary antibodies in reovirus T1L infected HeLa cells (MOI 100).
+Testing the chicken α-μNS antiserum in cells infected with reovirus T1L. Controls below.
 ::::
-
-### Controls
 
 ::::{grid} 3 3 3 3
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
@@ -68,9 +66,8 @@ Testing the chicken α-μNS antiserum with AlexaFluor594 secondary antibodies in
   "height": "600px"
 }
 :::
+Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L. Controls below.
 ::::
-
-### Controls 
 
 ::::{grid} 3 3 3 3
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js

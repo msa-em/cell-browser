@@ -19,8 +19,6 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 Testing the α-calreticulin monoclonal antibody in fixed HeLa cells.
 ::::
 
-### Controls
-
 ::::{grid} 3 3 3 3
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {

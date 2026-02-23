@@ -45,7 +45,7 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
     "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
 }
 :::
-NucleusNet-10K: one hundred random images from one hundred experiments (n=10,000).
+NucleusNet-10K: One hundred random images from one hundred experiments (n=10,000).
 ::::
 
 ---
