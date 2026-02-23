@@ -22,8 +22,8 @@ Chicken polyclonal μNS antiserum was used to label reovirus viral factories.
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample2.zarr/",
   "height": "600px"
 }
-Replicate immunofluorescence assay of transfected-infected HeLa cells. The panorama consists of 225 fields (15x15 grid). Transfected cells express mCherry, infected cells are detected with μNS antibodies, and the ER is also shown with calreticulin antibodies.
 :::
+Replicate immunofluorescence assay of transfected-infected HeLa cells. The panorama consists of 225 fields (15x15 grid). Transfected cells express mCherry, infected cells are detected with μNS antibodies, and the ER is also shown with calreticulin antibodies.
 ::::
 
 Controls and additional samples from this experiment are found in [the supplemental section](#three_page).
@@ -39,4 +39,5 @@ Otherwise, there was no clear indication of ER stress in cells infected with reo
 
 ---
 
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alwie4gu5c2jt4q2af2p6dk8vcaak211/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+:::{include} ./data/poll.html
+:::
