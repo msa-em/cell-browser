@@ -19,7 +19,7 @@ Chicken polyclonal μNS antiserum was used to label the reovirus viral factories
   "height": "600px"
 }
 :::
-Immunofluorescence imaging of transfected-infected HeLa cells, consisting of 225 fields (15x15 grid).
+Immunofluorescence imaging of transfected-infected HeLa cells.
 ::::
 
 This protocol was repeated in three experiments with additional controls and samples, found in the supplemental section.

@@ -6,7 +6,7 @@ label : one_page
 ---
 
 A confounding variable in the transfected-infected cell model is interference of reovirus infection from plasmid transfection.
-Two transfection reagents were compared, and [TransIT-2020](#sfig11a) was deemed better than [Lipofectamine 3000](#sfig11b), because it was comparable to the [untransfected control](#sfig11c) in terms of cell confluence and reovirus infection.
+Two transfection reagents were compared, and [TransIT-2020](#sfig11a) was deemed better than [Lipofectamine 3000](#sfig11b), because it was more comparable to the [untransfected control](#sfig11c) in terms of cell confluence and reovirus infection.
 
 ::::{figure}
 :label: sfig11a
@@ -45,8 +45,6 @@ Untransfected control. Mock transfection followed by infection.
 
 :::{dropdown} Methodological notes
 The specimens were glass coverslips (1.0 glass) mounted on slides.
-Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies.
-One hundred fields in a 10x10 grid were recorded.
+Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies, each incubated for one hour.
+One hundred fields in a 10x10 grid was recorded.
 :::
-
-

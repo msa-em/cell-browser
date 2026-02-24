@@ -7,12 +7,12 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Static figures are the mainstream interface of contemporary scientific discourse, which limits peer review of microscopy data.
-Microscopists communicate research findings with representative images and plots.
-This article focuses on modern visualization strategies, advancing virtual microscopy to the scientific literature.
+Static figures are the mainstream interface of contemporary scientific discourse, which limits the peer review of microscopy data.
+Microscopists tend to communicate research findings with representative images and plots.
+This article focuses on novel visualization strategies for researchers, advancing virtual microscopy to the scientific literature.
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimaging data as an unbiased alternative to representative images.
-These features made virtual microscopy useful to evaluate the replicability of published representative images.
-In replication experiments, original claims of reovirus-induced organelle remodelling were not reliably observed in microscopy maps, but this interpretation is uniquely open to public scrutiny.
+These features made virtual microscopy useful to evaluate the replicability of representative images.
+In replication experiments, original claims of reovirus-induced organelle remodelling were not reliably observed, but this interpretation is open to scrutiny.
 To work within the constraints of conventional journals, an objective method of image selection was explored and delimited.
 
 +++
@@ -43,4 +43,4 @@ Last names were used in the text to separate the authors voices, interpretations
 
 ## Data availability
 
-NucleusNet was zipped and archived on Zenodo [@doi:10.5281/zenodo.18749166].
+NucleusNet was zipped and archived on Zenodo.
