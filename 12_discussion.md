@@ -31,9 +31,9 @@ This process involves automated sampling of reasonable populations from which th
 To test this, Barkley replicated an experiment that reported images without numerical results.
 The original study showed apparent ER remodelling in reovirus-infected cells expressing mCherry-KDEL.
 In replication attempts, Barkley observed ER remodelling in cells expressing mCherry-KDEL in the absence of reovirus.
-This suggests that experimental artifacts from the mCherry-ER reporters could have been misinterpreted as an outcome of reovirus infection.
-It is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
-This interpretation challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to public scrutiny.
+This suggests that experimental artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of reovirus infection.
+Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
+This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to public scrutiny.
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus because of challenges in defining what is typical in a set (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The task of image selection remains unsuitable for computer algorithms because the output is subjective and context-dependent.
