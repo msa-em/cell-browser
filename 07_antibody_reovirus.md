@@ -54,8 +54,6 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 :::
 ::::
 
----
-
 ## Guinea pig polyclonal antiserum
 
 ::::{figure}
@@ -91,10 +89,8 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 :::
 ::::
 
----
-
 :::{tip}
-Adjust contrast in the calreticulin channel to observe the ER in populations of infected cells.
+Adjust the contrast in the calreticulin channel to evaluate alleged ER remodelling.
 :::
 
 :::{dropdown} Materials

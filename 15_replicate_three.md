@@ -8,9 +8,7 @@ label : three_page
 This experiment was missing the transfected uninfected control (human error) and mCherry-Climp63 because no transfected cells were observed.
 Otherwise, this was a repetition of the second experiment.
 
----
-
-### Transfection-infection, mCherry-Sec61β (left) and mCherry-CytERM (right)
+### mCherry-Sec61β (left) and mCherry-CytERM (right)
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
@@ -27,7 +25,7 @@ Otherwise, this was a repetition of the second experiment.
 :::
 ::::
 
-### Controls, Untransfected-infected cells (left) and mock (right)
+### Untransfected-infected control (left) and mock (right)
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
@@ -43,8 +41,6 @@ Otherwise, this was a repetition of the second experiment.
 }
 :::
 ::::
-
----
 
 :::{dropdown} Methodological notes
 The specimens were 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass)

@@ -41,8 +41,6 @@ Transfected-infected cells. mCherry-KDEL transfection with Lipofectamine 3000 wa
 Untransfected control. Mock transfection followed by infection.
 ::::
 
----
-
 :::{dropdown} Methodological notes
 The specimens were glass coverslips (1.0 glass) mounted on slides.
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies, each incubated for one hour.
