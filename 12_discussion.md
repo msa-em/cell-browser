@@ -22,9 +22,32 @@ This bottleneck can be expanded with virtual microscopy, which is practical to t
 For example, OME-Zarr [@doi:10.1007/s00418-023-02209-1] supports several modalities including multiplexed imaging, spatial transcriptomics, light-sheet, infrared, scanning EM and digital pathology.
 To maximize accessibility for readers, embedded interactive viewports retrieve data from cloud storage, which was supported by this journal.
 Virtual microscopy requires an internet connection, but this limitation is relatively unimportant for contemporary and future publishing.
-Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so it can be readily requested by reviewers of all journals.
+Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so they can be readily requested by reviewers of all journals.
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
-Virtual microscopy nurtures open and rigorous peer review, so scientists and principal investigators can leverage it to make robust claims.
+Because virtual microscopy nurtures open and rigorous peer review, it could be advantageous for scientists to make robust claims.
+
+:::{attention} Example with molecular biology data
+Below are two moxGFP::μNS constructs that form [biomolecular condensates](<wiki:Biomolecular_condensates>).
+The wildtype construct forms more condensates than the mutant [@doi:10.1091/mbc.E24-01-0013].
+Can you guess which sample is the wildtype?
+:::
+
+::::{grid} 2 2 2 2
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/FL.dzi"
+}
+:::
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/MR.dzi"
+}
+:::
+::::
+
+:::{dropdown} Reveal the answer
+The sample on the left is the wildtype.
+:::
 
 Barkley recognized the value of using virtual microscopy for replication studies.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
