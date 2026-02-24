@@ -9,6 +9,11 @@ label : ml_page
 
 # Computational image selection with machine learning
 
+```{figure} ./figures/oldworkflow.png
+:label: fig8a
+Overview of the proposed method of objective representative microscopy image selection.
+```
+
 The process of representative microscopy image selection remains a subjective, non-repeatable step in the scientific process.
 To address this, automated methods of objective representative image selection from microscopy datasets were introduced (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The challenge is to automate representative image selection with computers.
@@ -23,8 +28,3 @@ Barkley imaged one million unique examples of the [cell nucleus](<wiki:Cell_nucl
 It is the sum of 100 automated confocal imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
 An autoencoder was trained on NucleusNet, and representative images were defined near centroids of latent space ([](#fig8a)).
 However, the embedding is uninterpretable and methodological limitations were encountered, so it was impossible to justify this approach.
-
-```{figure} ./figures/oldworkflow.png
-:label: fig8a
-Overview of the proposed method of objective representative microscopy image selection.
-```

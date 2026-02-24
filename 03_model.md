@@ -17,8 +17,6 @@ Viral and ER antigens were co-stained with reovirus μNS and calreticulin antibo
 Overview of the replication experiment. mCherry-KDEL transfected cells (TransIT-2020) were infected with reovirus (MOI 100) then ER and viral antigens were detected by immunofluorescence.
 ```
 
----
-
 :::{dropdown} Cells
 HeLa CCL-2 cells were cultured in Dulbecco’s modification of Eagle’s Medium (DMEM) (50-003-PB, Corning) supplemented with 10% fetal bovine serum (FS-0500-AD, Atlas).
 Antibiotics were not used in the replication study, although the original study used 100 U/ml penicillin G, 100μg/ml streptomycin and 0.25μg/ml amphotericin B.

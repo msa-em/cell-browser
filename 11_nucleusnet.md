@@ -11,6 +11,10 @@ Nuclei were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig12b)).
 NucleusNet was cropped from ROIs segmented in the stitched images ([](#fig10b)).
 
+:::{important}
+The OpenSeadragon viewers stream DZI tiles that are hosted _for free_ on Github Pages.
+:::
+
 ::::{figure}
 :label: fig10a
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
