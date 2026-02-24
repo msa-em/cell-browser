@@ -26,7 +26,7 @@ Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
 Because virtual microscopy nurtures open and rigorous peer review, it could be advantageous for scientists to make robust claims.
 
-:::{attention} Example with molecular biology data
+:::{attention} Molecular biology example
 Below are two moxGFP::μNS constructs that form [biomolecular condensates](<wiki:Biomolecular_condensates>).
 The wildtype construct forms more condensates than the mutant [@doi:10.1091/mbc.E24-01-0013].
 Can you guess which sample is the wildtype?
@@ -46,7 +46,7 @@ Can you guess which sample is the wildtype?
 ::::
 
 :::{dropdown} Reveal the answer
-The sample on the left is the wildtype.
+The sample on the **left** is the wildtype.
 :::
 
 Barkley recognized the value of using virtual microscopy for replication studies.
