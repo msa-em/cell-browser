@@ -24,10 +24,15 @@ To maximize accessibility for readers, embedded interactive viewports retrieve d
 Virtual microscopy requires an internet connection, but this limitation is relatively unimportant for contemporary and future publishing.
 Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so they can be readily requested by reviewers of all journals.
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
-Because virtual microscopy nurtures open and rigorous peer review, it could be advantageous for scientists to make robust claims.
+Because virtual microscopy nurtures open and rigorous peer review, scientists might find it beneficial to make more robust claims.
 
 :::{attention} Which moxGFP::μNS construct formed more biomolecular condensates?
-Below are coverslips of transfected CV-1 cells expressing moxGFP::μNS(1-721) and moxGFP::μNS(472-721) with a measurable difference in the distribution of condensates [10.1091/mbc.E24-01-0013].
+Below are coverslips of transfected CV-1 cells expressing moxGFP::μNS(1-721) and moxGFP::μNS(472-721).
+There is a measurable difference in the distribution of condensates [10.1091/mbc.E24-01-0013].
+:::
+
+:::{dropdown} Reveal the answer
+The sample on the **left** formed ~3-fold more condensates.
 :::
 
 ::::{grid} 2 2 2 2
@@ -43,8 +48,11 @@ Below are coverslips of transfected CV-1 cells expressing moxGFP::μNS(1-721) an
 :::
 ::::
 
-:::{dropdown} Reveal the answer
-The sample on the **left** is moxGFP::μNS(1-721), which formed more biomolecular condensates.
+:::{dropdown} Methodological notes
+High-passage CV-1 cells were seeded on 35mm glass-bottom dishes.
+The moxGFP::μNS constructs were transfected with lipofectamine 3000 for 24 hours.
+2500 fields (50x50 grids) were imaged and converted to 8-bit TIF files, stitched, then converted to DZI format.
+The DZI tiles were hosted on Github Pages, viewed with OpenSeadragon.
 :::
 
 Barkley recognized the value of using virtual microscopy for replication studies.
