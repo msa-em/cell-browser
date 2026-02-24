@@ -8,6 +8,11 @@ label : two_page
 Controls for the transfected-infected cell model included untransfected and uninfected cells.
 Three additional mCherry-ER reporters are shown to substitute mCherry-KDEL.
 
+:::{attention}
+The signal in the calreticulin channel was unsatisfactory.
+Adjust contrast to see the ER.
+:::
+
 ::::{figure}
 :label: sfig11a
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
@@ -59,11 +64,6 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 }
 :::
 ::::
-
-:::{attention}
-The signal in the calreticulin channel was unsatisfactory.
-Adjust the contrast to observe the ER.
-:::
 
 :::{dropdown} Methodological notes
 The specimens were 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass).

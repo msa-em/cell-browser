@@ -5,8 +5,6 @@ numbering:
 label : ml_page
 ---
 
----
-
 # Computational image selection with machine learning
 
 ```{figure} ./figures/oldworkflow.png

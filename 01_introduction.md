@@ -48,8 +48,6 @@ Representative images were defined near the centroid of latent space, though cou
 To define what is representative, both the subjective determinations made by humans and the objective determinations made by autoencoders are opaque.
 In contrast, microscopy maps offer greater transparency and accessibility compared to representative images as an alternative visual communication tool.
 
----
-
 :::{dropdown} Definitions
 _Virtual microscopy_ is the process of sharing image data over computer networks.
 A related term _virtual nanoscopy_ described the process of automated imaging and unbiased presentation of electron microscopy data using interactive viewers [@doi:10.1083/jcb.201201140].

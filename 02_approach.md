@@ -5,8 +5,6 @@ numbering:
 label : approach_page
 ---
 
----
-
 # Embedded microscopy maps
 
 This chapter critiques the quality and reproducibility of representative microscopy images as scientific evidence.

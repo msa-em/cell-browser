@@ -5,8 +5,6 @@ numbering:
 label : virus_page
 ---
 
----
-
 ## Infection protocol
 
 Stocks of purified reovirus T1L were titrated in L-929 cells to estimate the concentration of plaque-forming units (PFU).
