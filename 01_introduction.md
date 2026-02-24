@@ -31,21 +31,25 @@ To test this, Barkley challenged the claim that mammalian orthoreovirus remodels
 This study was chosen because most results were representative images without quantification ([](#table4)).
 A fully motorized confocal microscope recorded large samples from replicate immunofluorescence experiments at high-magnification.
 Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
-All parties in the peer review process have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
+All parties in peer review have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
 
 Microscopy maps are interactive figures but static figures predominate scientific publishing.
 Despite the benefits of virtual microscopy, representative images will persist until mainstream journals adopt modern visualization tools.
 Given the widespread use of static figures in scientific discourse, the second chapter of this project was dedicated to computational image selection.
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to limit bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The authors implemented a web server that chose typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
-
 Representative image selection is an interesting use case for machine learning models.
 Barkley automated the process of sample collection and image selection from a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
 Representative images were then selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
-Representative images were defined near the centroid of latent space, though counterexamples show that this approach does not generalize with all datasets.
+Representative images were defined near the centroid of latent space, though counterexamples show that this approach does not generalize to all datasets.
 To define what is representative, both the subjective determinations made by humans and the objective determinations made by autoencoders are opaque.
+
+:::{warning} AI disclosure
+The text in this manuscript was written and edited by humans without AI assistance.
+AI-generated code was used in the notebooks, autoencoder, and data processing tasks.
+:::
 
 :::{dropdown} Definitions
 _Virtual microscopy_ is the process of sharing image data over computer networks.
@@ -60,9 +64,4 @@ This definition is agnostic to the research context and it emphasizes the use of
 A _grayscale image_ is defined as a two-dimensional matrix where each pixel is a single intensity value ranging from $0-1$ that represents the amount of light or intensity information at a specific point [@doi:10.1109/BIP60195.2023.10379342].
 
 A _latent space_ is a collection of vectors that form a reduced-dimensionality embedding of the data, fit by a machine learning model [@doi:10.1111/cgf.13672].
-:::
-
-:::{warning} AI disclosure
-The text in this manuscript was written and edited by humans without AI assistance.
-AI-generated code was used in the notebooks, autoencoder, and data processing tasks.
 :::
