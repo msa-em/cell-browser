@@ -1,7 +1,7 @@
 ---
 title: Replicate Experiment 2
 numbering:
-  enumerator: 12.%s
+  enumerator: 11.%s
 label : two_page
 ---
 
@@ -10,7 +10,7 @@ Three additional mCherry-ER reporters are shown to substitute mCherry-KDEL.
 Barkley was unsatisfied with the calreticulin staining.
 
 ::::{figure}
-:label: sfig12a
+:label: sfig11a
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment6/sample3.zarr/",

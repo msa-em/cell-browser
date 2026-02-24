@@ -1,18 +1,16 @@
 ---
 title: Replicate Experiment 3
 numbering:
-  enumerator: 13.%s
+  enumerator: 12.%s
 label : three_page
 ---
 
-This experiment was missing the transfected uninfected control (human error) and the mCherry-Climp63 sample because no transfected cells were observed.
-Otherwise, it was a repetition of the second experiment to try to improve the calreticulin staining.
+This experiment was missing the transfected uninfected control (human error) and mCherry-Climp63 because no transfected cells were observed.
+Otherwise, this was a repetition of the second experiment.
 
 ---
 
-## Additional ER reporters in transfected-infected cells
-
-### mCherry-Sec61β (left) and mCherry-CytERM (right)
+### Transfection-infection, mCherry-Sec61β (left) and mCherry-CytERM (right)
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
@@ -29,9 +27,7 @@ Otherwise, it was a repetition of the second experiment to try to improve the ca
 :::
 ::::
 
-## Controls
-
-### Untransfected-infected cells (left) and mock (right)
+### Controls, Untransfected-infected cells (left) and mock (right)
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js

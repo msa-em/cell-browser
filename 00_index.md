@@ -7,8 +7,8 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Static figures are the mainstream interface of contemporary scientific discourse, which limits the peer review of microscopy data.
-Microscopists often communicate findings with representative images and plots.
+Static figures are the mainstream interface of contemporary scientific discourse and peer review.
+Microscopists often communicate experimental results as representative images and plots.
 This article focuses on novel visualization strategies for researchers, advancing virtual microscopy to the scientific literature.
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimaging data as an unbiased alternative to representative images.
 These features made virtual microscopy useful to evaluate the replicability of representative images.
