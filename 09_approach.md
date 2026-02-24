@@ -23,3 +23,8 @@ Barkley imaged one million unique examples of the [cell nucleus](<wiki:Cell_nucl
 It is the sum of 100 automated confocal imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
 An autoencoder was trained on NucleusNet, and representative images were defined near centroids of latent space.
 However, the embedding is uninterpretable and limitations were encountered, so it was impossible to justify this approach.
+
+```{figure} ./figures/oldworkflow.png
+:label: workflow
+Overview of the proposed method of objective representative microscopy image selection using autoencoders.
+```
