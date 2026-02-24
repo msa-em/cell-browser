@@ -24,7 +24,7 @@ Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conj
 Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for replication experiments.
 
 :::{tip}
-Adjust the contrast in the reovirus μNS channel to better observe infected cells.
+Adjust the contrast in the reovirus μNS channel to readily observe reovirus-infected cells.
 :::
 
 ### MOI 0
@@ -98,6 +98,6 @@ Adjust the contrast in the reovirus μNS channel to better observe infected cell
 
 :::{attention}
 Observe the calreticulin channel for alleged reovirus-induced ER stress.
-MOI 0 is an uninfected control.
-The ER of uninfected cells can be compared within populations of infected samples.
+MOI 0 is the uninfected control.
+ER morphology can also be compared within populations of infected samples.
 :::
