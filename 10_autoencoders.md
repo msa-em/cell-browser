@@ -10,8 +10,6 @@ Autoencoders originated in the eighties and its primary application was dimensio
 Autoencoders consist of two parts: an encoder and a decoder with hidden layers that describe the code used to represent the data.
 The autoencoder is restricted in some way that it is forced to prioritize which aspects of the input to copy, so it often learns useful properties of the data.
 
----
-
 # MNIST dataset
 
 ## Literature replication

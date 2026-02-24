@@ -17,7 +17,7 @@ Barkley was unsatisfied with the calreticulin staining.
   "height": "600px"
 }
 :::
-Transfected-infected cells. mCherry-KDEL transfection with TransIT-2020 was followed by infection.
+Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020.
 ::::
 
 ### Additional samples and controls
@@ -66,5 +66,5 @@ Transfected-infected cells. mCherry-KDEL transfection with TransIT-2020 was foll
 :::{dropdown} Methodological notes
 The specimens were 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass).
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies, each incubated for one hour.
-225 hundred fields in a 15x15 grid was recorded.
+A 15x15 grid (225 fields) was recorded.
 :::

@@ -17,16 +17,17 @@ Otherwise, it was a repetition of the second experiment to try to improve the ca
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
-  "source": "",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment7/infection_transfection_sec61b.zarr/",
   "height": "400px"
 }
 :::
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
-  "source": "",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment7/infection_transfection_cyterm.zarr/",
   "height": "400px"
 }
 :::
+::::
 
 ## Controls
 
@@ -35,22 +36,23 @@ Otherwise, it was a repetition of the second experiment to try to improve the ca
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
-  "source": "",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment7/infection.zarr/",
   "height": "400px"
 }
 :::
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
-  "source": "",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment7/mock.zarr/",
   "height": "400px"
 }
 :::
+::::
 
 ---
 
 :::{dropdown} Methodological notes
 The specimens were 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass)
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies.
-Primary antibodies were multiplexed and incubated overnight, same as the secondaries.
-225 fields in a 15x15 grid was recorded.
+Primary antibodies were multiplexed and incubated overnight at 4C in the dark, same as the secondaries.
+A 15x15 grid (225 fields) was recorded.
 :::
