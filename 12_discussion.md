@@ -12,7 +12,7 @@ There is disagreement on the [scientific method](<wiki:Scientific_method>), but 
 Repeatability in microscopy involves quantitative analyses, but without numerical results, representative images cannot communicate repeatability.
 The reality is that representative images can show rare, idealized, or exaggerated examples to embellish results.
 Microscopists are incentivized to show compelling evidence and omit contradictory data.
-The literature is full of exciting outcomes, but at the bench, experiments are messy, nuanced and prone to failure.
+The literature is full of exciting outcomes, but at the bench, experiments are nuanced and prone to failure.
 
 Representative images are figures, which is not to be confused with data.
 Data is the raw file from the microscope, while figures are visual representations of data, often shaped by the microscopist.
@@ -33,8 +33,8 @@ The original study showed apparent ER remodelling in reovirus-infected cells exp
 In replication attempts, Barkley observed ER remodelling in cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that experimental artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of reovirus infection.
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
-This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to public scrutiny.
+This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to scrutiny.
 
-There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus because of challenges in defining what is typical in a set (https://doi.org/10.1016/s0006-3495(99)77379-0).
+There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus because of challenges defining what is normal in a dataset (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The task of image selection remains unsuitable for computer algorithms because the output is subjective and context-dependent.
 To this end, image categorization with upstream classifier models could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was more effective with labels (compare [subset](#fig9c) to [dataset](#fig9f)).
