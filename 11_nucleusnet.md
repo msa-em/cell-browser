@@ -12,7 +12,7 @@ As expected, there was variation in cell confluence and signal intensity between
 NucleusNet was cropped from ROIs segmented in the stitched images ([](#fig10b)).
 
 :::{important}
-OpenSeadragon streams DZI tiles that are hosted _for free_ on Github [@doi:10.1242/jcs.262198].
+OpenSeadragon streams DZI tiles that were hosted _for free_ on Github [@doi:10.1242/jcs.262198].
 :::
 
 ::::{figure}

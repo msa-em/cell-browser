@@ -6,7 +6,7 @@ label : μNS_page
 ---
 
 Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments called viral factories.
-μNS is a viral protein that self-assembles to form the scaffold of factories and it recruits other viral proteins like σNS [@doi:10.1128/JVI.79.10.6194-6206.2005].
+μNS is a viral protein that self-assembles the scaffold of viral factories and recruits other viral proteins like σNS [@doi:10.1128/JVI.79.10.6194-6206.2005].
 The original study labelled reovirus viral factories with μNS and σNS antibodies, including an α-μNS chicken polyclonal serum from our laboratory.
 The chicken antiserum was cross-validated with another μNS antiserum from guinea pigs.
 All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies to observe ER elements.

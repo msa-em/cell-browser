@@ -90,7 +90,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
 
 :::{important} Alternative hypothesis
 All four mCherry-ER constructs caused irregular ER morphologies, including the mCherry-KDEL plasmid used in the original study.
-Therefore, it is possible that the previous investigators misinterpreted artifacts caused by the mCherry-ER reporters as an outcome of reovirus infection.
+Therefore, it is possible the previous investigators misinterpreted mCherry-ER reporter artifacts as an outcome of reovirus infection.
 :::
 
 :::{dropdown} Transfection protocol

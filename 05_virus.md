@@ -21,7 +21,7 @@ The difference is wildtype reovirus tends to form filamentous viral factories, w
 A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included in this experiment to compare these morphologies.
 Others have reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19], so ten-fold dilutions from MOI 0 to 100 were tested.
 Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conjugated secondary antibodies.
-Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for replication experiments.
+Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for replication experiments, though the original experiment used MOI 1.
 
 :::{tip}
 Adjust the contrast in the reovirus μNS channel to readily observe reovirus-infected cells.
@@ -98,6 +98,6 @@ Adjust the contrast in the reovirus μNS channel to readily observe reovirus-inf
 
 :::{attention}
 Observe the calreticulin channel for alleged reovirus-induced ER stress.
-The uninfected controls are MOI 0.
-ER morphology can also be compared within populations of infected samples.
+The uninfected control is MOI 0.
+ER morphology can also be compared in populations of infected cells.
 :::
