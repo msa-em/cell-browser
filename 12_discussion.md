@@ -5,15 +5,14 @@ numbering:
 label : discussion_page
 ---
 
-Every academic discipline has its ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
+Every academic discipline has its own ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
 If biomedical researchers endorse [empiricism](<wiki:Empiricism>) and objectivity, then why are representative images sufficient to make claims?
 A representative image definitively shows that an observation is possible, but a single image cannot describe frequency or variance.
 There is disagreement on the [scientific method](<wiki:Scientific_method>), but a general principle is [reproducibility](<wiki:Reproducibility>).
-Repeatability in microscopy involves quantitative analyses.
-However, without numerical results, representative images cannot communicate repeatability.
+Repeatability in microscopy involves quantitative analyses, but without numerical results, representative images cannot communicate repeatability.
 The reality is that representative images can show rare, idealized, or exaggerated examples to embellish results.
 Microscopists are incentivized to show compelling evidence and omit contradictory data.
-The literature is full of exciting outcomes, but at the bench, data is messy, nuanced, and experiments are prone to failure.
+The literature is full of exciting outcomes, but at the bench, experiments are messy, nuanced and prone to failure.
 
 Representative images are figures, which is not to be confused with data.
 Data is the raw file from the microscope, while figures are visual representations of data, often shaped by the microscopist.
