@@ -5,7 +5,7 @@ numbering:
 label : calreticulin_page
 ---
 
-Barkley validated the selectivity and specificity of the calreticulin antibody as an immunofluorescence marker for ER antigens.
+Barkley validated the selectivity and specificity of the calreticulin monoclonal antibody as an immunofluorescence probe for ER antigens.
 The staining pattern was punctate, but it was sufficient to observe ER elements.
 
 ::::{figure}

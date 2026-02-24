@@ -98,6 +98,6 @@ Adjust the contrast in the reovirus μNS channel to readily observe reovirus-inf
 
 :::{attention}
 Observe the calreticulin channel for alleged reovirus-induced ER stress.
-MOI 0 is the uninfected control.
+The uninfected controls are MOI 0.
 ER morphology can also be compared within populations of infected samples.
 :::
