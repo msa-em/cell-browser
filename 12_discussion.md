@@ -37,5 +37,5 @@ It is not clear that reovirus affects ER morphology, certainly not to the extent
 This interpretation challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to public scrutiny.
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus because of the challenges in defining what is typical in a set (https://doi.org/10.1016/s0006-3495(99)77379-0).
-The task of image selection remains unsuitable for computer algorithms because interpetation of the output is subjective and context-dependent.
+The task of image selection remains unsuitable for computer algorithms because the output is subjective and context-dependent.
 To this end, image categorization with upstream classifier models could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was more effective with labels (compare [subset](#fig9c) to [dataset](#fig9f)).
