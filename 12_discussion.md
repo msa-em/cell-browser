@@ -1,7 +1,7 @@
 ---
 title: Discussion
 numbering:
-  enumerator: 10.%s
+  enumerator: 0.%s
 label : discussion_page
 ---
 
