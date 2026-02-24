@@ -1,7 +1,7 @@
 ---
 title: Replicate Experiment 3
 numbering:
-  enumerator: 12.%s
+  enumerator: 0.%s
 label : three_page
 ---
 

@@ -93,3 +93,14 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
 }
 :::
 ::::
+
+:::{tip}
+Adjust contrast in the reovirus μNS channel to observe infected cells.
+:::
+
+:::{attention}
+Observe the calreticulin channel for alleged reovirus-induced ER stress.
+MOI 0 is an uninfected control.
+The ER of uninfected cells can be compared within populations of infected samples.
+:::
+

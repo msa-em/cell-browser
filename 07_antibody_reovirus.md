@@ -93,6 +93,10 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 
 ---
 
+:::{tip}
+Adjust contrast in the calreticulin channel to observe the ER in populations of infected cells.
+:::
+
 :::{dropdown} Materials
 Chicken anti-μNS serum from the Parker lab (1:1000 dilution) was the same used in the original study.
 Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
