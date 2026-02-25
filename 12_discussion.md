@@ -24,14 +24,10 @@ To maximize accessibility for readers, embedded interactive viewports retrieve d
 Virtual microscopy requires an internet connection, but this limitation is relatively unimportant for contemporary and future publishing.
 Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so they can be readily requested by reviewers of all journals.
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
-Because it nurtures open and rigorous peer review, scientists and principal investigators might find virtual microscopy advantageous to make more robust claims with bioimaging data.
+Because it nurtures open and rigorous peer review, microscopists and principal investigators might find virtual microscopy advantageous to make more robust claims with their bioimaging data.
 
 :::{attention} Molecular biology example
-Which moxGFP::μNS construct formed more biomolecular condensates?
-:::
-
-:::{dropdown} Reveal the answer
-The construct on the **left**.
+Which moxGFP::μNS construct appears to form more biomolecular condensates? Left or right?
 :::
 
 ::::{grid} 2 2 2 2
@@ -47,10 +43,15 @@ The construct on the **left**.
 :::
 ::::
 
+:::{dropdown} Reveal the answer
+The sample on the **left**, moxGFP:μNS(1-721), tends to condense better than moxGFP::μNS(472-721).
+:::
+
 :::{dropdown} Methodological notes
 CV-1 cells were seeded on 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass).
 moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected using lipofectamine 3000 for 24 hours before fixing with PFA.
-2500 fields (50x50 grids) were imaged and converted to 8-bit TIF, stitched, then converted to DZI format.
+2500 fields (50x50 grid) were imaged with a 100X objective lens.
+Raw files were converted to 8-bit TIF, stitched, then converted to DZI format.
 The data was hosted on Github Pages and is viewed with OpenSeadragon.
 :::
 
