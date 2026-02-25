@@ -87,6 +87,10 @@ Disentangling the dimensions of latent space is unrealistic, so it is impossible
 However, based on the decoded MNIST digits ([projection](#fig9a) and [autoencoder](#fig9c)), Barkley conjectures that decoded latent centroids behave like average projections.
 From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that blends all image features in the set.
 
+This interpretation is intentionally vague and ambiguous because it depends on model configurations, so other autoencoders will produce different results.
+For example, these outcomes could be attributed to the average pooling operations in the encoder.
+Textures and patterns in decoded images could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
+
 ---
 
 # Materials and Methods
