@@ -58,7 +58,7 @@ Decoded latent vectors: arithmetic mean (left), median (middle) and geometric me
 The behaviour of the theoretical image generally does not correspond to a distinct image, therefore it is not considered the final representative image.
 However, it can be used to select representative examples from the dataset [@doi:10.1109/BIP60195.2023.10379342].
 The closest latent vector to each centroid was found based on the lowest Euclidean distance in the vector embedding ([](#fig9d)).
-The chosen images were remarkably similar, suggesting these methods are comparable.
+The chosen images were remarkably similar, if not identical, suggesting these methods are comparable.
 
 :::{figure} #fig9d_data
 :name: fig9d
@@ -71,8 +71,8 @@ Closest examples to the arithmetic mean (left), median (middle) and geometric me
 These examples of objective image selection relied on class information from an annotated dataset.
 Reconstructing theoretical averages of global centroids without labels produced counterexamples ([](#fig9e) and [](#fig9f)).
 This revealed that the approach does not generalize and that decisions about model design affect the perceived outcome.
-Conceptually, it made sense to find an average image of the digit four, but not to find the average example of all digits.
-Perhaps the approach would be more consistent with label averages, but this would require an upstream classifier model or manual annotation.
+Conceptually, it made sense to find an average example of the digit four, but not to find the average of all digits.
+Perhaps the method would be more consistent with labels, but this would require an upstream classifier model or manual annotation.
 
 :::{figure} #fig9e_data
 :name: fig9e

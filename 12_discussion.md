@@ -44,7 +44,7 @@ Which moxGFP::μNS construct formed more biomolecular condensates? Left or right
 ::::
 
 :::{dropdown} Reveal the answer
-The sample on the **left**, moxGFP:μNS(1-721), condenses better than mutant moxGFP:μNS.
+The sample on the **left**, moxGFP:μNS(1-721), condenses more than the mutant (right).
 :::
 
 :::{dropdown} Methodological notes
@@ -58,11 +58,14 @@ Barkley recognized the value of using virtual microscopy for replication studies
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
 To test this, Barkley replicated an experiment that reported images without numerical results.
 The original study showed apparent ER remodelling in reovirus-infected cells expressing mCherry-KDEL.
-In replication attempts, Barkley observed ER remodelling in cells expressing mCherry-KDEL in the absence of reovirus.
-This suggests that experimental artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of reovirus infection.
+In replication attempts, ER remodelling can be observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
+This suggests that experimental artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
 This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to scrutiny.
 
-There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus because of challenges defining what is normal in a dataset (https://doi.org/10.1016/s0006-3495(99)77379-0).
-The task of image selection remains unsuitable for computer algorithms because the output is subjective and context-dependent.
+There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus because of the challenges defining what is typical (https://doi.org/10.1016/s0006-3495(99)77379-0).
+The task of image selection is unsuitable for computer algorithms because the output is subjective and context-dependent.
+Another consideration is whether the dataset contains [continuous or discrete variables](<wiki:Continuous_or_discrete_variable>).
+If the dataset contains discrete phenotypes, like digits or nuclei, then perhaps label averages are better.
 To this end, image categorization with an upstream classifier model could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was more effective with labels (compare [subset](#fig9c) to [dataset](#fig9f)).
+However, classification would be futile if the data is continuous, in which case the global average is appropriate.
