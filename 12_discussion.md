@@ -49,10 +49,9 @@ The sample on the **left**, moxGFP:μNS(1-721), condenses better than the mutant
 
 :::{dropdown} Methodological notes
 CV-1 cells were seeded on 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass).
-moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected using lipofectamine 3000 for 24 hours before fixing with PFA.
-2500 fields (50x50 grid) were imaged with a 100X objective lens.
-Raw files were converted to 8-bit TIF, stitched, then converted to DZI format.
-The data was hosted on Github Pages and is viewed with OpenSeadragon.
+moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected using lipofectamine 3000 for 24 hours before PFA fixation.
+2500 fields (50x50 grid) were imaged (100X objective).
+Data was converted to 8-bit TIF, stitched, then converted to DZI format, hosted on Github Pages, and viewed with OpenSeadragon.
 :::
 
 Barkley recognized the value of using virtual microscopy for replication studies.
