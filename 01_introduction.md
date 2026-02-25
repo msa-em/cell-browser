@@ -43,7 +43,7 @@ Barkley automated the process of sample collection and image selection from a da
 Representative images were then selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
-Representative images were defined near the centroid of latent space, though counterexamples show that this approach does not generalize to all datasets.
+Representative images were defined near the centroid of latent space, though counterexamples showed that this approach does not generalize to all datasets.
 To define what is representative, both the subjective determinations made by humans and the objective determinations made by autoencoders are opaque.
 
 :::{warning} AI disclosure
@@ -58,8 +58,8 @@ A related term _virtual nanoscopy_ described the process of automated imaging an
 A _microscopy map_ is the interactive figure used to view virtual microscopy data [@doi:10.1083/jcb.201201140].
 This name fits broader use cases including light and electron microscopy.
 
-A _representative image_ is defined as a figure made by microscopists to communicate research findings to other scientists.
-This definition is agnostic to the research context and it emphasizes the use of pictures as scientific evidence.
+A _representative image_ is defined as a static figure made by microscopists to communicate results to other scientists.
+This definition is agnostic to the research context and it emphasizes the use of pictures as evidence to support claims.
 
 A _grayscale image_ is defined as a two-dimensional matrix where each pixel is a single intensity value ranging from $0-1$ that represents the amount of light or intensity information at a specific point [@doi:10.1109/BIP60195.2023.10379342].
 

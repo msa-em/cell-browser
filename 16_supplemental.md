@@ -338,3 +338,121 @@ Multi-channel or time-lapse images were considered one image with multiple frame
 ```{image} ./figures/telophase.png
 :label: telophase
 ```
+
+---
+
+# Autoencoders
+
+## MNIST
+
+```{code} python
+:label: mnist-ae
+:caption: Autoencoder model trained on MNIST digits
+
+# ────────────────────────────────────────
+# 2) Load & preprocess MNIST
+# ────────────────────────────────────────
+(x_train, y_train), (x_val, y_val) = tf.keras.datasets.mnist.load_data()
+x_train = np.expand_dims(x_train.astype("float32") / 255.0, -1)
+x_val   = np.expand_dims(x_val.astype("float32")   / 255.0, -1)
+
+# ────────────────────────────────────────
+# 3) Hyperparameters
+# ────────────────────────────────────────
+n_layers      = 2
+base_filters  = 16
+latent_dim    = 64
+learning_rate = 3e-4
+batch_size    = 32
+epochs        = 100
+
+AUTOTUNE = tf.data.AUTOTUNE
+train_ds = (
+    tf.data.Dataset
+      .from_tensor_slices((x_train, x_train))
+      .shuffle(10_000)
+      .batch(batch_size)
+      .prefetch(AUTOTUNE)
+)
+val_ds = (
+    tf.data.Dataset
+      .from_tensor_slices((x_val, x_val))
+      .batch(batch_size)
+      .prefetch(AUTOTUNE)
+)
+
+# ────────────────────────────────────────
+# 4) Autoencoder
+# ────────────────────────────────────────
+# Encoder
+inp = Input((28,28,1), name="encoder_input")
+x = inp
+for i in range(n_layers):
+    f = base_filters * (2**i)
+    x = Conv2D(f, 3, padding="same")(x)
+    x = ReLU()(x)
+    x = AveragePooling2D()(x)
+
+flat = Flatten()(x)
+z    = Dense(latent_dim, name="z")(flat)
+encoder = Model(inp, z, name="encoder")
+
+# Decoder
+latent_in = Input((latent_dim,), name="z_sampling")
+spatial = 28 // (2**n_layers)
+channels = base_filters * (2**(n_layers-1))
+x = Dense(spatial * spatial * channels)(latent_in)
+x = Reshape((spatial, spatial, channels))(x)
+
+for i in reversed(range(n_layers)):
+    f = base_filters * (2**i)
+    x = Conv2DTranspose(f, 3, strides=(2,2), padding="same")(x)
+    x = ReLU()(x)
+
+decoded = Conv2D(1, 3, padding="same", activation="sigmoid", name="decoder_output")(x)
+decoder = Model(latent_in, decoded, name="decoder")
+
+ae = Model(inp, decoder(encoder(inp)), name="autoencoder")
+ae.compile(
+    optimizer=Adam(learning_rate=learning_rate),
+    loss="mse",
+    metrics=["mse"],
+)
+```
+
+## NucleusNet
+
+```{code} python
+:label: nucleus-ae
+:caption: Autoencoder model trained on NucleusNet
+
+# ────────────────────────────────────────────────────────────────────────
+# 4) Autoencoder
+# ────────────────────────────────────────────────────────────────────────
+latent_dim    = 512
+learning_rate = 3e-4
+
+inp = Input((256,256,1), name='encoder_input')
+x = inp
+for filters in [16, 32, 64, 128]:
+    x = Conv2D(filters, 3, padding='same')(x); x = ReLU()(x)
+    x = Conv2D(filters, 3, padding='same')(x); x = ReLU()(x)
+    x = AveragePooling2D()(x)
+
+flat = Flatten()(x)
+z = Dense(latent_dim, name='z')(flat)
+encoder = Model(inp, z, name='encoder')
+
+latent_in = Input((latent_dim,), name='z_sampling')
+x = Dense(16 * 16 * 128)(latent_in)
+x = Reshape((16, 16, 128))(x)
+for filters in [128, 64, 32, 16]:
+    x = Conv2DTranspose(filters, 3, strides=2, padding='same')(x); x = ReLU()(x)
+    x = Conv2D(filters, 3, padding='same')(x); x = ReLU()(x)
+
+decoded = Conv2D(1, 3, padding='same', activation='sigmoid', name='decoder_output')(x)
+decoder = Model(latent_in, decoded, name='decoder')
+
+ae = Model(inp, decoder(encoder(inp)), name='autoencoder')
+ae.compile(optimizer=Adam(learning_rate), loss='mse', metrics=['mse'])
+```

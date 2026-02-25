@@ -22,7 +22,7 @@ Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry
 ::::
 
 This protocol was repeated in three experiments with additional controls and samples, found in the supplemental section.
-[This replicate](#sfig11a) is from the [first experiment](#one_page), and [this replicate](#sfig12a) is from the [second experiment](#two_page).
+[This replicate](#sfig10a) is from the [first experiment](#one_page), and [this replicate](#sfig11a) is from the [second experiment](#two_page).
 The sample above is from the [third experiment](#three_page).
 
 ## Conclusion

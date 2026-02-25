@@ -49,7 +49,7 @@ The sample on the **left**, moxGFP:μNS(1-721), condenses better than mutant mox
 
 :::{dropdown} Methodological notes
 CV-1 cells were seeded on 35mm glass-bottom dishes (20mm coverslips, no 1.5 glass).
-moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected for 24 hours before PFA fixation.
+pCI-neo moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected for 24 hours before PFA fixation.
 2500 fields (50x50 grid) were imaged (100X objective).
 Data was converted to 8-bit TIF, stitched, then converted to DZI format, hosted on Github Pages, and is viewed with OpenSeadragon.
 :::
@@ -65,4 +65,4 @@ This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus because of challenges defining what is normal in a dataset (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The task of image selection remains unsuitable for computer algorithms because the output is subjective and context-dependent.
-To this end, image categorization with upstream classifier models could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was more effective with labels (compare [subset](#fig9c) to [dataset](#fig9f)).
+To this end, image categorization with an upstream classifier model could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was more effective with labels (compare [subset](#fig9c) to [dataset](#fig9f)).

@@ -62,7 +62,7 @@ An autoencoder model was trained on NucleusNet for 50 epochs ([](#sfig12c).
 Theoretical latent vectors were calculated using measures of central tendency, including the arithmetic mean, median and geometric median.
 Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig10d)).
 Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342].
-These examples appeared to blend all image features from the dataset.
+These examples appear to blend all image features from the dataset.
 
 :::{figure} #fig10d_data
 :label: fig10d
@@ -73,7 +73,7 @@ Figure legend.
 2. Determination of a prototypical image
 
 Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
-Using this measure yielded one representative image ([](#fig10e)).
+Using this metric yielded one representative image ([](#fig10e)).
 
 ```{figure} ./figures/fig10e.png
 :label: fig10e
@@ -84,7 +84,7 @@ Image to represent NucleusNet: ROI_300 from stitched image Run11BR_bottom_right.
 
 Barkley interpreted the image as an interphase nucleus with muted image features given the variability in NucleusNet-10K ([](#fig10c)).
 Disentangling the dimensions of latent space is unrealistic, so it is impossible to justify this method.
-However, based on the decoded MNIST digits ([](#fig9a) and [](#fig9c)), Barkley conjectures that decoded latent centroids behave like average projections.
+However, based on the decoded MNIST digits ([projection](#fig9a) and [autoencoder](#fig9c)), Barkley conjectures that decoded latent centroids behave like average projections.
 From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that blends all image features in the set.
 
 ---
