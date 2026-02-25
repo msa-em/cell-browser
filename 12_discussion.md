@@ -24,7 +24,7 @@ To maximize accessibility for readers, embedded interactive viewports retrieve d
 Virtual microscopy requires an internet connection, but this limitation is relatively unimportant for contemporary and future publishing.
 Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so they can be readily requested by reviewers of all journals.
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
-Because virtual microscopy nurtures open and rigorous peer review, scientists might find it beneficial to make robust claims with bioimage data.
+Because virtual microscopy nurtures open and rigorous peer review, scientists might find it beneficial to make more robust claims with their bioimaging data.
 
 :::{attention} Molecular biology example
 Which moxGFP::μNS construct formed more biomolecular condensates?
