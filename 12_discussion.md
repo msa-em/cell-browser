@@ -27,7 +27,7 @@ Fraud prevention could incentivize publishers to adopt this technology as an alt
 Because it nurtures open and rigorous peer review, microscopists and principal investigators might find virtual microscopy advantageous to make more robust claims with their bioimaging data.
 
 :::{attention} Molecular biology example
-Which moxGFP::μNS construct appears to form more biomolecular condensates? Left or right?
+Which moxGFP::μNS construct forms more biomolecular condensates? Left or right?
 :::
 
 ::::{grid} 2 2 2 2
@@ -44,7 +44,7 @@ Which moxGFP::μNS construct appears to form more biomolecular condensates? Left
 ::::
 
 :::{dropdown} Reveal the answer
-The sample on the **left**, moxGFP:μNS(1-721), tends to condense better than moxGFP::μNS(472-721).
+The sample on the **left**, moxGFP:μNS(1-721), condenses better than the mutant.
 :::
 
 :::{dropdown} Methodological notes
