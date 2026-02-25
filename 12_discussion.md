@@ -25,14 +25,10 @@ Virtual microscopy requires an internet connection, but this limitation is relat
 Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so they can be readily requested by reviewers of all journals.
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
 Because virtual microscopy nurtures open and rigorous peer review, scientists might find it beneficial to make more robust claims.
-
-:::{attention} Which moxGFP::μNS construct formed more biomolecular condensates?
-Below are coverslips of transfected CV-1 cells expressing moxGFP::μNS(1-721) and moxGFP::μNS(472-721).
-There is a measurable difference in the distribution of condensates [10.1091/mbc.E24-01-0013].
-:::
+For example, which moxGFP::μNS construct formed more [biomolecular condensates](<wiki:Biomolecular_condensate>)?
 
 :::{dropdown} Reveal the answer
-The sample on the **left** formed ~3-fold more condensates.
+The construct on the **left**.
 :::
 
 ::::{grid} 2 2 2 2
@@ -49,10 +45,10 @@ The sample on the **left** formed ~3-fold more condensates.
 ::::
 
 :::{dropdown} Methodological notes
-High-passage CV-1 cells were seeded on 35mm glass-bottom dishes.
-The moxGFP::μNS constructs were transfected with lipofectamine 3000 for 24 hours.
-2500 fields (50x50 grids) were imaged and converted to 8-bit TIF files, stitched, then converted to DZI format.
-The DZI tiles were hosted on Github Pages, viewed with OpenSeadragon.
+High-passage CV-1 cells were seeded on 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass).
+moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected using lipofectamine 3000 for 24 hours before fixing with PFA.
+2500 fields (50x50 grids) were imaged and converted to 8-bit TIF, stitched, then converted to DZI format.
+The data was hosted on Github Pages and is viewed with OpenSeadragon.
 :::
 
 Barkley recognized the value of using virtual microscopy for replication studies.
