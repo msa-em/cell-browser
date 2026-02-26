@@ -15,11 +15,12 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
   "views": [
     {
-      "name": "view",
-      "zoom": -0.96,
+      "name": "Mitosis and not",
+      "description": "Here lies two cells becoming three.",
+      "zoom": 0.152,
       "target": [
-        4365,
-        4007,
+        7130,
+        4773,
         0
       ],
       "appearance": {
@@ -41,7 +42,7 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
         ],
         "contrastLimits": [
           [
-            0,
+            28,
             4095
           ],
           [
@@ -49,10 +50,47 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
             4095
           ]
         ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
+        "blendMode": "merged",
+        "colormap": "inferno"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "two nuclei",
+      "target": [
+        5793,
+        2121
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "three nuclei",
+      "target": [
+        4398,
+        3937
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "maybe four?",
+      "target": [
+        4381,
+        3934
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
     }
   ]
 }
