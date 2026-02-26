@@ -9,6 +9,57 @@ Barkley validated the selectivity and specificity of the calreticulin monoclonal
 The staining pattern was punctate, but it was sufficient to observe ER elements.
 
 ::::{figure}
+:label: ajbtest
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "views": [
+    {
+      "name": "view",
+      "zoom": -0.96,
+      "target": [
+        4365,
+        4007,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ]
+}
+:::
+::::
+
+::::{figure}
 :label: calreticulin
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
