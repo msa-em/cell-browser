@@ -63,9 +63,7 @@ This suggests that experimental artifacts from mCherry-ER reporters could have b
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
 This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to scrutiny.
 
-There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus because of the challenges defining what is typical (https://doi.org/10.1016/s0006-3495(99)77379-0).
-The task of image selection is unsuitable for computer algorithms because the output is subjective and context-dependent.
-Another consideration is whether the dataset contains [continuous or discrete variables](<wiki:Continuous_or_discrete_variable>).
-If the dataset contains discrete phenotypes, like digits or nuclei, then perhaps label averages are better.
-To this end, image categorization with an upstream classifier model could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was more effective with labels (compare [subset](#fig9c) to [dataset](#fig9f)).
-However, classification would be futile if the data is continuous, in which case the global average is appropriate.
+There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus because it is challenging defining what is typical (https://doi.org/10.1016/s0006-3495(99)77379-0), so the task of image selection remains unsuitable for computer algorithms.
+To this end, image categorization with an upstream classifier model could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was more effective with labels ([label average](#fig9a) and [global average](#fig9e)).
+An important consideration is whether the dataset contains [continuous or discrete variables](<wiki:Continuous_or_discrete_variable>).
+Classification is futile with continuous data that lacks discrete phenotypes, in which case global averaging could be appropriate.
