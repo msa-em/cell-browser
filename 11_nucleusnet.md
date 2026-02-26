@@ -11,6 +11,10 @@ Nuclei were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig12b)).
 NucleusNet was cropped from ROIs segmented in the stitched images ([](#fig10b)).
 
+:::{important}
+OpenSeadragon streams DZI tiles that were hosted _for free_ on Github [@doi:10.1242/jcs.262198].
+:::
+
 ::::{figure}
 :label: fig10a
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
@@ -45,7 +49,7 @@ There is another [example](https://www.allencell.org/deep-cell-zoom.html) of thi
     "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
 }
 :::
-NucleusNet-10K: one hundred random images from one hundred experiments (n=10,000).
+NucleusNet-10K: One hundred random images from one hundred experiments (n=10,000).
 ::::
 
 ---
@@ -58,7 +62,7 @@ An autoencoder model was trained on NucleusNet for 50 epochs ([](#sfig12c).
 Theoretical latent vectors were calculated using measures of central tendency, including the arithmetic mean, median and geometric median.
 Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig10d)).
 Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342].
-These examples appeared to blend all image features from the dataset.
+These examples appear to blend all image features from the dataset.
 
 :::{figure} #fig10d_data
 :label: fig10d
@@ -69,19 +73,23 @@ Figure legend.
 2. Determination of a prototypical image
 
 Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
-Using this measure yielded one representative image ([](#fig10e)).
+Using this metric yielded one representative image ([](#fig10e)).
 
 ```{figure} ./figures/fig10e.png
 :label: fig10e
-Representative image from NucleusNet: ROI_300 from the stitched image Run11BR_bottom_right.
+Image to represent NucleusNet: ROI_300 from stitched image Run11BR_bottom_right.
 ```
 
 ## Conclusions
 
-Barkley interpreted the chosen image as a boring example of an interphase nucleus, given the technical and phenotypic variability shown in NucleusNet-10K ([](#fig10c)).
+Barkley interpreted the image as an interphase nucleus with muted image features given the variability in NucleusNet-10K ([](#fig10c)).
 Disentangling the dimensions of latent space is unrealistic, so it is impossible to justify this method.
-However, based on the reconstructed average MNIST digits ([](#fig9a) and [](#fig9c)), Barkley conjectures that decoded latent centroids act like pixel-wise mean projections.
-From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that mixes all image features from the dataset.
+However, based on the decoded MNIST digits ([projection](#fig9a) and [autoencoder](#fig9c)), Barkley conjectures that decoded latent centroids behave like average projections.
+From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that blends all image features in the set.
+
+This interpretation is intentionally vague and ambiguous because it depends on model configurations, so other autoencoders will produce different results.
+For example, these outcomes could be attributed to the average pooling operations in the encoder.
+Textures and patterns in decoded images could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
 
 ---
 
@@ -143,8 +151,7 @@ An overview of data collection and pre-processing. A) Tiles were imaged in a 50x
 
 1. Conversion to 8-bit .TIF format
 
-Raw 12-bit files are in the proprietary Olympus .oir file format with metadata.
-The raw were converted to 8-bit TIF format using FIJI [@doi:10.1038/nmeth.2019] and were renamed 0-2500.tif corresponding to the order that the tiles were imaged.
+Raw 12-bit fields in Olympus .oir file format were converted to 8-bit TIF format using FIJI [@doi:10.1038/nmeth.2019] and were renamed 0-2500.tif corresponding to the order that the tiles were imaged (serpentine pattern starting left to right, 50x50 grid).
 
 2. Tiles stitched with Microscopy Image Stitching Tool (MIST)
 
