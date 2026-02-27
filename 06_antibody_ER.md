@@ -97,18 +97,19 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::
 ::::
 
-::::{grid} 2 2 2 2
+::::{grid} 3 3 3 3
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "width": "350px",
+  "height": "350px",
   "views": [
     {
-      "name": "Mitosis and not",
-      "description": "Here lies two cells becoming three.",
-      "zoom": 0.152,
+      "name": "Favourite cell",
+      "zoom": -0.96,
       "target": [
-        7130,
-        4773,
+        2603,
+        7622,
         0
       ],
       "appearance": {
@@ -130,7 +131,7 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
         ],
         "contrastLimits": [
           [
-            28,
+            0,
             4095
           ],
           [
@@ -138,47 +139,61 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
             4095
           ]
         ],
-        "blendMode": "merged",
-        "colormap": "inferno"
+        "blendMode": "single",
+        "colormap": "viridis"
       }
     }
   ],
-  "annotations": [
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "width": "350px",
+  "height": "350px",
+  "views": [
     {
-      "name": "two nuclei",
+      "name": "Representative cell!",
+      "zoom": -1.516,
       "target": [
-        5793,
-        2121
+        2568,
+        7496,
+        0
       ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "three nuclei",
-      "target": [
-        4398,
-        3937
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "maybe four?",
-      "target": [
-        4381,
-        3934
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
+      "appearance": {
+        "channelsVisible": [
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
     }
   ]
 }
@@ -186,14 +201,15 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "width": "350px",
+  "height": "350px",
   "views": [
     {
-      "name": "Mitosis and not",
-      "description": "Here lies two cells becoming three.",
-      "zoom": 0.152,
+      "name": "Representative cell!",
+      "zoom": -1.516,
       "target": [
-        7130,
-        4773,
+        2568,
+        7496,
         0
       ],
       "appearance": {
@@ -215,7 +231,7 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
         ],
         "contrastLimits": [
           [
-            28,
+            0,
             4095
           ],
           [
@@ -223,47 +239,9 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
             4095
           ]
         ],
-        "blendMode": "merged",
-        "colormap": "inferno"
+        "blendMode": "single",
+        "colormap": "viridis"
       }
-    }
-  ],
-  "annotations": [
-    {
-      "name": "two nuclei",
-      "target": [
-        5793,
-        2121
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "three nuclei",
-      "target": [
-        4398,
-        3937
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "maybe four?",
-      "target": [
-        4381,
-        3934
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
     }
   ]
 }
