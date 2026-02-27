@@ -56,6 +56,12 @@ project:
       name: Andrew James Brodrick
       email: ajb64@umd.edu
       orcid: 0009-0000-6389-0643
+      affiliations:
+        - id: maryland
+          department: 
+          institution: University of Maryland
+          address: 
+          ror: 047s2c258
       roles:
         - Conceptualization
         - Software developer

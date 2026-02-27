@@ -12,8 +12,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "375px",
-  "height": "375px",
+  "width": "300px",
+  "height": "300px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -22,7 +22,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
         2625,
         7624,
         0
-      ]
+      ],
+      "default": true
     }
   ]
 }
@@ -30,8 +31,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "375px",
-  "height": "375px",
+  "width": "300px",
+  "height": "300px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -40,7 +41,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
         2625,
         7624,
         0
-      ]
+      ],
+      "default": true
     }
   ]
 }
@@ -48,8 +50,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "375px",
-  "height": "375px",
+  "width": "300px",
+  "height": "300px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -58,7 +60,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
         2625,
         7624,
         0
-      ]
+      ],
+      "default": true
     }
   ]
 }
@@ -66,8 +69,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "375px",
-  "height": "375px",
+  "width": "300px",
+  "height": "300px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -76,7 +79,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
         2625,
         7624,
         0
-      ]
+      ],
+      "default": true
     }
   ]
 }
