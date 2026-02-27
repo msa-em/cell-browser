@@ -64,7 +64,7 @@ project:
           ror: 047s2c258
       roles:
         - Conceptualization
-        - Software developer
+        - Software development
     - id: jslparker
       name: John Stuart Leslie Parker
       email: jsp7@cornell.edu
