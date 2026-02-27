@@ -8,192 +8,21 @@ label : calreticulin_page
 Barkley validated the selectivity and specificity of the calreticulin monoclonal antibody as an immunofluorescence probe for ER antigens.
 The staining pattern was punctate, but it was sufficient to observe ER elements.
 
-::::{figure}
-:label: ajbtest
+::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "width": "375px",
+  "height": "375px",
   "views": [
     {
-      "name": "Mitosis and not",
-      "description": "Here lies two cells becoming three.",
-      "zoom": 0.152,
-      "target": [
-        7130,
-        4773,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            28,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "merged",
-        "colormap": "inferno"
-      }
-    }
-  ],
-  "annotations": [
-    {
-      "name": "two nuclei",
-      "target": [
-        5793,
-        2121
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "three nuclei",
-      "target": [
-        4398,
-        3937
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "maybe four?",
-      "target": [
-        4381,
-        3934
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    }
-  ]
-}
-:::
-::::
-
-::::{grid} 3 3 3 3
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "350px",
-  "height": "350px",
-  "views": [
-    {
-      "name": "Favourite cell",
+      "name": "Representative HeLa cell",
       "zoom": -0.96,
       "target": [
-        2603,
-        7622,
+        2625,
+        7624,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      }
-    }
-  ],
-  "scaleBar": {
-    "maxWidth": 100,
-    "position": "bottom-right"
-  }
-}
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "350px",
-  "height": "350px",
-  "views": [
-    {
-      "name": "Representative cell!",
-      "zoom": -1.516,
-      "target": [
-        2568,
-        7496,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      }
+      ]
     }
   ]
 }
@@ -201,47 +30,53 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "350px",
-  "height": "350px",
+  "width": "375px",
+  "height": "375px",
   "views": [
     {
-      "name": "Representative cell!",
-      "zoom": -1.516,
+      "name": "Representative HeLa cell",
+      "zoom": -0.96,
       "target": [
-        2568,
-        7496,
+        2625,
+        7624,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      }
+      ]
+    }
+  ]
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "width": "375px",
+  "height": "375px",
+  "views": [
+    {
+      "name": "Representative HeLa cell",
+      "zoom": -0.96,
+      "target": [
+        2625,
+        7624,
+        0
+      ]
+    }
+  ]
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "width": "375px",
+  "height": "375px",
+  "views": [
+    {
+      "name": "Representative HeLa cell",
+      "zoom": -0.96,
+      "target": [
+        2625,
+        7624,
+        0
+      ]
     }
   ]
 }
