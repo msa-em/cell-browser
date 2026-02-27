@@ -12,8 +12,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "325px",
-  "height": "325px",
+  "width": "323px",
+  "height": "323px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -31,8 +31,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "325px",
-  "height": "325px",
+  "width": "323px",
+  "height": "323px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -50,8 +50,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "325px",
-  "height": "325px",
+  "width": "323px",
+  "height": "323px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -69,8 +69,68 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "325px",
-  "height": "325px",
+  "width": "323px",
+  "height": "323px",
+  "views": [
+    {
+      "name": "Representative HeLa cell",
+      "zoom": -0.96,
+      "target": [
+        2625,
+        7624,
+        0
+      ],
+      "default": true
+    }
+  ]
+}
+:::
+::::
+
+::::{grid} 3 3 3 3
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "width": "200px",
+  "height": "200px",
+  "views": [
+    {
+      "name": "Representative HeLa cell",
+      "zoom": -0.96,
+      "target": [
+        2625,
+        7624,
+        0
+      ],
+      "default": true
+    }
+  ]
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "width": "200px",
+  "height": "200px",
+  "views": [
+    {
+      "name": "Representative HeLa cell",
+      "zoom": -0.96,
+      "target": [
+        2625,
+        7624,
+        0
+      ],
+      "default": true
+    }
+  ]
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "width": "200px",
+  "height": "200px",
   "views": [
     {
       "name": "Representative HeLa cell",
