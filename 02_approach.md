@@ -21,7 +21,7 @@ Our approach involved automated image acquisition, multi-scale [pyramid](<wiki:P
 Cloud-based virtual microscopy. 1. Automated image acquisition with any suitable microscope. 2. Reformat data to a pyramidal format like DZI or OME-Zarr and host online. 3) As readers interact with embedded microscopy maps, image tiles or data chunks are retrieved from cloud storage.
 ```
 
-The Elemental Microscopy journal supports two viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two alternative methods of cloud-based virtual microscopy.
+The Elemental Microscopy journal supports two viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two alternative methods of cloud-based virtual microscopy.OME-Zarr viewer
 
 ## Vizarr
 

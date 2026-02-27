@@ -97,6 +97,179 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::
 ::::
 
+::::{grid} 2 2 2 2
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "views": [
+    {
+      "name": "Mitosis and not",
+      "description": "Here lies two cells becoming three.",
+      "zoom": 0.152,
+      "target": [
+        7130,
+        4773,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            28,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "merged",
+        "colormap": "inferno"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "two nuclei",
+      "target": [
+        5793,
+        2121
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "three nuclei",
+      "target": [
+        4398,
+        3937
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "maybe four?",
+      "target": [
+        4381,
+        3934
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    }
+  ]
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "views": [
+    {
+      "name": "Mitosis and not",
+      "description": "Here lies two cells becoming three.",
+      "zoom": 0.152,
+      "target": [
+        7130,
+        4773,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            28,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "merged",
+        "colormap": "inferno"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "two nuclei",
+      "target": [
+        5793,
+        2121
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "three nuclei",
+      "target": [
+        4398,
+        3937
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "maybe four?",
+      "target": [
+        4381,
+        3934
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    }
+  ]
+}
+:::
+::::
+
 ::::{figure}
 :label: calreticulin
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js

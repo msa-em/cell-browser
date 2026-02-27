@@ -52,6 +52,13 @@ project:
         - Project administration
         - Writing - original draft
         - Data collection, analysis and visualizations
+    - id: ajbrodrick
+      name: Andrew James Brodrick
+      email: ajb64@umd.edu
+      orcid: 0009-0000-6389-0643
+      roles:
+        - Conceptualization
+        - Software developer
     - id: jslparker
       name: John Stuart Leslie Parker
       email: jsp7@cornell.edu
