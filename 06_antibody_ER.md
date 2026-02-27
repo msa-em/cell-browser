@@ -5,15 +5,15 @@ numbering:
 label : calreticulin_page
 ---
 
-Barkley validated the selectivity and specificity of the calreticulin monoclonal antibody as an immunofluorescence probe for ER antigens.
+The selectivity and specificity of the calreticulin monoclonal antibody was validated as an immunofluorescence marker of the ER.
 The staining pattern was punctate, but it was sufficient to observe ER elements.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "320px",
-  "height": "320px",
+  "width": "325px",
+  "height": "325px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -31,8 +31,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "320px",
-  "height": "320px",
+  "width": "325px",
+  "height": "325px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -50,8 +50,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "320px",
-  "height": "320px",
+  "width": "325px",
+  "height": "325px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -69,8 +69,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "320px",
-  "height": "320px",
+  "width": "325px",
+  "height": "325px",
   "views": [
     {
       "name": "Representative HeLa cell",
