@@ -91,8 +91,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "200px",
-  "height": "200px",
+  "width": "210px",
+  "height": "210px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -110,8 +110,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "200px",
-  "height": "200px",
+  "width": "210px",
+  "height": "210px",
   "views": [
     {
       "name": "Representative HeLa cell",
@@ -129,8 +129,8 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "width": "200px",
-  "height": "200px",
+  "width": "210px",
+  "height": "210px",
   "views": [
     {
       "name": "Representative HeLa cell",
