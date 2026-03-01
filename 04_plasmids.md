@@ -12,15 +12,13 @@ Barkley included mCherry-CytERM-N-17 (55024, Addgene) to retain mCherry on the c
 mCherry-CytERM was considered a positive control for ER remodelling because organized smooth endoplasmic reticulum (OSER) whorls form through fluorescent protein dimerization [@doi:10.1083/jcb.200306020] in ~5% of transfected cells [@doi:10.1038/nmeth.3891].
 Calreticulin should also be detectable in OSER whorls with immunofluorescence imaging [@doi:10.1083/jcb.200306020].
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
-mCherry-Climp63 was a control for ER remodelling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
+mCherry-Climp63 was a control for ER remodeling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
 
 ## Lipofectamine 3000 (left) and TransIT-2020 (right)
 
 HeLa cells were imaged after one day of transfection with mCherry-ER reporters.
 Illumination settings in the mCherry channel were set based on the mCherry-KDEL sample transfected with TransIT-2020.
 Transfection efficiency and protein expression was better with lipofectamine, which caused saturated signal in these samples.
-
-### mCherry-KDEL
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
@@ -163,11 +161,6 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   }
 }
 :::
-::::
-
-### mCherry-Sec61β
-
-::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample4.zarr/",
