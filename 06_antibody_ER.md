@@ -10,32 +10,100 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 
 ::::{figure}
 :label: calreticulin
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
-  "height": "600px"
+  "width": "500px",
+  "height": "500px",
+  "title": {
+    "text": "+ Primary + Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 24,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
 Validating the α-calreticulin antibody in an immunofluorescence imaging assay.
 ::::
 
 ::::{grid} 3 3 3 3
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample2.zarr/",
-  "height": "250px"
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "+ Primary - Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample3.zarr/",
-  "height": "250px"
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "- Primary + Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample4.zarr/",
-  "height": "250px"
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "- Primary - Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
 ::::
