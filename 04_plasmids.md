@@ -237,7 +237,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   "width": "323px",
   "height": "323px",
   "title": {
-    "text": "mCherry-CLIMP-63",
+    "text": "mCherry-Climp63",
     "position": "bottom-left",
     "margin": 12,
     "fontSize": 16,
@@ -272,7 +272,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   "width": "323px",
   "height": "323px",
   "title": {
-    "text": "mCherry-CLIMP-63",
+    "text": "mCherry-Climp63",
     "position": "bottom-left",
     "margin": 12,
     "fontSize": 16,
