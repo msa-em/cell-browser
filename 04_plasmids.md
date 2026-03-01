@@ -23,67 +23,284 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
 ### mCherry-KDEL
 
 ::::{grid} 2 2 2 2
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample3.zarr/",
-  "height": "350px"
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-KDEL",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "pill"
+  },
+  "views": [
+    {
+      "name": "OSER whorls",
+      "zoom": -1.038,
+      "target": [
+        7526,
+        3449,
+        0
+      ],
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample7.zarr/",
-  "height": "350px"
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-KDEL",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "pill"
+  },
+  "views": [
+    {
+      "name": "OSER whorls",
+      "zoom": -1.038,
+      "target": [
+        5807,
+        9431,
+        0
+      ],
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-::::
-
-### mCherry-CytERM
-
-::::{grid} 2 2 2 2
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample2.zarr/",
-  "height": "350px"
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-CytERM",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "pill"
+  },
+  "views": [
+    {
+      "name": "OSER whorls",
+      "zoom": -0.482,
+      "target": [
+        6596,
+        8089,
+        0
+      ],
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample6.zarr/",
-  "height": "350px"
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-CytERM",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "pill"
+  },
+  "views": [
+    {
+      "name": "OSER whorls",
+      "zoom": -1.593,
+      "target": [
+        5307,
+        5814,
+        0
+      ],
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-::::
-
-### mCherry-Sec61β
-
-::::{grid} 2 2 2 2
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample4.zarr/",
-  "height": "350px"
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-Sec61β",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "pill"
+  },
+  "views": [
+    {
+      "name": "OSER whorls",
+      "zoom": -0.482,
+      "target": [
+        2905,
+        2298,
+        0
+      ],
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample8.zarr/",
-  "height": "350px"
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-Sec61β",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "pill"
+  },
+  "views": [
+    {
+      "name": "OSER whorls",
+      "zoom": -0.482,
+      "target": [
+        7167,
+        3403,
+        0
+      ],
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-::::
-
-### mCherry-Climp63
-
-::::{grid} 2 2 2 2
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample1.zarr/",
-  "height": "350px"
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-CLIMP-63",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "pill"
+  },
+  "views": [
+    {
+      "name": "OSER whorls",
+      "zoom": -1.038,
+      "target": [
+        7555,
+        4390,
+        0
+      ],
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample5.zarr/",
-  "height": "350px"
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-CLIMP-63",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "pill"
+  },
+  "views": [
+    {
+      "name": "OSER whorls",
+      "zoom": -1.038,
+      "target": [
+        1479,
+        2362,
+        0
+      ],
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
 ::::
