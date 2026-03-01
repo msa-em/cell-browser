@@ -32,25 +32,25 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-KDEL",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 16,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
-    "style": "pill"
+    "style": "text"
   },
   "views": [
     {
-      "name": "OSER whorls",
-      "zoom": -1.038,
+      "name": "ER remodeling",
+      "zoom": -0.96,
       "target": [
-        7526,
-        3449,
+        7554,
+        3432,
         0
       ],
       "default": true
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -67,25 +67,25 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-KDEL",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 16,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
-    "style": "pill"
+    "style": "text"
   },
   "views": [
     {
-      "name": "OSER whorls",
+      "name": "ER remodeling",
       "zoom": -1.038,
       "target": [
-        5807,
-        9431,
+        3291,
+        1149,
         0
       ],
       "default": true
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -102,25 +102,25 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-CytERM",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 16,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
-    "style": "pill"
+    "style": "text"
   },
   "views": [
     {
-      "name": "OSER whorls",
-      "zoom": -0.482,
+      "name": "ER remodeling",
+      "zoom": -1.038,
       "target": [
-        6596,
-        8089,
+        6543,
+        5902,
         0
       ],
       "default": true
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -137,25 +137,25 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-CytERM",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 16,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
-    "style": "pill"
+    "style": "text"
   },
   "views": [
     {
-      "name": "OSER whorls",
-      "zoom": -1.593,
+      "name": "ER remodeling",
+      "zoom": -1.038,
       "target": [
-        5307,
-        5814,
+        5331,
+        5830,
         0
       ],
       "default": true
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -163,6 +163,11 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   }
 }
 :::
+::::
+
+### mCherry-Sec61β
+
+::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample4.zarr/",
@@ -172,25 +177,25 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-Sec61β",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 16,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
-    "style": "pill"
+    "style": "text"
   },
   "views": [
     {
-      "name": "OSER whorls",
-      "zoom": -0.482,
+      "name": "ER remodeling",
+      "zoom": -1.038,
       "target": [
-        2905,
-        2298,
+        5556,
+        7853,
         0
       ],
       "default": true
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -207,25 +212,25 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-Sec61β",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 16,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
-    "style": "pill"
+    "style": "text"
   },
   "views": [
     {
-      "name": "OSER whorls",
-      "zoom": -0.482,
+      "name": "ER remodeling",
+      "zoom": -1.038,
       "target": [
-        7167,
-        3403,
+        7142,
+        3452,
         0
       ],
       "default": true
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -242,25 +247,25 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-CLIMP-63",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 16,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
-    "style": "pill"
+    "style": "text"
   },
   "views": [
     {
-      "name": "OSER whorls",
+      "name": "ER remodeling",
       "zoom": -1.038,
       "target": [
         7555,
-        4390,
+        4352,
         0
       ],
       "default": true
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -277,25 +282,25 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-CLIMP-63",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 16,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
-    "style": "pill"
+    "style": "text"
   },
   "views": [
     {
-      "name": "OSER whorls",
+      "name": "ER remodeling",
       "zoom": -1.038,
       "target": [
-        1479,
-        2362,
+        6667,
+        1324,
         0
       ],
       "default": true
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
