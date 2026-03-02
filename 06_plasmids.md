@@ -17,8 +17,9 @@ mCherry-Climp63 was a control for ER remodeling, given its role in determining E
 ## Lipofectamine 3000 (left) and TransIT-2020 (right)
 
 HeLa cells were imaged after one day of transfection with mCherry-ER reporters.
-Illumination settings in the mCherry channel were set based on the mCherry-KDEL sample transfected with TransIT-2020.
-Transfection efficiency and protein expression was better with lipofectamine, which caused saturated signal in these samples.
+Illumination settings were set in the mCherry channel based on the mCherry-KDEL sample transfected with TransIT-2020.
+Transfection and protein expression was stronger with lipofectamine, so there was pixel saturation in these samples.
+Barkley interpreted more ER remodeling with mCherry-Sec61β and mCherry-Climp63 than mCherry-KDEL and mCherry-CytERM.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
@@ -37,7 +38,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   },
   "views": [
     {
-      "name": "Zoom to an example of ER remodeling",
+      "name": "Zoom to ER remodeling",
       "zoom": 0.074,
       "target": [
         7507,
@@ -71,7 +72,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   },
   "views": [
     {
-      "name": "Zoom to an example of ER remodeling",
+      "name": "Zoom to ER remodeling",
       "zoom": 0.074,
       "target": [
         5703,
@@ -105,7 +106,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   },
   "views": [
     {
-      "name": "Zoom to an example of ER remodeling",
+      "name": "Zoom to ER remodeling",
       "zoom": 0.074,
       "target": [
         6561,
@@ -139,7 +140,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   },
   "views": [
     {
-      "name": "Zoom to an example of ER remodeling",
+      "name": "Zoom to ER remodeling",
       "zoom": 0.074,
       "target": [
         5346,
@@ -173,7 +174,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   },
   "views": [
     {
-      "name": "Zoom to an example of ER remodeling",
+      "name": "Zoom to ER remodeling",
       "zoom": 0.074,
       "target": [
         5296,
@@ -207,7 +208,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   },
   "views": [
     {
-      "name": "Zoom to an example of ER remodeling",
+      "name": "Zoom to ER remodeling",
       "zoom": 0.074,
       "target": [
         7222,
@@ -241,7 +242,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   },
   "views": [
     {
-      "name": "Zoom to an example of ER remodeling",
+      "name": "Zoom to ER remodeling",
       "zoom": 0.074,
       "target": [
         4553,
@@ -275,7 +276,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
   },
   "views": [
     {
-      "name": "Zoom to an example of ER remodeling",
+      "name": "Zoom to ER remodeling",
       "zoom": 0.074,
       "target": [
         6622,
@@ -296,7 +297,7 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
 ::::
 
 :::{important} Alternative hypothesis
-All four mCherry-ER constructs caused irregular ER morphologies, including the plasmid used in the original study.
+All four mCherry-ER constructs showed at least one transfected cell with irregular ER morphology (see the preset views).
 Therefore, it is possible that the previous investigators misinterpreted mCherry-ER reporter artifacts as an outcome of reovirus infection.
 :::
 

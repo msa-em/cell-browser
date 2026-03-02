@@ -40,7 +40,7 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
   },
   "views": [
     {
-      "name": "Hide ER and increase reovirus contrast",
+      "name": "Hide ER and adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -116,7 +116,7 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
   },
   "views": [
     {
-      "name": "Hide ER and increase reovirus contrast",
+      "name": "Hide ER and adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -192,7 +192,7 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
   },
   "views": [
     {
-      "name": "Hide ER and increase reovirus contrast",
+      "name": "Hide ER and adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -318,7 +318,7 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
   },
   "views": [
     {
-      "name": "Hide ER and increase reovirus contrast",
+      "name": "Hide ER and adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -468,7 +468,7 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
   },
   "views": [
     {
-      "name": "Hide ER and increase reovirus contrast",
+      "name": "Hide ER and adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -544,8 +544,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
   },
   "views": [
     {
-      "name": "Hide ER and increase reovirus contrast",
-      "description": "Reovirus channel min 0 max 1500",
+      "name": "Hide ER and adjust contrast",
+      "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
         4886,
@@ -586,7 +586,7 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
           ],
           [
             0,
-            1500
+            2000
           ]
         ],
         "blendMode": "single",
@@ -620,7 +620,7 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
   },
   "views": [
     {
-      "name": "Hide ER and increase reovirus contrast",
+      "name": "Hide ER and adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -696,7 +696,7 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
   },
   "views": [
     {
-      "name": "Hide ER and increase reovirus contrast",
+      "name": "Hide ER and adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -759,7 +759,6 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
 ::::
 
 :::{tip}
-Hidden by default, evaluate the calreticulin channel for alleged virus-induced ER remodeling.
-The uninfected control is MOI 0.
-ER morphology can also be compared within populations of infected cells.
+Hidden by default, evaluate the calreticulin channel for alleged ER remodeling.
+The uninfected control is MOI 0 but ER can be compared within populations of infected cells.
 :::
