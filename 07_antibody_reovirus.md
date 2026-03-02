@@ -12,49 +12,316 @@ The chicken antiserum was cross-validated with another μNS antiserum from guine
 All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies to observe ER elements.
 Both the chicken ([Figure 6.1](#fig6a)) and guinea pig ([Figure 6.2](#fig6b)) α-μNS antisera were sufficient to observe virus-infected cells and intracellular viral factories at high-magnification.
 
-:::{tip}
-Adjust the contrast in the calreticulin channel to evaluate alleged ER remodelling.
-:::
-
 ## Chicken polyclonal antiserum
 
 ::::{figure}
 :label: fig6a
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample1.zarr/",
-  "height": "600px"
+  "width": "500px",
+  "height": "500px",
+  "title": {
+    "text": "+ Primary + Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 24,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Edits",
+      "description": "ER hidden and DAPI contrast adjusted",
+      "zoom": -4.296,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2736
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
-
 :::
 Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 ::::
 
 ::::{grid} 3 3 3 3
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample2.zarr/",
-  "height": "250px"
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "+ Primary - Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Edits",
+      "description": "ER hidden and DAPI contrast adjusted",
+      "zoom": -5.555,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2171
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
-
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample3.zarr/",
-  "height": "250px"
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "- Primary + Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Edits",
+      "description": "ER hidden and DAPI contrast adjusted",
+      "zoom": -5.555,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2763
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
-
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample4.zarr/",
-  "height": "250px"
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "- Primary + Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Edits",
+      "description": "ER hidden and DAPI contrast adjusted",
+      "zoom": -5.555,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2667
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
-
 :::
 ::::
 
@@ -62,34 +329,313 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 
 ::::{figure}
 :label: fig6b
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample5.zarr/",
-  "height": "600px"
+  "width": "500px",
+  "height": "500px",
+  "title": {
+    "text": "+ Primary + Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 24,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Edits",
+      "description": "ER hidden and DAPI contrast adjusted",
+      "zoom": -4.296,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2500
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
 Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 ::::
 
 ::::{grid} 3 3 3 3
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample6.zarr/",
-  "height": "250px"
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "+ Primary - Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Edits",
+      "description": "ER hidden and DAPI contrast adjusted",
+      "zoom": -5.555,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2500
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample7.zarr/",
-  "height": "250px"
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "- Primary + Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Edits",
+      "description": "ER hidden and DAPI contrast adjusted",
+      "zoom": -5.555,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2500
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample8.zarr/",
-  "height": "250px"
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "- Primary - Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Edits",
+      "description": "ER hidden and DAPI contrast adjusted",
+      "zoom": -5.555,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2500
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
-
 :::
 ::::
 

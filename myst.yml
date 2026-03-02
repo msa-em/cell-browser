@@ -51,7 +51,8 @@ project:
         - Conceptualization
         - Project administration
         - Writing - original draft
-        - Data collection, analysis and visualizations
+        - Data collection and visualization
+        - Funding acquisition
     - id: ajbrodrick
       name: Andrew James Brodrick
       email: ajb64@umd.edu
@@ -64,7 +65,7 @@ project:
           ror: 047s2c258
       roles:
         - Conceptualization
-        - Software development
+        - Data visualization
     - id: jslparker
       name: John Stuart Leslie Parker
       email: jsp7@cornell.edu
