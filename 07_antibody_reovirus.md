@@ -159,7 +159,8 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
         ],
         "blendMode": "single",
         "colormap": "viridis"
-      }
+      },
+      "default": true
     }
   ],
   "scaleBar": {
@@ -253,7 +254,7 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
   "width": "210px",
   "height": "210px",
   "title": {
-    "text": "- Primary + Secondary",
+    "text": "- Primary - Secondary",
     "position": "bottom-left",
     "margin": 12,
     "fontSize": 12,
@@ -383,7 +384,7 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
           ],
           [
             0,
-            2500
+            3262
           ],
           [
             0,

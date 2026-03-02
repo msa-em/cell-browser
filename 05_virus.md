@@ -30,27 +30,27 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
   "width": "323px",
   "height": "323px",
   "title": {
-    "text": "Reovirus T1L MOI 0",
+    "text": "Reovirus T3D MOI 0",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 20,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Edit",
-      "description": "Reovirus channel contrast adjusted",
-      "zoom": -2.705,
+      "name": "Hide ER and increase reovirus contrast",
+      "description": "Reovirus channel min 0 max 2000",
+      "zoom": -4.928,
       "target": [
-        6469,
-        7871,
+        4886,
+        4886,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -109,24 +109,24 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     "text": "Reovirus T3D MOI 0",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 20,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Edit",
-      "description": "Reovirus channel contrast adjusted",
-      "zoom": -2.705,
+      "name": "Hide ER and increase reovirus contrast",
+      "description": "Reovirus channel min 0 max 2000",
+      "zoom": -4.928,
       "target": [
-        2079,
-        6556,
+        4886,
+        4886,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -185,24 +185,24 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     "text": "Reovirus T1L MOI 1",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 20,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Edit",
-      "description": "Reovirus channel contrast adjusted",
-      "zoom": -2.705,
+      "name": "Hide ER and increase reovirus contrast",
+      "description": "Reovirus channel min 0 max 2000",
+      "zoom": -4.928,
       "target": [
-        7213,
-        1157,
+        4886,
+        4886,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -247,8 +247,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     {
       "name": "Infected cell",
       "target": [
-        7479,
-        982
+        7471,
+        983
       ],
       "color": [
         235,
@@ -259,8 +259,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     {
       "name": "Infected cell",
       "target": [
-        7368,
-        855
+        7362,
+        850
       ],
       "color": [
         235,
@@ -269,10 +269,22 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
       ]
     },
     {
-      "name": "Infected cell",
+      "name": "Infected cell?",
       "target": [
-        161,
-        8231
+        159,
+        8237
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Infected cell?",
+      "target": [
+        276,
+        2144
       ],
       "color": [
         235,
@@ -299,24 +311,24 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     "text": "Reovirus T3D MOI 1",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 20,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Edit",
-      "description": "Reovirus channel contrast adjusted",
-      "zoom": -2.705,
+      "name": "Hide ER and increase reovirus contrast",
+      "description": "Reovirus channel min 0 max 2000",
+      "zoom": -4.928,
       "target": [
-        6534,
-        2632,
+        4886,
+        4886,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -361,8 +373,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     {
       "name": "Infected cell",
       "target": [
-        6470,
-        2620
+        6460,
+        2626
       ],
       "color": [
         235,
@@ -373,8 +385,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     {
       "name": "Infected cell",
       "target": [
-        8375,
-        6200
+        5199,
+        7702
       ],
       "color": [
         235,
@@ -385,8 +397,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     {
       "name": "Infected cell",
       "target": [
-        9609,
-        5648
+        8381,
+        6188
       ],
       "color": [
         235,
@@ -397,8 +409,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     {
       "name": "Infected cell",
       "target": [
-        2485,
-        8482
+        9605,
+        5645
       ],
       "color": [
         235,
@@ -409,8 +421,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     {
       "name": "Infected cell",
       "target": [
-        5208,
-        7699
+        2486,
+        8493
       ],
       "color": [
         235,
@@ -421,8 +433,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     {
       "name": "Infected cell",
       "target": [
-        7597,
-        9709
+        7598,
+        9699
       ],
       "color": [
         235,
@@ -449,100 +461,24 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     "text": "Reovirus T1L MOI 10",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 20,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Edit",
-      "description": "Reovirus channel contrast adjusted",
-      "zoom": -2.705,
+      "name": "Hide ER and increase reovirus contrast",
+      "description": "Reovirus channel min 0 max 2000",
+      "zoom": -4.928,
       "target": [
-        5214,
-        2900,
+        4886,
+        4886,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            1808
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
-    }
-  ],
-  "scaleBar": {
-    "maxWidth": 100,
-    "position": "bottom-right",
-    "fontSize": 10,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.9)"
-  }
-}
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample6.zarr/",
-  "width": "323px",
-  "height": "323px",
-  "title": {
-    "text": "Reovirus T3D MOI 10",
-    "position": "bottom-left",
-    "margin": 12,
-    "fontSize": 18,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.95)",
-    "style": "text"
-  },
-  "views": [
-    {
-      "name": "Edit",
-      "description": "Reovirus channel contrast adjusted",
-      "zoom": -2.705,
-      "target": [
-        5797,
-        2560,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -594,6 +530,82 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample6.zarr/",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "Reovirus T3D MOI 10",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Hide ER and increase reovirus contrast",
+      "description": "Reovirus channel min 0 max 1500",
+      "zoom": -4.928,
+      "target": [
+        4886,
+        4886,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            1500
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample2.zarr/",
   "width": "323px",
   "height": "323px",
@@ -601,24 +613,24 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     "text": "Reovirus T1L MOI 100",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 20,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Edit",
-      "description": "Reovirus channel contrast adjusted",
-      "zoom": -2.705,
+      "name": "Hide ER and increase reovirus contrast",
+      "description": "Reovirus channel min 0 max 2000",
+      "zoom": -4.928,
       "target": [
-        2567,
-        2487,
+        4886,
+        4886,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -677,24 +689,24 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
     "text": "Reovirus T3D MOI 100",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 20,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Edit",
-      "description": "Reovirus channel contrast adjusted",
-      "zoom": -2.705,
+      "name": "Hide ER and increase reovirus contrast",
+      "description": "Reovirus channel min 0 max 2000",
+      "zoom": -4.928,
       "target": [
-        4278,
-        3155,
+        4886,
+        4886,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -746,8 +758,8 @@ Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for
 :::
 ::::
 
-:::{attention}
-Observe alleged virus-induced ER remodeling in the calreticulin channel.
+:::{tip}
+Hidden by default, evaluate the calreticulin channel for alleged virus-induced ER remodeling.
 The uninfected control is MOI 0.
-ER morphology can also be compared in populations of infected cells.
+ER morphology can also be compared within populations of infected cells.
 :::

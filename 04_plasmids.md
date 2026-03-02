@@ -30,61 +30,20 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-KDEL",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 22,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "ER remodeling",
-      "zoom": -0.482,
+      "name": "Zoom to an example of ER remodeling",
+      "zoom": 0.074,
       "target": [
-        7497,
-        3431,
+        7507,
+        3372,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
+      ]
     }
   ],
   "scaleBar": {
@@ -105,61 +64,20 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-KDEL",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 22,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "ER remodeling",
-      "zoom": -0.482,
+      "name": "Zoom to an example of ER remodeling",
+      "zoom": 0.074,
       "target": [
-        5630,
-        1716,
+        5703,
+        1706,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
+      ]
     }
   ],
   "scaleBar": {
@@ -180,61 +98,20 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-CytERM",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 22,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "ER remodeling",
-      "zoom": -0.482,
+      "name": "Zoom to an example of ER remodeling",
+      "zoom": 0.074,
       "target": [
-        6557,
-        5928,
+        6561,
+        5919,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
+      ]
     }
   ],
   "scaleBar": {
@@ -255,61 +132,20 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-CytERM",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 22,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "ER remodeling",
-      "zoom": -0.482,
+      "name": "Zoom to an example of ER remodeling",
+      "zoom": 0.074,
       "target": [
-        5272,
-        5575,
+        5346,
+        5514,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
+      ]
     }
   ],
   "scaleBar": {
@@ -330,61 +166,20 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-Sec61β",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 22,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "ER remodeling",
-      "zoom": -0.482,
+      "name": "Zoom to an example of ER remodeling",
+      "zoom": 0.074,
       "target": [
-        5193,
-        4523,
+        5296,
+        5118,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
+      ]
     }
   ],
   "scaleBar": {
@@ -405,61 +200,20 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-Sec61β",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 22,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "ER remodeling",
-      "zoom": -0.482,
+      "name": "Zoom to an example of ER remodeling",
+      "zoom": 0.074,
       "target": [
-        7170,
-        3427,
+        7222,
+        3355,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
+      ]
     }
   ],
   "scaleBar": {
@@ -480,61 +234,20 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-Climp63",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 22,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "ER remodeling",
-      "zoom": -0.482,
+      "name": "Zoom to an example of ER remodeling",
+      "zoom": 0.074,
       "target": [
-        4962,
-        3346,
+        4553,
+        6248,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
+      ]
     }
   ],
   "scaleBar": {
@@ -555,61 +268,20 @@ Transfection efficiency and protein expression was better with lipofectamine, wh
     "text": "mCherry-Climp63",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 18,
+    "fontSize": 22,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "ER remodeling",
-      "zoom": -0.482,
+      "name": "Zoom to an example of ER remodeling",
+      "zoom": 0.074,
       "target": [
-        6650,
-        1312,
+        6622,
+        1307,
         0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
+      ]
     }
   ],
   "scaleBar": {

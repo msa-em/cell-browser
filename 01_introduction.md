@@ -30,7 +30,7 @@ Results should be observed again with a high degree of reliability; therefore or
 To test this, Barkley challenged the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen because most results were representative images without quantification ([](#table4)).
 A fully motorized confocal microscope recorded large samples from replicate immunofluorescence experiments at high-magnification.
-Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and Vizarr viewer [@doi:10.1038/s41592-022-01482-7].
+Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and viewers based on Viv [@doi:10.1038/s41592-022-01482-7].
 All parties in peer review have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
 
 Microscopy maps are interactive figures but static figures predominate scientific publishing.
