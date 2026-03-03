@@ -297,7 +297,7 @@ Barkley interpreted more ER remodeling with mCherry-Sec61β and mCherry-Climp63 
 ::::
 
 :::{important} Alternative hypothesis
-All four mCherry-ER constructs showed at least one transfected cell with irregular ER morphology (see the preset views).
+All four mCherry-ER constructs had at least one cell with irregular ER morphology (see the preset views).
 Therefore, it is possible that the previous investigators misinterpreted mCherry-ER reporter artifacts as an outcome of reovirus infection.
 :::
 
