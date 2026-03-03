@@ -45,7 +45,7 @@ OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:1
 
 ### microATLAS
 
-Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) to embed and view OME-Zarr in Elemental Microscopy.
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), an embeddable OME-Zarr viewer based on Viv [@doi:10.1038/s41592-022-01482-7].
 microATLAS was embedded using markdown generated on the builder page.
 
 ```{code}
