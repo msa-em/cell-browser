@@ -21,7 +21,7 @@ Our approach involved automated image acquisition, multi-scale [pyramid](<wiki:P
 Cloud-based virtual microscopy. 1. Automated image acquisition with any suitable microscope. 2. Reformat data to a pyramidal format like DZI or OME-Zarr and host online. 3) As readers interact with embedded microscopy maps, image tiles or data chunks are retrieved from cloud storage.
 ```
 
-The Elemental Microscopy journal supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) and [OpenSeadragon](https://openseadragon.github.io/), enabling two alternative methods of cloud-based virtual microscopy.
+The Elemental Microscopy journal supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two alternative methods of cloud-based virtual microscopy.
 
 ## OME-Zarr
 
@@ -32,9 +32,9 @@ Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.26219
 
 ### Vizarr
 
-OME-Zarr images can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr)[@doi:10.1038/s41592-022-01482-7] and embedded in markdown.
+OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7], embedded with the `:::{any:bundle}` directive.
 
-```{code} python
+```{code}
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
@@ -45,10 +45,9 @@ OME-Zarr images can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr)[
 
 ### microATLAS
 
-Brodrick created custom viewers, based on Viv [@doi:10.1038/s41592-022-01482-7].
-The [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) builder tool generates markdown to drop into the article.
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), an embeddable OME-Zarr viewer based on Viv [@doi:10.1038/s41592-022-01482-7].
 
-```{code} python
+```{code}
 :::{any:bundle} https://ladinthelab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
@@ -72,3 +71,11 @@ The [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) builder tool 
 A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], was also demonstrated.
 Pyramidal Deep Zoom image (DZI) data was hosted on Github Pages and tiles are streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
 Readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
+
+```{code}
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": "https://your-github.github.io/your-repository/sample.dzi"
+}
+:::
+```
