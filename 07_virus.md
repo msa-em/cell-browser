@@ -737,5 +737,5 @@ At MOI 1, the few infected cells were pinned on the map.
 
 :::{tip}
 Hidden by default, evaluate the calreticulin channel for alleged ER remodeling.
-The uninfected control is MOI 0 but ER can be compared within populations of infected cells.
+The uninfected control is MOI 0 and ER morphology can be compared within populations.
 :::

@@ -640,6 +640,11 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 :::
 ::::
 
+:::{tip}
+Hidden by default, evaluate the calreticulin channel for alleged ER remodeling.
+There is no uninfected control but ER morphology can be compared within populations.
+:::
+
 :::{dropdown} Materials
 Chicken anti-μNS serum from the Parker lab (1:1000 dilution) was the same used in the original study.
 Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
