@@ -28,11 +28,11 @@ The Elemental Microscopy journal supports two interactive viewers; [Vizarr](http
 OME-Zarr is a standardized and flexible image format developed for use cases like virtual microscopy [@doi:10.1007/s00418-023-02209-1].
 Most native microscopy file formats can be converted to OME-Zarr with preserved metadata using [Bio-Formats](https://www.openmicroscopy.org/bio-formats/).
 It is a chunked file type that can support multiple resolution levels.
-Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyramidal OME-Zarr data (v0.4) is retrieved from S3 storage [@doi:10.1038/s41592-022-01482-7].
+Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyramidal OME-Zarr data (v0.4) is hosted in S3 storage [@doi:10.1038/s41592-022-01482-7].
 
 ### Vizarr
 
-OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7], embedded with the `:::{any:bundle}` directive.
+OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] embedded in Elemental Microscopy using the `:::{any:bundle}` directive in markdown.
 
 ```{code}
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
@@ -45,7 +45,8 @@ OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:1
 
 ### microATLAS
 
-Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), an embeddable OME-Zarr viewer based on Viv [@doi:10.1038/s41592-022-01482-7].
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget); an embeddable and customizable OME-Zarr viewer based on Viv [@doi:10.1038/s41592-022-01482-7] for Elemental Microscopy.
+Barkley used microATLAS for replications.
 
 ```{code}
 :::{any:bundle} https://ladinthelab.github.io/microATLAS-widget/widget.js
@@ -68,8 +69,8 @@ Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget
 
 ## OpenSeadragon
 
-A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], was also demonstrated.
-Pyramidal Deep Zoom image (DZI) data was hosted on Github Pages and tiles are streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
+A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198] is embeddable in Elemental Microscopy with the `:::{any:bundle}` directive.
+Pyramidal Deep Zoom image (DZI) data hosted on Github Pages is streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
 Readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
 
 ```{code}
