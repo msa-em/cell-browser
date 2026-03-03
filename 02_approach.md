@@ -45,8 +45,8 @@ OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:1
 
 ### microATLAS
 
-Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget); an embeddable and customizable OME-Zarr viewer based on Viv [@doi:10.1038/s41592-022-01482-7] for Elemental Microscopy.
-Barkley used microATLAS for replications.
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), an embeddable and customizable OME-Zarr viewer for Elemental Microscopy.
+Barkley used microATLAS in the replication study.
 
 ```{code}
 :::{any:bundle} https://ladinthelab.github.io/microATLAS-widget/widget.js
@@ -71,7 +71,7 @@ Barkley used microATLAS for replications.
 
 A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198] is embeddable in Elemental Microscopy with the `:::{any:bundle}` directive.
 Pyramidal Deep Zoom image (DZI) data hosted on Github Pages is streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
-Readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
+By default, readers have limited control of dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
 
 ```{code}
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
