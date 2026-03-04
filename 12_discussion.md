@@ -65,5 +65,6 @@ This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus on what is typical, so the task of image selection remains unsuitable for computer algorithms.
 To this end, image categorization with an upstream classifier model could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was more effective with labels ([](#fig9a) and [](#fig9e)).
-An important consideration is whether the dataset contains [continuous or discrete variables](<wiki:Continuous_or_discrete_variable>).
-Classification would be futile with continuous data that lacks distinct phenotypes, in which case it makes sense to try the global average.
+However, classification is futile with continuous data lacking distinct phenotypes, in which case the global average could be the default.
+A representative NucleusNet image was chosen near the global centroid of latent space and it appeared to blend image features.
+Perhaps the better approach would be to classify NucleusNet then find representative images by label.

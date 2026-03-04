@@ -76,7 +76,7 @@ To readily embed microATLAS in Elemental Microscopy, use the [builder](https://l
 
 A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], is now embeddable in Elemental Microscopy.
 Pyramidal Deep Zoom image (DZI) data hosted on Github Pages is streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
-By default, readers have limited control of dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
+By default, readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
 
 ```{code}
 :label: openseadragon

@@ -18,8 +18,9 @@ mCherry-Climp63 was a control for ER remodeling, given its role in determining E
 
 HeLa cells were imaged after one day of transfection with mCherry-ER reporters.
 Illumination settings were set in the mCherry channel based on the mCherry-KDEL sample transfected with TransIT-2020.
-Transfection and protein expression was stronger with lipofectamine, so there was pixel saturation in these samples.
-Barkley interpreted more ER remodeling with mCherry-Sec61β and mCherry-Climp63 than mCherry-KDEL and mCherry-CytERM.
+Transfection efficiency and protein expression was better with lipofectamine, so there was pixel saturation in these samples.
+Barkley found irregular ER morphologies with lipofectamine transfection of mCherry-ER plasmids, especially mCherry-Sec61β and mCherry-Climp63.
+Transfection of mCherry-KDEL with TransIT-2020, as done in the original study, was less susceptible to artifacts.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
@@ -297,7 +298,7 @@ Barkley interpreted more ER remodeling with mCherry-Sec61β and mCherry-Climp63 
 ::::
 
 :::{important} Alternative hypothesis
-All four mCherry-ER constructs had at least one cell with irregular ER morphology (see the preset views).
+All four mCherry-ER reporters had at least one transfected cell with obstensible ER remodeling (see the preset views).
 Therefore, it is possible that the previous investigators misinterpreted mCherry-ER reporter artifacts as an outcome of reovirus infection.
 :::
 
