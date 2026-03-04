@@ -642,7 +642,7 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 
 :::{tip}
 Hidden by default, evaluate the calreticulin channel for alleged ER remodeling.
-There is no uninfected control but ER morphology can be compared within populations.
+There is no uninfected control, but ER morphology can be compared within the population.
 :::
 
 :::{dropdown} Materials

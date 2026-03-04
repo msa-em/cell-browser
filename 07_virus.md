@@ -22,7 +22,7 @@ A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular
 Others have reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19], so ten-fold dilutions from MOI 0 to 100 were tested.
 Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conjugated secondary antibodies.
 Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for replication experiments, an increase from MOI 1 used in the original study.
-At MOI 1, the few infected cells were pinned on the map.
+At MOI 1, only a few infected cells were observed and pinned on the map.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
@@ -31,7 +31,7 @@ At MOI 1, the few infected cells were pinned on the map.
   "width": "323px",
   "height": "323px",
   "title": {
-    "text": "Reovirus T3D MOI 0",
+    "text": "Reovirus T1L MOI 0",
     "position": "bottom-left",
     "margin": 12,
     "fontSize": 20,
@@ -41,7 +41,7 @@ At MOI 1, the few infected cells were pinned on the map.
   },
   "views": [
     {
-      "name": "Hide ER and adjust contrast",
+      "name": "Adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -51,7 +51,7 @@ At MOI 1, the few infected cells were pinned on the map.
       ],
       "appearance": {
         "channelsVisible": [
-          false,
+          true,
           true,
           true
         ],
@@ -117,7 +117,7 @@ At MOI 1, the few infected cells were pinned on the map.
   },
   "views": [
     {
-      "name": "Hide ER and adjust contrast",
+      "name": "Adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -127,7 +127,7 @@ At MOI 1, the few infected cells were pinned on the map.
       ],
       "appearance": {
         "channelsVisible": [
-          false,
+          true,
           true,
           true
         ],
@@ -193,7 +193,7 @@ At MOI 1, the few infected cells were pinned on the map.
   },
   "views": [
     {
-      "name": "Hide ER and adjust contrast",
+      "name": "Adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -203,7 +203,7 @@ At MOI 1, the few infected cells were pinned on the map.
       ],
       "appearance": {
         "channelsVisible": [
-          false,
+          true,
           true,
           true
         ],
@@ -295,7 +295,7 @@ At MOI 1, the few infected cells were pinned on the map.
   },
   "views": [
     {
-      "name": "Hide ER and adjust contrast",
+      "name": "Adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -305,7 +305,7 @@ At MOI 1, the few infected cells were pinned on the map.
       ],
       "appearance": {
         "channelsVisible": [
-          false,
+          true,
           true,
           true
         ],
@@ -445,7 +445,7 @@ At MOI 1, the few infected cells were pinned on the map.
   },
   "views": [
     {
-      "name": "Hide ER and adjust contrast",
+      "name": "Adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -455,7 +455,7 @@ At MOI 1, the few infected cells were pinned on the map.
       ],
       "appearance": {
         "channelsVisible": [
-          false,
+          true,
           true,
           true
         ],
@@ -521,7 +521,7 @@ At MOI 1, the few infected cells were pinned on the map.
   },
   "views": [
     {
-      "name": "Hide ER and adjust contrast",
+      "name": "Adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -531,7 +531,7 @@ At MOI 1, the few infected cells were pinned on the map.
       ],
       "appearance": {
         "channelsVisible": [
-          false,
+          true,
           true,
           true
         ],
@@ -597,7 +597,7 @@ At MOI 1, the few infected cells were pinned on the map.
   },
   "views": [
     {
-      "name": "Hide ER and adjust contrast",
+      "name": "Adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -607,7 +607,7 @@ At MOI 1, the few infected cells were pinned on the map.
       ],
       "appearance": {
         "channelsVisible": [
-          false,
+          true,
           true,
           true
         ],
@@ -673,7 +673,7 @@ At MOI 1, the few infected cells were pinned on the map.
   },
   "views": [
     {
-      "name": "Hide ER and adjust contrast",
+      "name": "Adjust contrast",
       "description": "Reovirus channel min 0 max 2000",
       "zoom": -4.928,
       "target": [
@@ -683,7 +683,7 @@ At MOI 1, the few infected cells were pinned on the map.
       ],
       "appearance": {
         "channelsVisible": [
-          false,
+          true,
           true,
           true
         ],

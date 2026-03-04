@@ -32,23 +32,28 @@ Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.26219
 
 ### Vizarr
 
-OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] embedded in Elemental Microscopy using the `:::{any:bundle}` directive in markdown.
+OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7], embeddable with the `:::{any:bundle}` directive.
 
 ```{code}
+:label: vizarr
+:caption: Minimal markdown to embed Vizarr in Elemental Microscopy. Replace the source url with your OME-Zarr data.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
   "height": "600px"
 }
 :::
+
 ```
 
 ### microATLAS
 
-Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), an embeddable OME-Zarr viewer based on Viv [@doi:10.1038/s41592-022-01482-7].
-microATLAS was embedded using markdown generated on the builder page.
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), an embeddable custom OME-Zarr viewer based on Viv [@doi:10.1038/s41592-022-01482-7].
+To readily embed microATLAS in Elemental Microscopy, use markdown generated on the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
 
 ```{code}
+:label: microatlas
+:caption: Example markdown to embed microATLAS in Elemental Microscopy. Create your own with the builder.
 :::{any:bundle} https://ladinthelab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
@@ -74,6 +79,8 @@ Pyramidal Deep Zoom image (DZI) data hosted on Github Pages is streamed to the [
 By default, readers have limited control of dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
 
 ```{code}
+:label: openseadragon
+:caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the DZI hosted on Github.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://your-github.github.io/your-repository/sample.dzi"
