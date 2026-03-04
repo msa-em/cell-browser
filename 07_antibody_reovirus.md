@@ -1,57 +1,362 @@
 ---
-title: Virus
+title: Reovirus μNS
 numbering:
-  enumerator: 4.%s
-label : virus_page
+  enumerator: 6.%s
+label : μNS_page
 ---
 
-## Infection protocol
+Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments called viral factories.
+μNS is a viral protein that self-assembles the scaffold of viral factories and recruits other viral proteins like σNS [@doi:10.1128/JVI.79.10.6194-6206.2005].
+The original study labelled reovirus viral factories with μNS and σNS antibodies, including an α-μNS chicken polyclonal serum from our laboratory.
+The chicken antiserum was cross-validated with another μNS antiserum from guinea pigs.
+All samples were infected with reovirus T1L at MOI 100 and were co-stained with calreticulin antibodies to observe ER elements.
+Both the chicken ([Figure 6.1](#fig6a)) and guinea pig ([Figure 6.2](#fig6b)) α-μNS antisera were sufficient to observe virus-infected cells and intracellular viral factories at high-magnification.
 
-Stocks of purified reovirus T1L were titrated in L-929 cells to estimate the concentration of plaque-forming units (PFU).
-L-929, or L cells are permissive to reovirus infection and were also used for virus titration in the original study, so there was consistency in the calculation of multiplicity of infection (MOI).
-To clarify, MOI was PFU/cell, and PFU was estimated on L-929 cells in both the original and replication study.
-For infection, purified reovirus was diluted in a volume of 100μl of serum-free DMEM which was adsorbed to cells for one hour at room temperature with agitation every ten minutes.
-Thereafter, pre-warmed serum-containing DMEM was added to the cells, and the samples were incubated for one day before fixation.
+## Chicken polyclonal antiserum
 
-## Mammalian orthoreovirus strains
+::::{figure}
+:label: fig6a
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample1.zarr/",
+  "width": "500px",
+  "height": "500px",
+  "title": {
+    "text": "+ Primary + Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 24,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Hide ER and adjust contrast",
+      "description": "DAPI channel min 0 max 2000",
+      "zoom": -4.296,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2000
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
+::::
 
-Parker described the morphology of reovirus strain Type 1 Lang (T1L) factories as _filamentous_ and T3D factories as _globular_ and found the M1(T1L)-P208S mutation that disrupted an interaction between μ2 and microtubules that determined the filamentous phenotype [@doi:10.1128/JVI.76.9.4483-4496.2002].
-No rationale was provided in the mBio study for using this M1(T1L)-P208S mutant, so it was substituted for wildtype reovirus strain T1L in the replication study.
-The difference is wildtype reovirus tends to form filamentous viral factories, while the M1(T1L)-P208S virus would have formed globular factories.
-A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included in this experiment to compare these morphologies.
-Others have reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19], so ten-fold dilutions from MOI 0 to 100 were tested.
-Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conjugated secondary antibodies.
-Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for replication experiments, an increase from MOI 1 used in the original study.
-At MOI 1, only a few infected cells were observed and pinned on the map.
+::::{grid} 3 3 3 3
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample2.zarr/",
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "+ Primary - Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Hide ER and adjust contrast",
+      "description": "DAPI channel min 0 max 2000",
+      "zoom": -5.555,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2000
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample3.zarr/",
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "- Primary + Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Hide ER and adjust contrast",
+      "description": "DAPI channel min 0 max 2000",
+      "zoom": -5.555,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2000
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample4.zarr/",
+  "width": "210px",
+  "height": "210px",
+  "title": {
+    "text": "- Primary - Secondary",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 12,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Hide ER and adjust contrast",
+      "description": "DAPI channel min 0 max 2000",
+      "zoom": -5.555,
+      "target": [
+        4891,
+        4891,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2000
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+::::
 
-::::{grid} 2 2 2 2
+## Guinea pig polyclonal antiserum
+
+::::{figure}
+:label: fig6b
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample1.zarr/",
-  "width": "323px",
-  "height": "323px",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample5.zarr/",
+  "width": "500px",
+  "height": "500px",
   "title": {
-    "text": "Reovirus T1L MOI 0",
+    "text": "+ Primary + Secondary",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 24,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 2000",
-      "zoom": -4.928,
+      "name": "Hide ER and adjust contrast",
+      "description": "DAPI channel min 0 max 2000",
+      "zoom": -4.296,
       "target": [
-        4886,
-        4886,
+        4891,
+        4891,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -79,11 +384,11 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
           ],
           [
             0,
-            4095
+            2000
           ],
           [
             0,
-            2000
+            4095
           ]
         ],
         "blendMode": "single",
@@ -101,33 +406,37 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
   }
 }
 :::
+Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
+::::
+
+::::{grid} 3 3 3 3
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample5.zarr/",
-  "width": "323px",
-  "height": "323px",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample6.zarr/",
+  "width": "210px",
+  "height": "210px",
   "title": {
-    "text": "Reovirus T3D MOI 0",
+    "text": "+ Primary - Secondary",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 2000",
-      "zoom": -4.928,
+      "name": "Hide ER and adjust contrast",
+      "description": "DAPI channel min 0 max 2000",
+      "zoom": -5.555,
       "target": [
-        4886,
-        4886,
+        4891,
+        4891,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -155,11 +464,11 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
           ],
           [
             0,
-            4095
+            2000
           ],
           [
             0,
-            2000
+            4095
           ]
         ],
         "blendMode": "single",
@@ -169,7 +478,7 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -179,31 +488,31 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample4.zarr/",
-  "width": "323px",
-  "height": "323px",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample7.zarr/",
+  "width": "210px",
+  "height": "210px",
   "title": {
-    "text": "Reovirus T1L MOI 1",
+    "text": "- Primary + Secondary",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 2000",
-      "zoom": -4.928,
+      "name": "Hide ER and adjust contrast",
+      "description": "DAPI channel min 0 max 2000",
+      "zoom": -5.555,
       "target": [
-        4886,
-        4886,
+        4891,
+        4891,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -231,11 +540,11 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
           ],
           [
             0,
-            4095
+            2000
           ],
           [
             0,
-            2000
+            4095
           ]
         ],
         "blendMode": "single",
@@ -244,34 +553,8 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
       "default": true
     }
   ],
-  "annotations": [
-    {
-      "name": "Infected cell",
-      "target": [
-        7471,
-        983
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Infected cell",
-      "target": [
-        7362,
-        850
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    }
-  ],
   "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -281,31 +564,31 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample8.zarr/",
-  "width": "323px",
-  "height": "323px",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample8.zarr/",
+  "width": "210px",
+  "height": "210px",
   "title": {
-    "text": "Reovirus T3D MOI 1",
+    "text": "- Primary - Secondary",
     "position": "bottom-left",
     "margin": 12,
-    "fontSize": 20,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.95)",
     "style": "text"
   },
   "views": [
     {
-      "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 2000",
-      "zoom": -4.928,
+      "name": "Hide ER and adjust contrast",
+      "description": "DAPI channel min 0 max 2000",
+      "zoom": -5.555,
       "target": [
-        4886,
-        4886,
+        4891,
+        4891,
         0
       ],
       "appearance": {
         "channelsVisible": [
-          true,
+          false,
           true,
           true
         ],
@@ -333,161 +616,11 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
           ],
           [
             0,
-            4095
-          ],
-          [
-            0,
             2000
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
-    }
-  ],
-  "annotations": [
-    {
-      "name": "Infected cell",
-      "target": [
-        6460,
-        2626
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Infected cell",
-      "target": [
-        5199,
-        7702
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Infected cell",
-      "target": [
-        8381,
-        6188
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Infected cell",
-      "target": [
-        9605,
-        5645
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Infected cell",
-      "target": [
-        2486,
-        8493
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Infected cell",
-      "target": [
-        7598,
-        9699
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    }
-  ],
-  "scaleBar": {
-    "maxWidth": 100,
-    "position": "bottom-right",
-    "fontSize": 10,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.9)"
-  }
-}
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample3.zarr/",
-  "width": "323px",
-  "height": "323px",
-  "title": {
-    "text": "Reovirus T1L MOI 10",
-    "position": "bottom-left",
-    "margin": 12,
-    "fontSize": 20,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.95)",
-    "style": "text"
-  },
-  "views": [
-    {
-      "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 2000",
-      "zoom": -4.928,
-      "target": [
-        4886,
-        4886,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
           ],
           [
             0,
             4095
-          ],
-          [
-            0,
-            2000
           ]
         ],
         "blendMode": "single",
@@ -497,235 +630,7 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
     }
   ],
   "scaleBar": {
-    "maxWidth": 100,
-    "position": "bottom-right",
-    "fontSize": 10,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.9)"
-  }
-}
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample6.zarr/",
-  "width": "323px",
-  "height": "323px",
-  "title": {
-    "text": "Reovirus T3D MOI 10",
-    "position": "bottom-left",
-    "margin": 12,
-    "fontSize": 20,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.95)",
-    "style": "text"
-  },
-  "views": [
-    {
-      "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 2000",
-      "zoom": -4.928,
-      "target": [
-        4886,
-        4886,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            2000
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
-    }
-  ],
-  "scaleBar": {
-    "maxWidth": 100,
-    "position": "bottom-right",
-    "fontSize": 10,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.9)"
-  }
-}
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample2.zarr/",
-  "width": "323px",
-  "height": "323px",
-  "title": {
-    "text": "Reovirus T1L MOI 100",
-    "position": "bottom-left",
-    "margin": 12,
-    "fontSize": 20,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.95)",
-    "style": "text"
-  },
-  "views": [
-    {
-      "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 2000",
-      "zoom": -4.928,
-      "target": [
-        4886,
-        4886,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            2000
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
-    }
-  ],
-  "scaleBar": {
-    "maxWidth": 100,
-    "position": "bottom-right",
-    "fontSize": 10,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.9)"
-  }
-}
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample7.zarr/",
-  "width": "323px",
-  "height": "323px",
-  "title": {
-    "text": "Reovirus T3D MOI 100",
-    "position": "bottom-left",
-    "margin": 12,
-    "fontSize": 20,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.95)",
-    "style": "text"
-  },
-  "views": [
-    {
-      "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 2000",
-      "zoom": -4.928,
-      "target": [
-        4886,
-        4886,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            2000
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
-    }
-  ],
-  "scaleBar": {
-    "maxWidth": 100,
+    "maxWidth": 50,
     "position": "bottom-right",
     "fontSize": 10,
     "font": "Arial",
@@ -736,6 +641,22 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
 ::::
 
 :::{tip}
-Hidden by default, evaluate the calreticulin channel for alleged ER remodeling.
-The uninfected control is MOI 0 and ER morphology can be compared within populations.
+Hidden by default, evaluate the calreticulin channel for alleged reovirus-induced ER remodeling.
+ER morphology can be compared within populations of infected cells.
+:::
+
+:::{dropdown} Materials
+Chicken anti-μNS serum from the Parker lab (1:1000 dilution) was the same used in the original study.
+Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
+Donkey anti-chicken antibodies conjugated to AlexaFluor647 (703-605-155), donkey anti-chicken conjugated to AlexaFluor594 (703-585-155) and donkey anti-guinea pig conjugated to AlexaFluor594 (706-585-148) were stored in 1:1 glycerol and used at 1:800 dilutions.
+:::
+
+:::{dropdown} Immunofluorescence protocol
+HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).
+Cells were infected with reovirus T1L at MOI 100 for 24 hours before fixation with 4% PFA.
+Antibodies for calreticulin were used in all samples.
+Combinations of primary and secondary antibodies to reovirus μNS were tested.
+AlexaFluor594-conjugated secondary antibodies were used for both sera.
+The primary antibodies were multiplexed and incubated overnight at 4C, same with the secondary antibodies.
+Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS and were imaged in this solution.
 :::
