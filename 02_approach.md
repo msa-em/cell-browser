@@ -32,11 +32,11 @@ Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.26219
 
 ### Vizarr
 
-OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7], embeddable with the `:::{any:bundle}` directive.
+OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] using the `:::{any:bundle}` directive.
 
 ```{code}
 :label: vizarr
-:caption: Minimal markdown to embed Vizarr in Elemental Microscopy. Replace the source url with your OME-Zarr data.
+:caption: Minimal markdown to embed Vizarr in Elemental Microscopy. Replace the source with your data.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
@@ -49,7 +49,7 @@ OME-Zarr can be viewed with [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:1
 ### microATLAS
 
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), an embeddable custom OME-Zarr viewer based on Viv [@doi:10.1038/s41592-022-01482-7].
-To readily embed microATLAS in Elemental Microscopy, use markdown generated on the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
+To readily embed microATLAS in Elemental Microscopy, use the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
 
 ```{code}
 :label: microatlas
@@ -74,13 +74,13 @@ To readily embed microATLAS in Elemental Microscopy, use markdown generated on t
 
 ## OpenSeadragon
 
-A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198] is embeddable in Elemental Microscopy with the `:::{any:bundle}` directive.
+A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], is now embeddable in Elemental Microscopy.
 Pyramidal Deep Zoom image (DZI) data hosted on Github Pages is streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
 By default, readers have limited control of dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
 
 ```{code}
 :label: openseadragon
-:caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the DZI hosted on Github.
+:caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://your-github.github.io/your-repository/sample.dzi"
