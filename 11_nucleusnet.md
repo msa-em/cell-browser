@@ -78,13 +78,13 @@ Image to represent NucleusNet: ROI_300 from stitched image Run11BR_bottom_right.
 
 ## Conclusions
 
-Barkley interpreted the image as an interphase nucleus with muted image features given the variability in NucleusNet-10K ([](#fig10c)).
+Barkley interpreted the representative image as an interphase nucleus with muted features given the variability shown in NucleusNet-10K ([](#fig10c)).
 Disentangling the dimensions of latent space is unrealistic, so it is impossible to justify this method.
-However, based on the decoded MNIST digits ([projection](#fig9a) and [autoencoder](#fig9c)), Barkley conjectures that decoded latent centroids behave like average projections.
+However, based on the reconstructed MNIST digits, Barkley conjectured that decoded latent centroids behave like average projections.
 From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that blends all image features in the set.
 
-This interpretation is intentionally vague and ambiguous because it depends on model configurations, so other autoencoders will produce different results.
-For example, these outcomes could be attributed to the average pooling operations in the encoder.
+This conclusion is intentionally vague because it depends on model configurations, so other autoencoders will produce different results.
+For example, similarity between the [projection](#fig9a) and [autoencoder](#fig9c) could be attributed to average pooling in the encoder.
 Textures and patterns in decoded images could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
 
 ---
