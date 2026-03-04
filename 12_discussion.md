@@ -2,7 +2,6 @@
 title: Discussion
 numbering:
   enumerator: 0.%s
-label : discussion_page
 ---
 
 Every academic discipline has its own ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
@@ -25,34 +24,6 @@ Virtual microscopy requires an internet connection, but this limitation is relat
 Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/jcs.262198], so they can be readily requested by reviewers of all journals.
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
 Because it nurtures open and rigorous peer review, microscopists and principal investigators might find virtual microscopy advantageous to make more robust claims with their bioimaging data.
-
-:::{attention} Molecular biology example
-Which moxGFP::μNS construct formed more biomolecular condensates? Left or right?
-:::
-
-::::{grid} 2 2 2 2
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
-{
-    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/FL.dzi"
-}
-:::
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
-{
-    "tileSources": "https://russellbarkley.github.io/moxGFPmuNS/MR.dzi"
-}
-:::
-::::
-
-:::{dropdown} Reveal the answer
-The sample on the **left**, moxGFP:μNS(1-721), condenses more than the mutant (right).
-:::
-
-:::{dropdown} Methodological notes
-CV-1 cells were seeded on 35mm glass-bottom dishes (20mm coverslips, no 1.5 glass).
-pCI-neo moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected for 24 hours before PFA fixation.
-2500 fields (50x50 grid) were imaged (100X objective).
-Data was converted to 8-bit TIF, stitched, then converted to DZI format, hosted on Github Pages, and is viewed with OpenSeadragon.
-:::
 
 Barkley recognized the value of using virtual microscopy for replication studies.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.

@@ -2,7 +2,6 @@
 title: Calreticulin
 numbering:
   enumerator: 5.%s
-label : calreticulin_page
 ---
 
 The selectivity and specificity of the calreticulin monoclonal antibody was validated as an immunofluorescence marker of the ER.

@@ -2,7 +2,6 @@
 title: Autoencoders
 numbering:
   enumerator: 9.%s
-label : autoencoders_page
 ---
 
 From the Deep Learning book {cite}`Goodfellow-et-al-2016`; an autoencoder is a neural network that is trained to copy its input to its output.

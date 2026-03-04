@@ -2,7 +2,6 @@
 title: Supplementary Information
 numbering:
   enumerator: 12.%s
-label : supplementary_page
 ---
 
 ---

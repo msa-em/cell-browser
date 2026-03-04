@@ -2,7 +2,6 @@
 title: Plasmids
 numbering:
   enumerator: 3.%s
-label : plasmids_page
 ---
 
 ## mCherry-ER reporters

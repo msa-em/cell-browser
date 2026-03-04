@@ -112,9 +112,13 @@ project:
     - file: 12_discussion.md
     - title: Supplemental
       children:
-        - file: 13_replicate_one.md
-        - file: 14_replicate_two.md
-        - file: 15_replicate_three.md
-        - file: 16_supplemental.md
+        - file: 13_supplementary.md
+        - file: 14_antibody_reovirus.md
+        - file: 15_replicate_one.md
+        - file: 16_replicate_two.md
+        - file: 17_replicate_three.md
+        - file: 18_replicate_four.md
+        - file: 19_moxGFPmuNS.md
+        - file: 20_mNGmuNS.md
 site:
   template: book-theme

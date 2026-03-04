@@ -2,7 +2,6 @@
 title: Reovirus μNS
 numbering:
   enumerator: 6.%s
-label : μNS_page
 ---
 
 Mammalian orthoreoviruses are thought to replicate and assemble viral particles in cytoplasmic compartments called viral factories.

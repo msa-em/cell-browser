@@ -2,7 +2,6 @@
 title: Approach
 numbering:
   enumerator: 1.%s
-label : approach_page
 ---
 
 # Embedded microscopy maps

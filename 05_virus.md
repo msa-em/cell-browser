@@ -2,7 +2,6 @@
 title: Virus
 numbering:
   enumerator: 4.%s
-label : virus_page
 ---
 
 ## Infection protocol

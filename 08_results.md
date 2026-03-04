@@ -2,7 +2,6 @@
 title: Results
 numbering:
   enumerator: 7.%s
-label : results_page
 ---
 
 Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.

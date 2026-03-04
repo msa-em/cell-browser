@@ -2,7 +2,6 @@
 title: Model
 numbering:
   enumerator: 2.%s
-label : model_page
 ---
 
 ## Immunofluorescence assay of transfected-infected cells

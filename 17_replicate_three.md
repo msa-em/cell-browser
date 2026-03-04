@@ -2,7 +2,6 @@
 title: Replicate Experiment 3
 numbering:
   enumerator: 0.%s
-label : three_page
 ---
 
 This experiment was missing the transfected uninfected control (human error) and mCherry-Climp63 because no transfected cells were observed.

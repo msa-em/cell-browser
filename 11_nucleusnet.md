@@ -1,8 +1,7 @@
 ---
 title: NucleusNet
 numbering:
-  enumerator: 9.%s
-label : nucleusnet_page
+  enumerator: 10.%s
 ---
 
 One-hundred coverslips were sampled over twenty-one passages of the same cell line ([](#fig10a)).

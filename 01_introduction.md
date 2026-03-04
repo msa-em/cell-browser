@@ -2,7 +2,6 @@
 title: Introduction
 numbering:
   enumerator: 0.%s
-label : introduction_page
 ---
 
 Representative microscopy images are visual communication tools used by microscopists to present the results of research to other scientists.

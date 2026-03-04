@@ -2,7 +2,6 @@
 title: Replicate Experiment 1
 numbering:
   enumerator: 10.%s
-label : one_page
 ---
 
 A confounding variable in the transfected-infected cell model is interference of reovirus infection from plasmid transfection.
