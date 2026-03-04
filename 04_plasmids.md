@@ -298,7 +298,7 @@ Transfection of mCherry-KDEL with TransIT-2020, as done in the original study, w
 ::::
 
 :::{important} Alternative hypothesis
-All four mCherry-ER reporters had at least one transfected cell with obstensible ER remodeling (see the preset views).
+All four mCherry-ER reporters show at least one cell with ostensible ER remodeling (see the preset views).
 Therefore, it is possible that the previous investigators misinterpreted mCherry-ER reporter artifacts as an outcome of reovirus infection.
 :::
 
