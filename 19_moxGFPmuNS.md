@@ -1,7 +1,7 @@
 ---
 title: moxGFP::μNS
 numbering:
-  enumerator: 0.%s
+  enumerator: 16.%s
 ---
 
 :::{attention} Molecular biology example
@@ -22,7 +22,7 @@ Which moxGFP::μNS construct formed more condensates per cell? Left or right?
 ::::
 
 :::{dropdown} Reveal the answer
-moxGFP:μNS(1-721) (**left**) condenses more than moxGFP:μNS(472-721) (right).
+moxGFP:μNS(1-721) (**left**) tends to condense more than moxGFP:μNS(472-721) (right).
 :::
 
 :::{dropdown} Methodological notes

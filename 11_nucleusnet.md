@@ -1,17 +1,17 @@
 ---
 title: NucleusNet
 numbering:
-  enumerator: 10.%s
+  enumerator: 9.%s
 ---
 
-One-hundred coverslips were sampled over twenty-one passages of the same cell line ([](#fig10a)).
+One-hundred coverslips were sampled over twenty-one passages of the same cell line ([](#fig9a)).
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.
 Nuclei were visualized with DAPI which binds to DNA.
-As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig12b)).
-NucleusNet was cropped from ROIs segmented in the stitched images ([](#fig10b)).
+As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig10b)).
+NucleusNet was cropped from ROIs segmented in the stitched images ([](#fig9b)).
 
 ::::{figure}
-:label: fig10a
+:label: fig9a
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/NucleusNet-coverslip/Run72.dzi"
@@ -21,7 +21,7 @@ An example coverslip. Experiment 72 was chosen because four stitched images rank
 ::::
 
 ::::{figure}
-:label: fig10b
+:label: fig9b
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/NucleusNet-cellpose/Run25.dzi"
@@ -33,12 +33,12 @@ Overlay of cellpose segmentation masks. Experiment 25 was chosen because two sti
 ## NucleusNet-10K
 
 A small version of the dataset, NucleusNet-10K, represents a random sample of ~1% of NucleusNet.
-100 random cropped images from each experiment are shown in chronological order by row ([](#fig10c)).
+100 random cropped images from each experiment are shown in chronological order by row ([](#fig9c)).
 This map shows variation in signal intensity across experiments, which could warrant the normalization or standardization of pixel intensities.
 There is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy with 200,000 human-induced pluripotent stem cells.
 
 ::::{figure}
-:label: fig10c
+:label: fig9c
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
@@ -53,14 +53,14 @@ NucleusNet-10K: One hundred random images from one hundred experiments (n=10,000
 
 1. Computation of theoretical average images
 
-An autoencoder model was trained on NucleusNet for 50 epochs ([](#sfig12c).
+An autoencoder model was trained on NucleusNet for 50 epochs ([](#sfig10c).
 Theoretical latent vectors were calculated using measures of central tendency, including the arithmetic mean, median and geometric median.
-Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig10d)).
+Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig9d)).
 Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342].
 These examples appear to blend all image features from the dataset.
 
 :::{figure} #fig10d_data
-:label: fig10d
+:label: fig9d
 :placeholder: ./figures/fig10d.png
 Figure legend.
 :::
@@ -68,22 +68,22 @@ Figure legend.
 2. Determination of a prototypical image
 
 Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
-Using this metric yielded one representative image ([](#fig10e)).
+Using this metric yielded one representative image ([](#fig9e)).
 
 ```{figure} ./figures/fig10e.png
-:label: fig10e
+:label: fig9e
 Image to represent NucleusNet: ROI_300 from stitched image Run11BR_bottom_right.
 ```
 
 ## Conclusions
 
-Barkley interpreted the representative image as an interphase nucleus with muted features given the variability shown in NucleusNet-10K ([](#fig10c)).
+Barkley interpreted the representative image as an interphase nucleus with muted features given the variability shown in NucleusNet-10K ([](#fig9c)).
 Disentangling the dimensions of latent space is unrealistic, so it is impossible to justify this method.
 However, based on the reconstructed MNIST digits, Barkley conjectured that decoded latent centroids behave like average projections.
-From this perspective, the representative image ([](#fig10e)) can be interpreted as an example that blends all image features in the set.
+From this perspective, the representative image ([](#fig9e)) can be interpreted as an example that blends all image features in the set.
 
 This conclusion is intentionally vague because it depends on model configurations, so other autoencoders will produce different results.
-For example, similarity between the [projection](#fig9a) and [autoencoder](#fig9c) could be attributed to average pooling in the encoder.
+For example, similarity between the [projection](#fig8a) and [autoencoder](#fig8c) could be attributed to average pooling layers in the encoder.
 Textures and patterns in decoded images could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
 
 ---

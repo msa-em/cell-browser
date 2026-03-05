@@ -1,7 +1,7 @@
 ---
 title: Supplementary Information
 numbering:
-  enumerator: 12.%s
+  enumerator: 10.%s
 ---
 
 ---
@@ -10,9 +10,9 @@ numbering:
 
 ## Training history
 
-:::{figure} #sfig12a_data
-:label: sfig12a
-:placeholder: ./figures/sfig12a.png
+:::{figure} #sfig10a_data
+:label: sfig10a
+:placeholder: ./figures/sfig10a.png
 Autoencoder MSE reconstruction loss over one-hundred epochs of training on the MNIST dataset.
 :::
 
@@ -20,9 +20,9 @@ Autoencoder MSE reconstruction loss over one-hundred epochs of training on the M
 
 # NucleusNet
 
-:::{figure} #sfig12b_data
-:label: sfig12b
-:placeholder: ./figures/sfig12b.png
+:::{figure} #sfig10b_data
+:label: sfig10b
+:placeholder: ./figures/sfig10b.png
 The number and brightness of ROIs in the stitched images was measured using the associated cellpose mask files. A pre-computed centroid 694.5 ROIs and 79.0 mean intensity was marked.
 :::
 
@@ -90,9 +90,9 @@ Barkley interpreted that the model overfit because the training loss and validat
 
 ### Training history
 
-:::{figure} #sfig12c_data
-:label: sfig12c
-:placeholder: ./figures/sfig12c.png
+:::{figure} #sfig10c_data
+:label: sfig10c
+:placeholder: ./figures/sfig10c.png
 History of MSE reconstruction loss (batch size: 32) for the training and validation datasets over 50 epochs.
 :::
 
@@ -101,11 +101,11 @@ History of MSE reconstruction loss (batch size: 32) for the training and validat
 A method to evaluate the quality of latent space is interpolation, whereby mixing codes in latent space and decoding the result creates a semantically meaningful combination of the datapoints [@doi:10.48550/arXiv.1807.07543].
 Interpolating with an autoencoder describes the process of using the decoder to decode a convex combination of two latent vectors [@doi:10.48550/arXiv.1807.07543].
 A high-quality interpolation should have two characteristics: intermediate points along the interpolation should resemble real data and they should provide a semantically meaningful transition between the endpoints [@doi:10.48550/arXiv.1807.07543].
-Interpolating between any two latent vectors of embedded NucleusNet images produced reasonable intermediate reconstructions from the decoder with a smooth transition between endpoints ([](#sfig12d)).
+Interpolating between any two latent vectors of embedded NucleusNet images produced reasonable intermediate reconstructions from the decoder with a smooth transition between endpoints ([](#sfig10d)).
 
-:::{figure} #sfig12d_data
-:label: sfig12d
-:placeholder: ./figures/sfig12d.png
+:::{figure} #sfig10d_data
+:label: sfig10d
+:placeholder: ./figures/sfig10d.png
 
 Random pairs from NucleusNet-10K. All images are decoded vectors. t=0.00 and t=1.00 correspond to latent vectors of real images. Four intermediate interpolations at t=0.20, t=0.40, t=0.60 and t=0.80 are mixed codes. Run the notebook to resample random pairs of embedded vectors from NucleusNet-10K.
 :::

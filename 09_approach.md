@@ -1,7 +1,7 @@
 ---
 title: Approach
 numbering:
-  enumerator: 8.%s
+  enumerator: 0.%s
 ---
 
 # Computational image selection with machine learning

@@ -1,7 +1,7 @@
 ---
 title: Replicate Experiment 2
 numbering:
-  enumerator: 11.%s
+  enumerator: 12.%s
 ---
 
 Controls for the transfected-infected cell model included untransfected and uninfected cells.

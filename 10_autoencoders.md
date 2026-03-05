@@ -1,7 +1,7 @@
 ---
 title: Autoencoders
 numbering:
-  enumerator: 9.%s
+  enumerator: 8.%s
 ---
 
 From the Deep Learning book {cite}`Goodfellow-et-al-2016`; an autoencoder is a neural network that is trained to copy its input to its output.
@@ -17,20 +17,20 @@ A method of objective representative image selection [@doi:10.1109/BIP60195.2023
 Briefly, their two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in vector space.
 Measures of central tendency were the arithmetic mean, median and geometric median, calculated as 784-dimensional vectors then reshaped to reconstruct 28x28 pixel theoretical images.
 Their example used a sub-set of MNIST images (n=720) labelled 'four'.
-Our example used all MNIST "four" images (N=6824), but the outcome was consistent with the primary literature ([](#fig9a)) [@doi:10.1109/BIP60195.2023.10379342].
+Our example used all MNIST "four" images (N=6824), but the outcome was consistent with the primary literature ([](#fig8a)) [@doi:10.1109/BIP60195.2023.10379342].
 
-:::{figure} #fig9a_data
-:label: fig9a
-:placeholder: ./figures/fig9a.png
+:::{figure} #fig8a_data
+:label: fig8a
+:placeholder: ./figures/fig8a.png
 Replicating theoretical images of the MNIST digit '4'.
 N=6824 grayscale images with the label '4' were flattened to 784-dimensional vectors to compute then reshape reconstructed images of the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
-The chosen exemplars were not the same as the original study ([](#fig9b)).
+The chosen exemplars were not the same as the original study ([](#fig8b)).
 
-:::{figure} #fig9b_data
-:label: fig9b
-:placeholder: ./figures/fig9b.png
+:::{figure} #fig8b_data
+:label: fig8b
+:placeholder: ./figures/fig8b.png
 Replicating practical MNIST '4' digits using the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
@@ -42,13 +42,13 @@ Then, practical examples were ranked by Euclidean distance to the calculated cen
 
 ### 1. Compute and decode centroid latent vectors
 
-A convolutional autoencoder model was trained on the MNIST dataset and the encoder and decoder weights were saved ([](#sfig12a)). 
-n=6824 latent vectors labelled 'four' were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit 'four' ([](#fig9c)).
-The decoded centroid latent vectors appeared similar to the mean and median reconstructions calculated using independent pixel values ([](#fig9a)).
+A convolutional autoencoder model was trained on the MNIST dataset and the encoder and decoder weights were saved ([](#sfig10a)). 
+n=6824 latent vectors labelled 'four' were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit 'four' ([](#fig8c)).
+The decoded centroid latent vectors appeared similar to the mean and median reconstructions calculated using independent pixel values ([](#fig8a)).
 
-:::{figure} #fig9c_data
-:name: fig9c
-:placeholder: ./figures/fig9c.png
+:::{figure} #fig8c_data
+:name: fig8c
+:placeholder: ./figures/fig8c.png
 Decoded latent vectors: arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
@@ -56,32 +56,32 @@ Decoded latent vectors: arithmetic mean (left), median (middle) and geometric me
 
 The behaviour of the theoretical image generally does not correspond to a distinct image, therefore it is not considered the final representative image.
 However, it can be used to select representative examples from the dataset [@doi:10.1109/BIP60195.2023.10379342].
-The closest latent vector to each centroid was found based on the lowest Euclidean distance in the vector embedding ([](#fig9d)).
+The closest latent vector to each centroid was found based on the lowest Euclidean distance in the vector embedding ([](#fig8d)).
 The chosen images were remarkably similar, if not identical, suggesting these methods are comparable.
 
-:::{figure} #fig9d_data
-:name: fig9d
-:placeholder: ./figures/fig9d.png
+:::{figure} #fig8d_data
+:name: fig8d
+:placeholder: ./figures/fig8d.png
 Closest examples to the arithmetic mean (left), median (middle) and geometric median (right).
 :::
 
 ## Limitations
 
 These examples of objective image selection relied on class information from an annotated dataset.
-Reconstructing theoretical averages of global centroids without labels produced counterexamples ([](#fig9e) and [](#fig9f)).
+Reconstructing theoretical averages of global centroids without labels produced counterexamples ([](#fig8e) and [](#fig8f)).
 This revealed that the approach does not generalize and that decisions about model design affect the perceived outcome.
 Conceptually, it made sense to find an average example of the digit four, but not to find the average of all digits.
 Perhaps the method would be more consistent with labels, but this would require an upstream classifier model or manual annotation.
 
-:::{figure} #fig9e_data
-:name: fig9e
-:placeholder: ./figures/fig9e.png
+:::{figure} #fig8e_data
+:name: fig8e
+:placeholder: ./figures/fig8e.png
 Theoretical average MNIST digits without label information, following methods from the original study. The average of each pixel was measured and reconstructed using all N=60,000 images.
 :::
 
-:::{figure} #fig9f_data
-:name: fig9f
-:placeholder: ./figures/fig9f.png
+:::{figure} #fig8f_data
+:name: fig8f
+:placeholder: ./figures/fig8f.png
 Autoencoder reconstructions of global average latent vectors using all N=60,000 vectors without labels. 64-dimensional vectors were averaged per dimension then decoded using saved weights.
 :::
 

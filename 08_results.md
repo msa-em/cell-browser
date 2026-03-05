@@ -8,8 +8,8 @@ Conditions in the replicate experiment were kept consistent with the original st
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
 HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by reovirus T1L infection at MOI 100 for another day.
 Samples were fixed for immunofluorescence detection of viral and ER antigens.
-This protocol was repeated five times over four experiments (supplementary data) and the best result is shown.
-Barkley annotated transfected-infected cells (red pins, n=298) and transfected cells (blue pins, n=95) using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) made by Brodrick.
+This protocol was repeated five times over four experiments (available in the supplemental) and the best result was shown.
+Barkley annotated transfected-infected cells (red pins, n=298) and transfected cells (blue pins, n=95) using the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) developed by Brodrick to embed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) in Elemental Microscopy.
 
 ::::{figure}
 :label: fig7a
@@ -4990,5 +4990,5 @@ Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry
 ## Conclusion
 
 Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling.
-Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection (see the preset views).
-Otherwise, there was no clear indication of ER stress caused by reovirus.
+Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
+There is no clear difference in ER morphology between infected (red pin) and uninfected (blue pin) cells (see the preset views).
