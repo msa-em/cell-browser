@@ -4,12 +4,12 @@ numbering:
   enumerator: 12.%s
 ---
 
-Controls for the transfected-infected cell model included untransfected and uninfected cells.
-Three additional mCherry-ER reporters are shown to substitute mCherry-KDEL.
-Barkley marked 65 transfected-infected cells (red pin, n=65) and 124 transfected cells (blue pin, n=124) expressing mCherry-KDEL for review.
+Three additional mCherry-ER reporters were included as alternatives to mCherry-KDEL, though few cells were found with mCherry-Climp63.
+Barkley marked transfected-infected (red pin) and transfected cells (blue pin) expressing mCherry-ER reporters.
+Preset views show examples of ER remodeling with mCherry-KDEL or mCherry-CytERM in the absence of reovirus.
 
 ::::{figure}
-:label: sfig11a
+:label: sfig12
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment6/sample3.zarr/",
@@ -2545,7 +2545,7 @@ Barkley marked 65 transfected-infected cells (red pin, n=65) and 124 transfected
 Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020.
 ::::
 
-### Additional mCherry-ER reporters and controls
+### Additional mCherry-ER reporters and an uninfected control
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
@@ -2802,176 +2802,6 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
         "blendMode": "single",
         "colormap": "viridis"
       }
-    }
-  ],
-  "scaleBar": {
-    "maxWidth": 50,
-    "position": "bottom-right",
-    "fontSize": 10,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.9)"
-  }
-}
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment6/sample6.zarr/",
-  "width": "323px",
-  "height": "323px",
-  "title": {
-    "text": "- mCherry-KDEL + reovirus T1L",
-    "position": "bottom-left",
-    "margin": 12,
-    "fontSize": 14,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.95)",
-    "style": "text"
-  },
-  "views": [
-    {
-      "name": "Contrast adjusted",
-      "zoom": -5.51,
-      "target": [
-        7316,
-        7316,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            255,
-            0,
-            255
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            1000
-          ],
-          [
-            0,
-            2500
-          ],
-          [
-            0,
-            2500
-          ],
-          [
-            0,
-            2500
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
-    }
-  ],
-  "scaleBar": {
-    "maxWidth": 50,
-    "position": "bottom-right",
-    "fontSize": 10,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.9)"
-  }
-}
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment6/sample6.zarr/",
-  "width": "323px",
-  "height": "323px",
-  "title": {
-    "text": "- mCherry-KDEL - reovirus T1L",
-    "position": "bottom-left",
-    "margin": 12,
-    "fontSize": 14,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.95)",
-    "style": "text"
-  },
-  "views": [
-    {
-      "name": "Contrast adjusted",
-      "zoom": -5.51,
-      "target": [
-        7316,
-        7316,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true,
-          true,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            255,
-            0,
-            255
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            1000
-          ],
-          [
-            0,
-            2500
-          ],
-          [
-            0,
-            2500
-          ],
-          [
-            0,
-            2500
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      },
-      "default": true
     }
   ],
   "scaleBar": {
@@ -3386,7 +3216,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
           ],
           [
             0,
-            2500
+            3500
           ],
           [
             0,
@@ -4997,6 +4827,8 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 }
 :::
 ::::
+
+
 
 :::{dropdown} Methodological notes
 The specimens were 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass).

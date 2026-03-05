@@ -8,8 +8,6 @@ Conditions in the replicate experiment were kept consistent with the original st
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
 HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by reovirus T1L infection at MOI 100 for another day.
 Samples were fixed for immunofluorescence detection of viral and ER antigens.
-This protocol was repeated five times over four experiments (available in the supplemental) and the best result was shown.
-Barkley annotated transfected-infected cells (red pins, n=298) and transfected cells (blue pins, n=95) using the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) developed by Brodrick to embed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) in Elemental Microscopy.
 
 ::::{figure}
 :label: fig7a
@@ -4987,8 +4985,48 @@ Barkley annotated transfected-infected cells (red pins, n=298) and transfected c
 Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry-KDEL.
 ::::
 
+Barkley annotated infected cells (red pins) and uninfected cells (blue pins) expressing mCherry-KDEL using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
+This protocol was repeated five times over four experiments (supplementary data).
+Barkley annotated the population of transfected cells expressing mCherry-KDEL in all replicates [](#table7).
+
+```{list-table} Subjective assessment of transfected cell populations
+:label: table7
+:header-rows: 1
+
+* - Replication
+  - Infected
+  - Uninfected
+  - Grid size (fields)
+  - Notes
+* - Experiment 1
+  - 39
+  - 126
+  - 10x10 (n=100)
+  - 
+* - Experiment 2
+  - 64
+  - 125
+  - 15x15 (n=225)
+  - Bad ER staining
+* - Experiment 3
+  - 55
+  - 40
+  - 15x15 (n=225)
+  - 
+* - Experiment 4
+  - 299
+  - 94
+  - 25x25 (n=625)
+  - Result shown
+* - Experiment 4
+  - 227
+  - 74
+  - 25x25 (n=625)
+  - ZDC malfunction
+```
+
 ## Conclusion
 
-Barkley interpreted no robust evidence of reovirus-induced ER remodelling.
+Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
 Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
-There is no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) cells (see the preset views).
+Otherwise, there is no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) transfected cells.
