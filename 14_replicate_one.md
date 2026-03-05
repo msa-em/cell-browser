@@ -6,9 +6,10 @@ numbering:
 
 A confounding variable in the transfected-infected cell model is interference of reovirus infection from plasmid transfection.
 Two transfection reagents were compared, and TransIT-2020 was deemed better than Lipofectamine 3000 in this model because cell confluence and infection was comparable to the untransfected control.
-The Transit-2020 sample [](#sfig11a) was the first repetition of the replication experiment.
-Barkley annotated transfected-infected cells (red pin, n=39) and transfected cells (blue pin, n=126) expressing mCherry-KDEL using microATLAS.
-ER remodeling was observed in transfected cells in the absence of reovirus infection (see the preset views).
+The Transit-2020 sample is a replication of the original study.
+Barkley annotated transfected-infected cells (red pin, n=39) and transfected cells (blue pin, n=126) expressing mCherry-KDEL with TransIT-2020 transfection [](#sfig11a).
+In comparison, fewer transfected-infected cells (red pin, n=10) and transfected cells (blue pin, n=78) were observed in the Lipofectamine 3000 sample [](#sfig11b).
+ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus infection with both transfection reagents (see the preset views).
 
 ::::{figure}
 :label: sfig11a
@@ -3404,18 +3405,98 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
   }
 }
 :::
-Transfected-infected cells. mCherry-KDEL transfection with Lipofectamine 3000 was followed by infection.
+Transfected-infected cells. Lipofectamine 3000 transfection before reovirus infection.
 ::::
 
 ::::{figure}
 :label: sfig11c
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",
-  "height": "600px"
+  "width": "500px",
+  "height": "500px",
+  "title": {
+    "text": "Untransfected control",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 24,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Contrast adjusted",
+      "description": "Calreticulin DAPI min 0 max 2000",
+      "zoom": -4.294,
+      "target": [
+        4886,
+        4886,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            255,
+            0,
+            255
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            2000
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2000
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
 }
 :::
-Untransfected control. Mock transfection followed by infection.
+Untransfected control. Mock transfection (no plasmid or reagent) before reovirus infection.
 ::::
 
 :::{dropdown} Methodological notes
