@@ -4,8 +4,8 @@ numbering:
   enumerator: 11.%s
 ---
 
-A confounding variable in the transfected-infected cell model is interference of reovirus infection from plasmid transfection.
-Two transfection reagents were compared, and TransIT-2020 was deemed better than Lipofectamine 3000 in this model because cell confluence and infection was comparable to the untransfected control.
+A confounding variable in the transfected-infected cell model is potential interference of reovirus infection from plasmid transfection.
+Two transfection reagents were compared, and TransIT-2020 was deemed better than Lipofectamine 3000 in this model because the confluence and infection was comparable to the untransfected control.
 The Transit-2020 sample is a replication of the original study.
 Barkley annotated transfected-infected cells (red pin, n=39) and transfected cells (blue pin, n=126) expressing mCherry-KDEL with TransIT-2020 transfection [](#sfig11a).
 In comparison, fewer transfected-infected cells (red pin, n=10) and transfected cells (blue pin, n=78) were observed in the Lipofectamine 3000 sample [](#sfig11b).
@@ -3405,7 +3405,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
   }
 }
 :::
-Transfected-infected cells. Lipofectamine 3000 transfection before reovirus infection.
+Transfected-infected cells. Transfection with Lipofectamine 3000 before reovirus infection.
 ::::
 
 ::::{figure}

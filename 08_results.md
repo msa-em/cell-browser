@@ -4989,6 +4989,6 @@ Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry
 
 ## Conclusion
 
-Barkley interpreted that there was no robust evidence of reovirus-induced ER remodelling.
+Barkley interpreted no robust evidence of reovirus-induced ER remodelling.
 Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
-There is no clear difference in ER morphology between infected (red pin) and uninfected (blue pin) cells (see the preset views).
+There is no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) cells (see the preset views).
