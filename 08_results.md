@@ -6,8 +6,8 @@ numbering:
 
 Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
-The goal of the experiment was to observe coinciding mCherry-KDEL and reovirus.
-In this map, there are ~300 transfected-infected cells marked for review.
+The goal was to image cells with a coincidence of mCherry-KDEL and reovirus.
+Here are ~300 transfected-infected cells marked for review.
 
 ::::{figure}
 :label: fig7
@@ -4985,10 +4985,10 @@ In this map, there are ~300 transfected-infected cells marked for review.
 Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry-KDEL.
 ::::
 
-Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to facilitate comparison of ER morphology.
+Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to facilitate the comparison of ER morphology between infected and uninfected cells expressing mCherry-KDEL.
 Five replications were attempted over four experiments ([](#table5)).
 
-```{list-table} Annotation of transfected cells expressing mCherry-KDEL in replicate microscopy maps.
+```{list-table} microATLAS annotation of transfected cell populations expressing mCherry-KDEL.
 :label: table5
 :header-rows: 1
 
@@ -5028,11 +5028,11 @@ Five replications were attempted over four experiments ([](#table5)).
 
 Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
 Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection.
-This shows that the previous observation of ER remodeling was replicable, but that it could have been mCherry-KDEL artifacts.
+This suggests that fluorescent protein artifacts were misinterpreted as reovirus induced ER remodeling.
 Otherwise, there is no obvious difference in ER morphology between infected and uninfected transfected cells.
 
 :::{tip}
-Compare mCherry-KDEL in infected and uninfected cells to evaluate ER morphology (see preset views).
+Compare mCherry-KDEL in infected and uninfected cells to evaluate ER morphology.
 :::
 
 :::{dropdown} Methods
