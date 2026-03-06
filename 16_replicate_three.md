@@ -4,6 +4,8 @@ numbering:
   enumerator: 13.%s
 ---
 
+Comparison of three mCherry-ER reporters with reovirus coinfection.
+
 ::::{figure}
 :label: sfig13
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
@@ -11,6 +13,15 @@ numbering:
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment7/infection_transfection_KDEL.zarr/",
   "width": "500px",
   "height": "500px",
+  "title": {
+    "text": "mCherry-KDEL",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 24,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
   "views": [
     {
       "name": "Compare mCherry-ER",
@@ -1403,6 +1414,7 @@ numbering:
   }
 }
 :::
+Transfected-infected cells expressing mCherry-KDEL.
 ::::
 
 ### Additional mCherry-ER reporters

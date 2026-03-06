@@ -1,13 +1,11 @@
 ---
-title: More μNS Antibodies
+title: Antibody Validation
 numbering:
   enumerator: 15.%s
 ---
 
-This experiment differs in that AlexaFluor647 secondary antibodies were paired with the α-μNS chicken antiserum.
-AlexaFluor647 secondary antibodies were used in all replication experiments.
-Z-drift compensation malfunctioned, possibly because of the specimen.
-Overlapping seams were cropped, not blended, to show stitching artifacts.
+This experiment used AlexaFluor647 secondary antibodies paired with the α-μNS chicken antiserum.
+AlexaFluor647 secondary antibody was used with α-μNS chicken antiserum in all replication attempts.
 
 ### Chicken α-μNS antisera
 
@@ -91,7 +89,7 @@ Overlapping seams were cropped, not blended, to show stitching artifacts.
 :::
 ::::
 
-::::{grid} 2 2 2 2
+::::{grid} 3 3 3 3
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample2.zarr/",
@@ -325,7 +323,7 @@ Overlapping seams were cropped, not blended, to show stitching artifacts.
 ### Guinea pig α-μNS antisera
 
 ::::{figure}
-:label: sfig15a
+:label: sfig15b
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample5.zarr/",
@@ -404,7 +402,7 @@ Overlapping seams were cropped, not blended, to show stitching artifacts.
 :::
 ::::
 
-::::{grid} 2 2 2 2
+::::{grid} 3 3 3 3
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample6.zarr/",
@@ -638,4 +636,12 @@ Overlapping seams were cropped, not blended, to show stitching artifacts.
 :::{tip}
 Hidden by default, evaluate the calreticulin channel for alleged reovirus-induced ER remodeling.
 ER morphology can be compared within populations of infected cells.
+:::
+
+:::{dropdown} Methodological notes
+HeLa cells were seeded on 12mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar).
+All samples were infected with reovirus T1L (MOI 100) for 24 hours.
+AlexaFluor594 was used with the guinea pig α-μNS antiserum, while AlexaFluor647 was used with the chicken α-μNS antiserum.
+Z-drift compensation malfunctioned, possibly because of the specimen.
+Overlapping seams were cropped, not blended, to show stitching artifacts.
 :::

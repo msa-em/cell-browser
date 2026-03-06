@@ -5,7 +5,7 @@ numbering:
 ---
 
 The transfected-infected model was repeated with duplicate samples expressing mCherry-KDEL.
-This sample had some stitching artifacts from improper Z-drift compensation, the other was shown as the result.
+This sample had some stitching artifacts, so the other was reported as the best result.
 
 ::::{figure}
 :label: sfig14
@@ -14,6 +14,15 @@ This sample had some stitching artifacts from improper Z-drift compensation, the
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment8/sample1.zarr/",
   "width": "500px",
   "height": "500px",
+  "title": {
+    "text": "mCherry-KDEL",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 24,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
   "annotations": [
     {
       "name": "Coincidence",
@@ -3644,8 +3653,8 @@ Duplicate sample of the transfected-infected cell model expressing mCherry-KDEL.
 The specimens were HeLa cells seeded on 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass)
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies.
 Primary antibodies were multiplexed and incubated overnight at 4C in the dark.
-The secondary antibodies did two days overnight multiplexed together.
+The secondary antibodies were multiplexed for two days overnight.
 A 25x25 grid (625 fields) was recorded.
-Z drift compensation unexpectedly malfunctioned in Figure 14.1, but worked for Figure 7.1.
-The overlapping edges were blended (linear), which reduced the appearance of stitching artifacts.
+Z drift compensation malfunctioned in Figure 14.1 but worked in Figure 7.1.
+The overlapping edges were blended, which reduced the appearance of stitching artifacts.
 :::

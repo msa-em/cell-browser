@@ -5,8 +5,8 @@ numbering:
 ---
 
 A confounding variable is interference of reovirus infection from plasmid transfection.
-Two transfection reagents were compared and TransIT-2020 was deemed better than Lipofectamine 3000 in this model because there was greater cell confluence, transfection and infection.
-ER remodeling was observed in cells expressing mCherry-KDEL with both transfection reagents independent of reovirus coinfection (preset views).
+Two transfection reagents were compared and TransIT-2020 was deemed the better reagent in this model.
+ER remodeling was observed in cells expressing mCherry-KDEL independent of reovirus coinfection or the transfection reagent (preset views).
 
 ::::{figure}
 :label: sfig11a

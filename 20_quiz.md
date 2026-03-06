@@ -1,5 +1,5 @@
 ---
-title: moxGFP::μNS Comparison
+title: Quiz
 numbering:
   enumerator: 17.%s
 ---

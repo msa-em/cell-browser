@@ -4985,8 +4985,8 @@ Samples were fixed for immunofluorescence detection of viral and ER antigens.
 Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry-KDEL.
 ::::
 
-Barkley annotated infected cells (red pins) and uninfected cells (blue pins) expressing mCherry-KDEL using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
-This protocol was repeated five times over four experiments (supplementary data) and Barkley labelled all populations of infected cells expressing mCherry-ER reporters [](#table5).
+Barkley annotated infected (red pin) and uninfected (blue pin) transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
+This protocol was repeated five times over four experiments (supplementary data) and infected cells expressing mCherry-KDEL were marked for review [](#table5).
 
 ## Conclusion
 
