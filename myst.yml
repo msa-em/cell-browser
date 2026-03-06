@@ -118,7 +118,7 @@ project:
         - file: 16_replicate_three.md
         - file: 17_replicate_four.md
         - file: 18_antibody_reovirus.md
-        - file: 19_moxGFPmuNS.md
-        - file: 20_mNGmuNS.md
+        - file: 19_video.md
+        - file: 20_moxGFPmuNS.md
 site:
   template: book-theme

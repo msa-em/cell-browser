@@ -1,7 +1,7 @@
 ---
-title: moxGFP::μNS
+title: moxGFP::μNS Comparison
 numbering:
-  enumerator: 16.%s
+  enumerator: 17.%s
 ---
 
 :::{attention} Molecular biology example

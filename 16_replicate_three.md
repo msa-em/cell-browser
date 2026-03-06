@@ -1,11 +1,8 @@
 ---
-title: Replicate Experiment 3
+title: Replication Attempt 3
 numbering:
   enumerator: 13.%s
 ---
-
-This experiment was missing the transfected uninfected control and mCherry-Climp63 because no transfected cells were observed.
-Barkley pinned n=55 transfected-infected and n=40 transfected cells expressing mCherry-KDEL.
 
 ::::{figure}
 :label: sfig13

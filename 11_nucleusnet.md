@@ -59,9 +59,9 @@ Averaged latent vectors were decoded to synthesize theoretical representative im
 Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342].
 These examples appear to blend all image features from the dataset.
 
-:::{figure} #fig10d_data
+:::{figure} #fig9d_data
 :label: fig9d
-:placeholder: ./figures/fig10d.png
+:placeholder: ./figures/fig9d.png
 Figure legend.
 :::
 
@@ -70,7 +70,7 @@ Figure legend.
 Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
 Using this metric yielded one representative image ([](#fig9e)).
 
-```{figure} ./figures/fig10e.png
+```{figure} ./figures/fig9e.png
 :label: fig9e
 Image to represent NucleusNet: ROI_300 from stitched image Run11BR_bottom_right.
 ```

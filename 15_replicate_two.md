@@ -1,12 +1,12 @@
 ---
-title: Replicate Experiment 2
+title: Replication Attempt 2
 numbering:
   enumerator: 12.%s
 ---
 
-Three additional mCherry-ER reporters were included as alternatives to mCherry-KDEL, though few cells were found with mCherry-Climp63.
-Barkley marked transfected-infected (red pin) and transfected cells (blue pin) expressing mCherry-ER reporters.
+Three additional mCherry-ER reporters were included, though few cells were found transfected with mCherry-Climp63.
 Preset views show examples of ER remodeling with mCherry-KDEL or mCherry-CytERM in the absence of reovirus.
+mCherry-Sec1β had relatively few artifacts.
 
 ::::{figure}
 :label: sfig12
@@ -4827,8 +4827,6 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 }
 :::
 ::::
-
-
 
 :::{dropdown} Methodological notes
 The specimens were 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass).

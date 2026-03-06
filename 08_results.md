@@ -10,7 +10,7 @@ HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, fo
 Samples were fixed for immunofluorescence detection of viral and ER antigens.
 
 ::::{figure}
-:label: fig7a
+:label: fig7
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment8/sample2.zarr/",
@@ -4986,44 +4986,7 @@ Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry
 ::::
 
 Barkley annotated infected cells (red pins) and uninfected cells (blue pins) expressing mCherry-KDEL using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
-This protocol was repeated five times over four experiments (supplementary data).
-Barkley annotated the population of transfected cells expressing mCherry-KDEL in all replicates [](#table7).
-
-```{list-table} Subjective assessment of transfected cell populations
-:label: table7
-:header-rows: 1
-
-* - Replication
-  - Infected
-  - Uninfected
-  - Grid size (fields)
-  - Notes
-* - Experiment 1
-  - 39
-  - 126
-  - 10x10 (n=100)
-  - 
-* - Experiment 2
-  - 64
-  - 125
-  - 15x15 (n=225)
-  - Bad ER staining
-* - Experiment 3
-  - 55
-  - 40
-  - 15x15 (n=225)
-  - 
-* - Experiment 4
-  - 299
-  - 94
-  - 25x25 (n=625)
-  - Result shown
-* - Experiment 4
-  - 227
-  - 74
-  - 25x25 (n=625)
-  - ZDC malfunction
-```
+This protocol was repeated five times over four experiments (supplementary data) and Barkley labelled all populations of infected cells expressing mCherry-ER reporters [](#table5).
 
 ## Conclusion
 
