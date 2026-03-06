@@ -6,7 +6,7 @@ numbering:
 
 Interference of reovirus infection from plasmid transfection was a confounding variable.
 Two transfection reagents were compared and TransIT-2020 was deemed the better reagent in this model.
-ER remodeling was found independent of reovirus coinfection or transfection reagent (preset views).
+ER remodeling was found independent of reovirus infection or transfection reagent.
 
 ::::{figure}
 :label: sfig11a

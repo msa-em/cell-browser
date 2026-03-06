@@ -655,7 +655,7 @@ HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1
 Cells were infected with reovirus T1L at MOI 100 for 24 hours before fixation with 4% PFA.
 Antibodies for calreticulin were used in all samples.
 Combinations of primary and secondary antibodies to reovirus μNS were tested.
-AlexaFluor594-conjugated secondary antibodies were used for both sera.
-The primary antibodies were multiplexed and incubated overnight at 4C, same with the secondary antibodies.
+AlexaFluor594-conjugated secondary antibodies were used for both antisera, so the illumination settings are consistent.
+Antibodies were multiplexed and incubated overnight, primaries and secondaries separately.
 Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS and were imaged in this solution.
 :::

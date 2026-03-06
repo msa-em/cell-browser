@@ -4,9 +4,6 @@ numbering:
   enumerator: 14.%s
 ---
 
-The transfected-infected model was repeated with duplicate samples expressing mCherry-KDEL.
-This sample had stitching artifacts, so the other sample was shown as the result.
-
 ::::{figure}
 :label: sfig14
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js

@@ -6,6 +6,7 @@ numbering:
 
 Other mCherry-ER reporters were tested, though few cells were observed with mCherry-Climp63.
 Preset views show examples of ER remodeling in the absence of reovirus with mCherry-KDEL and mCherry-CytERM.
+mCherry-Sec61β had less artifacts.
 
 ::::{figure}
 :label: sfig12

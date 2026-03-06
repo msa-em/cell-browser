@@ -4,9 +4,7 @@ numbering:
   enumerator: 16.%s
 ---
 
-The original study claimed the colocalization of untagged μNS and mCherry-KDEL in representative images of cotransfected cells.
-Here, mNeonGreen::μNS and mCherry-KDEL were coexpressed in live cells.
-Though our methods differed, there is no apparent colocalization or ER remodeling.
+Colocalization of μNS and mCherry-KDEL, nor alleged ER remodeling, were replicable in live transfected cells.
 
 ::::{figure}
 :label: sfig16
@@ -64,6 +62,7 @@ Though our methods differed, there is no apparent colocalization or ER remodelin
   }
 }
 :::
+Cotransfection of mNeonGreen::μNS and mCherry-KDEL in live cells.
 ::::
 
 :::{dropdown} Methodological notes
