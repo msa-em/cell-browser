@@ -35,4 +35,4 @@ Otherwise, it is not clear that reovirus affects ER morphology, certainly not to
 This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to scrutiny.
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet representativeness remains undefined, so the task is unsuitable for computers.
-To this end, image categorization with an upstream classifier model could be an interesting future direction.
+To this end, a future direction is image categorization with an upstream classifier model.
