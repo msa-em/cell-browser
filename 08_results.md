@@ -6,8 +6,8 @@ numbering:
 
 Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
-HeLa cells were transfected with mCherry-KDEL using TransIT-2020 for one day, followed by reovirus T1L infection at MOI 100 for another day.
-Samples were fixed for immunofluorescence detection of viral and ER antigens.
+The goal of the experiment was to observe coinciding mCherry-KDEL and reovirus.
+In this map, there are ~300 transfected-infected cells marked for review.
 
 ::::{figure}
 :label: fig7
@@ -4985,11 +4985,55 @@ Samples were fixed for immunofluorescence detection of viral and ER antigens.
 Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry-KDEL.
 ::::
 
-Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html). 
-Five replications were attempted over four experiments (supplementary data) and the best is shown [](#table5).
+Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to facilitate comparison of ER morphology.
+Five replications were attempted over four experiments ([](#table5)).
 
 ## Conclusion
 
 Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
-Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
+Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection.
 Otherwise, there is no obvious difference in ER morphology between infected and uninfected transfected cells.
+
+```{list-table} Annotation of transfected cells expressing mCherry-KDEL with TransIT-2020.
+:label: table5
+:header-rows: 1
+
+* - Sample
+  - Infected
+  - Uninfected
+  - Grid size (fields)
+* - [Figure 11.1](#sfig11a)
+  - 39
+  - 126
+  - 10x10 (n=100)
+* - [Figure 12.1](#sfig12)
+  - 64
+  - 125
+  - 15x15 (n=225)
+* - [Figure 13.1](#sfig13)
+  - 55
+  - 40
+  - 15x15 (n=225)
+* - [Figure 7.1](#fig7)
+  - 299
+  - 94
+  - 25x25 (n=625)
+* - [Figure 14.1](#sfig14)
+  - 227
+  - 75
+  - 25x25 (n=625)
+```
+
+:::{dropdown} Methods
+3e5 HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).
+mCherry-KDEL was transfected with TransIT-2020 for 24 hours, then the cells were infected with reovirus T1L (MOI 100) for 24 hours before fixation (4% PFA, 20 minutes).
+Calreticulin and reovirus μNS antigens were detected by immunofluorescence assay.
+The chicken antiserum was paired with AlexFluor647 secondary antibodies.
+Primary antibodies were multiplexed and incubated overnight.
+Primary antibodies were multiplexed and incubated overnight.
+Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS and were imaged in this solution.
+An area of 625 fields (25x25 grid) was imaged.
+Barkley marked transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection in the microATLAS builder.
+Transfected-infected cells were labelled 'Coincidence', while transfected-uninfected cells were labelled 'Transfection'.
+If unsure, the cell was left unlabelled and it is probable that some cells were missed.
+:::

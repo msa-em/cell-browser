@@ -506,7 +506,7 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample6.zarr/",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample7.zarr/",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -658,7 +658,7 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample7.zarr/",
+  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample6.zarr/",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -673,7 +673,7 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
   "views": [
     {
       "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 2000",
+      "description": "Reovirus channel min 0 max 1500",
       "zoom": -4.928,
       "target": [
         4886,
@@ -714,7 +714,7 @@ At MOI 1, only a few infected cells were observed and pinned on the map.
           ],
           [
             0,
-            2000
+            1500
           ]
         ],
         "blendMode": "single",

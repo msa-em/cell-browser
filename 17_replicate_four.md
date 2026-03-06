@@ -14,15 +14,6 @@ This sample had some stitching artifacts, so the other was reported as the best 
   "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment8/sample1.zarr/",
   "width": "500px",
   "height": "500px",
-  "title": {
-    "text": "mCherry-KDEL",
-    "position": "bottom-left",
-    "margin": 12,
-    "fontSize": 24,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.95)",
-    "style": "text"
-  },
   "annotations": [
     {
       "name": "Coincidence",
@@ -3629,6 +3620,18 @@ This sample had some stitching artifacts, so the other was reported as the best 
       "target": [
         19272,
         9094
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        12851,
+        8471
       ],
       "color": [
         99,

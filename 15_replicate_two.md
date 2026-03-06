@@ -2544,7 +2544,7 @@ Preset views show examples of ER remodeling in the absence of reovirus with mChe
 Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020.
 ::::
 
-### Additional mCherry-ER reporters and an uninfected control
+### Additional mCherry-ER reporters and uninfected control
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js

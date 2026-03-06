@@ -218,46 +218,6 @@ Multi-channel or time-lapse images were considered one image with multiple frame
   - 69 frames
 ```
 
-Barkley annotated transfected cells expressing mCherry-KDEL based on reovirus coinfection.
-Transfected-infected cells were labelled 'Coincidence', while transfected-uninfected cells were labelled 'Transfection'.
-If unsure, the cell was left unlabelled and it is possible that some cells were missed.
-
-```{list-table} Assessment of transfected cell populations in replication experiments.
-:label: table5
-:header-rows: 1
-
-* - Experiment
-  - Infected
-  - Uninfected
-  - Grid size (fields)
-  - Notes
-* - [Figure 11.1](#sfig11a)
-  - 39
-  - 126
-  - 10x10 (n=100)
-  - 
-* - [Figure 12.1](#sfig12)
-  - 64
-  - 125
-  - 15x15 (n=225)
-  - Bad ER staining
-* - [Figure 13.1](#sfig13)
-  - 55
-  - 40
-  - 15x15 (n=225)
-  - 
-* - [Figure 7.1](#fig7)
-  - 299
-  - 94
-  - 25x25 (n=625)
-  - Result shown
-* - [Figure 14.1](#sfig14)
-  - 227
-  - 74
-  - 25x25 (n=625)
-  - ZDC malfunction
-```
-
 ---
 
 # MNIST autoencoder
