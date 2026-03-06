@@ -4985,11 +4985,11 @@ Samples were fixed for immunofluorescence detection of viral and ER antigens.
 Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry-KDEL.
 ::::
 
-Barkley annotated infected (red pin) and uninfected (blue pin) transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
-This protocol was repeated five times over four experiments (supplementary data) and infected cells expressing mCherry-KDEL were marked for review [](#table5).
+Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html). 
+Five replications were attempted over four experiments (supplementary data) and the best is shown [](#table5).
 
 ## Conclusion
 
 Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
 Irregular ER morphologies were observed in transfected cells expressing mCherry-ER reporters, with or without reovirus co-infection.
-Otherwise, there is no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) transfected cells.
+Otherwise, there is no obvious difference in ER morphology between infected and uninfected transfected cells.

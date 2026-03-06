@@ -4,7 +4,7 @@ numbering:
   enumerator: 13.%s
 ---
 
-Comparison of three mCherry-ER reporters with reovirus coinfection.
+Comparison of mCherry-ER reporters with reovirus T1L coinfection (MOI 100).
 
 ::::{figure}
 :label: sfig13

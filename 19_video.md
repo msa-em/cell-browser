@@ -6,7 +6,8 @@ numbering:
 
 The original study observed colocalization between untagged μNS and mCherry-KDEL in transfected cells.
 mNeonGreen::μNS and mCherry-KDEL were coexpressed to evaluate colocalization and ER morphology in live cells.
-Though the methods differed, Barkley found no obvious colocalization or ER remodeling.
+Though the methods differed, this indirect replication did not show obvious colocalization or ER remodeling.
+
 
 ::::{figure}
 :label: sfig16
@@ -34,10 +35,6 @@ Though the methods differed, Barkley found no obvious colocalization or ER remod
 }
 :::
 ::::
-
-:::{attention}
-It can take several seconds for the video to buffer and run smoothly.
-:::
 
 :::{dropdown} Methodological notes
 HeLa cells were seeded on 35mm glass-bottom dishes (20mm coverslips, no 1.5 glass).

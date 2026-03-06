@@ -34,8 +34,6 @@ This suggests that experimental artifacts from mCherry-ER reporters could have b
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
 This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to scrutiny.
 
-There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there is no consensus on what is typical, so the task of image selection remains unsuitable for computer algorithms.
-To this end, image categorization with an upstream classifier model could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was more effective with labels ([](#fig9a) and [](#fig9e)).
-However, classification is futile with continuous data lacking distinct phenotypes, in which case the global average could be the default.
-A representative NucleusNet image was chosen near the global centroid of latent space and it appeared to blend image features.
-Perhaps the better approach would be to classify NucleusNet then find representative images by label.
+There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet what is representative remains undefined, so the task of image selection is unsuitable for computer algorithms.
+To this end, image categorization with an upstream classifier model could be an interesting future direction, because the two-step approach to image selection [@doi:10.1109/BIP60195.2023.10379342] was reasonable with labels ([](#fig8a) and [](#fig8e)).
+However, classification would be futile with continuous data that lacks distinct phenotypes.

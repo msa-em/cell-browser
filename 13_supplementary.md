@@ -231,27 +231,27 @@ If unsure, the cell was left unlabelled and it is possible that some cells were 
   - Uninfected
   - Grid size (fields)
   - Notes
-* - Figure 11.1
+* - [Figure 11.1](#sfig11a)
   - 39
   - 126
   - 10x10 (n=100)
   - 
-* - Figure 12.1
+* - [Figure 12.1](#sfig12)
   - 64
   - 125
   - 15x15 (n=225)
   - Bad ER staining
-* - Figure 13.1
+* - [Figure 13.1](#sfig13)
   - 55
   - 40
   - 15x15 (n=225)
   - 
-* - Figure 7.1
+* - [Figure 7.1](#fig7)
   - 299
   - 94
   - 25x25 (n=625)
   - Result shown
-* - Figure 14.1
+* - [Figure 14.1](#sfig14)
   - 227
   - 74
   - 25x25 (n=625)

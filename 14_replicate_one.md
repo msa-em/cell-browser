@@ -4,9 +4,9 @@ numbering:
   enumerator: 11.%s
 ---
 
-A confounding variable is interference of reovirus infection from plasmid transfection.
+Interference of reovirus infection from plasmid transfection was a confounding variable.
 Two transfection reagents were compared and TransIT-2020 was deemed the better reagent in this model.
-ER remodeling was observed in cells expressing mCherry-KDEL independent of reovirus coinfection or the transfection reagent (preset views).
+ER remodeling was found independent of reovirus coinfection or transfection reagent (preset views).
 
 ::::{figure}
 :label: sfig11a
