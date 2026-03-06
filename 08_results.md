@@ -6,7 +6,7 @@ numbering:
 
 Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
-The goal of this experiment was to image the coincidence of mCherry-KDEL and reovirus and this map shows ~300 transfected-infected cells.
+The goal was to image transfected cells with coincident reovirus infection and this map shows ~300 examples of transfected-infected cells.
 
 ::::{figure}
 :label: fig7
@@ -4985,7 +4985,7 @@ Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry
 ::::
 
 Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to facilitate the comparison of ER morphology between infected and uninfected cells expressing mCherry-KDEL.
-The protocol was repeated five times over four experiments ([](#table5)) (supplementary data).
+The protocol was repeated five times over four experiments ([](#table5) and supplementary data).
 
 ```{list-table} microATLAS annotation of transfected cell populations expressing mCherry-KDEL.
 :label: table5
@@ -4994,32 +4994,26 @@ The protocol was repeated five times over four experiments ([](#table5)) (supple
 * - Sample
   - Infected
   - Uninfected
-  - Total
   - Grid size (fields)
 * - [Figure 11.1](#sfig11a)
   - 39
   - 126
-  - 165
   - 10x10 (n=100)
 * - [Figure 12.1](#sfig12)
   - 64
   - 125
-  - 189
   - 15x15 (n=225)
 * - [Figure 13.1](#sfig13)
   - 55
   - 40
-  - 95
   - 15x15 (n=225)
 * - [Figure 7.1](#fig7)
   - 299
   - 94
-  - 393
   - 25x25 (n=625)
 * - [Figure 14.1](#sfig14)
   - 227
   - 75
-  - 302
   - 25x25 (n=625)
 ```
 
@@ -5041,5 +5035,5 @@ Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reag
 An area of 625 fields (25x25 grid) was imaged.
 Barkley marked transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection in the microATLAS builder.
 Transfected-infected cells were labelled 'Coincidence', while transfected-uninfected cells were labelled 'Transfection'.
-If unsure, the cell was left unlabelled and it is possible that cells were overlooked.
+If unsure, the cell was left unlabelled and it is possible that some transfected cells were overlooked.
 :::

@@ -4,8 +4,6 @@ numbering:
   enumerator: 16.%s
 ---
 
-Colocalization of μNS and mCherry-KDEL, nor alleged ER remodeling, were replicable in live transfected cells.
-
 ::::{figure}
 :label: sfig16
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js

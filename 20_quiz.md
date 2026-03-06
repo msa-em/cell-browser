@@ -4,9 +4,7 @@ numbering:
   enumerator: 17.%s
 ---
 
-:::{attention} Molecular biology example
-Which moxGFP::μNS construct formed more condensates per cell? Left or right?
-:::
+### Which moxGFP::μNS construct forms more factories? Left or right?
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs

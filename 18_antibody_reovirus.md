@@ -5,9 +5,7 @@ numbering:
 ---
 
 This experiment used AlexaFluor647 secondary antibodies paired with the α-μNS chicken antiserum, which was used in all replication attempts.
-The other experiment used the AlexaFluor549 secondary antibody with the chicken α-μNS antiserum.
-That way, the chicken and guinea pig antibodies had the same illumination settings.
-This experiment used different excitation and emission wavelengths so the antibodies were less comparable.
+The previous experiment used AlexaFluor549 secondary antibodies with the chicken α-μNS antiserum, so the chicken and guinea pig antibodies had the same illumination settings.
 
 ### Chicken α-μNS antisera
 
