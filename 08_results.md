@@ -4988,41 +4988,52 @@ Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry
 Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to facilitate comparison of ER morphology.
 Five replications were attempted over four experiments ([](#table5)).
 
-## Conclusion
-
-Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
-Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection.
-Otherwise, there is no obvious difference in ER morphology between infected and uninfected transfected cells.
-
-```{list-table} Annotation of transfected cells expressing mCherry-KDEL with TransIT-2020.
+```{list-table} Annotation of transfected cells expressing mCherry-KDEL in replicate microscopy maps.
 :label: table5
 :header-rows: 1
 
 * - Sample
   - Infected
   - Uninfected
+  - Total
   - Grid size (fields)
 * - [Figure 11.1](#sfig11a)
   - 39
   - 126
+  - 165
   - 10x10 (n=100)
 * - [Figure 12.1](#sfig12)
   - 64
   - 125
+  - 189
   - 15x15 (n=225)
 * - [Figure 13.1](#sfig13)
   - 55
   - 40
+  - 95
   - 15x15 (n=225)
 * - [Figure 7.1](#fig7)
   - 299
   - 94
+  - 393
   - 25x25 (n=625)
 * - [Figure 14.1](#sfig14)
   - 227
   - 75
+  - 302
   - 25x25 (n=625)
 ```
+
+## Conclusion
+
+Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
+Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection.
+This shows that the previous observation of ER remodeling was replicable, but that it could have been mCherry-KDEL artifacts.
+Otherwise, there is no obvious difference in ER morphology between infected and uninfected transfected cells.
+
+:::{tip}
+Compare mCherry-KDEL in infected and uninfected cells to evaluate ER morphology (see preset views).
+:::
 
 :::{dropdown} Methods
 3e5 HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).
@@ -5035,5 +5046,5 @@ Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reag
 An area of 625 fields (25x25 grid) was imaged.
 Barkley marked transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection in the microATLAS builder.
 Transfected-infected cells were labelled 'Coincidence', while transfected-uninfected cells were labelled 'Transfection'.
-If unsure, the cell was left unlabelled and it is probable that some cells were missed.
+If unsure, the cell was left unlabelled and it is possible that cells were overlooked.
 :::

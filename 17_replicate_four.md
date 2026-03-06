@@ -5,7 +5,7 @@ numbering:
 ---
 
 The transfected-infected model was repeated with duplicate samples expressing mCherry-KDEL.
-This sample had some stitching artifacts, so the other was reported as the best result.
+This sample had stitching artifacts, so the other sample was shown as the result.
 
 ::::{figure}
 :label: sfig14

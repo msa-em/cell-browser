@@ -27,7 +27,7 @@ The Elemental Microscopy journal supports two interactive viewers; [Vizarr](http
 OME-Zarr is a standardized and flexible image format developed for use cases like virtual microscopy [@doi:10.1007/s00418-023-02209-1].
 Most native microscopy file formats can be converted to OME-Zarr with preserved metadata using [Bio-Formats](https://www.openmicroscopy.org/bio-formats/).
 It is a chunked file type that can support multiple resolution levels.
-Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyramidal OME-Zarr data is hosted in S3 storage [@doi:10.1038/s41592-022-01482-7].
+Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyramidal OME-Zarr data can be viewed online [@doi:10.1038/s41592-022-01482-7].
 
 ### Vizarr
 
