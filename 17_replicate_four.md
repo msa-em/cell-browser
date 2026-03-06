@@ -3649,7 +3649,7 @@ numbering:
 Duplicate sample of the transfected-infected cell model expressing mCherry-KDEL.
 ::::
 
-:::{dropdown} Methodological notes
+:::{dropdown} Methods
 The specimens were HeLa cells seeded on 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass)
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies.
 Primary antibodies were multiplexed and incubated overnight at 4C in the dark.

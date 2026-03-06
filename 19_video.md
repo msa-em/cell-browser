@@ -63,7 +63,7 @@ numbering:
 Cotransfection of mNeonGreen::μNS and mCherry-KDEL in live cells.
 ::::
 
-:::{dropdown} Methodological notes
+:::{dropdown} Methods
 HeLa cells were seeded on 35mm glass-bottom dishes (20mm coverslips, no 1.5 glass).
 pCI-neo mNeonGreen::μNS(1-721) and mCherry-KDEL plasmids were cotransfected (1:1 ratio, 1.25μg each) for 24 hours with Lipofectamine 3000.
 The stage was heated (37C) but did not have carbon dioxide so the media was supplemented with 25mM HEPES buffer before imaging.

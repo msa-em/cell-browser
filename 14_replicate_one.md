@@ -3496,7 +3496,7 @@ Transfected-infected cells. Transfection with Lipofectamine 3000 before reovirus
 Untransfected control. Mock transfection (no plasmid or reagent) before reovirus infection.
 ::::
 
-:::{dropdown} Methodological notes
+:::{dropdown} Methods
 The specimens were glass coverslips (1.0 glass) mounted on slides.
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies, each incubated for one hour.
 A 10x10 grid (100 fields) was recorded.

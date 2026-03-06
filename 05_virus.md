@@ -673,7 +673,7 @@ At MOI 1, only a few infected cells were identified, pinned on the map.
   "views": [
     {
       "name": "Adjust contrast",
-      "description": "Reovirus channel min 0 max 1250",
+      "description": "Reovirus channel min 0 max 1000",
       "zoom": -4.928,
       "target": [
         4886,
@@ -714,7 +714,7 @@ At MOI 1, only a few infected cells were identified, pinned on the map.
           ],
           [
             0,
-            1250
+            1000
           ]
         ],
         "blendMode": "single",

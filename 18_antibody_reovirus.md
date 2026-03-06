@@ -638,7 +638,7 @@ Hidden by default, evaluate the calreticulin channel for alleged reovirus-induce
 ER morphology can be compared within populations of infected cells.
 :::
 
-:::{dropdown} Methodological notes
+:::{dropdown} Methods
 HeLa cells were seeded on 12mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar).
 All samples were infected with reovirus T1L (MOI 100) for 24 hours.
 AlexaFluor594 was used with the guinea pig α-μNS antiserum, while AlexaFluor647 was used with the chicken α-μNS antiserum.

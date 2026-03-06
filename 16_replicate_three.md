@@ -3630,7 +3630,7 @@ Transfected-infected cells expressing mCherry-KDEL.
 :::
 ::::
 
-:::{dropdown} Methodological notes
+:::{dropdown} Methods
 The specimens were 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass)
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies.
 Primary antibodies were multiplexed and incubated overnight at 4C in the dark, same as the secondaries.

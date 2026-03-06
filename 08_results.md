@@ -4985,7 +4985,7 @@ Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry
 ::::
 
 Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to facilitate the comparison of ER morphology between infected and uninfected cells expressing mCherry-KDEL.
-The protocol was repeated five times over four experiments ([](#table5) and supplementary data).
+This protocol was repeated five times over four experiments ([](#table5) and supplementary data).
 
 ```{list-table} microATLAS annotation of transfected cell populations expressing mCherry-KDEL.
 :label: table5

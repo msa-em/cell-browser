@@ -16,10 +16,7 @@ mCherry-Climp63 was a control for ER remodeling, given its role in determining E
 ## Lipofectamine 3000 (left) and TransIT-2020 (right)
 
 HeLa cells were imaged after one day of transfection with mCherry-ER reporters.
-Illumination settings in the mCherry channel were set based on the mCherry-KDEL sample transfected with TransIT-2020.
-Transfection efficiency and protein expression was better with lipofectamine, so there was pixel saturation in these samples.
-Barkley found irregular ER morphologies with lipofectamine transfection of mCherry-ER plasmids, especially mCherry-Sec61β and mCherry-Climp63.
-Transfection of mCherry-KDEL with TransIT-2020, as done in the original study, was less susceptible to artifacts.
+Illumination settings were set based on the mCherry-KDEL sample with TransIT-2020, so there is pixel saturation in some samples.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js

@@ -4826,7 +4826,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 :::
 ::::
 
-:::{dropdown} Methodological notes
+:::{dropdown} Methods
 The specimens were 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass).
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies, each incubated for one hour.
 A 15x15 grid (225 fields) was recorded.
