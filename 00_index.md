@@ -10,8 +10,8 @@ numbering:
 Static figures are the mainstream interface of contemporary scientific discourse and peer review, so microscopists communicate experimental results through representative images and plots.
 This article focuses on novel visualization strategies for researchers, advancing virtual microscopy to the scientific literature.
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimaging data as an unbiased alternative to representative images.
-These features made virtual microscopy useful for the critical appraisal of representative images.
-Using this approach, an original claim of reovirus-induced organelle remodeling was unsubstantiated in replication experiments.
+These features made virtual microscopy useful to critically appraise published images.
+Using this approach, an original claim of reovirus-induced organelle remodeling was not substantiated in replication experiments.
 To work within the constraints of conventional journals, an objective method of image selection was explored and delimited.
 
 +++
