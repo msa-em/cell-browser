@@ -32,7 +32,7 @@ The original study showed apparent ER remodelling in reovirus-infected cells exp
 In replication attempts, ER remodelling can be observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that experimental artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
-This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to scrutiny.
+This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to scrutiny with virtual microscopy.
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet representativeness remains undefined, so the task is unsuitable for computers.
-To this end, a future direction is image categorization with an upstream classifier model.
+To this end, an interesting future direction could be image categorization with an upstream classifier model.
