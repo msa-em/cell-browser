@@ -8,7 +8,7 @@ numbering:
 +++ {"part": "abstract"}
 
 Static figures are the standard interface for scientific discourse and peer review, so microscopists invariably communicate results through representative images and plots.
-This article focuses on novel visualization strategies for researchers, introducing virtual microscopy to scientific journals.
+This article focuses on novel visualization strategies for researchers, introducing virtual microscopy to scientific articles.
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimaging data as an unbiased alternative to representative images.
 These features made virtual microscopy useful for the critical appraisal of qualitative microscopy studies.
 Using this approach, claimed reovirus-induced endoplasmic reticulum remodeling was unsubstantiated in replication experiments.
