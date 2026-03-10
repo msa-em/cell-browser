@@ -7,11 +7,11 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Static figures are the mainstream interface of contemporary scientific discourse and peer review, so microscopists communicate experimental results through representative images and plots.
-This article focuses on novel visualization strategies for researchers, advancing virtual microscopy to the scientific literature.
+Static figures are the standard interface for scientific discourse and peer review, so microscopists invariably communicate results through representative images and plots.
+This article focuses on novel visualization strategies for researchers, introducing virtual microscopy to scientific journals.
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimaging data as an unbiased alternative to representative images.
-These features made virtual microscopy useful to critically appraise published images.
-Using this approach, an original claim of reovirus-induced organelle remodeling was not substantiated in replication experiments.
+These features made virtual microscopy useful for the critical appraisal of qualitative microscopy studies.
+Using this approach, claimed reovirus-induced endoplasmic reticulum remodeling was unsubstantiated in replication experiments.
 To work within the constraints of conventional journals, an objective method of image selection was explored and delimited.
 
 +++
@@ -36,7 +36,7 @@ Barkley wants to thank the Baker Institute for Animal Health at Cornell and its 
 ## Competing Interests
 
 All authors declare no conflicts of interest.
-Last names were used in the text to separate the authors voices, interpretations, and contributions.
+Last names were sometimes used to separate the author's voices, interpretations and contributions.
 
 +++
 
