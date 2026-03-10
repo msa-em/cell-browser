@@ -49,10 +49,15 @@ project:
           ror: 05bnh6r87
       roles:
         - Conceptualization
-        - Project administration
+        - Data Curation
+        - Formal Analysis
+        - Investigation
+        - Resources
+        - Software
+        - Visualization
+        - Funding Acquisition
         - Writing - original draft
-        - Data collection and visualization
-        - Funding acquisition
+        - Writing - review & editing
     - id: ajbrodrick
       name: Andrew James Brodrick
       email: ajb64@umd.edu
@@ -65,7 +70,9 @@ project:
           ror: 047s2c258
       roles:
         - Conceptualization
-        - Data visualization
+        - Methodology
+        - Software
+        - Visualization
     - id: jslparker
       name: John Stuart Leslie Parker
       email: jsp7@cornell.edu
@@ -73,7 +80,10 @@ project:
       affiliations:
         - id: cornell
       roles:
-        - Funding acquisition
+        - Funding Acquisition
+        - Project Administration
+        - Supervision
+        - Writing - review & editing
   abbreviations:
     Barkley: Russell JR Barkley
     Parker: John SL Parker
