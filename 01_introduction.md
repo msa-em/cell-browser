@@ -20,17 +20,17 @@ In practice, microscopy maps are easy to implement but are accessed via external
 From the perspective of biomedical researchers, the perceived cause is the pressure to publish [@doi:10.1371/journal.pbio.3002870].
 Repeatability within the same study by the same researchers is distinguished from replicability by independent researchers using the same methodology.
 Large-scale replicability studies found that only 11% [@doi:10.1038/483531a] and 25% [@doi:10.1038/nrd3439-c1] of key findings from preclinical cancer research papers were replicable.
-Another project evaluated the success of replication for representative images, but even at its 'lowest bar', the study determined a replication rate of 79% [@doi:10.7554/eLife.71601].
+Another project evaluated the replicability of representative images, and even at its 'lowest bar', the study determined a replication rate of 79% for qualitative results [@doi:10.7554/eLife.71601].
 Furthermore, representative images without quantitative analysis accounted for 26% of the claimed effects.
 Consider that highly magnified representative images cannot describe population variation and the uncertainty of an observation.
 A feature of virtual microscopy is the unbiased sampling and transmission of multi-scale image data, making it useful as a method to replicate representative images.
 Results should be observed again with a high degree of reliability; therefore original claims should be evident in replicate microscopy maps.
 
-Here, embedded microscopy maps were used to reexamine the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
-This study was chosen because most results were representative microscopy images without quantification ([](#table4)).
+Here, interactive microscopy maps were used to reexamine the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
+This qualitative study was chosen because most results were representative microscopy images without quantification ([](#table4)).
 Using the protocols described in the original paper, a fully motorized confocal microscope sampled large images from replicate immunofluorescence experiments at high-magnification.
-Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and viewers based on Viv [@doi:10.1038/s41592-022-01482-7].
-All peer reviewers have access to the same data from which Barkley interpreted that the key findings of the original study were not replicable.
+Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and interactive viewers based on Viv [@doi:10.1038/s41592-022-01482-7], giving readers unprecedented exposure to data.
+Barkley found that alleged virus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts.
 
 Microscopy maps are interactive figures, yet static images predominate scientific publishing.
 Despite the benefits of virtual microscopy, representative images will continue to be used until mainstream journals adopt modern visualization tools.
@@ -38,8 +38,8 @@ Because static figures are commonly used in scientific communication, methods of
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to reduce bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The authors created a web server that selected typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
 
-To explore the possibility of using computers to select images, Barkley automated the process of sample collection and image selection from a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
-Representative images were then selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
+To explore the possibility of using computers to select images, this task was demonstrated on a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
+Representative images were selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
 Representative images were defined near the centroid of latent space, though counterexamples showed that this approach does not generalize to all datasets.
