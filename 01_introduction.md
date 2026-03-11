@@ -20,17 +20,16 @@ In practice, microscopy maps are easy to implement but are accessed via external
 From the perspective of biomedical researchers, the perceived cause is the pressure to publish [@doi:10.1371/journal.pbio.3002870].
 Repeatability within the same study by the same researchers is distinguished from replicability by independent researchers using the same methodology.
 Large-scale replicability studies found that only 11% [@doi:10.1038/483531a] and 25% [@doi:10.1038/nrd3439-c1] of key findings from preclinical cancer research papers were replicable.
-Another project evaluated the replicability of representative images, and even at its 'lowest bar', the study determined a replication rate of 79% for qualitative results [@doi:10.7554/eLife.71601].
+Another project evaluated the replicability of representative images and its 'lowest bar' criterion determined a replication rate of 79% for qualitative results [@doi:10.7554/eLife.71601].
 Furthermore, representative images without quantitative analysis accounted for 26% of the claimed effects.
 Consider that highly magnified representative images cannot describe population variation and the uncertainty of an observation.
 A feature of virtual microscopy is the unbiased sampling and transmission of multi-scale image data, making it useful as a method to replicate representative images.
 Results should be observed again with a high degree of reliability; therefore original claims should be evident in replicate microscopy maps.
 
 Here, interactive microscopy maps were used to reexamine the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
-This qualitative study was chosen because most results were representative microscopy images without quantification ([](#table4)).
+This study was chosen because most results were representative microscopy images without quantification ([](#table4)).
 Using the protocols described in the original paper, a fully motorized confocal microscope sampled large images from replicate immunofluorescence experiments at high-magnification.
 Microscopy maps were embedded using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and interactive viewers based on Viv [@doi:10.1038/s41592-022-01482-7], giving readers unprecedented exposure to data.
-Barkley found that alleged virus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts.
 
 Microscopy maps are interactive figures, yet static images predominate scientific publishing.
 Despite the benefits of virtual microscopy, representative images will continue to be used until mainstream journals adopt modern visualization tools.

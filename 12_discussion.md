@@ -13,8 +13,8 @@ The reality is that representative images can show rare, idealized, or exaggerat
 Microscopists are incentivized to show compelling evidence and omit contradictory data.
 The literature is full of exciting outcomes, but at the bench, experiments are nuanced and prone to failure.
 
-Representative images are figures, which is not to be confused with data.
-Data is the raw file from the microscope, while figures are visual representations of data, often shaped by the microscopist.
+Representative images are figures, which should not be confused with data.
+Data is the unprocessed file from the microscope, while figures are visual representations of data processed by the microscopist.
 Figures are the interface for peer review between the experimentalist and coauthors, principal investigators, reviewers and readers.
 Indeed, peer review seldom involves data and scientific discourse is limited by the information provided in figures.
 This bottleneck can be expanded with virtual microscopy, which is practical to the broader bioimaging community.
@@ -25,14 +25,13 @@ Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
 Because it nurtures open and rigorous peer review, microscopists and principal investigators might find virtual microscopy advantageous to make more robust claims with their bioimaging data.
 
-Barkley recognized the value of using virtual microscopy for replication studies.
+Barkley advocated for the use of virtual microscopy in qualitative replication studies.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
-To test this, Barkley replicated an experiment that reported images without numerical results.
-The original study showed apparent ER remodelling in reovirus-infected cells expressing mCherry-KDEL.
-In replication attempts, ER remodelling can be observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
-This suggests that experimental artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
-Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as originally described.
-This conclusion challenges the claim of reovirus-induced ER remodelling [@doi:10.1128/mBio.01253-18], but it is uniquely open to scrutiny with virtual microscopy.
+To test this, an experiment that reported ER remodeling in reovirus-infected cells expressing mCherry-KDEL was challenged.
+In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
+This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
+Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described.
+Therefore, alleged reovirus-induced ER remodeling [@doi:10.1128/mBio.01253-18] was unsubstantiated due to confounding experimental artifacts.
 
-There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet representativeness remains undefined, so the task is unsuitable for computers.
-To this end, an interesting future direction could be image categorization with an upstream classifier model.
+There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there remains no consensus on what is 'representative' in a dataset, so the task of image selection is unsuitable for computers.
+To this end, image categorization with an upstream classifier model could be a productive future direction.
