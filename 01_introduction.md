@@ -37,7 +37,7 @@ Because static figures are commonly used in scientific communication, methods of
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to reduce bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The authors created a web server that selected typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
 
-To explore the possibility of using computers to select images, this task was demonstrated on a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
+To explore the possibility of using computers to select images, it was demonstrated on a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
 Representative images were selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
