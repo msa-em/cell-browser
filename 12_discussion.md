@@ -33,5 +33,5 @@ This suggests that artifacts from mCherry-ER reporters could have been misinterp
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described.
 Therefore, alleged reovirus-induced ER remodeling [@doi:10.1128/mBio.01253-18] was unsubstantiated due to confounding experimental artifacts.
 
-There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], yet there remains no consensus on what is 'representative' in a dataset, so the task of image selection is unsuitable for computers.
+There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], however, this task is unsuitable for computers without further deliberation on what is 'representative' in a dataset.
 To this end, image categorization with an upstream classifier model could be a productive future direction.
