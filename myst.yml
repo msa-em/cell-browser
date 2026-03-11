@@ -81,8 +81,8 @@ project:
         - id: cornell
       roles:
         - Funding Acquisition
-        - Project Administration
         - Supervision
+        - Project Administration
         - Writing - review & editing
   abbreviations:
     Barkley: Russell JR Barkley

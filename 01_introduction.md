@@ -37,7 +37,7 @@ Because static figures are commonly used in scientific communication, methods of
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to reduce bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
 The authors created a web server that selected typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
 
-To explore the possibility of using computers to select images, it was demonstrated on a dataset of one million single-cell images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
+To explore the possibility of using computers to select images, Barkley made a dataset of one million images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
 Representative images were selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
@@ -56,10 +56,10 @@ A related term _virtual nanoscopy_ described the process of automated imaging an
 A _microscopy map_ is the interactive figure used to view virtual microscopy data [@doi:10.1083/jcb.201201140].
 This name fits broader use cases including light and electron microscopy.
 
-A _representative image_ is defined as a static figure made by microscopists to communicate results to other scientists.
-This definition is agnostic to the research context and it emphasizes the use of pictures as evidence to support claims.
+A _representative image_ is an illustration used by microscopists to exemplify research results to other scientists.
+This definition is agnostic to the research context and it emphasizes the use of pictures as scientific evidence.
 
-A _grayscale image_ is defined as a two-dimensional matrix where each pixel is a single intensity value ranging from $0-1$ that represents the amount of light or intensity information at a specific point [@doi:10.1109/BIP60195.2023.10379342].
+A _grayscale image_ is defined as a two-dimensional matrix where each pixel is a single intensity value ranging from 0-1 that represents the amount of light or intensity information at a specific point [@doi:10.1109/BIP60195.2023.10379342].
 
 A _latent space_ is a collection of vectors that form a reduced-dimensionality embedding of the data, fit by a machine learning model [@doi:10.1111/cgf.13672].
 :::
