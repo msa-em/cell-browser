@@ -28,16 +28,14 @@ Results should be observed again with a high degree of reliability; therefore or
 
 Here, interactive microscopy maps were used to reassess the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen because most of the results were representative microscopy images without quantification ([](#table4)).
-Using the protocols described in the original paper, a fully motorized confocal microscope was used to sample replicate immunofluorescence experiments at high-magnification.
-Microscopy maps were embedded in Elemental Microscopy using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and interactive viewers based on Viv [@doi:10.1038/s41592-022-01482-7], giving readers the means to freely inspect our data.
+Using the protocols described in the original paper, hundreds of overlapping tiles were sampled at high-magnification from replicate immunofluorescence experiments on a confocal microscope.
+Microscopy maps were embedded in Elemental Microscopy using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and interactive viewers based on Viv [@doi:10.1038/s41592-022-01482-7], giving readers the means to inspect data in publications.
 
 Microscopy maps are interactive figures, yet static images predominate scientific publishing.
 Despite the benefits of virtual microscopy, representative images will continue to be used until mainstream journals adopt modern visualization tools.
-Because static figures are commonly used in scientific communication, methods of computational image selection were also explored.
+Because static figures are common in scientific communication, methods of computational image selection were considered in the second chapter.
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to reduce bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
-The authors created a web server that selected typical images from uploaded data, but it is now unsupported and there is no modern equivalent.
-
-To explore the possibility of using computers to select images, Barkley made a dataset of one million images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
+To explore the possibility of using computers to select microscopy images, Barkley made a dataset of one million images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
 Representative images were selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
