@@ -6,7 +6,8 @@ numbering:
 
 Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
-The goal of the experiment was to image cells with coincident plasmid transfection and reovirus infection, and this map has ~300 examples marked.
+The goal of the experiment was to image cells with coincident plasmid transfection and reovirus infection. 
+This map has ~300 examples marked.
 
 ::::{figure}
 :label: fig7

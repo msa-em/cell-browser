@@ -20,10 +20,10 @@ Our approach involved automated image acquisition, multi-scale [pyramid](<wiki:P
 Cloud-based virtual microscopy. 1. Automated image acquisition with any suitable microscope. 2. Stitch and reformat to pyramidal DZI or OME-Zarr and host online. 3) As readers interact with embedded microscopy maps, image tiles or data chunks are retrieved from cloud storage.
 ```
 
-Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two alternative methods of virtual microscopy with OME-Zarr or Deep Zoom.
+Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), allowing two methods of virtual microscopy based on OME-Zarr or [Deep Zoom](<wiki:Deep_Zoom>).
 Authors can also build custom viewers.
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), the OME-Zarr viewer used in this article.
-Vizarr, OpenSeadragon and microATLAS are readily embeddable in Elemental Microscopy articles with the `:::{any:bundle}` directive.
+[Vizarr](#vizarr), [OpenSeadragon](#openseadragon) and [microATLAS](#microatlas) are readily embeddable in Elemental Microscopy articles with the `:::{any:bundle}` directive.
 
 ## OME-Zarr
 

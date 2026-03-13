@@ -8,13 +8,13 @@ Representative microscopy images are visual communication tools used by microsco
 The earliest representative microscopy images were hand-drawn in Robert Hooke's [Micrographia](<wiki:Micrographia>) in 1665.
 Today, roughly three-quarters of publications in biomedical journals report at least one microscopy image [@doi:10.7554/eLife.55133].
 There is an unspoken expectation that scientists rely on these images to be honest and accurate.
-However, microscopy image selection and quantitative analyses of those images are vulnerable to bias and deception [@doi:10.1242/jcs.261567].
+However, microscopy image selection and quantitative analyses thereof are vulnerable to bias and deception [@doi:10.1242/jcs.261567].
 Besides cherry-picking, scientists can sincerely misinterpret observations.
 The problem is that readers find it difficult to critically evaluate representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming, if at all available.
-These problems can be addressed with innovative visualization strategies like [virtual microscopy](<wiki:Virtual_microscopy>) that transmit entire interactive datasets over the internet.
+These problems can be addressed with novel visualization strategies like [virtual microscopy](<wiki:Virtual_microscopy>) that transmit entire interactive datasets over the internet.
 An example is the unbiased presentation of electron microscopy data to readers as interactive digital maps; microscopy maps [@doi:10.1083/jcb.201201140].
-In practice, microscopy maps are easy to implement but are accessed via external links or software [@doi:10.1242/jcs.262198].
+In practice, microscopy maps are easy to implement but are accessed via external links [@doi:10.1242/jcs.262198].
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge, yet there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
 From the perspective of biomedical researchers, the perceived cause is the pressure to publish [@doi:10.1371/journal.pbio.3002870].
@@ -28,7 +28,7 @@ Results should be observed again with a high degree of reliability; therefore or
 
 Here, interactive microscopy maps were used to reassess the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen because most of the results were representative microscopy images without quantification ([](#table4)).
-Using the protocols described in the original paper, hundreds of overlapping tiles were sampled at high-magnification from replicate immunofluorescence experiments on a confocal microscope.
+Using the protocols described in the original paper, hundreds of overlapping tiles were sampled at high-magnification from replicate immunofluorescence experiments on a motorized confocal microscope.
 Microscopy maps were embedded in Elemental Microscopy using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and interactive viewers based on Viv [@doi:10.1038/s41592-022-01482-7], giving readers the means to inspect data in publications.
 
 Microscopy maps are interactive figures, yet static images predominate scientific publishing.
