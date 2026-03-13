@@ -36,7 +36,7 @@ Therefore, reovirus-induced ER remodeling [@doi:10.1128/mBio.01253-18] was unsub
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], but what is 'representative' in a dataset needs further deliberation.
 To this end, image categorization with an upstream classifier model could be a productive future direction.
 Furthermore, criteria to evaluate methods of representative image selection are lacking.
-A suggested benchmark was the consistency in which members of the majority class were selected (https://doi.org/10.1016/s0006-3495(99)77379-0).
+A suggested benchmark was measuring the consistency in which the majority class was selected (https://doi.org/10.1016/s0006-3495(99)77379-0).
 However, not all biological datasets are classifiable.
 
 
