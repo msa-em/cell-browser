@@ -20,4 +20,4 @@ An image collection of over one million unique [cell nuclei](<wiki:Cell_nucleus>
 It is the sum of 100 automated confocal imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
 An autoencoder was trained on NucleusNet and representative images were defined near centroids of latent space.
 It was impossible to justify this approach because the latent space was uninterpretable.
-Machine learning models can be useful, but not if the task demands an understanding of the black box.
+Machine learning models can be useful, but not if the task relies on having an understanding of the internal workings of the model.

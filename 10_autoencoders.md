@@ -4,7 +4,7 @@ numbering:
   enumerator: 8.%s
 ---
 
-From the Deep Learning book {cite}`Goodfellow-et-al-2016`; an autoencoder is a neural network that is trained to copy its input to its output.
+From the Deep Learning book ({cite}`Goodfellow-et-al-2016`); an autoencoder is a neural network that is trained to copy its input to its output.
 Autoencoders originated in the eighties and its primary application was dimensionality reduction for information storage and retrieval.
 Autoencoders consist of two parts: an encoder and a decoder with hidden layers that describe the code used to represent the data.
 The autoencoder is restricted in some way that it is forced to prioritize which aspects of the input to copy, so it often learns useful properties of the data.
