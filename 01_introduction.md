@@ -28,7 +28,7 @@ Results should be observed again with a high degree of reliability; therefore or
 
 Here, microscopy maps were used to reassess the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 This study was chosen because most of the results were representative microscopy images without quantification ([](#table4)).
-Using the protocols described in the original paper, hundreds of overlapping tiles were sampled at high-magnification from replicate immunofluorescence experiments on a motorized confocal microscope.
+Using the protocols described in the original paper, hundreds of overlapping tiles were sampled at high-magnification from replicate immunofluorescence experiments on a fully motorized confocal microscope.
 Microscopy maps were embedded in the article using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and viewers based on Viv [@doi:10.1038/s41592-022-01482-7].
 
 Microscopy maps are interactive figures, yet static images predominate scientific publishing.
