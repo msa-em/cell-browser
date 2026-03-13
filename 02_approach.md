@@ -17,7 +17,7 @@ Our approach involved automated image acquisition, multi-scale [pyramid](<wiki:P
 
 ```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
-Cloud-based virtual microscopy. 1. Automated image acquisition with any suitable microscope. 2. Stitch and reformat to pyramidal DZI or OME-Zarr and host online. 3) As readers interact with embedded microscopy maps, image tiles or data chunks are retrieved from cloud storage.
+Cloud-based virtual microscopy. 1. Automated image acquisition with any suitable microscope. ZDC: Z drift compensation. 2. Stitch and reformat to pyramidal DZI or OME-Zarr and host online. 3) As readers interact with embedded microscopy maps, image tiles or data chunks are retrieved from cloud storage.
 ```
 
 Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling alternative methods of virtual microscopy based on OME-Zarr or [Deep Zoom](<wiki:Deep_Zoom>).

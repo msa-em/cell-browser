@@ -33,9 +33,9 @@ Microscopy maps were embedded in the article using the next generation file form
 
 Microscopy maps are interactive figures, yet static images predominate scientific publishing.
 Despite the benefits of virtual microscopy, representative images will continue to be used until mainstream journals adopt modern visualization tools.
-Because static figures are so common in scientific communication, methods of computational image selection were considered in the second chapter.
+Because conventional scientific communication uses static figures, methods of computational image selection were also considered.
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to reduce bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
-To explore the possibility of using computers to select microscopy images, Barkley made a dataset of one million images of the [cell nucleus](<wiki:Cell_nucleus>), called _NucleusNet_.
+To explore the possibility of using computers to select microscopy images, a dataset of one million images of the [cell nucleus](<wiki:Cell_nucleus>) was made called _NucleusNet_.
 Representative images were selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
 Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
 The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
