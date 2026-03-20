@@ -14,10 +14,10 @@ Microscopists are incentivized to show compelling evidence and omit contradictor
 The literature is full of exciting outcomes, but at the bench, experiments are nuanced and prone to failure.
 
 Representative images are figures, which should not be confused with data.
-Data is the unprocessed file from the microscope, while figures are visual representations of data processed by the microscopist.
+Data is the unprocessed file from the microscope, while figures are visual representations of data, shaped by the microscopist.
 Figures are the interface for peer review between the experimentalist and coauthors, principal investigators, reviewers and readers.
 Indeed, peer review seldom involves data and scientific discourse is limited by the information provided in figures.
-This bottleneck can be expanded with virtual microscopy, which is practical to the broader bioimaging community.
+This bottleneck is expanded by virtual microscopy, which is practical to the broader bioimaging community.
 For example, OME-Zarr [@doi:10.1007/s00418-023-02209-1] supports several modalities including multiplexed imaging, spatial transcriptomics, light-sheet, infrared, scanning EM and digital pathology.
 To maximize accessibility for readers, embedded interactive viewports retrieve data from cloud storage, which was supported by this journal.
 Virtual microscopy requires an internet connection, but this limitation is relatively unimportant for contemporary and future publishing.
@@ -25,19 +25,19 @@ Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
 Because it nurtures open and rigorous peer review, microscopists and principal investigators might find virtual microscopy advantageous to make more robust claims with their bioimaging data.
 
-Barkley advocated for the use of virtual microscopy in qualitative replication studies.
+Barkley advocated for the use of virtual microscopy in replicating published representative images.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
-To test this, an experiment that reported ER remodeling in reovirus-infected cells expressing mCherry-KDEL was challenged.
+To test this approach, the claim of ER remodeling in reovirus-infected cells [@doi:10.1128/mBio.01253-18] was challenged.
 In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described.
-Therefore, reovirus-induced ER remodeling [@doi:10.1128/mBio.01253-18] was unsubstantiated due to confounding experimental artifacts.
+Therefore, Barkley found that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts.
+The story of reovirus-induced ER remodeling was continued by the previous investigators with more representative images of cells expressing mCherry-KDEL [@doi:10.1128/jvi.01389-25].
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], but what is 'representative' in a dataset needs further deliberation.
-To this end, image categorization with an upstream classifier model could be a productive future direction.
-Furthermore, criteria to evaluate methods of representative image selection are lacking.
-A suggested benchmark was measuring the consistency in which the majority class was selected (https://doi.org/10.1016/s0006-3495(99)77379-0).
-However, not all biological datasets are classifiable.
+To this end, image categorization with an upstream classifier model could be a productive future direction for this task.
+Criteria to evaluate methods of representative image selection were also lacking, though a reasonable benchmark is the consistency in which members of the majority class are selected (https://doi.org/10.1016/s0006-3495(99)77379-0).
+This treats representative image selection as the inverse problem of anomaly detection, however, not all biological datasets are classifiable.
 
 
 
