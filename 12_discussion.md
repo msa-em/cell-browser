@@ -25,7 +25,8 @@ Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
 Because it nurtures open and rigorous peer review, microscopists and principal investigators might find virtual microscopy advantageous to make more robust claims with their bioimaging data.
 
-Barkley advocated for the use of virtual microscopy in replicating published representative images.
+The power of virtual microscopy is that readers get unprecedented exposure to data.
+Barkley advocated for the use of virtual microscopy in replication studies involving representative images.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
 To test this idea, the finding of ER remodeling in reovirus-infected cells [@doi:10.1128/mBio.01253-18] was challenged.
 In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
@@ -33,7 +34,7 @@ This suggests that artifacts from mCherry-ER reporters could have been misinterp
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described.
 Parker inspected the distribution of calreticulin between infected and uninfected cells and remarked that ER remodeling was unclear.
 Therefore, Barkley concluded that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts.
-The story of reovirus-induced ER remodeling was continued by the previous investigators with more representative images of cells expressing mCherry-KDEL [@doi:10.1128/jvi.01389-25].
+The story of reovirus-induced ER remodeling was continued by the previous investigators with more representative images [@doi:10.1128/jvi.01389-25].
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], but what is 'representative' in a dataset needs further deliberation.
 To this end, image categorization with an upstream classifier model could be a productive future direction for this task.
