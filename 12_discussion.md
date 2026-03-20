@@ -27,11 +27,12 @@ Because it nurtures open and rigorous peer review, microscopists and principal i
 
 Barkley advocated for the use of virtual microscopy in replicating published representative images.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
-To test this approach, the claim of ER remodeling in reovirus-infected cells [@doi:10.1128/mBio.01253-18] was challenged.
+To test this idea, the finding of ER remodeling in reovirus-infected cells [@doi:10.1128/mBio.01253-18] was challenged.
 In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described.
-Therefore, Barkley found that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts.
+Parker inspected the distribution of calreticulin between infected and uninfected cells and remarked that ER remodeling was unclear.
+Therefore, Barkley concluded that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts.
 The story of reovirus-induced ER remodeling was continued by the previous investigators with more representative images of cells expressing mCherry-KDEL [@doi:10.1128/jvi.01389-25].
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], but what is 'representative' in a dataset needs further deliberation.
