@@ -8,7 +8,7 @@ numbering:
 
 # Replication study
 
-Barkley noted the type data for each result in the original study.
+Barkley noted the type of data for each result in the original study and determined that 96% of results were qualitative.
 There were four data types; light microscopy image, electron microscopy image, correlative light-electron microscopy image, and quantitative analysis.
 Some figure panels had multiple images.
 If the images were unique examples, then the figure counted as more than one image.
