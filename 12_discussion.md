@@ -25,23 +25,19 @@ Web-based microscopy maps are trivial to make and share on Github [@doi:10.1242/
 Fraud prevention could incentivize publishers to adopt this technology as an alternative to static figures.
 Because it nurtures open and rigorous peer review, microscopists and principal investigators might find virtual microscopy advantageous to make more robust claims with their bioimaging data.
 
-Barkley advocated for the use of virtual microscopy as an unbiased method to replicate representative images.
+Barkley advocated for the use of virtual microscopy as an unbiased method to replicate highly magnified representative images.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
-Virtual microscopy is an unbiased method for replication because the data is collected with robotics and is viewed interactively in microscopy maps.
-To test this idea, an experiment that reported ER remodeling in reovirus-infected cells [@doi:10.1128/mBio.01253-18] was reexamined with virtual microscopy.
-Barkley hypothesized that fluorescent protein overexpression could have restructured the ER [@doi:10.1083/jcb.200306020], which was not addressed by the previous investigators.
+Virtual microscopy is unbiased insofar as the data is collected with robotics and is shared interactively on the web.
+To test this approach to replication, an immunofluorescence imaging experiment in reovirus-infected cells [@doi:10.1128/mBio.01253-18] was reexamined with virtual microscopy.
+Barkley thought that fluorescent proteins could have restructured the ER [@doi:10.1083/jcb.200306020], which was not addressed by the previous investigators.
 In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described.
-Therefore, Barkley concluded that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts.
-This interpretation was influenced by confirmation bias, so Parker provided an independent assessment of the data.
-Reovirus-induced ER remodeling was recently linked to annexin a2 [@doi:10.1128/jvi.01389-25].
+Barkley concluded that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts, though this interpretation was influenced by confirmation bias.
+Parker and Hinchman provided independent interpretations of the data.
+For further reading, reovirus-induced ER remodeling was linked to annexin a2 [@doi:10.1128/jvi.01389-25].
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], but what is 'representative' in a dataset needs further deliberation.
 To this end, image categorization with an upstream classifier model could be a productive future direction for this task.
 Criteria to evaluate methods of representative image selection were also lacking, though a reasonable benchmark is the consistency in which members of the majority class are selected (https://doi.org/10.1016/s0006-3495(99)77379-0).
 This frames representative image selection as the inverse of anomaly detection, however, not all biological datasets are classifiable.
-
-
-
-

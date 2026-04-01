@@ -129,6 +129,7 @@ project:
         - file: 17_replicate_four.md
         - file: 18_antibody_reovirus.md
         - file: 19_video.md
-        - file: 20_quiz.md
+        - file: 20_moxGFPmuNS.md
+        - file: 21_archival.md
 site:
   template: book-theme
