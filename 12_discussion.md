@@ -34,8 +34,8 @@ In replication attempts, ER remodeling was observed in transfected cells express
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described.
 Barkley concluded that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts, though this interpretation was influenced by confirmation bias.
-Parker and Hinchman provided independent interpretations of the data.
-For further reading, reovirus-induced ER remodeling was linked to annexin a2 [@doi:10.1128/jvi.01389-25].
+Coauthors were asked to provide independent interpretations of the data.
+Recently, reovirus-induced ER remodeling was associated with annexin a2 [@doi:10.1128/jvi.01389-25].
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], but what is 'representative' in a dataset needs further deliberation.
 To this end, image categorization with an upstream classifier model could be a productive future direction for this task.
