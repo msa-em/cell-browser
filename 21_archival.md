@@ -8,8 +8,8 @@ Recording large microscopy samples with hundreds of overlapping tiles can be val
 Barkley was previously interested in the finding that reovirus μNS colocalized with the ER [@doi:10.1128/mBio.01253-18].
 If the ER was involved in the formation of reovirus viral factories, heterogeneous nucleation could have explained the difference in distributions of moxGFP::μNS constructs.
 Indirect replication experiments were performed looking at CV-1 cells co-transfected with moxGFP::μNS and mCherry-ER reporters, but the results were unclear so this research direction was abandoned.
-Fortunately, samples from an experiment on September 14 2022 were imaged as one hundred overlapping tiles.
-This forgotten unpublished data was found during internal revisions and it was converted to OME-Zarr for reinterpretation as interactive microscopy maps.
+Fortunately, samples from an experiment performed on September 14 2022 were imaged with one hundred overlapping tiles.
+This forgotten data was found during internal revisions and it was converted to OME-Zarr for representation as interactive microscopy maps.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
