@@ -8,7 +8,7 @@ Here, data related to moxGFP::μNS(1-721) and moxGFP::μNS(472-721) biomolecular
 Barkley studied the distribution of condensates formed by these constructs with representative images and quantitative analyses, see Figure 4 [@doi:10.1091/mbc.E24-01-0013].
 The conclusion was that moxGFP::μNS(1-721) condensed better than moxGFP::μNS(472-721).
 
-### Quiz - Which moxGFP::μNS construct formed more condensates?
+### Which moxGFP::μNS construct formed more condensates?
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
@@ -34,6 +34,6 @@ pCI-neo moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected 
 Data was converted to 8-bit TIF, stitched, then converted to DZI format, hosted on Github Pages, and is viewed with OpenSeadragon.
 :::
 
-### moxGFP::μNS(1-721) nucleated more condensates than the mutant
+### Recording the formation of moxGFP::μNS condensates
 
 **ADD videos of nucleation.**
