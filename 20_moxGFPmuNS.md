@@ -36,4 +36,165 @@ Data was converted to 8-bit TIF, stitched, then converted to DZI format, hosted 
 
 ### Recording the formation of moxGFP::μNS condensates
 
-**ADD videos of nucleation.**
+::::{grid} 2 2 2 2
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nucleation/2022-09-29_FL.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "moxGFP::μNS(1-721)",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Loop",
+      "zoom": -3.995,
+      "target": [
+        2560,
+        2560,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true,
+          false,
+          false
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            255,
+            0,
+            255
+          ],
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "playback": {
+        "playing": true,
+        "fps": 24,
+        "startFrame": 1
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nucleation/2022-09-28_MR.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "moxGFP::μNS(472-721)",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "Loop",
+      "zoom": -3.995,
+      "target": [
+        2560,
+        2560,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true,
+          false,
+          false
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            255,
+            0,
+            255
+          ],
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "playback": {
+        "playing": true,
+        "fps": 24,
+        "startFrame": 1
+      },
+      "default": true
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 100,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+::::
