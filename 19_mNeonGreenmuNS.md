@@ -8,7 +8,7 @@ numbering:
 :label: sfig16
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/mNGmuNS_mCherryKDEL.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/video.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
