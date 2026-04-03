@@ -1,7 +1,7 @@
 ---
 title: Microscopy Map Archival
 numbering:
-  enumerator: 18.%s
+  enumerator: 19.%s
 ---
 
 We were previously interested in the finding that reovirus μNS colocalized with the ER [@doi:10.1128/mBio.01253-18].
