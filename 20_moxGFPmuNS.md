@@ -5,10 +5,13 @@ numbering:
 ---
 
 Here, data related to moxGFP::μNS(1-721) and moxGFP::μNS(472-721) biomolecular condensation was represented as interactive maps.
-Barkley studied the distribution of condensates formed by these constructs with representative images and quantitative analyses, see Figure 4 [@doi:10.1091/mbc.E24-01-0013].
-The conclusion was that moxGFP::μNS(1-721) condensed better than moxGFP::μNS(472-721).
+We studied the distributions of moxGFP::μNS condensates and found that moxGFP::μNS(1-721) nucleated better than moxGFP::μNS(472-721) [@doi:10.1091/mbc.E24-01-0013].
 
 ### Which moxGFP::μNS construct formed more condensates?
+
+:::{dropdown} Click to reveal the answer:
+moxGFP:μNS(1-721) (**left**) tends to condense more than moxGFP:μNS(472-721) (right).
+:::
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
@@ -23,10 +26,6 @@ The conclusion was that moxGFP::μNS(1-721) condensed better than moxGFP::μNS(4
 :::
 ::::
 
-:::{dropdown} Reveal the answer
-moxGFP:μNS(1-721) (**left**) tends to condense more than moxGFP:μNS(472-721) (right).
-:::
-
 :::{dropdown} Methods
 CV-1 cells were seeded on 35mm glass-bottom dishes (20mm coverslips, no 1.5 glass).
 pCI-neo moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected for 24 hours before PFA fixation.
@@ -34,7 +33,10 @@ pCI-neo moxGFP::μNS(1-721) and moxGFP::μNS(472-721) plasmids were transfected 
 Data was converted to 8-bit TIF, stitched, then converted to DZI format, hosted on Github Pages, and is viewed with OpenSeadragon.
 :::
 
-### Recording the formation of moxGFP::μNS condensates
+### Recording the formation of moxGFP::μNS condensates.
+
+Published data was converted to OME-Zarr for visualization as interactive microscopy maps [@doi:10.1091/mbc.E24-01-0013].
+CV-1 cells expressing moxGFP::μNS were imaged live at 4-5 hours post-transfection to monitor the nucleation of nascent factories at ~5 minute intervals.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
@@ -198,3 +200,8 @@ Data was converted to 8-bit TIF, stitched, then converted to DZI format, hosted 
 }
 :::
 ::::
+
+:::{dropdown} Methods
+See _Droplet nucleation time-lapse experiments_ in the materials and methods [@doi:10.1091/mbc.E24-01-0013].
+The plasma membrane was stained with Vybrant DiD cell-labeling solution, which is hidden by default.
+:::
