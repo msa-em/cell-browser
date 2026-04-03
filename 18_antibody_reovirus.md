@@ -13,7 +13,7 @@ The previous experiment used AlexaFluor549 secondary antibodies with the chicken
 :label: sfig15a
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample1.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_primary_secondary.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
@@ -92,7 +92,7 @@ The previous experiment used AlexaFluor549 secondary antibodies with the chicken
 ::::{grid} 3 3 3 3
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample2.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_primary.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -168,7 +168,7 @@ The previous experiment used AlexaFluor549 secondary antibodies with the chicken
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample3.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_secondary.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -244,7 +244,7 @@ The previous experiment used AlexaFluor549 secondary antibodies with the chicken
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample4.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_mock.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -326,7 +326,7 @@ The previous experiment used AlexaFluor549 secondary antibodies with the chicken
 :label: sfig15b
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample5.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_primary_secondary.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
@@ -405,7 +405,7 @@ The previous experiment used AlexaFluor549 secondary antibodies with the chicken
 ::::{grid} 3 3 3 3
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample6.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_primary.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -481,7 +481,7 @@ The previous experiment used AlexaFluor549 secondary antibodies with the chicken
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample7.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_secondary.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -557,7 +557,7 @@ The previous experiment used AlexaFluor549 secondary antibodies with the chicken
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment9/sample8.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_mock.zarr",
   "width": "210px",
   "height": "210px",
   "title": {

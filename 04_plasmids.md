@@ -21,7 +21,7 @@ Illumination settings were set based on the mCherry-KDEL sample with TransIT-202
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample3.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-KDEL.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -55,7 +55,7 @@ Illumination settings were set based on the mCherry-KDEL sample with TransIT-202
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample7.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-KDEL.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -89,7 +89,7 @@ Illumination settings were set based on the mCherry-KDEL sample with TransIT-202
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample2.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-CytERM.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -123,7 +123,7 @@ Illumination settings were set based on the mCherry-KDEL sample with TransIT-202
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample6.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-CytERM.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -157,7 +157,7 @@ Illumination settings were set based on the mCherry-KDEL sample with TransIT-202
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample4.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-Sec61b.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -191,7 +191,7 @@ Illumination settings were set based on the mCherry-KDEL sample with TransIT-202
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample8.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-Sec61b.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -225,7 +225,7 @@ Illumination settings were set based on the mCherry-KDEL sample with TransIT-202
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample1.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-Climp63.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -259,7 +259,7 @@ Illumination settings were set based on the mCherry-KDEL sample with TransIT-202
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment2/sample5.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-Climp63.zarr",
   "width": "323px",
   "height": "323px",
   "title": {

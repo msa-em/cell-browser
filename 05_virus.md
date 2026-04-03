@@ -26,7 +26,7 @@ At MOI 1, only a few infected cells were found and pinned on the map.
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample1.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi0.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -102,7 +102,7 @@ At MOI 1, only a few infected cells were found and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample5.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi0.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -178,7 +178,7 @@ At MOI 1, only a few infected cells were found and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample4.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi1.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -280,7 +280,7 @@ At MOI 1, only a few infected cells were found and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample8.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi1.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -430,7 +430,7 @@ At MOI 1, only a few infected cells were found and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample3.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi10.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -506,7 +506,7 @@ At MOI 1, only a few infected cells were found and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample7.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi10.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -582,7 +582,7 @@ At MOI 1, only a few infected cells were found and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample2.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi100.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -658,7 +658,7 @@ At MOI 1, only a few infected cells were found and pinned on the map.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment3/sample6.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi100.zarr",
   "width": "323px",
   "height": "323px",
   "title": {

@@ -11,7 +11,7 @@ The staining pattern was punctate, but it was sufficient to observe ER elements.
 :label: calreticulin
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample1.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/primary_secondary.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
@@ -38,7 +38,7 @@ Validating the α-calreticulin antibody in an immunofluorescence imaging assay.
 ::::{grid} 3 3 3 3
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample2.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/primary.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -61,7 +61,7 @@ Validating the α-calreticulin antibody in an immunofluorescence imaging assay.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample3.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/secondary.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -84,7 +84,7 @@ Validating the α-calreticulin antibody in an immunofluorescence imaging assay.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment1/sample4.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/mock.zarr",
   "width": "210px",
   "height": "210px",
   "title": {

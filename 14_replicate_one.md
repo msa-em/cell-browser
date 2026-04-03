@@ -12,7 +12,7 @@ ER remodeling was found independent of reovirus infection or transfection reagen
 :label: sfig11a
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample2.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/Transit.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
@@ -2203,7 +2203,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
 :label: sfig11b
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample1.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/LF3000.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
@@ -3409,7 +3409,7 @@ Transfected-infected cells. Transfection with Lipofectamine 3000 before reovirus
 :label: sfig11c
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment5/sample3.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/Untransfected.zarr",
   "width": "500px",
   "height": "500px",
   "title": {

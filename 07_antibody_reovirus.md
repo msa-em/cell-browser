@@ -17,7 +17,7 @@ Both the chicken ([Figure 6.1](#fig6a)) and guinea pig ([Figure 6.2](#fig6b)) α
 :label: fig6a
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample1.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/chicken_primary_secondary_Cycle_02.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
@@ -97,7 +97,7 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 ::::{grid} 3 3 3 3
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample2.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/chicken_primary_Cycle_02.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -173,7 +173,7 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample3.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/chicken_secondary_Cycle.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -249,7 +249,7 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample4.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/chicken_noantibody_Cycle.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -331,7 +331,7 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 :label: fig6b
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample5.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/guineapig_primary_secondary_Cycle_01.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
@@ -411,7 +411,7 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 ::::{grid} 3 3 3 3
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample6.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/guineapig_primary_Cycle_02.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -487,7 +487,7 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample7.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/guineapig_secondary_Cycle.zarr",
   "width": "210px",
   "height": "210px",
   "title": {
@@ -563,7 +563,7 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment4/sample8.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/guineapig_noantibody_Cycle.zarr",
   "width": "210px",
   "height": "210px",
   "title": {

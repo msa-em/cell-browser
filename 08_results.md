@@ -12,7 +12,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
 :label: fig7
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment8/sample2.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_4/goodZDC.zarr",
   "width": "500px",
   "height": "500px",
   "views": [

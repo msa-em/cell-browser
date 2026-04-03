@@ -8,7 +8,7 @@ numbering:
 :label: sfig13
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment7/infection_transfection_KDEL.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-KDEL_T1L.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
@@ -1420,7 +1420,7 @@ Transfected-infected cells expressing mCherry-KDEL.
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment7/infection_transfection_sec61b.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-Sec61b_T1L.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -2861,7 +2861,7 @@ Transfected-infected cells expressing mCherry-KDEL.
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment7/infection_transfection_cyterm.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-CytERM_T1L.zarr",
   "width": "323px",
   "height": "323px",
   "title": {

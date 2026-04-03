@@ -12,7 +12,7 @@ This forgotten data was found during internal revisions and it was converted to 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/archived_maps/FLclimp.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/archival/FLclimp.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -35,7 +35,7 @@ This forgotten data was found during internal revisions and it was converted to 
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/archived_maps/FLsec61b.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/archival/FLsec61b.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -58,7 +58,7 @@ This forgotten data was found during internal revisions and it was converted to 
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/archived_maps/MRclimp.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/archival/MRclimp.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -81,7 +81,7 @@ This forgotten data was found during internal revisions and it was converted to 
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/archived_maps/MRsec61b.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/archival/MRsec61b.zarr",
   "width": "323px",
   "height": "323px",
   "title": {

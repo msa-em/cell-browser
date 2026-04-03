@@ -4,13 +4,13 @@ numbering:
   enumerator: 12.%s
 ---
 
-Other mCherry-ER reporters were tested, though few cells had mCherry-Climp63.
+Other mCherry-ER reporters were tested, though few cells expressed mCherry-Climp63.
 
 ::::{figure}
 :label: sfig12
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment6/sample3.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-KDEL_T1L.zarr",
   "width": "500px",
   "height": "500px",
   "title": {
@@ -2548,7 +2548,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment6/sample4.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-KDEL.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -2813,7 +2813,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment6/sample1.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-Climp63_T1L.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -2972,7 +2972,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment6/sample2.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-CytERM_T1L.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
@@ -3887,7 +3887,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 :::
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://barkley-replication.s3.us-east-2.amazonaws.com/experiment6/sample5.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-Sec61b_T1L.zarr",
   "width": "323px",
   "height": "323px",
   "title": {
