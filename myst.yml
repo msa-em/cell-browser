@@ -134,6 +134,7 @@ project:
             - file: 18_antibody_reovirus.md
         - file: 19_mNeonGreenmuNS.md
         - file: 20_moxGFPmuNS.md
-        - file: 21_archival.md
+        - file: 21_nucleation.md
+        - file: 22_archival.md
 site:
   template: book-theme
