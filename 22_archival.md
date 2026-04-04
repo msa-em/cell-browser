@@ -1,12 +1,11 @@
 ---
-title: Microscopy Map Archival
+title: Example of Microscopy Map Archival
 numbering:
-  enumerator: 19.%s
+  enumerator: 20.%s
 ---
 
-We were previously interested in the finding that reovirus μNS colocalized with the ER [@doi:10.1128/mBio.01253-18].
-Indirect replication experiments were performed to assess the colocalization of moxGFP::μNS with mCherry-ER reporters, but the results were unclear so this research direction was abandoned.
-Fortunately, samples were recorded as one hundred overlapping tiles on an experiment dated September 14 2022.
+We were interested in the finding that reovirus μNS colocalized with the ER [@doi:10.1128/mBio.01253-18], so we performed colocalization experiments with moxGFP::μNS and mCherry-ER reporters, but the results were unclear so this research direction was abandoned.
+Fortunately, samples were imaged as overlapping tiles from an experiment dated **September 14 2022**.
 This forgotten data was found during internal revisions and it was converted to OME-Zarr for reinterpretation as interactive microscopy maps.
 
 ::::{grid} 2 2 2 2
