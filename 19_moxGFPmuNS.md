@@ -4,12 +4,9 @@ numbering:
   enumerator: 17.%s
 ---
 
-Here, data related to moxGFP::μNS(1-721) and moxGFP::μNS(472-721) biomolecular condensation was represented as interactive maps.
-We studied the distributions of moxGFP::μNS condensates and found that moxGFP::μNS(1-721) nucleated better than moxGFP::μNS(472-721) [@doi:10.1091/mbc.E24-01-0013].
-
 ### Which moxGFP::μNS construct formed more condensates?
 
-:::{dropdown} Click to reveal the answer:
+:::{dropdown} Reveal the answer
 moxGFP:μNS(1-721) (**left**) tends to condense more than moxGFP:μNS(472-721) (right).
 :::
 

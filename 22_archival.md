@@ -1,5 +1,5 @@
 ---
-title: Example of Microscopy Map Archival
+title: Example of Map Archival
 numbering:
   enumerator: 20.%s
 ---

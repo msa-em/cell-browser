@@ -173,5 +173,5 @@ CV-1 cells expressing moxGFP::μNS were imaged live at 4-5 hours post-transfecti
 ::::
 
 :::{dropdown} Methods
-See _Droplet nucleation time-lapse experiments_ [@doi:10.1091/mbc.E24-01-0013].
+For details, see _Droplet nucleation time-lapse experiments_ [@doi:10.1091/mbc.E24-01-0013].
 :::
