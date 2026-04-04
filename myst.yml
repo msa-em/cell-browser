@@ -132,11 +132,13 @@ project:
         - title: Repetition Experiments
           children:
             - file: 18_antibody_reovirus.md
+            - file: 23_plasmids_repeat.md
         - file: 19_moxGFPmuNS.md
         - title: Videos
           children:
             - file: 20_mNeonGreenmuNS.md
             - file: 21_nucleation.md
         - file: 22_archival.md
+        - file: 24_whorls.md
 site:
   template: book-theme
