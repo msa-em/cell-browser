@@ -1,5 +1,5 @@
 ---
-title: moxGFP::μNS
+title: Molecular Biology Example
 numbering:
   enumerator: 17.%s
 ---

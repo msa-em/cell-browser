@@ -1,5 +1,5 @@
 ---
-title: Example of Map Archival
+title: Archived Maps
 numbering:
   enumerator: 20.%s
 ---

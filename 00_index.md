@@ -7,7 +7,7 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Static figures are the interface for scientific discourse and peer review, so microscopists invariably communicate experimental results through representative images and plots.
+Static figures are the standard interface for scientific discourse and peer review, so microscopists invariably communicate experimental results through representative images and plots.
 This article focuses on virtual microscopy, a novel visualization strategy for researchers to share microscopy data in publications.
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimages as an unbiased alternative to representative images.
 These features made virtual microscopy useful for the critical appraisal of qualitative microscopy studies.
@@ -27,7 +27,7 @@ _Updated 2025 September 27_
 
 +++ {"part":"acknowledgements"}
 
-Barkley wants to thank the Baker Institute for Animal Health at Cornell and its philanthropic donors for the financial support of this unfunded project.
+We thank the Baker Institute for Animal Health for supporting this unfunded project.
 
 +++
 
@@ -42,4 +42,6 @@ Last names were sometimes used to separate the author's voices, interpretations 
 
 ## Data availability
 
-NucleusNet was zipped and archived on Zenodo.
+NucleusNet was zipped and uploaded to Zenodo.
+OME-Zarr data was hosted on the [Open Storage Network](https://openstoragenetwork.github.io/), funded by an [ACCESS allocation](https://allocations.access-ci.org/).
+Deep Zoom Images were hosted on [Github](https://github.com/RussellBarkley).
