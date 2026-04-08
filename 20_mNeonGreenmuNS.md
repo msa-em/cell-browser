@@ -1,7 +1,7 @@
 ---
-title: mNeonGreen::μNS + mCherry-KDEL
+title: mNeonGreen::μNS
 numbering:
-  enumerator: 18.%s
+  enumerator: 19.%s
 ---
 
 ::::{figure}

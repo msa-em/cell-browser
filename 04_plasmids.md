@@ -15,10 +15,8 @@ mCherry-Climp63 was a control for ER remodeling, given its role in determining E
 
 ## Lipofectamine 3000 (left) and TransIT-2020 (right)
 
-This experiment was preregistered in internal peer review based on feedback from Parker and the original experiment was moved to the Supplemental.
 HeLa cells were imaged after one day of transfection with mCherry-ER reporters.
-In this repetition, the illumination settings were adjusted, if necessary, to balance the dynamic range of samples.
-We agreed that the goal of the experiment was to show the distribution of mCherry-ER fusions.
+The illumination settings were adjusted individually based on feedback from Parker.
 
 ::::{grid} 2 2 2 2
 

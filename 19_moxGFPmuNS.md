@@ -1,7 +1,7 @@
 ---
 title: Molecular Biology Example
 numbering:
-  enumerator: 17.%s
+  enumerator: 18.%s
 ---
 
 ### Which moxGFP::μNS construct formed more condensates?

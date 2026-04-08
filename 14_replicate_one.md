@@ -1,5 +1,5 @@
 ---
-title: Replication Attempt 1
+title: Experiment 1
 numbering:
   enumerator: 11.%s
 ---

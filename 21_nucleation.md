@@ -1,7 +1,7 @@
 ---
-title: moxGFP::μNS Nucleation
+title: moxGFP::μNS
 numbering:
-  enumerator: 19.%s
+  enumerator: 20.%s
 ---
 
 ### Recording the formation of moxGFP::μNS condensates

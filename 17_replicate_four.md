@@ -1,5 +1,5 @@
 ---
-title: Replication Attempt 4
+title: Experiment 4
 numbering:
   enumerator: 14.%s
 ---
