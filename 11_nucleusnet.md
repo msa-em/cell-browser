@@ -209,4 +209,4 @@ Otherwise, the cropped images in NucleusNet were not processed further.
 
 ## Code
 
-Scripts used to for data processing and autoencoder training were deposited in a [Github repository](https://github.com/RussellBarkley/MSA-EM_code).
+Python scripts used for data processing and autoencoder training were deposited on [Github](https://github.com/RussellBarkley/MSA-EM_code).
