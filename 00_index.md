@@ -40,8 +40,8 @@ Last names were sometimes used to separate the author's voices, interpretations 
 
 +++
 
-## Data availability
+## Data Availability
 
-NucleusNet was zipped and uploaded to Zenodo.
-OME-Zarr data was hosted on the [Open Storage Network](https://openstoragenetwork.github.io/), funded by an [ACCESS allocation](https://allocations.access-ci.org/).
-Deep Zoom Images were hosted on [Github](https://github.com/RussellBarkley).
+NucleusNet was zipped and uploaded to Zenodo [@doi:10.5281/zenodo.18776681].
+OME-Zarr data was hosted on the [Open Storage Network](https://openstoragenetwork.github.io/) funded by an [ACCESS allocation](https://allocations.access-ci.org/).
+Deep Zoom Images were hosted on [Github](https://github.com/RussellBarkley) Pages.

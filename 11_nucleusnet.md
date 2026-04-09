@@ -206,3 +206,7 @@ Similarly, a multi-encoder variational autoencoder model controlled for several 
 Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting a minimal-area rectangle to the mask for rotation. 
 Nuclei were center-cropped and all values outside of the mask were set to zero in the cropped images.
 Otherwise, the cropped images in NucleusNet were not processed further.
+
+## Code
+
+Scripts used to for data processing and autoencoder training were deposited in a [Github repository](https://github.com/RussellBarkley/MSA-EM_code).

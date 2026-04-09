@@ -4,7 +4,7 @@ numbering:
   enumerator: 3.%s
 ---
 
-## mCherry-ER reporters
+## mCherry-ER fusions
 
 mCherry-KDEL was the same construct used in the original study; mCherry-ER-3 plasmid (55041, Addgene), which retains mCherry in the lumen of the ER.
 Barkley included mCherry-CytERM-N-17 (55024, Addgene) to retain mCherry on the cytoplasmic side.
@@ -12,14 +12,604 @@ mCherry-CytERM was considered a positive control for ER remodelling because orga
 Calreticulin should also be detectable in OSER whorls with immunofluorescence imaging [@doi:10.1083/jcb.200306020].
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
 mCherry-Climp63 was a control for ER remodeling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
-
-## Lipofectamine 3000 (left) and TransIT-2020 (right)
-
-HeLa cells were imaged after one day of transfection with mCherry-ER reporters.
+HeLa cells were imaged after one day of transfection with plasmids encoding mCherry-ER fusions.
+Trans-IT 2020, the transfection reagent used in the original study was compared to Lipofectamine 3000.
 The illumination settings were adjusted individually based on feedback from Parker.
+Repetitions were presented in the Supplemental section.
 
 ::::{grid} 2 2 2 2
-
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle_02.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-KDEL (Lipofectamine)",
+    "position": "top-center",
+    "margin": 12,
+    "fontSize": 16,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "ER remodeling",
+      "zoom": -0.798,
+      "target": [
+        11053,
+        10028,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            2208
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_KDEL_Cycle_02.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-KDEL (Trans-IT 2020)",
+    "position": "top-center",
+    "margin": 12,
+    "fontSize": 16,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "ER remodeling",
+      "zoom": -1.066,
+      "target": [
+        9952,
+        424,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_cytER_Cycle.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-CytERM (Lipofectamine)",
+    "position": "top-center",
+    "margin": 12,
+    "fontSize": 16,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "ER remodeling",
+      "zoom": -1.066,
+      "target": [
+        5994,
+        4032,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_cyter_Cycle_03.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-CytERM (Trans-IT 2020)",
+    "position": "top-center",
+    "margin": 12,
+    "fontSize": 16,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "ER remodeling",
+      "zoom": -0.51,
+      "target": [
+        10587,
+        9413,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_sec61_Cycle_02.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-Sec61β (Lipofectamine)",
+    "position": "top-center",
+    "margin": 12,
+    "fontSize": 16,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "ER remodeling",
+      "zoom": -0.51,
+      "target": [
+        11070,
+        3818,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_sec_Cycle_01.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-Sec61β (Trans-IT 2020)",
+    "position": "top-center",
+    "margin": 12,
+    "fontSize": 16,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "ER remodeling",
+      "zoom": -0.51,
+      "target": [
+        9912,
+        1666,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_climp_Cycle.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-Climp63 (Lipofectamine)",
+    "position": "top-center",
+    "margin": 12,
+    "fontSize": 16,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "ER remodeling",
+      "zoom": -1.621,
+      "target": [
+        11242,
+        13229,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_climp_Cycle_01.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "mCherry-Climp63 (TransIT-2020)",
+    "position": "top-center",
+    "margin": 12,
+    "fontSize": 16,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "views": [
+    {
+      "name": "ER remodeling",
+      "zoom": -0.332,
+      "target": [
+        6544,
+        6534,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          false,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      }
+    }
+  ],
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
 ::::
 
 :::{important} Alternative hypothesis
