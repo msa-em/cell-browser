@@ -133,6 +133,7 @@ project:
           children:
             - file: 18_antibody_reovirus.md
             - file: 23_plasmids_repeat.md
+            - file: 24_plasmids_repeat.md
         - file: 19_moxGFPmuNS.md
         - title: Videos
           children:
