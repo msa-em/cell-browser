@@ -6,7 +6,6 @@ numbering:
 
 We were interested in the finding that reovirus μNS colocalized with the ER [@doi:10.1128/mBio.01253-18], so we performed colocalization experiments with moxGFP::μNS and mCherry-ER reporters, but the results were unclear so this research direction was abandoned.
 Fortunately, overlapping tiles were recorded on an experiment dated **September 14 2022**, which was converted to OME-Zarr for reinterpretation as interactive microscopy maps.
-The significance of this figure is that it demonstrated the use of microscopy maps as a method of archiving experiments.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js

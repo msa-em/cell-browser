@@ -7,7 +7,7 @@ numbering:
 ### Recording the formation of moxGFP::μNS condensates
 
 Published data was converted to OME-Zarr for visualization as interactive microscopy maps [@doi:10.1091/mbc.E24-01-0013].
-CV-1 cells expressing moxGFP::μNS were imaged live at 4-5 hours post-transfection to monitor the nucleation of nascent factories at ~5 minute intervals.
+Live CV-1 cells expressing moxGFP::μNS were recorded at ~5 minute intervals starting at 4-5 hours post-transfection to monitor droplet nucleation.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js

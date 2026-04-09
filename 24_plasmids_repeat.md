@@ -1,14 +1,13 @@
 ---
-title: Undesired Maps
+title: Undesirable Maps
 numbering:
   enumerator: 17.%s
 ---
 
-These maps were duplicates of samples from the main figure.
-Fixed specimens were refrigerated for less than one week and some samples were reimaged for more desirable outcomes.
-Undesirable features were the presence of air bubbles in the immersion oil and pixel saturation.
-Some maps reimaged the same location with different illumination settings, and other maps were new locations of the specimen.
-This figure shares all data from the experiment that was not presented in the main figure.
+In this experiment, fixed specimens were refrigerated and reimaged for desirable maps.
+Undesirable features were the presence of air bubbles in the immersion oil or pixel saturation in the mCherry channel.
+Some maps resampled the same location with different illumination settings, and other maps were new locations of the specimen.
+All data not included in the main figure was shown here.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js

@@ -5,7 +5,7 @@ numbering:
 ---
 
 Illumination settings were set based on the mCherry-KDEL sample with TransIT-2020, so there is pixel saturation in some samples.
-The experiment was repeated and the original figure was moved here.
+Based on feedback from Parker, this experiment was repeated and the original figure was moved here.
 
 ## Lipofectamine 3000 (left) and TransIT-2020 (right)
 

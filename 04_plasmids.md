@@ -14,8 +14,8 @@ Two additional constructs were included with ER proteins fused to mCherry; mCh-C
 mCherry-Climp63 was a control for ER remodeling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
 HeLa cells were imaged after one day of transfection with plasmids encoding mCherry-ER fusions.
 Trans-IT 2020, the transfection reagent used in the original study was compared to Lipofectamine 3000.
-The illumination settings were adjusted individually based on feedback from Parker.
-Repetitions were presented in the Supplemental section.
+Parker advised adjusting the illumination settings individually to avoid pixel saturation.
+All repetitions were shown in the Supplemental.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
@@ -84,9 +84,9 @@ Repetitions were presented in the Supplemental section.
     }
   ],
   "scaleBar": {
-    "maxWidth": 50,
+    "maxWidth": 100,
     "position": "bottom-right",
-    "fontSize": 10,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.9)"
   }
@@ -158,9 +158,9 @@ Repetitions were presented in the Supplemental section.
     }
   ],
   "scaleBar": {
-    "maxWidth": 50,
+    "maxWidth": 100,
     "position": "bottom-right",
-    "fontSize": 10,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.9)"
   }
@@ -232,9 +232,9 @@ Repetitions were presented in the Supplemental section.
     }
   ],
   "scaleBar": {
-    "maxWidth": 50,
+    "maxWidth": 100,
     "position": "bottom-right",
-    "fontSize": 10,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.9)"
   }
@@ -306,9 +306,9 @@ Repetitions were presented in the Supplemental section.
     }
   ],
   "scaleBar": {
-    "maxWidth": 50,
+    "maxWidth": 100,
     "position": "bottom-right",
-    "fontSize": 10,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.9)"
   }
@@ -380,9 +380,9 @@ Repetitions were presented in the Supplemental section.
     }
   ],
   "scaleBar": {
-    "maxWidth": 50,
+    "maxWidth": 100,
     "position": "bottom-right",
-    "fontSize": 10,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.9)"
   }
@@ -454,9 +454,9 @@ Repetitions were presented in the Supplemental section.
     }
   ],
   "scaleBar": {
-    "maxWidth": 50,
+    "maxWidth": 100,
     "position": "bottom-right",
-    "fontSize": 10,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.9)"
   }
@@ -528,9 +528,9 @@ Repetitions were presented in the Supplemental section.
     }
   ],
   "scaleBar": {
-    "maxWidth": 50,
+    "maxWidth": 100,
     "position": "bottom-right",
-    "fontSize": 10,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.9)"
   }
@@ -602,9 +602,9 @@ Repetitions were presented in the Supplemental section.
     }
   ],
   "scaleBar": {
-    "maxWidth": 50,
+    "maxWidth": 100,
     "position": "bottom-right",
-    "fontSize": 10,
+    "fontSize": 12,
     "font": "Arial",
     "color": "rgba(255,255,255,0.9)"
   }
