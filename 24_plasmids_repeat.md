@@ -4,10 +4,10 @@ numbering:
   enumerator: 17.%s
 ---
 
-In this experiment, fixed specimens were refrigerated and reimaged for desirable maps.
+In this experiment, fixed specimens were refrigerated and maps were reimaged for favourable outcomes.
 Undesirable features were the presence of air bubbles in the immersion oil or pixel saturation in the mCherry channel.
 Some maps resampled the same location with different illumination settings, and other maps were new locations of the specimen.
-All data that was not used in the main figure was shown here.
+Data that was not used in the main figure was shown here.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js

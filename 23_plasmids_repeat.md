@@ -283,3 +283,10 @@ Based on feedback from Parker, this experiment was repeated and the original fig
 }
 :::
 ::::
+
+:::{dropdown} Methods
+HeLa cells were seeded on 12mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar).
+Lipofectamine 3000 (L3000015, Invitrogen) was used with 12-well plates; 62.5µl Opti-MEM (31985-062, Gibco) was mixed with 2.5µl P3000 reagent and 1.25µg DNA, and another tube of 62.5µl Opti-MEM was mixed with 1.875µl lipofectamine 3000 reagent. 
+The tubes were mixed, incubated for 20 minutes, then added dropwise to the samples.
+TransIT-2020 Reagent (MIR 5400, Mirus) was used with 12-well plates; 125µl Opti-MEM was mixed with 1.25µg DNA, mixed gently, then 3.75µl TransIT-2020 was added and mixed, followed by 20 minutes of incubation and dropwise addition to the samples.
+:::

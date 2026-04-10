@@ -149,3 +149,5 @@ Four of these fluorescent proteins can be cross-referenced with estimates of the
 }
 :::
 ::::
+
+:::{dropdown} Methods
