@@ -13,9 +13,9 @@ Calreticulin should also be detectable in OSER whorls with immunofluorescence im
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
 mCherry-Climp63 was another control for ER remodeling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
 HeLa cells were imaged after one day of transfection with plasmids encoding mCherry-ER fusions.
-Trans-IT 2020, the transfection reagent used in the original study was compared to Lipofectamine 3000.
-Parker advised adjusting the illumination settings individually to avoid pixel saturation.
-All repetitions were shown in the Supplemental.
+Trans-IT 2020 and Lipofectamine 3000 transfections reagents were compared.
+Parker advised adjusting the illumination settings individually to try to avoid oversaturating the images.
+Repetitions are available in the Supplemental.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
@@ -182,6 +182,57 @@ All repetitions were shown in the Supplemental.
   },
   "views": [
     {
+      "name": "Adjusted contrast",
+      "description": "Calreticulin channel",
+      "zoom": -5.512,
+      "target": [
+        7323,
+        7323,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            3500
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    },
+    {
       "name": "ER remodeling",
       "zoom": -1.066,
       "target": [
@@ -256,6 +307,57 @@ All repetitions were shown in the Supplemental.
   },
   "views": [
     {
+      "name": "Adjusted contrast",
+      "description": "Calreticulin channel",
+      "zoom": -5.512,
+      "target": [
+        7323,
+        7323,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            3500
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    },
+    {
       "name": "ER remodeling",
       "zoom": -0.51,
       "target": [
@@ -329,6 +431,57 @@ All repetitions were shown in the Supplemental.
     "style": "text"
   },
   "views": [
+    {
+      "name": "Adjusted contrast",
+      "description": "Calreticulin channel",
+      "zoom": -5.512,
+      "target": [
+        7323,
+        7323,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true,
+          true,
+          true
+        ],
+        "channelColors": [
+          [
+            0,
+            255,
+            0
+          ],
+          [
+            0,
+            0,
+            255
+          ],
+          [
+            255,
+            0,
+            0
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            3500
+          ],
+          [
+            0,
+            4095
+          ],
+          [
+            0,
+            4095
+          ]
+        ],
+        "blendMode": "single",
+        "colormap": "viridis"
+      },
+      "default": true
+    },
     {
       "name": "ER remodeling",
       "zoom": -0.51,
