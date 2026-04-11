@@ -53,38 +53,34 @@ NucleusNet-10K: One hundred random images from one hundred experiments (n=10,000
 
 1. Computation of theoretical average images
 
-An autoencoder model was trained on NucleusNet for 50 epochs ([](#sfig10c).
-Theoretical latent vectors were calculated using measures of central tendency, including the arithmetic mean, median and geometric median.
-Averaged latent vectors were decoded to synthesize theoretical representative images of the nucleus ([](#fig9d)).
-Theoretical representative images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342].
-These examples appear to blend all image features from the dataset.
+An autoencoder model was trained on NucleusNet for 50 epochs ([](#sfig10c)) to test the two-step approach to image selection (without labels).
+Theoretical average latent vectors were calculated and decoded to synthesize theoretical representative images of the nucleus ([](#fig9d)).
+Theoretical images do not necessarily look like real data [@doi:10.1109/BIP60195.2023.10379342] and the examples appeared to blend image features.
 
 :::{figure} #fig9d_data
 :label: fig9d
 :placeholder: ./figures/fig9d.png
-Figure legend.
+Reconstructing average latent vectors from an autoencoder trained on NucleusNet.
 :::
 
-2. Determination of a prototypical image
+2. Determination of prototypical images
 
-Vectors corresponding to real images were ranked by euclidean distance to the theoretical mean of latent space.
-Using this metric yielded one representative image ([](#fig9e)).
+Encoded images were ranked by euclidean distance to the mean vector to define the nearest example ([](#fig9e)).
 
 ```{figure} ./figures/fig9e.png
 :label: fig9e
-Image to represent NucleusNet: ROI_300 from stitched image Run11BR_bottom_right.
+Representative image of NucleusNet: ROI_300 from Run11BR_bottom_right.
 ```
 
 ## Conclusions
 
-Barkley interpreted the representative image as an interphase nucleus with muted features given the variability shown in NucleusNet-10K ([](#fig9c)).
-Disentangling the dimensions of latent space is unrealistic, so it is impossible to justify this method.
-However, based on the reconstructed MNIST digits, Barkley conjectured that decoded latent centroids behave like average projections.
-From this perspective, the representative image ([](#fig9e)) can be interpreted as an example that blends all image features in the set.
+Disentangling latent space is unrealistic, so it is hard to justify using this method for the task of image selection.
+Barkley thought that decoded latent centroids behaved like average projections.
+From this perspective, the representative image ([](#fig9e)) could be interpreted as one that blends all features in the dataset.
 
-This conclusion is intentionally vague because it depends on model configurations, so other autoencoders will produce different results.
-For example, similarity between the [projection](#fig8a) and [autoencoder](#fig8c) could be attributed to average pooling layers in the encoder.
-Textures and patterns in decoded images could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
+The outcome also depends on model configurations, so other autoencoders will give different results.
+For example, similarities observed between the [projection](#fig8a) and [autoencoder](#fig8c) could be attributed to average pooling layers in the encoder.
+Textures and patterns in reconstructions could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
 
 ---
 
@@ -93,13 +89,13 @@ Textures and patterns in decoded images could be biologically meaningful, or the
 ## Cell culture
 
 The CV-1 cell line is fibroblast-like and derived from the kidney of an African green monkey.
-CV-1 cells were cultured in Eagle's minimal essential medium supplemented with 10% fetal bovine serum at 37 degrees celsius with 5 percent environmental carbon dioxide to buffer pH.
-At each passage, six glass-bottom cell culture dishes with a 20mm diameter coverslip (Mattek Corporation, P35G-1.5-20-C) were seeded with varied densities of CV-1 cells (~1e4-5e4 cells) to promote heterogeneous cell confluence.
+CV-1 cells were cultured in Eagle's minimal essential medium supplemented with 10% fetal bovine serum at 37C with 5% carbon dioxide to buffer pH.
+At each passage, six glass-bottom cell culture dishes with 20mm diameter coverslips (Mattek Corporation, P35G-1.5-20-C) were seeded with varied densities of CV-1 cells (~1e4-5e4 cells) to vary cell confluence.
 
 ## Sample preparation
 
-The samples were fixed with 4% paraformaldehyde for twenty minutes after one to three days of incubation when the cells approached confluence.
-After fixation, the samples were washed with phosphate buffered saline (PBS) then were refrigerated at 4 degrees celsius for storage.
+The samples were fixed with 4% paraformaldehyde for twenty minutes after one to three days of incubation as the cells approached confluence.
+After fixation, the samples were washed with phosphate buffered saline (PBS) then were refrigerated at 4C for short-term storage.
 Nuclei were labelled with Nucblue Fixed Cell ReadyProbes Reagent (DAPI) (ThermoFisher Scientific, R37606) in 1 milliliter of PBS for at least 30 minutes then were imaged in the staining solution at room temperature.
 
 ## Image acquisition
@@ -141,7 +137,7 @@ The confocal microscope was on a pressurized CleanBench isolation laboratory tab
 :label: sampling
 :align: center
 :width: 100%
-An overview of data collection and pre-processing. A) Tiles were imaged in a 50x50 grid. B) Then stitched into 25x25 tile grids (quarters). C) Quarters were cropped into four stitched images.
+Overview of data collection and pre-processing. A) Tiles were imaged in 50x50 grids, B) Stitched into 25x25 tile grids (quarters), C) Cropped into four stitched images.
 ```
 
 1. Conversion to 8-bit .TIF format
@@ -190,22 +186,22 @@ The stitched quarters were then cropped into four quarters, yielding n=16 stitch
 Nuclei were masked in the stitched images using a custom [cellpose](https://github.com/MouseLand/cellpose) model [@doi:10.1038/s41592-020-01018-x].
 Cellpose was suitable for segmentation because cell division created instances where two nuclear bodies were separated in space but should count as one ROI.
 Specifically, mitotic figures in [anaphase](#anaphase) or [telophase](#telophase) were considered one ROI, and [micronuclei](<wiki:Micronucleus>) and nuclei were masked together.
-There were also instances where two or more distinct nuclei made contact but should be separate masks.
-Masking by the cellpose segmentation model can be evaluated on ten representative stitched images [here](https://russellbarkley.github.io/cellpose_masks/) ([](#tableS1)).
-Unique masks were assigned random colours in the overlay to help differentiate ROIs.
+There were also instances where two or more nuclei made contact but should be counted as separate masks.
+The cellpose segmentation model can be evaluated further in [Deep Zoom Images](https://russellbarkley.github.io/cellpose_masks/) hosted on Github [@doi:10.1242/jcs.262198].
+Unique masks were assigned random colours in the overlays to differentiate ROIs.
 
-The cellpose nucleus model was re-trained on N=125000 fields from NucleusNet, including n=1000 fields with manually-segmented nuclei.
+The cellpose nucleus model was retrained on N=125000 TIF fields from NucleusNet including n=1000 fields with manual segmentations.
 The weights for the chosen model, CP_20250418_Nuclei_1Kmasks, were deposited in /data/cellpose/.
 Advanced parameters in the graphical user interface were adjusted to flow_threshold: 0.5, cellprob_threshold: -2.0, diameter (pixels): 152.91.
 The cellpose model segmented the nuclei in all stitched images and the mask files were saved as PNG files where each region of interest (ROI) is defined by a unique pixel value.
 
 4. Cropped single cell masked dataset
 
-The orientation of a cell is known to confound the vector embedding of autoencoder models trained on single-cell microscopy data, motivating the development of orientation-invariant autoencoder models [@doi:10.1038/s41467-024-45362-4].
-Similarly, a multi-encoder variational autoencoder model controlled for several transformational features like orientation that were deemed 'uninformative' in single-cell analyses [@doi:10.1038/s42003-022-03218-x].
-Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting a minimal-area rectangle to the mask for rotation. 
-Nuclei were center-cropped and all values outside of the mask were set to zero in the cropped images.
-Otherwise, the cropped images in NucleusNet were not processed further.
+The orientation of cells confounds the vector embedding of autoencoder models trained on single-cell microscopy data, which motivated the development of orientation-invariant autoencoder models [@doi:10.1038/s41467-024-45362-4].
+Similarly, a multi-encoder variational autoencoder model controlled several transformational features like orientation that were deemed uninformative [@doi:10.1038/s42003-022-03218-x].
+Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting a bounding box to the mask to rotate the major axis. 
+The ROIs were center-cropped and all values outside of the mask were set to zero.
+Otherwise, the cropped images in NucleusNet v0.1 were not processed further.
 
 ## Code
 

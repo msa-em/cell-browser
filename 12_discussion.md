@@ -7,7 +7,7 @@ numbering:
 Every academic discipline has ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
 If biomedical researchers endorse [empiricism](<wiki:Empiricism>) and objectivity, then why are representative images sufficient to make claims?
 A representative image definitively shows that an observation is possible, but a single image cannot describe frequency or variance.
-Like [<wiki:Schrödinger's_cat>], unobserved systems have combinations of outcomes that cannot be observed simultaneously.
+Like [Schrödinger's cat](<wiki:Schrödinger's_cat>), unobserved systems have combinations of outcomes that cannot be observed simultaneously.
 Virtual microscopy makes this loophole significantly harder to exploit.
 A general principle of the [scientific method](<wiki:Scientific_method>) is [reproducibility](<wiki:Reproducibility>).
 Repeatability is often described using quantitative analysis, but without numerical results, representative images cannot communicate repeatability.
