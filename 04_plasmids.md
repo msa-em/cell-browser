@@ -466,7 +466,7 @@ Repetitions are available in the Supplemental.
         "contrastLimits": [
           [
             0,
-            3500
+            3000
           ],
           [
             0,
