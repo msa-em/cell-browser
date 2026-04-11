@@ -234,10 +234,10 @@ Repetitions are available in the Supplemental.
     },
     {
       "name": "ER remodeling",
-      "zoom": -1.066,
+      "zoom": -0.51,
       "target": [
-        5994,
-        4032,
+        4018,
+        9351,
         0
       ],
       "appearance": {
