@@ -12,29 +12,6 @@ Four of these fluorescent proteins can be cross-referenced with estimates of the
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/dendra2.zarr",
-  "width": "323px",
-  "height": "323px",
-  "title": {
-    "text": "Dendra2-CytERM",
-    "position": "bottom-left",
-    "margin": 12,
-    "fontSize": 20,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.95)",
-    "style": "text"
-  },
-  "scaleBar": {
-    "maxWidth": 50,
-    "position": "bottom-right",
-    "fontSize": 10,
-    "font": "Arial",
-    "color": "rgba(255,255,255,0.9)"
-  }
-}
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
-{
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/fusionred.zarr",
   "width": "323px",
   "height": "323px",
@@ -63,6 +40,29 @@ Four of these fluorescent proteins can be cross-referenced with estimates of the
   "height": "323px",
   "title": {
     "text": "mCherry-CytERM",
+    "position": "bottom-left",
+    "margin": 12,
+    "fontSize": 20,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.95)",
+    "style": "text"
+  },
+  "scaleBar": {
+    "maxWidth": 50,
+    "position": "bottom-right",
+    "fontSize": 10,
+    "font": "Arial",
+    "color": "rgba(255,255,255,0.9)"
+  }
+}
+:::
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/dendra2.zarr",
+  "width": "323px",
+  "height": "323px",
+  "title": {
+    "text": "Dendra2-CytERM",
     "position": "bottom-left",
     "margin": 12,
     "fontSize": 20,
@@ -151,3 +151,9 @@ Four of these fluorescent proteins can be cross-referenced with estimates of the
 ::::
 
 :::{dropdown} Methods
+3e5 HeLa cells were seeded on 35mm glass-bottom dishes.
+An OSER assay was performed with six fluorescent proteins cloned into the CytERM plasmid.
+2.5µg was transfected with lipofectamine 3000 for 24 hours before PFA fixation and automated imaging of 15x15 (225 field) grids with a 100X objective lens.
+Illumination settings, including excitation/emission, were adjusted individually.
+mEGFP, moxGFP, Dendra2 and mNeongreen used the same wavelengths.
+:::

@@ -77,7 +77,7 @@ Representative image of NucleusNet: ROI_300 from Run11BR_bottom_right.
 Disentangling latent space is unrealistic, so it is hard to justify using autoencoders for the task of image selection.
 Barkley thought that the decoded latent centroids behaved like average projections.
 From this perspective, the representative image ([](#fig9e)) could be interpreted as one that blends all image features in the dataset.
-Howeverm, this observation could be attributed to the average pooling layers in the encoder.
+This observation could be attributed to the average pooling layers in the encoder.
 Textures and patterns could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
 
 ---
