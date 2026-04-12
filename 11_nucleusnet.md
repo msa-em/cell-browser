@@ -75,8 +75,8 @@ Representative image of NucleusNet: ROI_300 from Run11BR_bottom_right.
 ## Conclusions
 
 Disentangling latent space is unrealistic, so it is hard to justify using this method for the task of image selection.
-Barkley thought that decoded latent centroids behaved like average projections.
-From this perspective, the representative image ([](#fig9e)) could be interpreted as one that blends all features in the dataset.
+Barkley thought that the decoded latent centroids behaved like average projections.
+From this perspective, the representative image ([](#fig9e)) could be interpreted as one that blends all image features in the dataset.
 
 The outcome also depends on model configurations, so other autoencoders will give different results.
 For example, similarities observed between the [projection](#fig8a) and [autoencoder](#fig8c) could be attributed to average pooling layers in the encoder.
@@ -187,18 +187,18 @@ Nuclei were masked in the stitched images using a custom [cellpose](https://gith
 Cellpose was suitable for segmentation because cell division created instances where two nuclear bodies were separated in space but should count as one ROI.
 Specifically, mitotic figures in [anaphase](#anaphase) or [telophase](#telophase) were considered one ROI, and [micronuclei](<wiki:Micronucleus>) and nuclei were masked together.
 There were also instances where two or more nuclei made contact but should be counted as separate masks.
-The cellpose segmentation model can be evaluated further in [Deep Zoom Images](https://russellbarkley.github.io/cellpose_masks/) hosted on Github [@doi:10.1242/jcs.262198].
+The ten representative stitched images ([](#table3)) were hosted on Github as [Deep Zoom Images](https://russellbarkley.github.io/cellpose_masks/) for further evaluation of the cellpose segmentation masks [@doi:10.1242/jcs.262198].
 Unique masks were assigned random colours in the overlays to differentiate ROIs.
 
 The cellpose nucleus model was retrained on N=125000 TIF fields from NucleusNet including n=1000 fields with manual segmentations.
-The weights for the chosen model, CP_20250418_Nuclei_1Kmasks, were deposited in /data/cellpose/.
-Advanced parameters in the graphical user interface were adjusted to flow_threshold: 0.5, cellprob_threshold: -2.0, diameter (pixels): 152.91.
-The cellpose model segmented the nuclei in all stitched images and the mask files were saved as PNG files where each region of interest (ROI) is defined by a unique pixel value.
+The weights (CP_20250418_Nuclei_1Kmasks) were deposited in /data/cellpose/.
+Advanced parameters were set to flow_threshold: 0.5, cellprob_threshold: -2.0, diameter (pixels): 152.91.
+The cellpose model segmented nuclei in stitched images and the mask files were saved as PNG files with each region of interest (ROI) defined by a unique pixel value.
 
 4. Cropped single cell masked dataset
 
-The orientation of cells confounds the vector embedding of autoencoder models trained on single-cell microscopy data, which motivated the development of orientation-invariant autoencoder models [@doi:10.1038/s41467-024-45362-4].
-Similarly, a multi-encoder variational autoencoder model controlled several transformational features like orientation that were deemed uninformative [@doi:10.1038/s42003-022-03218-x].
+The orientation of cells can confound the vector embedding of autoencoder models trained on single-cell microscopy data, which motivated the development of orientation-invariant autoencoder models [@doi:10.1038/s41467-024-45362-4].
+Similarly, a multi-encoder variational autoencoder model could control several transformational features like orientation that were deemed uninformative [@doi:10.1038/s42003-022-03218-x].
 Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting a bounding box to the mask to rotate the major axis. 
 The ROIs were center-cropped and all values outside of the mask were set to zero.
 Otherwise, the cropped images in NucleusNet v0.1 were not processed further.

@@ -4,18 +4,19 @@ numbering:
   enumerator: 3.%s
 ---
 
-## mCherry-ER fusions
+## mCherry-ER reporters
 
 mCherry-KDEL was the same construct used in the original study; mCherry-ER-3 plasmid (55041, Addgene), which retains mCherry in the lumen of the ER.
 mCherry-CytERM-N-17 (55024, Addgene) was included to retain mCherry on the cytoplasmic side of the ER.
 mCherry-CytERM was considered a positive control for ER remodelling because organized smooth endoplasmic reticulum (OSER) whorls form through fluorescent protein dimerization [@doi:10.1083/jcb.200306020] in ~5% of transfected cells [@doi:10.1038/nmeth.3891].
 Calreticulin should also be detectable in OSER whorls with immunofluorescence imaging [@doi:10.1083/jcb.200306020].
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
-mCherry-Climp63 was another control for ER remodeling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007], while mCherry-Sec1β was considered a general ER marker [@doi:10.1126/science.aay7108].
-HeLa cells were imaged after one day of transfection with plasmids encoding mCherry-ER fusions.
-Trans-IT 2020 and Lipofectamine 3000 transfections reagents were compared.
-Parker advised adjusting the illumination settings individually to try to avoid oversaturating the images.
-Repetitions are available in the Supplemental.
+mCherry-Climp63 was another control for ER remodeling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007].
+
+HeLa cells were imaged after one day of transfection with mCherry-ER fusions.
+Trans-IT 2020 and Lipofectamine 3000 reagents were compared.
+To better assess the distribution of mCherry-ER fusions, Parker advised adjusting the illumination settings individually to avoid oversaturating the images.
+Barkley tried to 
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js

@@ -13,11 +13,11 @@ The autoencoder is restricted in some way that it is forced to prioritize which 
 
 ## Method replication
 
-A method of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342] was tested on real-world data like the [MNIST database](<wiki:MNIST_database>), which is a collection of 70,000 images of handwritten digits 0-9.
-Briefly, the two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in vector space.
-The chosen measures of central tendency were the arithmetic mean, median and geometric median, calculated as 784-dimensional vectors that were reshaped to 28x28 pixel images.
+A method of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342] was shown on real-world data including the [MNIST database](<wiki:MNIST_database>), which is an annotated collection of 70,000 images of handwritten numbers.
+The two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in vector space.
+Measures of central tendency were the arithmetic mean, median and geometric median, calculated as 784-dimensional vectors reshaped to 28x28 pixel images.
 The example in the literature used a sub-set of MNIST images (n=720) labelled 'four'.
-Our replication used all MNIST "four" images (N=6824) and the result was consistent with the primary literature ([](#fig8a)) [@doi:10.1109/BIP60195.2023.10379342].
+We used all MNIST 'four' images (N=6824), but the result was consistent with previous work ([](#fig8a)) [@doi:10.1109/BIP60195.2023.10379342].
 
 :::{figure} #fig8a_data
 :label: fig8a
@@ -36,14 +36,14 @@ Practical images of the MNIST digit '4' [based on the singular value decompositi
 
 ## Autoencoder-based selection of MNIST digits
 
-Our method of image selection was like the two-step approach to image selection but using the latent space of an autoencoder.
-First, theoretical average latent vectors were calculated using measures of central tendency, then practical examples were ranked by Euclidean distance to the calculated centroids in the embedding.
+Our method was similar but it used the latent space of an autoencoder.
+Theoretical average latent vectors were calculated to define the nearest vectors by Euclidean distance in the embedding.
 
 ### 1. Calculating and decoding centroid latent vectors
 
 A convolutional autoencoder model was trained on the MNIST dataset and the encoder and decoder weights were saved ([](#sfig10a)). 
 n=6824 latent vectors labelled 'four' were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit 'four' ([](#fig8c)).
-Qualitatively, these decoded vectors appeared like the reconstructions calculated in pixel space ([](#fig8a)), which was unexpected.
+Qualitatively, the decoded vectors looked like the reconstructions calculated in pixel space ([](#fig8a)).
 
 :::{figure} #fig8c_data
 :name: fig8c
@@ -55,8 +55,8 @@ Decoded latent vectors: arithmetic mean, median and geometric median.
 
 The behaviour of the theoretical image generally does not correspond to a distinct image, therefore it is not considered the final representative image.
 However, it can be used to select representative examples from the dataset [@doi:10.1109/BIP60195.2023.10379342].
-Encoded images were ranked by Euclidean distance to the centroids to define the closest real images.
-The chosen images were remarkably similar, if not identical, suggesting these methods were comparable ([](#fig8d)).
+Encoded images were ranked by Euclidean distance to centroids to define the closest real images ([](#fig8d)).
+The results were remarkably similar, if not identical to the other method ([](#fig8b)).
 
 :::{figure} #fig8d_data
 :name: fig8d
