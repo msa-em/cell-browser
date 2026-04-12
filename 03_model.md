@@ -23,7 +23,7 @@ Antibiotics were not used in the replication study, although the original study 
 
 :::{dropdown} Imaging
 Data collection was fully-motorized for unbiased sampling of large panoramas from replicate immunofluorescence experiments.
-Grids of 10x10 (100 fields) or 15x15 (225 fields) were acquired with a robotic XY stage (IX3-SSU) and Z-drift compensation (IX3-ZDC).
+Grids of overlapping tiles were acquired with a robotic XY stage (IX3-SSU) and Z-drift compensation (IX3-ZDC).
 Coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens (Olympus model UPLAPO100X, NA 1.50) in immersion oil. 
 Pinholes in each channel were maximized to capture the widest depth of field.
 :::

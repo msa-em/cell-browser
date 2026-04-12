@@ -27,7 +27,7 @@ _Updated 2025 September 27_
 
 +++ {"part":"acknowledgements"}
 
-We thank the Baker Institute for Animal Health for supporting this unfunded project.
+We thank the [Baker Institute for Animal Health](https://www.vet.cornell.edu/departments-centers-and-institutes/baker-institute-animal-health) for supporting this unfunded project.
 
 +++
 
@@ -35,13 +35,13 @@ We thank the Baker Institute for Animal Health for supporting this unfunded proj
 
 ## Competing Interests
 
-All authors declare no conflicts of interest.
+All authors declared no financial conflicts of interest.
 Last names were sometimes used to separate the author's voices, interpretations and contributions.
 
 +++
 
 ## Data Availability
 
-NucleusNet was zipped and uploaded to Zenodo [@doi:10.5281/zenodo.18776681].
-OME-Zarr data was hosted on the [Open Storage Network](https://openstoragenetwork.github.io/) funded by an [ACCESS allocation](https://allocations.access-ci.org/).
-Deep Zoom Images were hosted on [Github](https://github.com/RussellBarkley) Pages.
+NucleusNet was compressed and uploaded to Zenodo [@doi:10.5281/zenodo.18776681].
+OME-Zarr data was hosted on the [Open Storage Network](https://openstoragenetwork.github.io/), funded by an [ACCESS allocation](https://allocations.access-ci.org/).
+Deep Zoom data was hosted on [Github](https://github.com/RussellBarkley).
