@@ -13,10 +13,10 @@ Calreticulin should also be detectable in OSER whorls with immunofluorescence im
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
 mCherry-Climp63 was another control for ER remodeling, given its role in determining ER morphology [@doi:10.1016/j.cell.2010.11.007].
 
-Fixed HeLa cells were imaged after one day of transfection with mCherry-ER fusions.
-Trans-IT 2020 and Lipofectamine 3000 transfection reagents were compared.
-To better assess the distribution of mCherry-ER fusions, Parker advised adjusting the illumination settings individually to avoid oversaturating the images.
-In this experiment, some samples were reimaged and undesirable maps were presented in the Supplemental.
+Cells transiently expressing mCherry-ER fusions were fixed after 24 hours of transfection with Trans-IT 2020 and Lipofectamine 3000 transfection reagents.
+The ER was labelled with calreticulin antibodies.
+To better assess the mCherry-ER fusion proteins, Parker advised adjusting the illumination settings individually to avoid oversaturating the images.
+Therefore, some maps were reimaged and moved to the Supplemental.
 
 ::::{grid} 2 2 2 2
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
