@@ -74,13 +74,11 @@ Representative image of NucleusNet: ROI_300 from Run11BR_bottom_right.
 
 ## Conclusions
 
-Disentangling latent space is unrealistic, so it is hard to justify using this method for the task of image selection.
+Disentangling latent space is unrealistic, so it is hard to justify using autoencoders for the task of image selection.
 Barkley thought that the decoded latent centroids behaved like average projections.
 From this perspective, the representative image ([](#fig9e)) could be interpreted as one that blends all image features in the dataset.
-
-The outcome also depends on model configurations, so other autoencoders will give different results.
-For example, similarities observed between the [projection](#fig8a) and [autoencoder](#fig8c) could be attributed to average pooling layers in the encoder.
-Textures and patterns in reconstructions could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
+Howeverm, this observation could be attributed to the average pooling layers in the encoder.
+Textures and patterns could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
 
 ---
 
@@ -201,7 +199,7 @@ The orientation of cells can confound the vector embedding of autoencoder models
 Similarly, a multi-encoder variational autoencoder model could control several transformational features like orientation that were deemed uninformative [@doi:10.1038/s42003-022-03218-x].
 Nuclei were [pre-aligned](https://github.com/jmhb0/o2vae/tree/master/prealignment) by fitting a bounding box to the mask to rotate the major axis. 
 The ROIs were center-cropped and all values outside of the mask were set to zero.
-Otherwise, the cropped images in NucleusNet v0.1 were not processed further.
+Otherwise, NucleusNet v0.1 was not processed further [@doi:10.5281/zenodo.18776681].
 
 ## Code
 

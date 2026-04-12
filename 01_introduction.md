@@ -27,7 +27,7 @@ A feature of virtual microscopy is the unbiased sampling and transmission of mul
 Results should be observed again with a high degree of reliability; therefore original claims should be evident in replicate microscopy maps.
 
 Here, microscopy maps were used to reassess the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
-This study was chosen because most of the results were representative microscopy images without quantification ([](#table4)).
+This study was chosen because most of the results were representative microscopy images without quantification.
 Using the protocols described in the original paper, hundreds of overlapping tiles were sampled at high-magnification from replicate immunofluorescence experiments on a fully motorized confocal microscope.
 Microscopy maps were embedded in the article using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and custom viewers based on Viv [@doi:10.1038/s41592-022-01482-7].
 

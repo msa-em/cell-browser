@@ -26,7 +26,7 @@ Successful replication of theoretical images of the MNIST digit '4'.
 N=6824 grayscale images labelled '4' were flattened to 784-dimensional vectors to measure then reshape reconstructed images of the arithmetic mean, median and geometric median.
 :::
 
-The chosen images were not the same as the original study ([](#fig8b)) though we used the entire dataset.
+The resulting images were not the same as the original study ([](#fig8b)) but we used the entire dataset.
 
 :::{figure} #fig8b_data
 :label: fig8b
@@ -56,7 +56,7 @@ Decoded latent vectors: arithmetic mean, median and geometric median.
 The behaviour of the theoretical image generally does not correspond to a distinct image, therefore it is not considered the final representative image.
 However, it can be used to select representative examples from the dataset [@doi:10.1109/BIP60195.2023.10379342].
 Encoded images were ranked by Euclidean distance to centroids to define the closest real images ([](#fig8d)).
-The results were remarkably similar, if not identical to the other method ([](#fig8b)).
+The results were remarkably similar, if not identical to the previous method ([](#fig8b)).
 
 :::{figure} #fig8d_data
 :name: fig8d
@@ -66,21 +66,21 @@ Nearest encoded vectors to the arithmetic mean, median and geometric median.
 
 ## Limitations
 
-These demonstrations relied on labels from an annotated dataset.
-Reconstructing theoretical average images without labels produced counterexamples ([](#fig8e) and [](#fig8f)), which shows that the two-step approach does not generalize to all datasets.
+These demonstrations relied on labelled data.
+Reconstructing theoretical averages without labels produced counterexamples ([](#fig8e) and [](#fig8f)), which shows that the two-step approach does not generalize to all datasets.
 Conceptually, it made sense to find an average example of the digit four, but not to find the average of all digits.
 Perhaps these methods would benefit from an upstream classifier model or manual annotation.
 
 :::{figure} #fig8e_data
 :name: fig8e
 :placeholder: ./figures/fig8e.png
-Reconstructing theoretical average MNIST digits without labels.
+Reconstructing theoretical MNIST digits by averaging pixels without labels.
 :::
 
 :::{figure} #fig8f_data
 :name: fig8f
 :placeholder: ./figures/fig8f.png
-Autoencoder reconstructions without labels. The 64-dimensional latent space was averaged and decoded using the saved weights.
+Autoencoder reconstructions of theoretical MNIST digits without labels. The 64-dimensional latent space was averaged and decoded using the saved weights.
 :::
 
 :::{dropdown} Model architecture

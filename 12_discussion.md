@@ -4,11 +4,10 @@ numbering:
   enumerator: 0.%s
 ---
 
-Every academic discipline has ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
+Every academic discipline has its ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
 If biomedical researchers endorse [empiricism](<wiki:Empiricism>) and objectivity, then why are representative images sufficient to make claims?
 A representative image definitively shows that an observation is possible, but a single image cannot describe frequency or variance.
-Like [Schrödinger's cat](<wiki:Schrödinger's_cat>), unobserved systems have combinations of outcomes that are never observed simultaneously (using representative images).
-Virtual microscopy makes this loophole significantly harder to exploit.
+It is like [Schrödinger's cat](<wiki:Schrödinger's_cat>), where unobserved systems have combinations of outcomes that are never observed simultaneously.
 A general principle of the [scientific method](<wiki:Scientific_method>) is [reproducibility](<wiki:Reproducibility>).
 Repeatability is often described using quantitative analysis, but without numerical results, representative images cannot communicate repeatability.
 The reality is that representative images can show rare, idealized, or exaggerated examples to embellish results.
@@ -35,8 +34,7 @@ Barkley hypothesized that fluorescent proteins could have restructured the ER [@
 In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
 Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described.
-Barkley concluded that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts, though this interpretation was influenced by confirmation bias.
-Parker provided an independent interpretation of the data.
+Therefore, Barkley concluded that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts, but we acknowledged that this interpretation was influenced by confirmation bias.
 
 There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], but what is 'representative' in a dataset needs further deliberation.
 To this end, image categorization with an upstream classifier model could be a productive future direction for this task.
