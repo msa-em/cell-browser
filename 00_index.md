@@ -7,13 +7,12 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Static figures are the mainstream interface of contemporary scientific discourse and peer review.
-Microscopists often communicate experimental results as representative images and plots.
-This article focuses on novel visualization strategies for researchers, advancing virtual microscopy to the scientific literature.
-Web-based microscopy maps improve the transparency, accessibility, and archival of bioimaging data as an unbiased alternative to representative images.
-These features made virtual microscopy useful to evaluate the replicability of representative images.
-In replication experiments, original claims of reovirus-induced organelle remodelling were not reliably observed, but this interpretation is open to scrutiny.
-To work within the constraints of conventional journals, an objective method of image selection was explored and delimited.
+Static figures are the standard interface for scientific discourse and peer review, so microscopists invariably communicate experimental results through representative images and plots.
+This article focuses on virtual microscopy, a novel visualization strategy for researchers to share microscopy data in publications.
+Web-based microscopy maps improve the transparency, accessibility, and archival of bioimages as an unbiased alternative to representative images.
+These features made virtual microscopy useful for the critical appraisal of qualitative microscopy studies.
+Using this approach, an original claim of reovirus-induced endoplasmic reticulum remodeling was reexamined in replication experiments.
+To work within the constraints of conventional journals, an objective method of image selection was also explored and delimited.
 
 +++
 
@@ -28,7 +27,7 @@ _Updated 2025 September 27_
 
 +++ {"part":"acknowledgements"}
 
-Barkley wants to thank the Baker Institute for Animal Health at Cornell and its philanthropic donors for the financial support of this unfunded project.
+We thank the [Baker Institute for Animal Health](https://www.vet.cornell.edu/departments-centers-and-institutes/baker-institute-animal-health) for supporting this unfunded project.
 
 +++
 
@@ -36,11 +35,13 @@ Barkley wants to thank the Baker Institute for Animal Health at Cornell and its 
 
 ## Competing Interests
 
-All authors declare no conflicts of interest.
-Last names were used in the text to separate the authors voices, interpretations, and contributions.
+All authors declared no financial conflicts of interest.
+Last names were sometimes used to separate the author's voices, interpretations and contributions.
 
 +++
 
-## Data availability
+## Data Availability
 
-NucleusNet was zipped and archived on Zenodo.
+NucleusNet was deposited to Zenodo [@doi:10.5281/zenodo.18776681].
+OME-Zarr data was hosted on the [Open Storage Network](https://openstoragenetwork.github.io/), funded by an [ACCESS allocation](https://allocations.access-ci.org/).
+Deep Zoom data was hosted on [Github](https://github.com/RussellBarkley).

@@ -3,7 +3,7 @@ version: 1
 project:
   id: msa-em-cell-browser-1
   title: You are being misled by representative images
-  description: Web-based virtual microscopy as an unbiased method to replicate highly magnified representative microscopy images.
+  description: Web-based microscopy maps as an unbiased method to replicate highly magnified representative microscopy images.
   short_title: Virtual Microscopy
   keywords:
     - NucleusNet
@@ -49,9 +49,30 @@ project:
           ror: 05bnh6r87
       roles:
         - Conceptualization
-        - Project administration
+        - Data Curation
+        - Formal Analysis
+        - Investigation
+        - Resources
+        - Software
+        - Visualization
+        - Funding Acquisition
         - Writing - original draft
-        - Data collection, analysis and visualizations
+        - Writing - review & editing
+    - id: ajbrodrick
+      name: Andrew James Brodrick
+      email: ajb64@umd.edu
+      orcid: 0009-0000-6389-0643
+      affiliations:
+        - id: maryland
+          department: 
+          institution: University of Maryland
+          address: 
+          ror: 047s2c258
+      roles:
+        - Conceptualization
+        - Methodology
+        - Software
+        - Visualization
     - id: jslparker
       name: John Stuart Leslie Parker
       email: jsp7@cornell.edu
@@ -59,10 +80,14 @@ project:
       affiliations:
         - id: cornell
       roles:
-        - Funding acquisition
+        - Funding Acquisition
+        - Supervision
+        - Project Administration
+        - Writing - review & editing
   abbreviations:
     Barkley: Russell JR Barkley
     Parker: John SL Parker
+    Brodrick: Andrew J Brodrick
     ER: endoplasmic reticulum
     ROI: region of interest
     T1L: type 1 Lang
@@ -97,9 +122,24 @@ project:
     - file: 12_discussion.md
     - title: Supplemental
       children:
-        - file: 13_replicate_one.md
-        - file: 14_replicate_two.md
-        - file: 15_replicate_three.md
-        - file: 16_supplemental.md
+        - file: 13_supplementary.md
+        - title: Replication Attempts
+          children:
+            - file: 14_replicate_one.md
+            - file: 15_replicate_two.md
+            - file: 16_replicate_three.md
+            - file: 17_replicate_four.md
+        - title: Repetition Experiments
+          children:
+            - file: 18_antibody_reovirus.md
+            - file: 23_plasmids_repeat.md
+            - file: 24_plasmids_repeat.md
+        - file: 19_moxGFPmuNS.md
+        - title: Videos
+          children:
+            - file: 20_mNeonGreenmuNS.md
+            - file: 21_nucleation.md
+        - file: 22_archival.md
+        - file: 24_whorls.md
 site:
   template: book-theme

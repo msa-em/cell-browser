@@ -1,265 +1,22 @@
 ---
-title: Results
+title: Experiment 4
 numbering:
-  enumerator: 7.%s
+  enumerator: 14.%s
 ---
 
-Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
-Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
-The goal of the experiment was to capture cells with coincident plasmid transfection and reovirus infection and this map has ~300 examples.
-
 ::::{figure}
-:label: fig7
+:label: sfig14
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_4/goodZDC.zarr",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_4/badZDC.zarr",
   "width": "500px",
   "height": "500px",
-  "views": [
-    {
-      "name": "Compare mCherry-ER",
-      "zoom": -1.474,
-      "target": [
-        16291,
-        1765,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          false,
-          false,
-          false,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            255,
-            0,
-            255
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            1768
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      }
-    },
-    {
-      "name": "Compare mCherry-ER",
-      "zoom": -1.186,
-      "target": [
-        16127,
-        12089,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          false,
-          false,
-          false,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            255,
-            0,
-            255
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            2490
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      }
-    },
-    {
-      "name": "Compare mCherry-ER",
-      "zoom": -1.186,
-      "target": [
-        22766,
-        7555,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          false,
-          false,
-          false,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            255,
-            0,
-            255
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            2624
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      }
-    },
-    {
-      "name": "mCherry-KDEL artifacts",
-      "description": "ER remodeling without reovirus",
-      "zoom": -0.362,
-      "target": [
-        17738,
-        18782,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          false,
-          false,
-          true,
-          true
-        ],
-        "channelColors": [
-          [
-            0,
-            255,
-            0
-          ],
-          [
-            255,
-            0,
-            255
-          ],
-          [
-            0,
-            0,
-            255
-          ],
-          [
-            255,
-            0,
-            0
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ],
-          [
-            0,
-            4095
-          ]
-        ],
-        "blendMode": "single",
-        "colormap": "viridis"
-      }
-    }
-  ],
   "annotations": [
     {
       "name": "Coincidence",
       "target": [
-        2747,
-        347
+        1396,
+        1594
       ],
       "color": [
         235,
@@ -270,8 +27,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        1290,
-        1287
+        2048,
+        4496
       ],
       "color": [
         235,
@@ -282,8 +39,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        124,
-        2174
+        2358,
+        4955
       ],
       "color": [
         235,
@@ -294,8 +51,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        663,
-        2473
+        2737,
+        5506
       ],
       "color": [
         235,
@@ -306,8 +63,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        56,
-        2810
+        2253,
+        5783
       ],
       "color": [
         235,
@@ -318,8 +75,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        1553,
-        4335
+        1238,
+        6127
       ],
       "color": [
         235,
@@ -330,8 +87,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2669,
-        3959
+        795,
+        5239
       ],
       "color": [
         235,
@@ -342,8 +99,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2977,
-        4208
+        2200,
+        8343
       ],
       "color": [
         235,
@@ -354,8 +111,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        1510,
-        5788
+        2406,
+        8601
       ],
       "color": [
         235,
@@ -366,8 +123,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        162,
-        7685
+        405,
+        11538
       ],
       "color": [
         235,
@@ -378,8 +135,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        3029,
-        9060
+        411,
+        12553
       ],
       "color": [
         235,
@@ -390,8 +147,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2739,
-        10830
+        1421,
+        13276
       ],
       "color": [
         235,
@@ -402,8 +159,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2219,
-        11315
+        1963,
+        13694
       ],
       "color": [
         235,
@@ -414,8 +171,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2913,
-        12865
+        2357,
+        13920
       ],
       "color": [
         235,
@@ -426,8 +183,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2184,
-        15906
+        1972,
+        14059
       ],
       "color": [
         235,
@@ -438,8 +195,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2292,
-        18875
+        365,
+        15251
       ],
       "color": [
         235,
@@ -450,8 +207,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        3391,
-        18851
+        657,
+        15347
       ],
       "color": [
         235,
@@ -462,8 +219,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2695,
-        19769
+        1107,
+        15839
       ],
       "color": [
         235,
@@ -474,8 +231,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        1637,
-        20409
+        1507,
+        17375
       ],
       "color": [
         235,
@@ -486,8 +243,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        921,
-        20300
+        1514,
+        20679
       ],
       "color": [
         235,
@@ -498,8 +255,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        291,
-        20817
+        1747,
+        21841
       ],
       "color": [
         235,
@@ -510,8 +267,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        283,
-        23720
+        2927,
+        21022
       ],
       "color": [
         235,
@@ -522,8 +279,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        172,
-        24320
+        2595,
+        19634
       ],
       "color": [
         235,
@@ -534,8 +291,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        14,
-        23867
+        2718,
+        19692
       ],
       "color": [
         235,
@@ -546,8 +303,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        1138,
-        21554
+        3085,
+        19074
       ],
       "color": [
         235,
@@ -558,8 +315,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        1058,
-        21660
+        2772,
+        18082
       ],
       "color": [
         235,
@@ -570,8 +327,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2389,
-        2956
+        3035,
+        17484
       ],
       "color": [
         235,
@@ -582,8 +339,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2287,
-        2247
+        3800,
+        17971
       ],
       "color": [
         235,
@@ -594,8 +351,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        4501,
-        2451
+        5143,
+        16140
       ],
       "color": [
         235,
@@ -606,8 +363,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        4875,
-        4079
+        4194,
+        15249
       ],
       "color": [
         235,
@@ -618,8 +375,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        5394,
-        4151
+        2822,
+        12767
       ],
       "color": [
         235,
@@ -630,8 +387,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        5307,
-        4373
+        2597,
+        12596
       ],
       "color": [
         235,
@@ -642,8 +399,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        3965,
-        5458
+        2498,
+        11502
       ],
       "color": [
         235,
@@ -654,8 +411,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        3829,
-        5228
+        1965,
+        11284
       ],
       "color": [
         235,
@@ -666,8 +423,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        3751,
-        5850
+        3493,
+        6486
       ],
       "color": [
         235,
@@ -678,8 +435,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2940,
-        6565
+        4133,
+        5315
       ],
       "color": [
         235,
@@ -690,8 +447,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        2044,
-        7371
+        4265,
+        5118
       ],
       "color": [
         235,
@@ -702,1471 +459,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        5702,
-        6970
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        6808,
-        7574
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        4789,
-        7951
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        6429,
-        10167
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        6576,
-        11240
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        5930,
-        11010
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        4921,
-        11575
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        5325,
-        11826
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        3592,
-        11920
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        3812,
-        12256
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        5484,
-        14421
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        6204,
-        14603
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        5994,
-        19189
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        6669,
-        21512
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8020,
-        17480
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8419,
-        17518
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8278,
-        17895
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7624,
-        18243
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7696,
-        17981
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9329,
-        18804
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8357,
-        19779
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        6734,
-        20681
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        5668,
-        21414
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        5363,
-        23588
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        5401,
-        23973
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7242,
-        23093
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8340,
-        21689
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8610,
-        21991
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8818,
-        21959
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9401,
-        21881
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8826,
-        20635
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        6790,
-        17552
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8636,
-        10382
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7718,
-        12436
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8216,
-        11883
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9529,
-        11098
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9609,
-        11389
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        10048,
-        11381
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9118,
-        14238
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7572,
-        14064
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8984,
-        15001
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9348,
-        14897
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11147,
-        17117
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        10751,
-        18354
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11013,
-        18343
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        10336,
-        20616
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        10924,
-        22706
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13259,
-        23270
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13806,
-        23276
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12649,
-        20102
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12476,
-        19555
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13344,
-        19442
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14285,
-        20626
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14715,
-        20540
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7726,
-        4772
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7370,
-        4482
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8807,
-        1720
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7950,
-        1923
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7648,
-        1563
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8188,
-        1267
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9607,
-        1023
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12086,
-        2466
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12239,
-        2402
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13135,
-        2102
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13826,
-        2226
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13796,
-        2670
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14456,
-        2407
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14565,
-        1697
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14671,
-        1946
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13780,
-        1488
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13113,
-        781
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13036,
-        615
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14100,
-        477
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15090,
-        709
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14665,
-        1411
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        16224,
-        1483
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15136,
-        2922
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14955,
-        4068
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13675,
-        4645
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13850,
-        5834
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13746,
-        5940
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12553,
-        5599
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12931,
-        5769
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13372,
-        5867
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12102,
-        5988
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11641,
-        7840
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11900,
-        7411
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13312,
-        8327
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13227,
-        8553
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13508,
-        9464
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13320,
-        9453
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13333,
-        9903
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13510,
-        10142
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13263,
-        11685
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13250,
-        12041
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13651,
-        11916
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13825,
-        12906
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14257,
-        12977
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13756,
-        13018
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12564,
-        14035
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12963,
-        14333
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12735,
-        15188
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14654,
-        19551
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14976,
-        18995
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14896,
-        19591
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15624,
-        19171
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15512,
-        18635
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15406,
-        18385
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15460,
-        18139
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        17009,
-        3569
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        16905,
-        3754
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        17212,
-        3918
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        20615,
-        618
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        20431,
-        409
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        22976,
-        867
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        23048,
-        942
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        22839,
-        111
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        23165,
-        1575
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        22477,
-        2340
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        21820,
-        2933
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        22073,
-        3012
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        21383,
-        3138
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        22972,
+        3623,
         3999
       ],
       "color": [
@@ -2178,8 +471,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        22401,
-        4371
+        4121,
+        4082
       ],
       "color": [
         235,
@@ -2190,8 +483,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        23055,
-        5051
+        3578,
+        3208
       ],
       "color": [
         235,
@@ -2202,8 +495,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        23074,
-        5461
+        3982,
+        3037
       ],
       "color": [
         235,
@@ -2214,8 +507,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        23316,
-        5965
+        1691,
+        3128
       ],
       "color": [
         235,
@@ -2226,8 +519,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        22184,
-        6226
+        6050,
+        845
       ],
       "color": [
         235,
@@ -2238,8 +531,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        21800,
-        6899
+        5673,
+        1305
       ],
       "color": [
         235,
@@ -2250,8 +543,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        22720,
-        7290
+        6076,
+        2330
       ],
       "color": [
         235,
@@ -2262,8 +555,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20267,
-        6969
+        6215,
+        2542
       ],
       "color": [
         235,
@@ -2274,8 +567,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        19627,
-        6551
+        6826,
+        5920
       ],
       "color": [
         235,
@@ -2286,8 +579,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        17121,
-        6696
+        6662,
+        6248
       ],
       "color": [
         235,
@@ -2298,8 +591,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        16631,
-        6945
+        8430,
+        5934
       ],
       "color": [
         235,
@@ -2310,8 +603,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        16142,
-        6070
+        8159,
+        5573
       ],
       "color": [
         235,
@@ -2322,8 +615,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        14099,
-        7098
+        8989,
+        7021
       ],
       "color": [
         235,
@@ -2334,8 +627,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        13561,
-        6784
+        8328,
+        9921
       ],
       "color": [
         235,
@@ -2346,8 +639,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        13760,
-        7526
+        6251,
+        12249
       ],
       "color": [
         235,
@@ -2358,8 +651,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        16875,
-        7813
+        5876,
+        14192
       ],
       "color": [
         235,
@@ -2370,8 +663,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        15028,
-        10158
+        5671,
+        15412
       ],
       "color": [
         235,
@@ -2382,8 +675,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        15100,
-        11071
+        6394,
+        14806
       ],
       "color": [
         235,
@@ -2394,8 +687,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        16201,
-        12114
+        7260,
+        17082
       ],
       "color": [
         235,
@@ -2406,8 +699,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        16505,
-        11808
+        6455,
+        17358
       ],
       "color": [
         235,
@@ -2418,8 +711,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        17001,
-        12740
+        6721,
+        18245
       ],
       "color": [
         235,
@@ -2430,8 +723,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        17161,
-        12941
+        6880,
+        18541
       ],
       "color": [
         235,
@@ -2442,8 +735,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        17027,
-        13379
+        5632,
+        19123
       ],
       "color": [
         235,
@@ -2454,8 +747,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        17919,
-        13705
+        4477,
+        19721
       ],
       "color": [
         235,
@@ -2466,8 +759,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        18608,
-        12095
+        4401,
+        19815
       ],
       "color": [
         235,
@@ -2478,8 +771,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        18963,
-        11503
+        4643,
+        20713
       ],
       "color": [
         235,
@@ -2490,8 +783,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        19335,
-        11906
+        4530,
+        20967
       ],
       "color": [
         235,
@@ -2502,8 +795,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        19538,
-        7987
+        5111,
+        23171
       ],
       "color": [
         235,
@@ -2514,8 +807,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        22061,
-        11707
+        5233,
+        23061
       ],
       "color": [
         235,
@@ -2526,8 +819,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        21555,
-        12851
+        6074,
+        21577
       ],
       "color": [
         235,
@@ -2538,8 +831,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        21187,
-        13709
+        5843,
+        20749
       ],
       "color": [
         235,
@@ -2550,8 +843,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        21081,
-        14067
+        6632,
+        21040
       ],
       "color": [
         235,
@@ -2562,8 +855,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20783,
-        14535
+        8036,
+        20419
       ],
       "color": [
         235,
@@ -2574,211 +867,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20370,
-        14457
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        18853,
-        15340
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19061,
-        15415
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        18295,
-        14744
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        18835,
-        16738
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        18202,
-        17649
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        17455,
-        20253
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        16014,
-        21749
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15436,
-        21192
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15097,
-        22209
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15816,
-        23986
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        17167,
-        23307
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        17214,
-        23010
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        18338,
-        22495
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        18932,
-        22225
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19098,
-        20384
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19527,
-        19914
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19900,
+        7548,
         19640
       ],
       "color": [
@@ -2790,8 +879,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20300,
-        22116
+        9427,
+        19013
       ],
       "color": [
         235,
@@ -2802,8 +891,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20526,
-        22529
+        9995,
+        19691
       ],
       "color": [
         235,
@@ -2814,8 +903,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20935,
-        22732
+        10348,
+        17245
       ],
       "color": [
         235,
@@ -2826,8 +915,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20700,
-        23002
+        9498,
+        15392
       ],
       "color": [
         235,
@@ -2838,8 +927,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        19381,
-        23782
+        7464,
+        14726
       ],
       "color": [
         235,
@@ -2850,8 +939,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        24037,
-        23639
+        8369,
+        14104
       ],
       "color": [
         235,
@@ -2862,8 +951,1256 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        23040,
-        23046
+        9086,
+        12000
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        7334,
+        8555
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9007,
+        8256
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        8278,
+        7555
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        7953,
+        3449
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        7169,
+        2490
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9043,
+        300
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9461,
+        73
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9547,
+        343
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9537,
+        676
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9046,
+        1036
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9570,
+        1247
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        10240,
+        3230
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        10023,
+        3227
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        10993,
+        13803
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        10879,
+        16876
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        10909,
+        18366
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        11104,
+        18990
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        10734,
+        19190
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12338,
+        19206
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        11066,
+        21166
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        10170,
+        22400
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9955,
+        22503
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9624,
+        22800
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12188,
+        23558
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12439,
+        23338
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        13915,
+        19799
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        13607,
+        20487
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        13551,
+        19009
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        14843,
+        17347
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        13525,
+        16550
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12521,
+        15574
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        14543,
+        14946
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        14011,
+        14981
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        14308,
+        15432
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        15103,
+        13776
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        15479,
+        13758
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        15414,
+        11964
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        15952,
+        12142
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        13632,
+        9675
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12766,
+        8869
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12338,
+        9278
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        11743,
+        9869
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        11446,
+        9408
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        11626,
+        9318
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        13224,
+        6281
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12450,
+        5813
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12245,
+        5060
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12553,
+        1117
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        11567,
+        113
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        14189,
+        713
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        13428,
+        1804
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        14083,
+        4874
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        14169,
+        5450
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        14356,
+        6475
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        14946,
+        20466
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        15959,
+        21115
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17910,
+        22584
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17494,
+        22794
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17550,
+        21543
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17682,
+        20480
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17582,
+        19967
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17204,
+        18511
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17272,
+        18902
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        18181,
+        11927
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17006,
+        11247
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17929,
+        5750
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17348,
+        5283
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        18044,
+        4436
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19060,
+        4387
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        15799,
+        1735
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        15646,
+        1500
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        16828,
+        1288
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        16941,
+        121
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17614,
+        280
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17792,
+        65
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        18206,
+        193
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19187,
+        3969
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19403,
+        6723
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19501,
+        8140
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19725,
+        8278
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19554,
+        12189
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19921,
+        14053
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19708,
+        14857
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        18926,
+        18417
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19125,
+        18417
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        20191,
+        20614
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19639,
+        21424
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19575,
+        21137
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        22337,
+        23473
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        22546,
+        23411
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        22230,
+        19197
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        22536,
+        18654
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        21127,
+        16617
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        23539,
+        12902
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        23952,
+        13445
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        22229,
+        11616
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        22615,
+        11421
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        22454,
+        8886
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        21080,
+        8959
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        20729,
+        7979
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        20805,
+        4990
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        20285,
+        2631
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        22311,
+        297
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        23174,
+        775
       ],
       "color": [
         235,
@@ -2875,7 +2212,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       "name": "Coincidence",
       "target": [
         22761,
-        20741
+        596
       ],
       "color": [
         235,
@@ -2886,8 +2223,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        21698,
-        20982
+        22711,
+        1597
       ],
       "color": [
         235,
@@ -2898,8 +2235,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        21034,
-        21178
+        23582,
+        1390
       ],
       "color": [
         235,
@@ -2910,8 +2247,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        21129,
-        19149
+        23244,
+        1855
       ],
       "color": [
         235,
@@ -2922,8 +2259,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        21320,
-        19012
+        23011,
+        5186
       ],
       "color": [
         235,
@@ -2934,8 +2271,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        19704,
-        18043
+        23804,
+        18998
       ],
       "color": [
         235,
@@ -2946,8 +2283,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        19989,
-        18219
+        23620,
+        19407
       ],
       "color": [
         235,
@@ -2958,8 +2295,80 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20873,
-        17901
+        708,
+        4287
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        926,
+        3762
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        197,
+        4941
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        1492,
+        4217
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        249,
+        9336
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        524,
+        9925
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        2488,
+        10074
       ],
       "color": [
         235,
@@ -2970,8 +2379,128 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20277,
-        17385
+        2763,
+        12363
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        1912,
+        13247
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        1987,
+        13381
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        2233,
+        14881
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        318,
+        16984
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        1824,
+        17118
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        1882,
+        17533
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        769,
+        19574
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        642,
+        19749
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        205,
+        19911
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        4496,
+        18160
       ],
       "color": [
         235,
@@ -2982,8 +2511,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        24203,
-        20628
+        6156,
+        16523
       ],
       "color": [
         235,
@@ -2994,8 +2523,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        24266,
-        19511
+        4914,
+        12192
       ],
       "color": [
         235,
@@ -3006,8 +2535,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        23377,
-        18702
+        5366,
+        10072
       ],
       "color": [
         235,
@@ -3018,8 +2547,152 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        23785,
-        17678
+        5395,
+        9507
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        4580,
+        9305
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        5662,
+        7931
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        6141,
+        7843
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        4331,
+        5825
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        6030,
+        2649
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        8411,
+        7145
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        8840,
+        6804
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        8810,
+        10111
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        8392,
+        8848
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        10207,
+        15980
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        9596,
+        16231
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        9735,
+        16620
       ],
       "color": [
         235,
@@ -3030,8 +2703,56 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        23661,
-        17849
+        10644,
+        16254
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        9378,
+        17939
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        9926,
+        18400
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        10238,
+        20305
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        10222,
+        20678
       ],
       "color": [
         235,
@@ -3042,8 +2763,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        23230,
-        17625
+        10675,
+        23865
       ],
       "color": [
         235,
@@ -3054,8 +2775,92 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        22787,
-        16470
+        11294,
+        23770
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        12602,
+        18562
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        12791,
+        19415
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        13168,
+        17886
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        12031,
+        4953
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        15737,
+        2041
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        16138,
+        1918
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        17264,
+        1567
       ],
       "color": [
         235,
@@ -3066,8 +2871,32 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        22657,
-        15997
+        19022,
+        4091
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        19808,
+        4904
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        20756,
+        3612
       ],
       "color": [
         235,
@@ -3078,8 +2907,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        23451,
-        16101
+        20472,
+        3882
       ],
       "color": [
         235,
@@ -3090,8 +2919,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        24149,
-        16149
+        20429,
+        4144
       ],
       "color": [
         235,
@@ -3100,10 +2929,70 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
+      "name": "Transfection",
+      "target": [
+        20701,
+        6429
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        19913,
+        7496
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        20159,
+        7869
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        21231,
+        7440
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        21795,
+        8119
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
       "name": "Coincidence",
       "target": [
-        24036,
-        14470
+        20742,
+        8515
       ],
       "color": [
         235,
@@ -3112,10 +3001,94 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
+      "name": "Transfection",
+      "target": [
+        19555,
+        9972
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        18866,
+        10582
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        16088,
+        11703
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        15822,
+        13729
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        16064,
+        13701
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        15361,
+        14042
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        16059,
+        17861
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
       "name": "Coincidence",
       "target": [
-        23852,
-        13260
+        17291,
+        19642
       ],
       "color": [
         235,
@@ -3124,432 +3097,24 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Transfection",
       "target": [
-        20615,
-        1084
+        20296,
+        23693
       ],
       "color": [
-        235,
-        87,
-        87
+        99,
+        179,
+        237
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Transfection",
       "target": [
-        18506,
-        2686
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        16149,
-        14724
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15724,
-        15068
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14634,
-        14630
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14789,
-        14939
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11712,
-        13085
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11141,
-        12926
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11978,
-        12869
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12410,
-        12560
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        10581,
-        10733
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9417,
-        7917
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9569,
-        8031
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8844,
-        7492
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8630,
-        8260
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7914,
-        9046
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        4633,
-        10730
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        10516,
-        7222
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12543,
-        15681
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        14043,
-        17053
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11328,
-        23860
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11293,
+        20320,
         24170
       ],
       "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7956,
-        23957
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7371,
-        24116
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        3965,
-        20129
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        2844,
-        24055
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        7027,
-        13281
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        6701,
-        1486
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8446,
-        450
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        21826,
-        4788
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        5057,
-        8332
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        1119,
-        965
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        3164,
-        12167
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        16662,
-        512
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        16412,
-        665
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        2837,
-        1787
-      ],
-      "color": [
         99,
         179,
         237
@@ -3558,212 +3123,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        2845,
-        2117
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        2437,
-        5884
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        2475,
-        11406
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        2992,
-        11478
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        2776,
-        16467
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        75,
-        18747
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        224,
-        19017
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        464,
-        21772
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        1500,
-        21561
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        3149,
-        19657
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        850,
-        13967
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        1199,
-        13846
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        3105,
-        12306
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        3712,
-        12617
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        1980,
-        7725
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        2954,
-        6052
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        5233,
-        3523
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        6999,
-        1298
+        20510,
+        22212
       ],
       "color": [
         99,
@@ -3774,8 +3135,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        5333,
-        79
+        19813,
+        22344
       ],
       "color": [
         235,
@@ -3786,32 +3147,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        10224,
-        741
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        11223,
-        3892
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        11196,
-        5544
+        21213,
+        18268
       ],
       "color": [
         99,
@@ -3822,8 +3159,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        11305,
-        5824
+        21304,
+        17831
       ],
       "color": [
         99,
@@ -3834,8 +3171,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        11654,
-        6069
+        18902,
+        17251
       ],
       "color": [
         99,
@@ -3846,8 +3183,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        11616,
-        6427
+        19029,
+        17035
       ],
       "color": [
         99,
@@ -3858,68 +3195,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        6119,
-        1563
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9126,
-        5812
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9304,
-        5085
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        9012,
-        5054
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        8892,
-        6225
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        8380,
-        6460
+        18183,
+        14278
       ],
       "color": [
         99,
@@ -3930,667 +3207,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        9082,
-        7113
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        8946,
-        8384
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        5643,
-        10524
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        5215,
-        11084
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        1593,
-        10557
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        760,
-        11553
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        752,
-        12051
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        3070,
-        21414
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        3507,
-        22080
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        3050,
-        22537
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        3940,
-        22953
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        4365,
-        24247
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        4537,
-        24062
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        12736,
-        22734
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        13189,
-        22723
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        13386,
-        22276
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        13553,
-        22726
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14720,
-        20969
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14573,
-        21418
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        13041,
-        18305
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        12890,
-        17811
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        13151,
-        17285
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        13853,
-        14316
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        13092,
-        11089
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14339,
-        11317
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14395,
-        11077
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14613,
-        11034
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14739,
-        11043
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14921,
-        11081
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        15370,
-        11019
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        15761,
-        8564
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        15914,
-        9183
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14001,
-        7289
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14156,
-        7820
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14423,
-        7731
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        15166,
-        7788
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        15646,
-        4658
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        17142,
-        2808
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        16535,
-        2001
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        19035,
-        1644
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        18403,
-        4397
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        20518,
-        6009
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        20530,
-        6231
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19192,
-        4797
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        20938,
-        5109
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19984,
-        4545
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19871,
-        4392
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19974,
-        4075
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19585,
-        4198
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        20745,
-        4282
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        19296,
-        3690
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        18965,
-        8275
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Coincidence",
-      "target": [
-        18084,
-        11499
-      ],
-      "color": [
-        235,
-        87,
-        87
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        17429,
-        12288
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        17941,
-        12579
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        16237,
+        18297,
         12409
       ],
       "color": [
@@ -4602,8 +3219,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        15953,
-        12125
+        20873,
+        10491
       ],
       "color": [
         99,
@@ -4614,8 +3231,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        21773,
-        8223
+        21211,
+        10724
       ],
       "color": [
         99,
@@ -4626,8 +3243,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        22622,
-        7728
+        17935,
+        8824
       ],
       "color": [
         99,
@@ -4638,8 +3255,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        21810,
-        6189
+        21028,
+        5514
       ],
       "color": [
         99,
@@ -4650,116 +3267,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        22428,
-        5795
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        24014,
-        529
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        24178,
-        893
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        23060,
-        3561
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        22278,
-        2995
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        19692,
-        13684
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        21348,
-        14477
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        20943,
-        14774
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        22821,
-        20494
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        22949,
-        20593
+        21508,
+        6070
       ],
       "color": [
         99,
@@ -4770,8 +3279,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        22838,
-        20839
+        20261,
+        5459
       ],
       "color": [
         235,
@@ -4782,8 +3291,20 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        21472,
-        20425
+        23352,
+        4580
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        23525,
+        2214
       ],
       "color": [
         99,
@@ -4794,8 +3315,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        20672,
-        23355
+        24211,
+        716
       ],
       "color": [
         235,
@@ -4806,8 +3327,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        17275,
-        23508
+        22716,
+        6778
       ],
       "color": [
         99,
@@ -4818,68 +3339,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        17717,
-        18784
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        14665,
-        17750
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        15787,
-        22923
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        12018,
-        21544
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        11925,
-        21913
-      ],
-      "color": [
-        99,
-        179,
-        237
-      ]
-    },
-    {
-      "name": "Transfection",
-      "target": [
-        7913,
-        16541
+        22982,
+        7373
       ],
       "color": [
         99,
@@ -4890,8 +3351,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        6231,
-        12016
+        22931,
+        10415
       ],
       "color": [
         235,
@@ -4902,8 +3363,92 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        4816,
-        18286
+        23171,
+        10663
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        22612,
+        16664
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        22782,
+        17542
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        22713,
+        18401
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        23084,
+        22115
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        24110,
+        23610
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        11483,
+        12520
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        11436,
+        11865
       ],
       "color": [
         235,
@@ -4914,8 +3459,20 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Coincidence",
       "target": [
-        8993,
-        18028
+        11730,
+        17554
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        11801,
+        17091
       ],
       "color": [
         235,
@@ -4926,8 +3483,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        10254,
-        19581
+        6760,
+        22829
       ],
       "color": [
         99,
@@ -4938,8 +3495,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        10240,
-        19784
+        7286,
+        22758
       ],
       "color": [
         99,
@@ -4950,8 +3507,8 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        3092,
-        13295
+        1040,
+        21957
       ],
       "color": [
         99,
@@ -4962,8 +3519,116 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
     {
       "name": "Transfection",
       "target": [
-        18364,
-        19834
+        2717,
+        11138
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        3561,
+        2170
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        3688,
+        2858
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        4878,
+        719
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        15768,
+        5951
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        16067,
+        5974
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19362,
+        11020
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Coincidence",
+      "target": [
+        19492,
+        11556
+      ],
+      "color": [
+        235,
+        87,
+        87
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        19272,
+        9094
+      ],
+      "color": [
+        99,
+        179,
+        237
+      ]
+    },
+    {
+      "name": "Transfection",
+      "target": [
+        12851,
+        8471
       ],
       "color": [
         99,
@@ -4981,59 +3646,15 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
   }
 }
 :::
-Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry-KDEL.
+Duplicate sample of the transfected-infected cell model expressing mCherry-KDEL.
 ::::
 
-Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to facilitate the comparison of ER morphology between infected and uninfected cells expressing mCherry-KDEL.
-This protocol was repeated five times over four experiments ([](#table5) and supplementary data).
-
-```{list-table} microATLAS annotation of transfected cell populations expressing mCherry-KDEL.
-:label: table5
-:header-rows: 1
-
-* - Sample
-  - Infected
-  - Uninfected
-  - Grid size (fields)
-* - [Figure 11.1](#sfig11a)
-  - 39
-  - 126
-  - 10x10 (n=100)
-* - [Figure 12.1](#sfig12)
-  - 64
-  - 125
-  - 15x15 (n=225)
-* - [Figure 13.1](#sfig13)
-  - 55
-  - 40
-  - 15x15 (n=225)
-* - [Figure 7.1](#fig7)
-  - 299
-  - 94
-  - 25x25 (n=625)
-* - [Figure 14.1](#sfig14)
-  - 227
-  - 75
-  - 25x25 (n=625)
-```
-
-## Conclusion
-
-Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
-Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection.
-This suggests that fluorescent protein artifacts were misinterpreted as reovirus induced ER remodeling.
-Otherwise, there is no obvious difference in ER morphology between infected and uninfected transfected cells.
-
 :::{dropdown} Methods
-3e5 HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).
-mCherry-KDEL was transfected with TransIT-2020 for 24 hours, then the cells were infected with reovirus T1L (MOI 100) for 24 hours before fixation (4% PFA, 20 minutes).
-Calreticulin and reovirus μNS antigens were detected by immunofluorescence assay.
-The chicken antiserum was paired with AlexFluor647 secondary antibodies.
-Primary antibodies were multiplexed and incubated overnight.
-Primary antibodies were multiplexed and incubated overnight.
-Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS and were imaged in this solution.
-An area of 625 fields (25x25 grid) was imaged.
-Barkley marked transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection in the microATLAS builder.
-Transfected-infected cells were labelled 'Coincidence', while transfected-uninfected cells were labelled 'Transfection'.
-If unsure, the cell was left unlabelled and it is possible that some transfected cells were overlooked.
+The specimens were HeLa cells seeded on 35mm glass-bottom dishes with 20mm coverslips (no 1.5 glass)
+Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies.
+Primary antibodies were multiplexed and incubated overnight at 4C in the dark.
+The secondary antibodies were multiplexed for two days overnight.
+A 25x25 grid (625 fields) was recorded.
+Z drift compensation malfunctioned in Figure 14.1 but worked in Figure 7.1.
+The overlapping edges were blended, which reduced the appearance of stitching artifacts.
 :::
