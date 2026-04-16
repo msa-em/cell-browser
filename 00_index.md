@@ -1,5 +1,5 @@
 ---
-title: 'You are being misled by representative images'
+title: 'Reimaging Representative Images'
 short_title: Virtual Microscopy
 numbering:
   heading_2: false
