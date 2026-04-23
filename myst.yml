@@ -114,14 +114,14 @@ project:
             - file: 06_antibody_ER.md
             - file: 07_antibody_reovirus.md
         - file: 08_results.md
-    - title: Objective Image Selection
-      children:
-        - file: 09_approach.md
-        - file: 10_autoencoders.md
-        - file: 11_nucleusnet.md
     - file: 12_discussion.md
     - title: Supplemental
       children:
+        - title: Objective Image Selection
+          children:
+            - file: 09_approach.md
+            - file: 10_autoencoders.md
+            - file: 11_nucleusnet.md
         - file: 13_supplementary.md
         - title: Replication Attempts
           children:
