@@ -4,7 +4,7 @@ numbering:
   enumerator: 9.%s
 ---
 
-An image collection of over one million [cell nuclei](<wiki:Cell_nucleus>) was made to help train machine learning models on microscopy data.
+An image collection of over one million [cell nuclei](<wiki:Cell_nucleus>) was made to help train machine learning models.
 It is the sum of 100 automated confocal imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
 One-hundred coverslips were sampled over twenty-one passages of the same cell line ([](#fig9a)).
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.

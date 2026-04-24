@@ -4,7 +4,7 @@ numbering:
   enumerator: 18.%s
 ---
 
-### Which moxGFP::μNS construct formed more condensates?
+### Which sample formed more condensates?
 
 :::{dropdown} Reveal the answer
 moxGFP:μNS(1-721) (**left**) tends to condense more than moxGFP:μNS(472-721) (right).
