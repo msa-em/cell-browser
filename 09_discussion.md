@@ -8,6 +8,7 @@ Every academic discipline has its ways of deciding what counts as valid knowledg
 If biomedical researchers endorse [empiricism](<wiki:Empiricism>) and objectivity, then why are representative images sufficient to make claims?
 A representative image definitively shows that an observation is possible, but a single image cannot describe frequency or variance.
 It is like [Schrödinger's cat](<wiki:Schrödinger's_cat>), where unobserved systems have combinations of outcomes that are never observed simultaneously.
+Virtual microscopy makes this easily exploitable system significantly harder to game.
 A general principle of the [scientific method](<wiki:Scientific_method>) is [reproducibility](<wiki:Reproducibility>).
 Repeatability is often described using quantitative analysis, but without numerical results, representative images cannot communicate repeatability.
 The reality is that representative images can show rare, idealized, or exaggerated examples to embellish results.
