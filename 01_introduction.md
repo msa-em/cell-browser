@@ -31,16 +31,6 @@ This study was qualitative because most of the results were representative micro
 Using the protocols described in the original paper, hundreds of overlapping tiles were sampled at high-magnification from replicate immunofluorescence experiments on a fully motorized confocal microscope.
 Microscopy maps were embedded in the article using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and custom viewers based on Viv [@doi:10.1038/s41592-022-01482-7].
 
-Microscopy maps are interactive figures, yet static images predominate scientific publishing.
-Despite the benefits of virtual microscopy, representative images will continue to be used until mainstream journals adopt modern visualization tools.
-Because scientific communication often uses static figures, we also considered methods of computational image selection.
-This follows a study critical of representative microscopy images that focused on methods of objective image selection to reduce bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
-To explore the possibility of using computers to select microscopy images, we made a dataset of one million images of the [cell nucleus](<wiki:Cell_nucleus>) called _NucleusNet_, then representative images were selected from NucleusNet by an [autoencoder](<wiki:Autoencoder>) model.
-Autoencoders are unsupervised deep learning models that compress and reconstruct images through a vector bottleneck referred to as _latent space_.
-The structure of latent space is a [black box](<wiki:Black_box>), though it can be shaped to be more useful with the art of representation learning [@doi:10.1109/TPAMI.2013.50].
-Representative images were defined near the centroid of latent space, though counterexamples showed that this approach does not generalize to all datasets.
-To define what is representative, both the subjective determinations made by humans and the objective determinations made by autoencoders are opaque.
-
 :::{warning} AI disclosure
 The text in this manuscript was written and edited by humans without AI assistance.
 AI-generated code was used in the notebooks, autoencoder, and data processing tasks.

@@ -75,10 +75,14 @@ Representative image of NucleusNet: ROI_300 from Run11BR_bottom_right.
 ## Conclusions
 
 Disentangling latent space is unrealistic, so it is hard to justify using autoencoders for the task of image selection.
-Barkley thought that the decoded latent centroids behaved like average projections.
-From this perspective, the representative image ([](#fig9e)) could be interpreted as one that blends all image features in the dataset.
-This observation could be attributed to the average pooling layers in the encoder.
+Barkley thought that the decoded latent centroids looked like average projections.
+From this perspective, the representative image ([](#fig9e)) could be interpreted as one that blends all image features in the dataset, though this observation could be attributed to the average pooling layers in the encoder.
 Textures and patterns could be biologically meaningful, or they could be deconvolution artifacts [@doi:10.23915/distill.00003].
+
+There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], but what is 'representative' in a dataset needs further deliberation.
+To this end, image categorization with an upstream classifier model could be a productive future direction for this task.
+Criteria to evaluate methods of representative image selection were also lacking, though a reasonable benchmark was the consistency in which members of the majority class were selected (https://doi.org/10.1016/s0006-3495(99)77379-0), which framed representative image selection as the inverse problem of anomaly detection.
+However, this might only work for classifiable biological datasets like NucleusNet.
 
 ---
 

@@ -14,19 +14,17 @@ The autoencoder is restricted in some way that it is forced to prioritize which 
 ## Method replication
 
 A method of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342] was shown on real-world data including the [MNIST database](<wiki:MNIST_database>), which is an annotated collection of 70,000 images of handwritten numbers.
-The two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in vector space.
+Their two-step approach to objective representative image selection calculated theoretical average images then measured the distance between real and theoretical images in vector space.
 Measures of central tendency were the arithmetic mean, median and geometric median, calculated as 784-dimensional vectors reshaped to 28x28 pixel images.
-The example in the literature used a sub-set of MNIST images (n=720) labelled 'four'.
-We used all MNIST 'four' images (N=6824), but the result was consistent with previous work ([](#fig8a)) [@doi:10.1109/BIP60195.2023.10379342].
+Their example tested a sub-set of MNIST images (n=720) labelled 'four'.
+Our attempt used all MNIST 'four' images (N=6824), but the theoretical images were consistent with previous work ([](#fig8a)) [@doi:10.1109/BIP60195.2023.10379342].
 
 :::{figure} #fig8a_data
 :label: fig8a
 :placeholder: ./figures/fig8a.png
-Successful replication of theoretical images of the MNIST digit '4'.
-N=6824 grayscale images labelled '4' were flattened to 784-dimensional vectors to measure then reshape reconstructed images of the arithmetic mean, median and geometric median.
+Replicating theoretical images of the MNIST digit 'four'.
+N=6824 grayscale 'four' images were flattened to 784-dimensional vectors to calculate then reshape reconstructions of the arithmetic mean, median and geometric median.
 :::
-
-The resulting images were not the same as the original study ([](#fig8b)) but we used the entire dataset.
 
 :::{figure} #fig8b_data
 :label: fig8b
@@ -34,16 +32,13 @@ The resulting images were not the same as the original study ([](#fig8b)) but we
 Practical images of the MNIST digit '4' [based on the singular value decomposition](https://github.com/jusotoTEC/reprImgSVD).
 :::
 
-## Autoencoder-based selection of MNIST digits
+## Autoencoder-based method
 
-Our method was similar but it used the latent space of an autoencoder.
-Theoretical average latent vectors were calculated to define the nearest vectors by Euclidean distance in the embedding.
+### 1. Calculating and decoding average latent vectors
 
-### 1. Calculating and decoding centroid latent vectors
-
-A convolutional autoencoder model was trained on the MNIST dataset and the encoder and decoder weights were saved ([](#sfig10a)). 
-n=6824 latent vectors labelled 'four' were averaged and reconstructed using the decoder weights to synthesize theoretical images of the digit 'four' ([](#fig8c)).
-Qualitatively, the decoded vectors looked like the reconstructions calculated in pixel space ([](#fig8a)).
+An autoencoder model was trained on the MNIST dataset ([](#sfig10a)) and the weights were saved to this repository.
+n=6824 encoded latent vectors corresponding to the image 'four' were averaged and reconstructed using the decoder weights ([](#fig8c)).
+Theoretical images output from the autoencoder appeared similar to the previous reconstructions ([](#fig8a)).
 
 :::{figure} #fig8c_data
 :name: fig8c
@@ -55,8 +50,8 @@ Decoded latent vectors: arithmetic mean, median and geometric median.
 
 The behaviour of the theoretical image generally does not correspond to a distinct image, therefore it is not considered the final representative image.
 However, it can be used to select representative examples from the dataset [@doi:10.1109/BIP60195.2023.10379342].
-Encoded images were ranked by Euclidean distance to centroids to define the closest real images ([](#fig8d)).
-The results were remarkably similar, if not identical to the previous method ([](#fig8b)).
+Encoded vectors corresponding to real images were ranked by Euclidean distance to the centroids in latent space to define the closest real images ([](#fig8d)).
+Unexpectedly, the outcome was remarkably similar, if not identical to the previous method ([](#fig8b)).
 
 :::{figure} #fig8d_data
 :name: fig8d
@@ -66,8 +61,8 @@ Nearest encoded vectors to the arithmetic mean, median and geometric median.
 
 ## Limitations
 
-These demonstrations relied on labelled data.
-Reconstructing theoretical averages without labels produced counterexamples ([](#fig8e) and [](#fig8f)), which shows that the two-step approach does not generalize to all datasets.
+These methods relied on testing a sub-set of manually annotated data.
+Reconstructing theoretical averages using the entire dataset produced counterexamples ([](#fig8e) and [](#fig8f)), which shows that this two-step approach cannot generalize to all datasets.
 Conceptually, it made sense to find an average example of the digit four, but not to find the average of all digits.
 Perhaps these methods would benefit from an upstream classifier model or manual annotation.
 

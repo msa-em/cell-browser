@@ -33,10 +33,4 @@ To test this approach, an immunofluorescence imaging experiment in reovirus-infe
 Barkley hypothesized that fluorescent proteins could have restructured the ER [@doi:10.1083/jcb.200306020], which was not addressed by the previous investigators.
 In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
-Otherwise, it is not clear that reovirus affects ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described.
-Barkley concluded that reovirus-induced ER remodeling was unsubstantiated due to confounding experimental artifacts, but we acknowledged that this interpretation was influenced by confirmation bias.
-
-There are at least ten examples of objective representative image selection [@doi:10.1109/BIP60195.2023.10379342], but what is 'representative' in a dataset needs further deliberation.
-To this end, image categorization with an upstream classifier model could be a productive future direction for this task.
-Criteria to evaluate methods of representative image selection were also lacking, though a reasonable benchmark was the consistency in which members of the majority class were selected (https://doi.org/10.1016/s0006-3495(99)77379-0).
-This framed representative image selection as the inverse problem of anomaly detection, however, not all biological datasets are classifiable.
+Otherwise, it is not clear in the replicate maps that reovirus affected ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described, though we recognize that this interpretation was influenced by confirmation bias.
