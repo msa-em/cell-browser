@@ -32,21 +32,6 @@ Using the protocols described in the original paper, hundreds of overlapping til
 Microscopy maps were embedded in the article using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and custom viewers based on Viv [@doi:10.1038/s41592-022-01482-7].
 
 :::{warning} AI disclosure
-The text in this manuscript was written and edited by humans without AI assistance.
-AI-generated code was used in the notebooks, autoencoder, and data processing tasks.
-:::
-
-:::{dropdown} Definitions
-_Virtual microscopy_ is the process of sharing image data over computer networks.
-A related term _virtual nanoscopy_ described the process of automated imaging and unbiased presentation of electron microscopy data using interactive viewers [@doi:10.1083/jcb.201201140].
-
-A _microscopy map_ is the interactive figure used to view virtual microscopy data [@doi:10.1083/jcb.201201140].
-This name fits broader use cases including light and electron microscopy.
-
-A _representative image_ is an illustration used by microscopists to exemplify research results to other scientists.
-This definition is agnostic to the research context and it emphasizes the use of pictures as scientific evidence.
-
-A _grayscale image_ is defined as a two-dimensional matrix where each pixel is a single intensity value ranging from 0-1 that represents the amount of light or intensity information at a specific point [@doi:10.1109/BIP60195.2023.10379342].
-
-A _latent space_ is a collection of vectors that form a reduced-dimensionality embedding of the data, fit by a machine learning model [@doi:10.1111/cgf.13672].
+All text was written and edited by humans without AI assistance.
+AI-generated code was used in the notebooks, autoencoder and for some data processing tasks.
 :::
