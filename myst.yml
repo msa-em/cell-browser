@@ -117,7 +117,6 @@ project:
       children:
         - title: Objective Image Selection
           children:
-            - file: 10_introduction.md
             - file: 11_autoencoders.md
             - file: 12_nucleusnet.md
         - file: 13_supplementary.md
