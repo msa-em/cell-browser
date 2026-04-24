@@ -29,9 +29,11 @@ Because it nurtures open and rigorous peer review, microscopists and principal i
 
 Barkley advocated for the use of virtual microscopy as an unbiased method to replicate highly magnified representative images.
 This process involves automated sampling of reasonable populations from which the original claim should be reliably observed.
-It is unbiased to the extent that data is collected with robotics and is hosted interactively on the web.
+Virtual microscopy is unbiased to the extent that the data was sampled with robotics and is shared interactively on the web.
 To test this approach, an immunofluorescence imaging experiment in reovirus-infected cells [@doi:10.1128/mBio.01253-18] was reexamined with virtual microscopy.
 Barkley hypothesized that fluorescent proteins could have restructured the ER [@doi:10.1083/jcb.200306020], which was not addressed by the previous investigators.
 In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
-Otherwise, it is not clear in the replicate maps that reovirus affected ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described, though we recognize that this interpretation was influenced by confirmation bias.
+Otherwise, it was not clear that reovirus affected ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described, though we recognized that this interpretation was swayed by confirmation bias.
+Interactive microscopy maps made our data uniquely accessible to the public for unbiased peer review.
+This new mode to communicate microscopy data not only encourages self-policing, it promotes re-usindependent interpretation.
