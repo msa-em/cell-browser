@@ -4,7 +4,7 @@ numbering:
   enumerator: 0.%s
 ---
 
-Every academic discipline has its ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
+Every academic discipline has its own ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
 If biomedical researchers endorse [empiricism](<wiki:Empiricism>) and objectivity, then why are representative images sufficient to make claims?
 A representative image definitively shows that an observation is possible, but a single image cannot describe frequency or variance.
 It is like [Schrödinger's cat](<wiki:Schrödinger's_cat>), where unobserved systems have combinations of outcomes that are never observed simultaneously.
