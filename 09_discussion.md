@@ -35,4 +35,4 @@ Barkley hypothesized that fluorescent proteins could have restructured the ER [@
 In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
 Otherwise, it was not clear that reovirus affected ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described, though we recognized this interpretation was influenced by confirmation bias.
-Virtual microscopy improves the use, interpretation, and communication of scientific data, subjecting the results of our replication experiments to unbiased peer review.
+Virtual microscopy improves the use, interpretation, and communication of scientific data, subjecting the results of replication experiments to unbiased peer review.
