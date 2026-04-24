@@ -4,11 +4,14 @@ numbering:
   enumerator: 9.%s
 ---
 
+An image collection of over one million [cell nuclei](<wiki:Cell_nucleus>) was made to help train machine learning models on microscopy data.
+It is the sum of 100 automated confocal imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
 One-hundred coverslips were sampled over twenty-one passages of the same cell line ([](#fig9a)).
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.
 Nuclei were visualized with DAPI which binds to DNA.
 As expected, there was variation in cell confluence and signal intensity between experiments, and even between regions of the same coverslip ([](#sfig10b)).
 NucleusNet was cropped from ROIs segmented in the stitched images ([](#fig9b)).
+An autoencoder was trained on NucleusNet and representative images were defined near the centroids of latent space, though this approach was unjustifiable because the latent space was uninterpretable.
 
 ::::{figure}
 :label: fig9a
