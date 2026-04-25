@@ -5028,12 +5028,9 @@ Otherwise, there is no obvious difference in ER morphology between infected and 
 3e5 HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).
 mCherry-KDEL was transfected with TransIT-2020 for 24 hours, then the cells were infected with reovirus T1L (MOI 100) for 24 hours before fixation (4% PFA, 20 minutes).
 Calreticulin and reovirus μNS antigens were detected by immunofluorescence assay.
-The chicken antiserum was paired with AlexFluor647 secondary antibodies.
-Primary antibodies were multiplexed and incubated overnight.
-Primary antibodies were multiplexed and incubated overnight.
-Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS and were imaged in this solution.
-An area of 625 fields (25x25 grid) was imaged.
-Barkley marked transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection in the microATLAS builder.
+Chicken antiserum was paired with AlexaFluor647 secondary antibodies.
+Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS then an area of 625 fields (25x25 grid) was imaged.
+Barkley annotated transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection using the microATLAS builder.
 Transfected-infected cells were labelled 'Coincidence', while transfected-uninfected cells were labelled 'Transfection'.
-If unsure, the cell was left unlabelled and it is possible that some transfected cells were overlooked.
+If unsure, the cell was left unlabelled and it is likely that some transfected cells were overlooked.
 :::

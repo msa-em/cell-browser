@@ -4,8 +4,6 @@ numbering:
   enumerator: 1.%s
 ---
 
-# Embedded microscopy maps
-
 This chapter critiques the quality and reproducibility of representative microscopy images as scientific evidence.
 The problem is that static figures motivate authors to cherry-pick desirable examples.
 Scientists also lack tools to evaluate the replicability of claims from representative images.

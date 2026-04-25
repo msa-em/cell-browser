@@ -1,5 +1,5 @@
 ---
-title: 'You are being misled by representative images'
+title: 'Reimaging Representative Images'
 short_title: Virtual Microscopy
 numbering:
   heading_2: false
@@ -10,9 +10,9 @@ numbering:
 Static figures are the standard interface for scientific discourse and peer review, so microscopists invariably communicate experimental results through representative images and plots.
 This article focuses on virtual microscopy, a novel visualization strategy for researchers to share microscopy data in publications.
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimages as an unbiased alternative to representative images.
-These features made virtual microscopy useful for the critical appraisal of qualitative microscopy studies.
-Using this approach, an original claim of reovirus-induced endoplasmic reticulum remodeling was reexamined in replication experiments.
-To work within the constraints of conventional journals, an objective method of image selection was also explored and delimited.
+These features made virtual microscopy useful for the critical appraisal of observational studies.
+Using this approach, an original claim of reovirus-induced endoplasmic reticulum remodeling was reexamined.
+Virtual microscopy improves the use, interpretation, and communication of scientific data, subjecting the results of replication experiments to unbiased peer review.
 
 +++
 
@@ -36,7 +36,7 @@ We thank the [Baker Institute for Animal Health](https://www.vet.cornell.edu/dep
 ## Competing Interests
 
 All authors declared no financial conflicts of interest.
-Last names were sometimes used to separate the author's voices, interpretations and contributions.
+Last names were sometimes used to separate the author's voices, interpretations and contributions in the text.
 
 +++
 
