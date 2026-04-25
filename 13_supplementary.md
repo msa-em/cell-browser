@@ -4,8 +4,6 @@ numbering:
   enumerator: 10.%s
 ---
 
----
-
 # Definitions
 
 _Virtual microscopy_ is the process of sharing image data over computer networks.
