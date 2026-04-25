@@ -12,7 +12,7 @@ This article focuses on virtual microscopy, a novel visualization strategy for r
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimages as an unbiased alternative to representative images.
 These features made virtual microscopy useful for the critical appraisal of qualitative microscopy studies.
 Using this approach, an original claim of reovirus-induced endoplasmic reticulum remodeling was reexamined in replication experiments.
-To work within the constraints of conventional journals, an objective method of image selection was also explored and delimited.
+Virtual microscopy improves the use, interpretation, and communication of scientific data, subjecting the results of replication experiments to unbiased peer review.
 
 +++
 

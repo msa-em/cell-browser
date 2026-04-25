@@ -7,6 +7,7 @@ numbering:
 # Introduction
 
 Microscopy maps are interactive figures, yet static images predominate scientific publishing.
+To work within the constraints of conventional journals, an objective method of image selection was also explored and delimited.
 Despite the benefits of virtual microscopy, representative images will continue to be used until mainstream journals adopt modern visualization tools.
 Because scientific communication often uses static figures, we also considered methods of computational image selection.
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to reduce bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
