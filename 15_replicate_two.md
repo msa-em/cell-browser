@@ -3025,7 +3025,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
         "contrastLimits": [
           [
             0,
-            2500
+            1500
           ],
           [
             0,
@@ -3033,7 +3033,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
           ],
           [
             0,
-            2500
+            3500
           ],
           [
             0,
@@ -3086,7 +3086,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
         "contrastLimits": [
           [
             0,
-            2500
+            1500
           ],
           [
             0,
@@ -3094,7 +3094,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
           ],
           [
             0,
-            2500
+            3500
           ],
           [
             0,
@@ -3146,7 +3146,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
         "contrastLimits": [
           [
             0,
-            2500
+            1500
           ],
           [
             0,
@@ -3154,7 +3154,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
           ],
           [
             0,
-            2500
+            3500
           ],
           [
             0,
@@ -3206,7 +3206,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
         "contrastLimits": [
           [
             0,
-            2500
+            1500
           ],
           [
             0,

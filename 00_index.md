@@ -36,7 +36,7 @@ We thank the [Baker Institute for Animal Health](https://www.vet.cornell.edu/dep
 ## Competing Interests
 
 All authors declared no financial conflicts of interest.
-Last names were sometimes used to separate the author's voices, interpretations and contributions.
+Last names were sometimes used to separate the author's voices, interpretations and contributions in the text.
 
 +++
 
