@@ -101,7 +101,7 @@ Z-score-normalized euclidean distance was used for equal weighting because the f
 The entire single-cell image collection was sharded into [TFRecords](https://www.tensorflow.org/tutorials/load_data/tfrecord) to better load the dataset into memory and shuffle it during training.
 An autoencoder model was trained for 50 epochs on NucleusNet and the encoder and decoder weights were saved.
 The input was 256 by 256 pixel grayscale images that were embedded into 512-dimensional latent vectors.
-The model overfit slightly because the training and validation losses diverged at later epochs.
+The model overfit because the training and validation losses diverged at later epochs.
 
 ### Training history
 
