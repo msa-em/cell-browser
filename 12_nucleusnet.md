@@ -4,7 +4,7 @@ numbering:
   enumerator: 9.%s
 ---
 
-An image collection of over one million [cell nuclei](<wiki:Cell_nucleus>) was made to help train machine learning models.
+An image collection of over one million [cell nuclei](<wiki:Cell_nucleus>) was created to help train machine learning models.
 It is the sum of 100 automated confocal imaging experiments that sampled ~37.25cm² at high-magnification, yielding 1,061,277 cropped single-cell images segmented from 1600 stitched panoramas.
 One-hundred coverslips were sampled over twenty-one passages of the same cell line ([](#fig9a)).
 [CV-1 cells](https://www.atcc.org/products/ccl-70) were seeded at varying densities then were fixed after at least one day, so the cell cycles were asynchronous.
@@ -37,7 +37,7 @@ Overlay of cellpose segmentation masks. Experiment 25 was chosen because two sti
 
 A small version of the dataset, NucleusNet-10K, represents a random sample of ~1% of NucleusNet.
 100 random cropped images from each experiment are shown in chronological order by row ([](#fig9c)).
-This map shows variation in signal intensity across experiments, which could warrant the normalization or standardization of pixel intensities.
+This map shows variation in signal intensity across experiments, warranting normalization or standardization.
 There is another [example](https://www.allencell.org/deep-cell-zoom.html) of this visualization strategy with 200,000 human-induced pluripotent stem cells.
 
 ::::{figure}

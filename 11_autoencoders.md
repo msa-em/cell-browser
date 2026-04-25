@@ -7,7 +7,6 @@ numbering:
 # Introduction
 
 Microscopy maps are interactive figures, yet static images predominate scientific publishing.
-To work within the constraints of conventional journals, an objective method of image selection was also explored and delimited.
 Despite the benefits of virtual microscopy, representative images will continue to be used until mainstream journals adopt modern visualization tools.
 Because scientific communication often uses static figures, we also considered methods of computational image selection.
 This follows a study critical of representative microscopy images that focused on methods of objective image selection to reduce bias (https://doi.org/10.1016/s0006-3495(99)77379-0).
@@ -67,7 +66,7 @@ Decoded latent vectors: arithmetic mean, median and geometric median.
 The behaviour of the theoretical image generally does not correspond to a distinct image, therefore it is not considered the final representative image.
 However, it can be used to select representative examples from the dataset [@doi:10.1109/BIP60195.2023.10379342].
 Encoded vectors corresponding to real images were ranked by Euclidean distance to the centroids in latent space to define the closest real images ([](#fig8d)).
-Unexpectedly, the outcome was remarkably similar, if not identical to the previous method ([](#fig8b)).
+The outcome was remarkably similar, if not identical to the previous method ([](#fig8b)).
 
 :::{figure} #fig8d_data
 :name: fig8d
