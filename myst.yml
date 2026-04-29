@@ -136,7 +136,10 @@ project:
           children:
             - file: 20_mNeonGreenmuNS.md
             - file: 21_nucleation.md
-        - file: 22_archival.md
-        - file: 24_whorls.md
+        - title: Archived Data
+          children:
+            - file: 22_archived_maps.md
+            - file: 26_nilered.md
+        - file: 25_whorls.md
 site:
   template: book-theme
