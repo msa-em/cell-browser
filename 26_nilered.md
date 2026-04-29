@@ -4,12 +4,15 @@ numbering:
   enumerator: 22.%s
 ---
 
-CV-1 cells transiently expressing moxGFP::μNS for 24 hours were fixed and treated with the lipophilic stain [Nile red](<wiki:Nile_red>).
-Several images were captured and the experiment was not repeated or analyzed.
-The archived data, created _March 13 2023_, was converted to OME-Zarr to interact with the representative images.
-It appears that the air table was not pressurized because there are vibration artifacts.
-Further, lipid droplets fluoresce yellow-gold with Nile red [@doi:10.1083/jcb.100.3.965], causing spectral overlap in the EGFP channel.
-Otherwise, the dye did not fluoresce in moxGFP::μNS condensates, suggesting the microenvironment is polar and void of lipids.
+Cells expressing moxGFP::μNS plasmids for 24 hours were fixed and treated with [Nile red](<wiki:Nile_red>).
+Several images were recorded, but the experiment was not repeated or analyzed further.
+This data, created _March 13 2023_, was converted to OME-Zarr to interact with the representative images.
+
+## Reinterpretation
+
+The air table was not pressurized because there are vibration artifacts.
+Another problem was that lipid droplets fluoresced yellow-gold [@doi:10.1083/jcb.100.3.965], causing spectral overlap in the EGFP channel.
+Notably, the dye did not stain the viral factory-like structures, suggesting the microenvironment was polar and void of lipids.
 
 ### moxGFP::μNS(1-721)
 
