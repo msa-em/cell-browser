@@ -136,7 +136,7 @@ project:
           children:
             - file: 20_mNeonGreenmuNS.md
             - file: 21_nucleation.md
-        - title: Archived Experiment
+        - title: Archived Experiments
           children:
             - file: 22_archived_maps.md
             - file: 26_nilered.md
