@@ -4996,7 +4996,7 @@ This variability demonstrates that co-infection of transfected cells cannot be r
 * - Sample
   - Infected
   - Uninfected
-  - Infected (%)
+  - Infection rate
   - Grid size (fields)
 * - [Figure 11.1](#sfig11a)
   - 39
@@ -5006,7 +5006,7 @@ This variability demonstrates that co-infection of transfected cells cannot be r
 * - [Figure 12.1](#sfig12)
   - 64
   - 125
-  - 39%
+  - 34%
   - 15x15 (n=225)
 * - [Figure 13.1](#sfig13)
   - 55
