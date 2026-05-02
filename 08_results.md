@@ -4,8 +4,9 @@ numbering:
   enumerator: 7.%s
 ---
 
-Barkley attempted a direct replication experiment, but some reagents and protocols were modified for internal needs.
+This study is not an exact replication because some reagents and protocols were modified for internal needs.
 Specifically, the reovirus strain, MOI and calreticulin antibody were substituted, while the cell line, plasmid, transfection reagent and reovirus antibody were consistent.
+Instead of relying on a single representative image, our interactive microscopy map allows readers to inspect the coverslip.
 
 ::::{figure}
 :label: fig7
