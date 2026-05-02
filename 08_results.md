@@ -4986,8 +4986,8 @@ Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry
 
 Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to facilitate the comparison of ER morphology between infected and uninfected cells expressing mCherry-KDEL.
 This protocol was repeated five times over four experiments ([](#table5) and supplementary data).
-Across five repetition experiments, the proportion of transfected cells co-infected with reovirus varied from 24% [](#sfig11a) to 76% [](#fig7).
-This variability demonstrates that co-infection of transfected cells cannot be reliably assumed in this model.
+Across the five repetitions, the proportion of transfected cells co-infected with reovirus varied from 24% ([](#sfig11a)) to 76% ([](#fig7)).
+This variability demonstrates that co-infection of transfected cells cannot be reliably assumed in this experimental model.
 
 ```{list-table} microATLAS annotation of transfected cell populations expressing mCherry-KDEL.
 :label: table5
