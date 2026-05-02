@@ -15,7 +15,7 @@ mCherry-Climp63 was another control for ER remodeling, given its role in determi
 
 Cells transiently expressing mCherry-ER fusions were fixed after 24 hours of transfection with Trans-IT 2020 and Lipofectamine 3000 transfection reagents.
 The ER was labelled with calreticulin antibodies.
-To better assess the mCherry-ER fusion proteins, Parker advised adjusting the illumination settings individually to avoid oversaturating the images.
+To better assess the distributions of mCherry-ER fusions, Parker advised adjusting the illumination settings individually to avoid oversaturating the images.
 Therefore, some maps were reimaged and moved to the Supplemental.
 
 ::::{grid} 2 2 2 2

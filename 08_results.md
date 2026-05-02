@@ -6,7 +6,7 @@ numbering:
 
 This study is not an exact replication because some reagents and protocols were modified for internal needs.
 Specifically, the reovirus strain, MOI and calreticulin antibody were substituted, while the cell line, plasmid, transfection reagent and reovirus antibody were consistent.
-Instead of relying on a single representative image, our interactive microscopy map allows readers to inspect the coverslip.
+Instead of relying on a single representative image, our interactive microscopy map allows readers to observe hundreds of cells.
 
 ::::{figure}
 :label: fig7
@@ -5029,8 +5029,8 @@ This variability demonstrates that co-infection of transfected cells cannot be r
 
 Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
 Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection.
-This suggests that fluorescent protein artifacts were misinterpreted as reovirus induced ER remodeling.
-Otherwise, there was no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) transfected cells, as illustrated in the preset views titled _Compare mCherry-ER_.
+This suggests that fluorescent protein artifacts could have been misinterpreted as reovirus induced ER remodeling.
+As illustrated in the preset views, there was no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) transfected cells.
 
 :::{dropdown} Methods
 3e5 HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).

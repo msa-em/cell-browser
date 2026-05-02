@@ -8,7 +8,7 @@ While the replication crisis is multifaceted, the irreproducibility of represent
 According to one study, replication rates for representative images fell between 27-90% [@doi:10.7554/eLife.71601].
 This range reflects the difficulty of assessing replication outcomes, as scientists lack tools to evaluate the replicability of representative images.
 To address this gap, we applied [virtual microscopy](<wiki:Virtual_microscopy>) to reexamine representative images in replication studies.
-Already adopted by some clinicians and educators, virtual microscopy could also benefit research by providing an alternative interface for communicating and interpreting image data.
+Already adopted by some clinicians and educators, virtual microscopy could also benefit research by providing an alternative interface for scientists to communicate and interpret image data.
 Interactive microscopy maps have been used for the unbiased presentation of electron microscopy data [@doi:10.1083/jcb.201201140].
 Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now exist that have yet to be used in scientific publishing.
 Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
