@@ -4,18 +4,18 @@ numbering:
   enumerator: 1.%s
 ---
 
-This chapter critiques the quality and reproducibility of representative microscopy images as scientific evidence.
-The problem is that static figures motivate authors to cherry-pick desirable examples.
-Scientists also lack tools to evaluate the replicability of claims from representative images.
-A solution is cloud-based [virtual microscopy](<wiki:Virtual_microscopy>); using the internet to share image data.
-Often used for pedagogy and digital pathology, virtual microscopy could benefit research.
-Academics have proposed a variation of virtual microscopy for the unbiased presentation of electron microscopy data [@doi:10.1083/jcb.201201140].
-Today, there are free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be used in scientific publishing.
-Our approach involved automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) file formats, and embedded interactive viewers ([](#abstract)).
+While the replication crisis is multifaceted, the irreproducibility of representative images is a contributing factor that can be critiqued independently.
+According to one study, replication rates for representative images fell between 27-90% [@doi:10.7554/eLife.71601].
+This range reflects the difficulty of assessing replication outcomes, as scientists lack tools to evaluate the replicability of representative images.
+To address this gap, we applied [virtual microscopy](<wiki:Virtual_microscopy>) to reexamine representative images in replication studies.
+Already adopted by some clinicians and educators, virtual microscopy could also benefit research by providing an alternative interface for communicating and interpreting image data.
+Interactive microscopy maps have been used for the unbiased presentation of electron microscopy data [@doi:10.1083/jcb.201201140].
+Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now exist that have yet to be used in scientific publishing.
+Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
-Cloud-based virtual microscopy. 1. Automated image acquisition with any suitable microscope. ZDC: Z-drift compensation. 2. Stitch and reformat to pyramidal DZI or OME-Zarr and host online. 3. As readers interact with microscopy maps, image tiles or data chunks are retrieved from cloud storage.
+Virtual microscopy. 1. Automated dataset collection with any suitable microscope. ZDC: Z-drift compensation. 2. Stitch tiles then convert the image to DZI or OME-Zarr, host online. 3. Image tiles or data chunks are retrieved from cloud storage as readers interact with microscopy maps.
 ```
 
 Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling alternative methods of virtual microscopy based on OME-Zarr or [Deep Zoom](<wiki:Deep_Zoom>).
