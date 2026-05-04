@@ -20,7 +20,7 @@ In practice, microscopy maps are easy to share but are accessed via external lin
 From the perspective of biomedical researchers, the perceived cause is the pressure to publish [@doi:10.1371/journal.pbio.3002870].
 Repeatability within the same study by the same researchers is distinguished from replicability by independent researchers using the same methodology.
 Large-scale replicability studies found that only 11% [@doi:10.1038/483531a] and 25% [@doi:10.1038/nrd3439-c1] of key findings from preclinical cancer research papers were replicable.
-The replication crisis is multifaceted, but the irreproducibility of representative images, which is a contributing factor, can be critiqued on its own.
+The replication crisis is multifaceted, but the irreproducibility of representative images deserves scrutiny in its own right.
 According to one study, replication rates for representative images ranged from 27% to 90% [@doi:10.7554/eLife.71601].
 This wide range reflects how difficult it is to assess the replicability of representative images without dedicated tools.
 A feature of virtual microscopy is the unbiased sampling and transmission of multi-scale image data, making it useful as a method to replicate representative images.
