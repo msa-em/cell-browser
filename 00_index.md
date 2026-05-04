@@ -43,5 +43,5 @@ Last names were sometimes used to separate the author's voices, interpretations 
 ## Data Availability
 
 NucleusNet was deposited to Zenodo [@doi:10.5281/zenodo.18776681].
-OME-Zarr data was hosted on the [Open Storage Network](https://openstoragenetwork.github.io/)[https://doi.org/10.6075/J0RR1ZCR], funded by an [ACCESS allocation](https://allocations.access-ci.org/).
+OME-Zarr data was hosted on the [Open Storage Network](https://openstoragenetwork.github.io/)(https://doi.org/10.6075/J0RR1ZCR), funded by an [ACCESS allocation](https://allocations.access-ci.org/).
 Deep Zoom data was hosted on [Github](https://github.com/RussellBarkley).
