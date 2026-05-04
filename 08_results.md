@@ -5030,7 +5030,7 @@ This variability demonstrates that co-infection of transfected cells cannot be r
 Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
 Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection.
 This suggests that fluorescent protein artifacts could have been misinterpreted as reovirus induced ER remodeling.
-As illustrated in the preset views, there was no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) transfected cells.
+As illustrated in the preset views titled _Compare mCherry-ER_, there was no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) transfected cells.
 
 :::{dropdown} Methods
 3e5 HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).
