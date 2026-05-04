@@ -4,13 +4,9 @@ numbering:
   enumerator: 1.%s
 ---
 
-While the replication crisis is multifaceted, the irreproducibility of representative images is a contributing factor that can be critiqued independently.
-According to one study, replication rates for representative images fell between 27-90% [@doi:10.7554/eLife.71601].
-This range reflects the difficulty of assessing replication outcomes, as scientists lack tools to evaluate the replicability of representative images.
-To address this gap, we applied [virtual microscopy](<wiki:Virtual_microscopy>) to reexamine representative images in replication studies.
-Already adopted by some clinicians and educators, virtual microscopy could also benefit research by providing an alternative interface for scientists to communicate and interpret image data.
-Interactive microscopy maps have been used for the unbiased presentation of electron microscopy data [@doi:10.1083/jcb.201201140].
-Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now exist that have yet to be used in scientific publishing.
+Already adopted by some clinicians and educators, virtual microscopy could also benefit researchers as an alternative way to communicate and interpret image data.
+Interactive microscopy maps were first proposed as an unbiased way to present electron microscopy data [@doi:10.1083/jcb.201201140].
+Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now make this feasible, yet these tools have not been adopted in scientific publishing.
 Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png
@@ -84,3 +80,10 @@ By default, readers cannot control dimensions like channels or time, so it is be
 }
 :::
 ```
+
+:::{dropdown} Imaging
+Data collection was fully-motorized for unbiased sampling of large panoramas from replicate immunofluorescence experiments.
+Grids of overlapping tiles were acquired with a robotic XY stage (IX3-SSU) and Z-drift compensation (IX3-ZDC).
+Coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens (Olympus model UPLAPO100X, NA 1.50) in immersion oil. 
+Pinholes in each channel were maximized to capture the widest depth of field.
+:::

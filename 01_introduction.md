@@ -20,14 +20,12 @@ In practice, microscopy maps are easy to share but are accessed via external lin
 From the perspective of biomedical researchers, the perceived cause is the pressure to publish [@doi:10.1371/journal.pbio.3002870].
 Repeatability within the same study by the same researchers is distinguished from replicability by independent researchers using the same methodology.
 Large-scale replicability studies found that only 11% [@doi:10.1038/483531a] and 25% [@doi:10.1038/nrd3439-c1] of key findings from preclinical cancer research papers were replicable.
-Another study found that, even at its 'lowest bar' criterion, the replication success rate was 79% for representative images [@doi:10.7554/eLife.71601].
-Furthermore, representative images without quantitative analysis accounted for 26% of the claimed effects.
-Consider that highly magnified representative images cannot describe population variation and the uncertainty of an observation.
+The replication crisis is multifaceted, but the irreproducibility of representative images, which is a contributing factor, can be critiqued on its own.
+According to one study, replication rates for representative images ranged from 27% to 90% [@doi:10.7554/eLife.71601].
+This wide range reflects how difficult it is to assess the replicability of representative images without dedicated tools.
 A feature of virtual microscopy is the unbiased sampling and transmission of multi-scale image data, making it useful as a method to replicate representative images.
 Results should be observed again with a high degree of reliability; therefore original claims should be evident in replicate microscopy maps.
-
 Here, microscopy maps were used to reassess the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
-This study was qualitative because most of the results were representative microscopy images without quantification.
 Using the protocols described in the original paper, hundreds of overlapping tiles were sampled at high-magnification from replicate immunofluorescence experiments on a fully motorized confocal microscope.
 Microscopy maps were embedded in the article using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and custom viewers based on Viv [@doi:10.1038/s41592-022-01482-7].
 
