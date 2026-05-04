@@ -7,7 +7,7 @@ numbering:
 Every academic discipline has its own ways of deciding what counts as valid knowledge (see [epistemology](<wiki:Epistemology>)).
 If biomedical researchers endorse empiricism and objectivity, then why are representative images sufficient to make claims?
 A representative image shows that an observation is possible, but a single image cannot describe frequency or variance.
-A general principle of the [scientific method](<wiki:Scientific_method>) is [reproducibility](<wiki:Reproducibility>), often demonstrated through quantitative analysis, but without numerical results, representative images cannot communicate repeatability.
+The scientific method demands reproducibility, yet representative images offer no way to communicate repeatability without quantitative analysis.
 In practice, representative images can show rare, idealized, or exaggerated examples to embellish results.
 Microscopists are incentivized to show compelling evidence and omit contradictory data.
 The literature is full of exciting outcomes, but at the bench, experiments are nuanced and prone to failure.
