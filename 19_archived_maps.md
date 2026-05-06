@@ -1,5 +1,5 @@
 ---
-title: Microscopy Maps
+title: Archived Maps
 numbering:
   enumerator: 21.%s
 ---

@@ -31,5 +31,5 @@ Microscopy maps were embedded in the article using the next generation file form
 
 :::{warning} AI disclosure
 All text was written and edited by humans without AI assistance.
-AI-generated code was used in the Jupyter notebooks, autoencoder model and some data processing tasks.
+AI-generated code was used in some data processing tasks.
 :::

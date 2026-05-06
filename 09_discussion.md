@@ -32,3 +32,14 @@ Barkley hypothesized that fluorescent proteins could have restructured the ER [@
 In replication attempts, ER remodeling was observed in transfected cells expressing mCherry-KDEL in the absence of reovirus.
 This suggests that artifacts from mCherry-ER reporters could have been misinterpreted as an outcome of infection.
 Otherwise, it was not clear that reovirus affected ER morphology, certainly not to the extent of fragmentation, collapse, and aggregation as described, though we recognized this interpretation was influenced by confirmation bias.
+
+When Barkley sought to uncover ground truths through virtual microscopy, Parker offered the following perspective: 
+There is no ground truth. 
+The term is misleading, as all "established facts" are simply our current interpretation of available findings, data, or measurements. 
+Science does not generate truth; it generates findings or data that are analyzed and then interpreted by humans, and those interpretations can differ, sometimes widely. 
+Through the accrual of many findings, a consensus picture of current "reality" emerges that is sometimes called "ground truth," but this is only a snapshot and not the final word. 
+Truth is not a straightforward concept. 
+All truths can be challenged, and while some become more certain with the passage of time, they are never without caveats. 
+Science is the process of observing, imagining explanations for the observations, turning those explanations into hypotheses, and then testing them through experimentation. 
+The truths we derive from this process are "interpreted truths" that may become irrelevant as new information is gathered. 
+Our job as scientists are not to identify ground truths, but to test hypotheses or ideas and garner evidence that supports or contradicts them.

@@ -4,7 +4,10 @@ numbering:
   enumerator: 12.%s
 ---
 
-Other mCherry-ER reporters were tested, though few cells expressed mCherry-Climp63.
+## Testing other mCherry-ER fusion proteins
+
+Other mCherry-ER reporters were tested, though few cells were found expressing mCherry-Climp63.
+The signal intensity was low, especially in the calreticulin channel, which made it difficult to interpret ER morphology using the antibody.
 
 ::::{figure}
 :label: sfig12

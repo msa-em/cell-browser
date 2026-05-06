@@ -55,7 +55,6 @@ project:
         - Resources
         - Software
         - Visualization
-        - Funding Acquisition
         - Writing - original draft
         - Writing - review & editing
     - id: ajbrodrick
@@ -93,7 +92,6 @@ project:
     MOI: multiplicity of infection
     DAPI: 4',6-Diamidino-2-phenylindole
     DNA: deoxyribonucleic acid
-    MSE: mean squared error
     PBS: phosphate buffered saline
     PFA: paraformaldehyde
     DZI: deep zoom image
@@ -115,27 +113,19 @@ project:
     - file: 09_discussion.md
     - title: Supplemental
       children:
-        - file: 13_supplementary.md
+        - file: 10_oser.md
+        - file: 11_video.md
         - title: Replication Attempts
           children:
-            - file: 14_replicate_one.md
-            - file: 15_replicate_two.md
-            - file: 16_replicate_three.md
-            - file: 17_replicate_four.md
+            - file: 12_replicate_one.md
+            - file: 13_replicate_two.md
+            - file: 14_replicate_three.md
+            - file: 15_replicate_four.md
         - title: Repetition Experiments
           children:
-            - file: 18_antibody_reovirus.md
-            - file: 23_plasmids_repeat.md
-            - file: 24_plasmids_repeat.md
-        - file: 19_moxGFPmuNS.md
-        - title: Videos
-          children:
-            - file: 20_mNeonGreenmuNS.md
-            - file: 21_nucleation.md
-        - title: Archived Experiments
-          children:
-            - file: 22_archived_maps.md
-            - file: 26_nilered.md
-        - file: 25_whorls.md
+            - file: 16_antibody_reovirus.md
+            - file: 17_plasmids_repeat.md
+            - file: 18_plasmids_repeat.md
+        - file: 19_archived_maps.md
 site:
   template: book-theme
