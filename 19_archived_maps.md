@@ -106,4 +106,4 @@ This data was stitched and converted to OME-Zarr for reinterpretation as interac
 }
 ```
 ::::
-**Figure 17.1:** Restoring old data as interactive microscopy maps.
+**Figure 17.1:** Reinterpretation of archived μNS–ER colocalization data as interactive microscopy maps.

@@ -90,7 +90,7 @@ Pixel saturation in the mCherry channel and an air bubble.
   }
 }
 :::
-**Figure 16.3:** Pixel saturation in the mCherry channel.
+Pixel saturation in the mCherry channel.
 ::::
 
 ::::{figure}
