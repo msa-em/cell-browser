@@ -4,8 +4,8 @@ numbering:
   enumerator: 1.%s
 ---
 
-Already adopted by some clinicians and educators, virtual microscopy could also benefit researchers as an alternative way to communicate and interpret image data.
-Interactive microscopy maps were first proposed as an unbiased way to present electron microscopy data [@doi:10.1083/jcb.201201140].
+Already adopted by some clinicians and educators, virtual microscopy could also benefit researchers as an interface for communicating and interpreting image data.
+Indeed, interactive microscopy maps were first proposed for precisely this purpose, as an unbiased way to present electron microscopy data [@doi:10.1083/jcb.201201140].
 Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now make this feasible, yet these tools have not been adopted in scientific publishing.
 Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
 
@@ -67,7 +67,7 @@ Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.26219
 
 A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], is now embeddable in Elemental Microscopy.
 Pyramidal Deep Zoom image (DZI) data hosted on Github Pages is streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
-By default, readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
+By default, readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images.
 
 ### OpenSeadragon
 

@@ -4,8 +4,8 @@ numbering:
   enumerator: 5.%s
 ---
 
-The selectivity and specificity of the calreticulin monoclonal antibody was validated as an immunofluorescence marker of the ER.
-The staining pattern was punctate, but it was sufficient to observe ER elements.
+The selectivity and specificity of the calreticulin monoclonal antibody was validated as an immunofluorescence marker of the ER. 
+The staining pattern was punctate but sufficient to observe ER elements.
 
 ::::{figure}
 :label: calreticulin

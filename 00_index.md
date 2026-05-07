@@ -13,6 +13,8 @@ Web-based microscopy maps improve the transparency, accessibility, and archival 
 These features made virtual microscopy useful for the critical appraisal of observational studies.
 Using this approach, an original claim of reovirus-induced endoplasmic reticulum remodeling was reexamined.
 Virtual microscopy improves the use, interpretation, and communication of scientific data, subjecting the results of replication experiments to unbiased peer review.
+While data visualization can be refined to minimize subjective bias, the interpretation of data inevitably reflects the author's perspective.
+Virtual microscopy allows readers to interpret the same data as the author, a meaningful step forward, yet how authors determine the outcome of qualitative microscopy experiments remains unclear.
 
 +++
 

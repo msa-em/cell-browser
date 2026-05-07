@@ -124,8 +124,8 @@ project:
         - title: Repetition Experiments
           children:
             - file: 16_antibody_reovirus.md
-            - file: 17_plasmids_repeat.md
-            - file: 18_plasmids_repeat.md
+            - file: 17_saturated_maps.md
+            - file: 18_discarded_maps.md
         - file: 19_archived_maps.md
 site:
   template: book-theme

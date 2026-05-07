@@ -1,7 +1,7 @@
 ---
 title: Experiment 1
 numbering:
-  enumerator: 11.%s
+  enumerator: 10.%s
 ---
 
 ## Testing transfection reagents

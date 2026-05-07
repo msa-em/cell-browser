@@ -1,11 +1,13 @@
 ---
-title: Plasmids
+title: Saturated Maps
 numbering:
-  enumerator: 16.%s
+  enumerator: 15.%s
+label : saturated_page
 ---
 
-Illumination settings were set based on the mCherry-KDEL sample with TransIT-2020, so there is pixel saturation in some samples.
-Based on feedback from Parker, this experiment was repeated and the original figure was moved here.
+Illumination settings were set based on the mCherry-KDEL sample with TransIT-2020, resulting in pixel saturation in some samples. 
+Parker identified the saturated signal and advised repeating the experiment. 
+The original maps are preserved here.
 
 ## Lipofectamine 3000 (left) and TransIT-2020 (right)
 

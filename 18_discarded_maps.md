@@ -1,13 +1,13 @@
 ---
-title: Undesirable Maps
+title: Discarded Maps
 numbering:
-  enumerator: 17.%s
+  enumerator: 16.%s
+label : discarded_page
 ---
 
-In this experiment, fixed specimens were refrigerated and maps were reimaged for favourable outcomes.
-Undesirable features were the presence of air bubbles in the immersion oil or pixel saturation in the mCherry channel.
-Some maps resampled the same location with different illumination settings, and other maps were new locations of the specimen.
-Data that was not used in the main figure was shown here.
+In this experiment, fixed specimens were refrigerated and select maps were reimaged to address technical issues such as air bubbles in the immersion oil or pixel saturation in the mCherry channel. 
+Some maps resampled the same location with different illumination settings, while others were new locations on the specimen. 
+Maps not used in the main figure are shown here.
 
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {

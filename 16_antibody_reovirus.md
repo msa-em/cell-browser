@@ -1,11 +1,12 @@
 ---
 title: μNS Antibody
 numbering:
-  enumerator: 15.%s
+  enumerator: 14.%s
+label : antibody_page
 ---
 
 This experiment used AlexaFluor647 secondary antibodies paired with the α-μNS chicken antiserum, which was used in all replication attempts.
-The previous experiment used AlexaFluor549 secondary antibodies with the chicken α-μNS antiserum, so the chicken and guinea pig antibodies had the same illumination settings.
+The other experiment used AlexaFluor549 secondary antibodies with the chicken α-μNS antiserum, so the chicken and guinea pig antibodies had the same illumination settings.
 
 ### Chicken α-μNS antisera
 

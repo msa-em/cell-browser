@@ -1,7 +1,7 @@
 ---
 title: Experiment 2
 numbering:
-  enumerator: 12.%s
+  enumerator: 11.%s
 ---
 
 ## Testing other mCherry-ER fusion proteins

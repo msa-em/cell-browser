@@ -1,7 +1,7 @@
 ---
 title: Experiment 3
 numbering:
-  enumerator: 13.%s
+  enumerator: 12.%s
 ---
 
 ::::{figure}
