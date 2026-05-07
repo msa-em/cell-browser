@@ -9,6 +9,8 @@ In this experiment, fixed specimens were refrigerated and select maps were reima
 Some maps resampled the same location with different illumination settings, while others were new locations on the specimen. 
 Maps not used in the main figure are shown here.
 
+::::{figure}
+:label: figure16a
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle_01.zarr",
@@ -32,7 +34,11 @@ Maps not used in the main figure are shown here.
   }
 }
 :::
+**Figure 16.1:** Pixel saturation in the mCherry channel.
+::::
 
+::::{figure}
+:label: figure16b
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle.zarr",
@@ -56,7 +62,11 @@ Maps not used in the main figure are shown here.
   }
 }
 :::
+**Figure 16.2:** Pixel saturation in the mCherry channel and an air bubble.
+::::
 
+::::{figure}
+:label: figure16c
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_sec61_Cycle_01.zarr",
@@ -80,7 +90,11 @@ Maps not used in the main figure are shown here.
   }
 }
 :::
+**Figure 16.3:** Pixel saturation in the mCherry channel.
+::::
 
+::::{figure}
+:label: figure16d
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_cytER_Cycle_01.zarr",
@@ -104,7 +118,11 @@ Maps not used in the main figure are shown here.
   }
 }
 :::
+**Figure 16.4:** Air bubbles.
+::::
 
+::::{figure}
+:label: figure16e
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_sec61b_Cycle_04.zarr",
@@ -128,3 +146,6 @@ Maps not used in the main figure are shown here.
   }
 }
 :::
+**Figure 16.5:** Air bubble.
+::::
+

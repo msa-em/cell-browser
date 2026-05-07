@@ -7,12 +7,14 @@ label : saturated_page
 
 Illumination settings were set based on the mCherry-KDEL sample with TransIT-2020, resulting in pixel saturation in some samples. 
 Parker identified the saturated signal and advised repeating the experiment. 
-The original maps are preserved here.
+The original maps are preserved here [Figure 15.1](#figure15).
 
 ## Lipofectamine 3000 (left) and TransIT-2020 (right)
 
+:::::{figure}
+:label: figure15
 ::::{grid} 2 2 2 2
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-KDEL.zarr",
   "width": "323px",
@@ -45,8 +47,8 @@ The original maps are preserved here.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-KDEL.zarr",
   "width": "323px",
@@ -79,8 +81,8 @@ The original maps are preserved here.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-CytERM.zarr",
   "width": "323px",
@@ -113,8 +115,8 @@ The original maps are preserved here.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-CytERM.zarr",
   "width": "323px",
@@ -147,8 +149,8 @@ The original maps are preserved here.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-Sec61b.zarr",
   "width": "323px",
@@ -181,8 +183,8 @@ The original maps are preserved here.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-Sec61b.zarr",
   "width": "323px",
@@ -215,8 +217,8 @@ The original maps are preserved here.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-Climp63.zarr",
   "width": "323px",
@@ -249,8 +251,8 @@ The original maps are preserved here.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-Climp63.zarr",
   "width": "323px",
@@ -283,8 +285,10 @@ The original maps are preserved here.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
+```
 ::::
+**Figure 15.1:** Original transfection experiment showing the distributions of mCherry-ER reporters.
+:::::
 
 :::{dropdown} Methods
 HeLa cells were seeded on 12 mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar). 

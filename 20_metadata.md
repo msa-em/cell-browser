@@ -16,7 +16,6 @@ label : metadata_page
   - https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-KDEL.zarr
 
 To view acquisition metadata, append `/metadata.json` to any URL.
-
 ```
 
 :::::{figure}
