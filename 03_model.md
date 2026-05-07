@@ -8,7 +8,7 @@ numbering:
 
 The objective of this experiment was to visualize the co-occurrence of plasmid transfection and reovirus infection in cells.
 In the original study, cells were transfected with mCherry-KDEL using TransIT-2020 before reovirus infection at MOI 1.
-Transfected-infected cells are desirable for comparing ER morphology during infection, but a heterogeneous population was expected with four outcomes [](#model).
+Transfected-infected cells are desirable for comparing ER morphology during infection, but a heterogeneous population was expected with four outcomes ([](#model)).
 Viral and ER antigens were co-stained with reovirus μNS and calreticulin antibodies.
 
 ```{figure} ./figures/transfectedinfectedmodel.png

@@ -635,15 +635,14 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
 ::::
 
 :::{tip}
-Hidden by default, evaluate the calreticulin channel for alleged reovirus-induced ER remodeling.
+Hidden by default, evaluate the calreticulin channel for reported reovirus-induced ER remodeling.
 ER morphology can be compared within populations of infected cells.
 :::
 
 :::{dropdown} Methods
-HeLa cells were seeded on 12mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar).
-All samples were infected with reovirus T1L (MOI 100) for 24 hours.
-AlexaFluor594 was used with the guinea pig α-μNS antiserum, while AlexaFluor647 was used with the chicken α-μNS antiserum.
-The Z-drift compensation malfunctioned, possibly because of the specimen.
-Therefore, there were visible stitching artifacts.
-Overlapping tiles were cropped, not blended, to show these artifacts due to the loss of autofocus.
+HeLa cells were seeded on 12 mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar). 
+All samples were infected with reovirus T1L (MOI 100) for 24 hours. 
+AlexaFluor594 was used with the guinea pig α-μNS antiserum, while AlexaFluor647 was used with the chicken α-μNS antiserum. 
+Z-drift compensation malfunctioned, possibly due to the specimen, resulting in visible stitching artifacts. 
+Overlapping tiles were cropped rather than blended to preserve these artifacts as evidence of the autofocus failure.
 :::

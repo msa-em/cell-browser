@@ -5032,12 +5032,12 @@ Irregular ER morphologies were observed in transfected cells expressing mCherry-
 As illustrated in the preset views titled _Compare mCherry-ER_, there was no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) transfected cells.
 
 :::{dropdown} Methods
-3e5 HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).
-mCherry-KDEL was transfected with TransIT-2020 for 24 hours, then the cells were infected with reovirus T1L (MOI 100) for 24 hours before fixation (4% PFA, 20 minutes).
-Calreticulin and reovirus μNS antigens were detected by immunofluorescence assay.
-Chicken antiserum was paired with AlexaFluor647 secondary antibodies.
-Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS then an area of 625 fields (25x25 grid) was imaged.
-Barkley annotated transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection using the microATLAS builder.
-Transfected-infected cells were labelled 'Coincidence', while transfected-uninfected cells were labelled 'Transfection'.
-If unsure, the cell was left unlabelled and it is likely that some transfected cells were overlooked.
+3 × 10⁵ HeLa cells were seeded on 35 mm diameter glass-bottom dishes with 20 mm diameter no. 1.5 coverslips (Mattek, P35G-1.5-20-C). 
+mCherry-KDEL was transfected with TransIT-2020 for 24 hours, then cells were infected with reovirus T1L (MOI 100) for 24 hours before fixation (4% PFA, 20 minutes). 
+Calreticulin and reovirus μNS antigens were detected by immunofluorescence. 
+Chicken antiserum was paired with AlexaFluor647 secondary antibodies. 
+Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS, then a 25×25 grid of 625 fields was imaged. 
+Barkley annotated transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection using the microATLAS builder. 
+Transfected-infected cells were labelled "Coincidence" because the co-occurrence of transfection and infection in the same cell is incidental, while transfected-uninfected cells were labelled "Transfection".
+Ambiguous cells were left unlabelled, and it is likely that some transfected cells were overlooked.
 :::

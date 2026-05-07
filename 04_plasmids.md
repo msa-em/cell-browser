@@ -8,8 +8,9 @@ numbering:
 
 mCherry-KDEL was the same construct used in the original study; mCherry-ER-3 plasmid (55041, Addgene).
 mCherry-CytERM-N-17 (55024, Addgene) was included as a positive control for ER remodelling because organized smooth endoplasmic reticulum (OSER) whorls form through fluorescent protein dimerization [@doi:10.1083/jcb.200306020].
-An [OSER assay](#oser_page) was performed to compare whorl formation across different fluorescent proteins relative to mCherry-CytERM.
+An [OSER assay](#oser_page) (see Supplemental) was performed to compare whorl formation across different fluorescent proteins relative to mCherry-CytERM.
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
+An earlier experiment combining moxGFP::μNS with these constructs was inconclusive (see [Archived Maps](#archival_page) in the Supplemental).
 
 Cells transiently expressing mCherry-ER fusions were fixed 24 hours after transfection with TransIT-2020 and Lipofectamine 3000.
 Parker identified saturated signal in the original experiment and advised Barkley to repeat it, adjusting illumination settings individually.  

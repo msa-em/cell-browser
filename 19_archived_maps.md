@@ -6,7 +6,7 @@ label : archival_page
 ---
 
 We were interested in the finding that reovirus μNS colocalized with the ER [@doi:10.1128/mBio.01253-18], so we performed experiments with moxGFP::μNS and mCherry-ER reporters.
-The results were was unclear, so this research direction was abandoned.
+The results were unclear, so this research direction was abandoned.
 Fortunately, overlapping tiles were recorded in an experiment dated _September 14 2022_.
 This data was stitched and converted to OME-Zarr for reinterpretation as interactive microscopy maps.
 

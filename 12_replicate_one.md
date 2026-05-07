@@ -3498,7 +3498,7 @@ Untransfected control. Mock transfection (no plasmid or reagent) before reovirus
 ::::
 
 :::{dropdown} Methods
-The specimens were glass coverslips (1.0 glass) mounted on slides.
-Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies, each incubated for one hour.
-A 10x10 grid (100 fields) was recorded.
+Specimens were glass coverslips (1.0 glass) mounted on slides. 
+Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies, each incubated for one hour. 
+A 10×10 grid of 100 fields was recorded.
 :::
