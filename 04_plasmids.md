@@ -14,10 +14,12 @@ An earlier experiment combining moxGFP::μNS with these constructs was inconclus
 
 Cells transiently expressing mCherry-ER fusions were fixed 24 hours after transfection with TransIT-2020 and Lipofectamine 3000.
 Parker identified saturated signal in the original experiment and advised Barkley to repeat it, adjusting illumination settings individually.  
-The corrected maps are presented below, and the original [saturated maps](#saturated_page) and [discarded maps](#discarded_page) are presented in the Supplemental.
+The corrected maps are presented below, and the [saturated maps](#saturated_page) and [discarded maps](#discarded_page) are presented in the Supplemental.
 
+:::::{figure}
+:label: figure3
 ::::{grid} 2 2 2 2
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle_02.zarr",
   "width": "323px",
@@ -90,8 +92,8 @@ The corrected maps are presented below, and the original [saturated maps](#satur
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_KDEL_Cycle_02.zarr",
   "width": "323px",
@@ -164,8 +166,8 @@ The corrected maps are presented below, and the original [saturated maps](#satur
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_cytER_Cycle.zarr",
   "width": "323px",
@@ -289,8 +291,8 @@ The corrected maps are presented below, and the original [saturated maps](#satur
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_cyter_Cycle_03.zarr",
   "width": "323px",
@@ -414,8 +416,8 @@ The corrected maps are presented below, and the original [saturated maps](#satur
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_sec61_Cycle_02.zarr",
   "width": "323px",
@@ -539,8 +541,8 @@ The corrected maps are presented below, and the original [saturated maps](#satur
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_sec_Cycle_01.zarr",
   "width": "323px",
@@ -613,8 +615,8 @@ The corrected maps are presented below, and the original [saturated maps](#satur
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_climp_Cycle.zarr",
   "width": "323px",
@@ -687,8 +689,8 @@ The corrected maps are presented below, and the original [saturated maps](#satur
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_climp_Cycle_01.zarr",
   "width": "323px",
@@ -761,8 +763,10 @@ The corrected maps are presented below, and the original [saturated maps](#satur
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
+```
 ::::
+**Figure 3.1** Microscopy maps of transfected cells expressing mCherry-ER fusion proteins.
+:::::
 
 :::{important} Alternative hypothesis
 For each of the four mCherry-ER reporters, at least one cell exhibits what Barkley interprets as ER remodeling (see the preset views). 
