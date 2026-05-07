@@ -4828,7 +4828,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 }
 ```
 ::::
-Additional mCherry-ER reporters and an uninfected control.
+**Figure 11.2:** Additional mCherry-ER reporters and an uninfected control.
 :::::
 
 :::{dropdown} Methods

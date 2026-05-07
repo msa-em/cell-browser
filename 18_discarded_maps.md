@@ -34,7 +34,7 @@ Maps not used in the main figure are shown here.
   }
 }
 :::
-**Figure 16.1:** Pixel saturation in the mCherry channel.
+Pixel saturation in the mCherry channel.
 ::::
 
 ::::{figure}
@@ -62,7 +62,7 @@ Maps not used in the main figure are shown here.
   }
 }
 :::
-**Figure 16.2:** Pixel saturation in the mCherry channel and an air bubble.
+Pixel saturation in the mCherry channel and an air bubble.
 ::::
 
 ::::{figure}
@@ -118,7 +118,7 @@ Maps not used in the main figure are shown here.
   }
 }
 :::
-**Figure 16.4:** Air bubbles.
+Air bubbles.
 ::::
 
 ::::{figure}
@@ -146,6 +146,6 @@ Maps not used in the main figure are shown here.
   }
 }
 :::
-**Figure 16.5:** Air bubble.
+Air bubble.
 ::::
 

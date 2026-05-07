@@ -320,7 +320,7 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
 }
 ```
 ::::
-Immunofluorescence antibody controls.
+**Figure 14.2:** Immunofluorescence antibody controls.
 :::::
 
 ::::{figure}
@@ -635,7 +635,7 @@ Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
 }
 ```
 ::::
-Immunofluorescence antibody controls.
+**Figure 14.4:** Immunofluorescence antibody controls.
 :::::
 
 :::{tip}
