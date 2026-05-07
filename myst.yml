@@ -127,5 +127,6 @@ project:
             - file: 17_saturated_maps.md
             - file: 18_discarded_maps.md
         - file: 19_archived_maps.md
+        - file: 20_metadata.md
 site:
   template: book-theme
