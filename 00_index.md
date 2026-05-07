@@ -31,7 +31,7 @@ _Updated 2025 September 27_
 
 We thank the [Baker Institute for Animal Health](https://www.vet.cornell.edu/departments-centers-and-institutes/baker-institute-animal-health) for supporting this unfunded project.
 
-This work used the Open Storage Network (https://doi.org/10.6075/J0RR1ZCR) through allocation BIO250450 from the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS) program, which is supported by U.S. National Science Foundation grants #2138259, #2138286, #2138307, #2137603, and #2138296 [@doi:10.1145/3569951.3597559].
+This work used the Open Storage Network through allocation BIO250450 from the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS) program, which is supported by U.S. National Science Foundation grants #2138259, #2138286, #2138307, #2137603, and #2138296 [@doi:10.1145/3569951.3597559].
 
 +++
 
@@ -39,12 +39,11 @@ This work used the Open Storage Network (https://doi.org/10.6075/J0RR1ZCR) throu
 
 ## Competing Interests
 
-All authors declared no conflicts of interest. 
-To manage potential conflicts arising from differing interpretations between authors, last names were used throughout to distinguish individual voices, interpretations, and contributions.
+All authors declared no conflicts of interest.
 
 +++
 
 ## Data Availability
 
-OME-Zarr data was hosted on the [Open Storage Network].
-Deep Zoom data was hosted on [Github](https://github.com/RussellBarkley).
+OME-Zarr data is hosted on the Open Storage Network (https://doi.org/10.6075/J0RR1ZCR). 
+Acquisition metadata is available within each Zarr store, see [Metadata](#metadata_page) in the Supplemental for URLs.
