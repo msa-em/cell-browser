@@ -727,14 +727,13 @@ At MOI 1, only a few infected cells were found and pinned on the map.
 ::::
 
 :::{tip}
-Evaluate the calreticulin channel for alleged reovirus-induced ER remodeling.
+Evaluate the calreticulin channel for reported reovirus-induced ER remodeling.
 The uninfected control is MOI 0 and ER morphology can be compared within populations.
 :::
 
 :::{dropdown} Infection protocol
-Stocks of purified reovirus T1L were titrated in L-929 cells to estimate the concentration of plaque-forming units (PFU).
-L-929, or L cells are permissive to reovirus infection and were also used for virus titration in the original study, so there was consistency in the calculation of multiplicity of infection (MOI).
-To clarify, MOI was PFU/cell, and PFU was estimated on L-929 cells in both the original and replication study.
-For infection, purified reovirus was diluted in a volume of 100μl of serum-free DMEM which was adsorbed to cells for one hour at room temperature with agitation every ten minutes.
-Thereafter, pre-warmed serum-containing DMEM was added to the cells, and the samples were incubated for one day before fixation.
+Stocks of purified reovirus T1L were titrated in L-929 (L) cells to estimate the concentration of plaque-forming units (PFU). 
+L cells were also used for virus titration in the original study, so the calculation of multiplicity of infection (MOI, PFU/cell) was consistent between studies. 
+For infection, purified reovirus was diluted in 100 µl of serum-free DMEM and adsorbed to cells for one hour at room temperature with agitation every ten minutes. 
+Thereafter, pre-warmed serum-containing DMEM was added and samples were incubated for one day before fixation.
 :::

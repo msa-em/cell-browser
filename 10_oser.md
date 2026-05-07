@@ -152,9 +152,9 @@ Four of these can be cross-referenced with published estimates of the percentage
 ::::
 
 :::{dropdown} Methods
-3e5 HeLa cells were seeded on 35mm glass-bottom dishes.
-An OSER assay was performed with six fluorescent proteins cloned into the CytERM plasmid.
-2.5µg was transfected with lipofectamine 3000 for 24 hours before PFA fixation and automated imaging of 15x15 (225 field) grids with a 100X objective lens.
-Illumination settings, including excitation/emission, were adjusted individually.
-mEGFP, moxGFP, Dendra2 and mNeongreen used the same wavelengths.
+3 × 10⁵ HeLa cells were seeded on 35 mm glass-bottom dishes. 
+An OSER assay was performed with six fluorescent proteins cloned into the CytERM plasmid. 
+2.5 µg of each plasmid was transfected with Lipofectamine 3000 for 24 hours before PFA fixation and automated imaging of 15×15 (225 field) grids with a 100X objective lens. 
+Illumination settings, including excitation and emission wavelengths, were adjusted individually. 
+mEGFP, moxGFP, Dendra2, and mNeonGreen shared the same wavelengths.
 :::

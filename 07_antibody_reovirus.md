@@ -640,22 +640,17 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 ::::
 
 :::{tip}
-Hidden by default, evaluate the calreticulin channel for alleged reovirus-induced ER remodeling.
+Hidden by default, evaluate the calreticulin channel for reported reovirus-induced ER remodeling.
 ER morphology can be compared within populations of infected cells.
 :::
 
-:::{dropdown} Materials
-Chicken anti-μNS serum from the Parker lab (1:1000 dilution) was the same used in the original study.
-Guinea pig anti-μNS serum was gifted by the [Stanifer lab](https://staniferlab.com/) (1:5000 dilution).
-Donkey anti-chicken antibodies conjugated to AlexaFluor647 (703-605-155), donkey anti-chicken conjugated to AlexaFluor594 (703-585-155) and donkey anti-guinea pig conjugated to AlexaFluor594 (706-585-148) were stored in 1:1 glycerol and used at 1:800 dilutions.
-:::
-
-:::{dropdown} Immunofluorescence protocol
-HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).
-Cells were infected with reovirus T1L at MOI 100 for 24 hours before fixation with 4% PFA.
-Antibodies for calreticulin were used in all samples.
-Combinations of primary and secondary antibodies to reovirus μNS were tested.
-AlexaFluor594-conjugated secondary antibodies were used for both antisera, so the illumination settings are consistent.
-Antibodies were multiplexed and incubated overnight, primaries and secondaries separately.
-Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS and were imaged in this solution.
+:::{dropdown} Materials and immunofluorescence protocol
+Chicken anti-μNS serum from the Parker lab (1:1000 dilution) was the same used in the original study. 
+Guinea pig anti-μNS serum was gifted by the Stanifer lab (1:5000 dilution). 
+Donkey anti-chicken antibodies conjugated to AlexaFluor647 (703-605-155), donkey anti-chicken conjugated to AlexaFluor594 (703-585-155), and donkey anti-guinea pig conjugated to AlexaFluor594 (706-585-148) were stored in 1:1 glycerol and used at 1:800 dilution.
+HeLa cells were seeded on 35 mm diameter glass-bottom dishes with 20 mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C) and infected with reovirus T1L at MOI 100 for 24 hours before fixation with 4% PFA. 
+Calreticulin antibodies were used in all samples. 
+Combinations of primary and secondary antibodies to reovirus μNS were tested, with AlexaFluor594-conjugated secondary antibodies used for both antisera to maintain consistent illumination settings. 
+Antibodies were multiplexed and incubated overnight, primaries and secondaries separately. 
+Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS, and cells were imaged in this solution.
 :::

@@ -14,17 +14,19 @@ Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:P
 Virtual microscopy. 1. Automated dataset collection with any suitable microscope. ZDC: Z-drift compensation. 2. Stitch tiles then convert the image to DZI or OME-Zarr, host online. 3. Image tiles or data chunks are retrieved from cloud storage as readers interact with microscopy maps.
 ```
 
-Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling alternative methods of virtual microscopy based on OME-Zarr or [Deep Zoom](<wiki:Deep_Zoom>).
+Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two methods of virtual microscopy based on OME-Zarr or [Deep Zoom](<wiki:Deep_Zoom>).
 Authors can also build custom viewers.
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article.
 [Vizarr](#vizarr), [OpenSeadragon](#openseadragon) and [microATLAS](#microatlas) are readily embeddable in Elemental Microscopy articles with the `:::{any:bundle}` directive.
+The :::{any:bundle} directive embeds an interactive viewer directly in the article. 
+Authors simply copy the markdown and replace the source URL with a link to their own data.
 
 ## OME-Zarr
 
 OME-Zarr is a standardized and flexible image format developed for use cases like virtual microscopy [@doi:10.1007/s00418-023-02209-1].
 Most native microscopy file formats can be converted to OME-Zarr with preserved metadata using [Bio-Formats](https://www.openmicroscopy.org/bio-formats/).
 It is a chunked file type that can support multiple resolution levels.
-Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyramidal OME-Zarr data can be viewed online [@doi:10.1038/s41592-022-01482-7].
+As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyramidal OME-Zarr data can be viewed online [@doi:10.1038/s41592-022-01482-7].
 
 ### Vizarr
 
@@ -65,7 +67,7 @@ Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.26219
 
 ## Deep Zoom
 
-A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], is now embeddable in Elemental Microscopy.
+Deep Zoom is a free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], now embeddable in Elemental Microscopy.
 Pyramidal Deep Zoom image (DZI) data hosted on Github Pages is streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
 By default, readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images.
 

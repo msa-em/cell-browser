@@ -13,7 +13,7 @@ Besides cherry-picking, scientists can sincerely misinterpret observations.
 The problem is that readers find it difficult to critically evaluate representative images.
 Furthermore, archival and review of primary microscopy data is disorganized and time-consuming, if at all available.
 These problems can be addressed with novel visualization strategies like [virtual microscopy](<wiki:Virtual_microscopy>) that transmit entire interactive datasets over the internet.
-An example was the unbiased presentation of electron microscopy data to readers as interactive digital maps; microscopy maps [@doi:10.1083/jcb.201201140].
+An example was the unbiased presentation of electron microscopy data to readers as interactive digital maps; or microscopy maps [@doi:10.1083/jcb.201201140].
 In practice, microscopy maps are easy to share but are accessed via external links [@doi:10.1242/jcs.262198].
 
 [Reproducibility](<wiki:Reproducibility>) is an essential principle of the [scientific method](<wiki:Scientific_method>) for acquiring knowledge, yet there is a contentious [reproducibility crisis](<wiki:Replication_crisis>) in science.
@@ -28,8 +28,3 @@ Results should be observed again with a high degree of reliability; therefore or
 Here, microscopy maps were used to reassess the claim that mammalian orthoreovirus remodels the endoplasmic reticulum (ER) of cells during infection [@doi:10.1128/mBio.01253-18].
 Using the protocols described in the original paper, hundreds of overlapping tiles were sampled at high-magnification from replicate immunofluorescence experiments on a fully motorized confocal microscope.
 Microscopy maps were embedded in the article using the next generation file format OME-Zarr [@doi:10.1007/s00418-023-02209-1] and custom viewers based on Viv [@doi:10.1038/s41592-022-01482-7].
-
-:::{warning} AI disclosure
-All text was written and edited by humans without AI assistance.
-AI-generated code was used in some data processing tasks.
-:::
