@@ -5,7 +5,7 @@ numbering:
 ---
 
 ::::{figure}
-:label: sfig13
+:label: figure12a
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-KDEL_T1L.zarr",
@@ -263,7 +263,7 @@ numbering:
   ],
   "annotations": [
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         583,
         746
@@ -275,7 +275,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         332,
         1942
@@ -287,7 +287,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1734,
         1174
@@ -299,7 +299,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4182,
         2481
@@ -311,7 +311,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5259,
         1640
@@ -323,7 +323,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7738,
         1235
@@ -335,7 +335,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6189,
         58
@@ -347,7 +347,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8767,
         479
@@ -359,7 +359,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9441,
         1819
@@ -371,7 +371,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10554,
         877
@@ -383,7 +383,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10471,
         1379
@@ -395,7 +395,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10606,
         67
@@ -407,7 +407,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12963,
         1329
@@ -419,7 +419,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13788,
         1220
@@ -431,7 +431,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13218,
         69
@@ -443,7 +443,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12468,
         1838
@@ -455,7 +455,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12057,
         1800
@@ -467,7 +467,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11520,
         2031
@@ -479,7 +479,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10916,
         2416
@@ -491,7 +491,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11424,
         6693
@@ -503,7 +503,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12039,
         6861
@@ -515,7 +515,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13106,
         8382
@@ -527,7 +527,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12676,
         8124
@@ -539,7 +539,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14191,
         8550
@@ -551,7 +551,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14160,
         9095
@@ -563,7 +563,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11472,
         13763
@@ -575,7 +575,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10954,
         12517
@@ -587,7 +587,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10506,
         11888
@@ -599,7 +599,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9518,
         13005
@@ -611,7 +611,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9100,
         13072
@@ -623,7 +623,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5759,
         13609
@@ -635,7 +635,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5544,
         14039
@@ -647,7 +647,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4158,
         14035
@@ -659,7 +659,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3986,
         14181
@@ -671,7 +671,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3534,
         13698
@@ -683,7 +683,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3577,
         13906
@@ -695,7 +695,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         960,
         9338
@@ -707,7 +707,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3395,
         8436
@@ -719,7 +719,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4246,
         7318
@@ -731,7 +731,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4033,
         6049
@@ -743,7 +743,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2046,
         3772
@@ -755,7 +755,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         211,
         5636
@@ -767,7 +767,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1276,
         6880
@@ -779,7 +779,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9076,
         3398
@@ -791,7 +791,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9274,
         3415
@@ -803,7 +803,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9229,
         3632
@@ -815,7 +815,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9150,
         8588
@@ -827,7 +827,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8447,
         9293
@@ -839,7 +839,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7952,
         8885
@@ -851,7 +851,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14559,
         13817
@@ -863,7 +863,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         779,
         1274
@@ -875,7 +875,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1403,
         2255
@@ -887,7 +887,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1734,
         10002
@@ -899,7 +899,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1506,
         10113
@@ -911,7 +911,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         154,
         11738
@@ -923,7 +923,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4454,
         12723
@@ -935,7 +935,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6926,
         12620
@@ -947,7 +947,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6295,
         11518
@@ -959,7 +959,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3181,
         9254
@@ -971,7 +971,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4463,
         9105
@@ -983,7 +983,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4271,
         7010
@@ -995,7 +995,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4314,
         5534
@@ -1007,7 +1007,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5690,
         1592
@@ -1019,7 +1019,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5503,
         1854
@@ -1031,7 +1031,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5465,
         2460
@@ -1043,7 +1043,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8766,
         2066
@@ -1055,7 +1055,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9437,
         2238
@@ -1067,7 +1067,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11071,
         744
@@ -1079,7 +1079,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10583,
         2884
@@ -1091,7 +1091,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11117,
         3266
@@ -1103,7 +1103,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11262,
         3504
@@ -1115,7 +1115,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11151,
         4803
@@ -1127,7 +1127,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9020,
         3594
@@ -1139,7 +1139,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7043,
         4750
@@ -1151,7 +1151,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6739,
         4927
@@ -1163,7 +1163,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7326,
         7277
@@ -1175,7 +1175,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7329,
         7647
@@ -1187,7 +1187,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9779,
         11335
@@ -1199,7 +1199,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9480,
         10319
@@ -1211,7 +1211,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8851,
         9650
@@ -1223,7 +1223,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10817,
         6606
@@ -1235,7 +1235,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10529,
         6569
@@ -1247,7 +1247,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13832,
         8393
@@ -1259,7 +1259,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13576,
         8349
@@ -1271,7 +1271,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13107,
         11273
@@ -1283,7 +1283,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13547,
         11606
@@ -1295,7 +1295,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12208,
         10713
@@ -1307,7 +1307,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11293,
         11618
@@ -1319,7 +1319,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10024,
         13418
@@ -1331,7 +1331,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9774,
         14151
@@ -1343,7 +1343,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10855,
         13344
@@ -1355,7 +1355,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6067,
         9829
@@ -1367,7 +1367,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4914,
         6646
@@ -1379,7 +1379,7 @@ numbering:
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5006,
         6874
@@ -1391,7 +1391,7 @@ numbering:
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6141,
         3516
@@ -1415,10 +1415,10 @@ numbering:
 Transfected-infected cells expressing mCherry-KDEL.
 ::::
 
-### Additional mCherry-ER reporters
-
+:::::{figure}
+:label: figure12b
 ::::{grid} 2 2 2 2
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-Sec61b_T1L.zarr",
   "width": "323px",
@@ -1434,7 +1434,7 @@ Transfected-infected cells expressing mCherry-KDEL.
   },
   "annotations": [
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2996,
         390
@@ -1446,7 +1446,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3398,
         810
@@ -1458,7 +1458,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2358,
         525
@@ -1470,7 +1470,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3339,
         41
@@ -1482,7 +1482,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         333,
         1793
@@ -1494,7 +1494,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         569,
         3479
@@ -1506,7 +1506,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         519,
         3868
@@ -1518,7 +1518,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         211,
         4556
@@ -1530,7 +1530,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1858,
         6066
@@ -1542,7 +1542,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2021,
         6658
@@ -1554,7 +1554,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1027,
         9030
@@ -1566,7 +1566,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         554,
         10097
@@ -1578,7 +1578,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         148,
         10743
@@ -1590,7 +1590,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         277,
         10377
@@ -1602,7 +1602,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         786,
         12920
@@ -1614,7 +1614,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         666,
         12606
@@ -1626,7 +1626,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1457,
         12366
@@ -1638,7 +1638,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3307,
         14412
@@ -1650,7 +1650,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3203,
         13842
@@ -1662,7 +1662,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2664,
         13336
@@ -1674,7 +1674,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         579,
         11198
@@ -1686,7 +1686,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2640,
         10709
@@ -1698,7 +1698,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2237,
         9910
@@ -1710,7 +1710,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1582,
         10847
@@ -1722,7 +1722,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5123,
         8555
@@ -1734,7 +1734,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4478,
         8688
@@ -1746,7 +1746,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4173,
         9273
@@ -1758,7 +1758,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4053,
         8948
@@ -1770,7 +1770,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4505,
         9546
@@ -1782,7 +1782,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4738,
         9785
@@ -1794,7 +1794,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6254,
         9925
@@ -1806,7 +1806,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7078,
         10085
@@ -1818,7 +1818,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7303,
         9791
@@ -1830,7 +1830,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7425,
         10117
@@ -1842,7 +1842,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8157,
         9940
@@ -1854,7 +1854,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8185,
         8538
@@ -1866,7 +1866,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7235,
         7962
@@ -1878,7 +1878,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7624,
         8116
@@ -1890,7 +1890,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6538,
         7410
@@ -1902,7 +1902,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7688,
         6271
@@ -1914,7 +1914,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7597,
         7121
@@ -1926,7 +1926,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6919,
         7044
@@ -1938,7 +1938,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7919,
         6474
@@ -1950,7 +1950,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5150,
         5824
@@ -1962,7 +1962,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4870,
         5399
@@ -1974,7 +1974,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5978,
         4906
@@ -1986,7 +1986,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5731,
         4192
@@ -1998,7 +1998,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4195,
         3513
@@ -2010,7 +2010,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3906,
         3199
@@ -2022,7 +2022,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7228,
         30
@@ -2034,7 +2034,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6941,
         211
@@ -2046,7 +2046,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6941,
         2301
@@ -2058,7 +2058,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7396,
         2408
@@ -2070,7 +2070,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8168,
         2631
@@ -2082,7 +2082,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9131,
         4744
@@ -2094,7 +2094,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9276,
         4831
@@ -2106,7 +2106,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9605,
         3857
@@ -2118,7 +2118,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9116,
         7345
@@ -2130,7 +2130,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10310,
         7307
@@ -2142,7 +2142,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10206,
         7483
@@ -2154,7 +2154,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10449,
         8058
@@ -2166,7 +2166,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11360,
         7994
@@ -2178,7 +2178,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9315,
         8298
@@ -2190,7 +2190,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9558,
         8615
@@ -2202,7 +2202,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10488,
         9223
@@ -2214,7 +2214,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10081,
         10805
@@ -2226,7 +2226,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8901,
         11441
@@ -2238,7 +2238,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9431,
         14331
@@ -2250,7 +2250,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9259,
         14534
@@ -2262,7 +2262,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10023,
         13964
@@ -2274,7 +2274,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10326,
         14240
@@ -2286,7 +2286,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10746,
         14620
@@ -2298,7 +2298,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11721,
         13143
@@ -2310,7 +2310,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14484,
         14600
@@ -2322,7 +2322,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14042,
         14347
@@ -2334,7 +2334,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14639,
         10946
@@ -2346,7 +2346,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13630,
         10312
@@ -2358,7 +2358,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14239,
         10023
@@ -2370,7 +2370,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13527,
         9216
@@ -2382,7 +2382,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13022,
         8634
@@ -2394,7 +2394,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12736,
         8450
@@ -2406,7 +2406,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11536,
         5936
@@ -2418,7 +2418,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11536,
         5790
@@ -2430,7 +2430,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10779,
         5100
@@ -2442,7 +2442,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10173,
         4171
@@ -2454,7 +2454,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11992,
         4211
@@ -2466,7 +2466,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12349,
         3303
@@ -2478,7 +2478,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12477,
         3457
@@ -2490,7 +2490,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9449,
         1077
@@ -2502,7 +2502,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11097,
         890
@@ -2514,7 +2514,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11703,
         537
@@ -2526,7 +2526,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10970,
         456
@@ -2538,7 +2538,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11400,
         257
@@ -2550,7 +2550,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13663,
         640
@@ -2562,7 +2562,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13735,
         1233
@@ -2574,7 +2574,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13898,
         1576
@@ -2586,7 +2586,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13794,
         2155
@@ -2598,7 +2598,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14476,
         3915
@@ -2610,7 +2610,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13393,
         4340
@@ -2622,7 +2622,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14264,
         4699
@@ -2634,7 +2634,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14250,
         4872
@@ -2646,7 +2646,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4823,
         7316
@@ -2658,7 +2658,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4321,
         6438
@@ -2670,7 +2670,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3683,
         6040
@@ -2682,7 +2682,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6284,
         14142
@@ -2694,7 +2694,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6351,
         14627
@@ -2706,7 +2706,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5842,
         14088
@@ -2718,7 +2718,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7236,
         8480
@@ -2730,7 +2730,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8762,
         5569
@@ -2742,7 +2742,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8342,
         4460
@@ -2754,7 +2754,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8478,
         5207
@@ -2766,7 +2766,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9808,
         234
@@ -2778,7 +2778,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9600,
         39
@@ -2790,7 +2790,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9993,
         8181
@@ -2802,7 +2802,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10169,
         8750
@@ -2814,7 +2814,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9965,
         8845
@@ -2826,7 +2826,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8611,
         10107
@@ -2838,7 +2838,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6604,
         2533
@@ -2858,8 +2858,8 @@ Transfected-infected cells expressing mCherry-KDEL.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-CytERM_T1L.zarr",
   "width": "323px",
@@ -2875,7 +2875,7 @@ Transfected-infected cells expressing mCherry-KDEL.
   },
   "annotations": [
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1350,
         1928
@@ -2887,7 +2887,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1145,
         7357
@@ -2899,7 +2899,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         250,
         7669
@@ -2911,7 +2911,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3709,
         14083
@@ -2923,7 +2923,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4149,
         11877
@@ -2935,7 +2935,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3080,
         7303
@@ -2947,7 +2947,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5511,
         4412
@@ -2959,7 +2959,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5471,
         3945
@@ -2971,7 +2971,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7073,
         3042
@@ -2983,7 +2983,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7513,
         2262
@@ -2995,7 +2995,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8357,
         1659
@@ -3007,7 +3007,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8126,
         1253
@@ -3019,7 +3019,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4681,
         7683
@@ -3031,7 +3031,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4779,
         9267
@@ -3043,7 +3043,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7387,
         13068
@@ -3055,7 +3055,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7289,
         11965
@@ -3067,7 +3067,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8152,
         11511
@@ -3079,7 +3079,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6992,
         7440
@@ -3091,7 +3091,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6026,
         6912
@@ -3103,7 +3103,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9752,
         1380
@@ -3115,7 +3115,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8963,
         3590
@@ -3127,7 +3127,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9120,
         6192
@@ -3139,7 +3139,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9475,
         6200
@@ -3151,7 +3151,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13788,
         8513
@@ -3163,7 +3163,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14111,
         8201
@@ -3175,7 +3175,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7553,
         7194
@@ -3187,7 +3187,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         934,
         1224
@@ -3199,7 +3199,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1840,
         2275
@@ -3211,7 +3211,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2211,
         2452
@@ -3223,7 +3223,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1695,
         8175
@@ -3235,7 +3235,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2816,
         8396
@@ -3247,7 +3247,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2635,
         11165
@@ -3259,7 +3259,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2491,
         10668
@@ -3271,7 +3271,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2819,
         13318
@@ -3283,7 +3283,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6949,
         13077
@@ -3295,7 +3295,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6994,
         12354
@@ -3307,7 +3307,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9734,
         4554
@@ -3319,7 +3319,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9767,
         3929
@@ -3331,7 +3331,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11130,
         4602
@@ -3343,7 +3343,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11236,
         3661
@@ -3355,7 +3355,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11970,
         1020
@@ -3367,7 +3367,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12180,
         1396
@@ -3379,7 +3379,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11997,
         336
@@ -3391,7 +3391,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11810,
         32
@@ -3403,7 +3403,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12964,
         1561
@@ -3415,7 +3415,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13687,
         1009
@@ -3427,7 +3427,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13975,
         6365
@@ -3439,7 +3439,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12975,
         7105
@@ -3451,7 +3451,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11802,
         12147
@@ -3463,7 +3463,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9010,
         12613
@@ -3475,7 +3475,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6491,
         3327
@@ -3487,7 +3487,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7842,
         2315
@@ -3499,7 +3499,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7902,
         2015
@@ -3511,7 +3511,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2209,
         8272
@@ -3523,7 +3523,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6376,
         2190
@@ -3535,7 +3535,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8928,
         4231
@@ -3547,7 +3547,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10154,
         4385
@@ -3559,7 +3559,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10882,
         7621
@@ -3571,7 +3571,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13910,
         6783
@@ -3583,7 +3583,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13935,
         268
@@ -3595,7 +3595,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5374,
         7265
@@ -3607,7 +3607,7 @@ Transfected-infected cells expressing mCherry-KDEL.
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6992,
         14435
@@ -3627,8 +3627,10 @@ Transfected-infected cells expressing mCherry-KDEL.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
+```
 ::::
+Additional mCherry-ER reporters.
+:::::
 
 :::{dropdown} Methods
 Specimens were 35 mm glass-bottom dishes with 20 mm coverslips (no. 1.5 glass). 

@@ -8,10 +8,8 @@ label : antibody_page
 One experiment used AlexaFluor647 secondary antibodies paired with the chicken α-μNS antiserum, which was used in all replication attempts. 
 The other used AlexaFluor594 secondary antibodies with both the chicken and guinea pig α-μNS antisera, so that illumination settings were consistent between the two antisera.
 
-### Chicken α-μNS antisera
-
 ::::{figure}
-:label: sfig15a
+:label: figure14a
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_primary_secondary.zarr",
@@ -88,10 +86,12 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
   }
 }
 :::
+Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
 ::::
 
+:::::{figure}
 ::::{grid} 3 3 3 3
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_primary.zarr",
   "width": "210px",
@@ -166,8 +166,8 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_secondary.zarr",
   "width": "210px",
@@ -242,8 +242,8 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_mock.zarr",
   "width": "210px",
@@ -318,13 +318,13 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
+```
 ::::
-
-### Guinea pig α-μNS antisera
+Immunofluorescence antibody controls.
+:::::
 
 ::::{figure}
-:label: sfig15b
+:label: figure14b
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_primary_secondary.zarr",
@@ -401,10 +401,12 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
   }
 }
 :::
+Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
 ::::
 
+:::::{figure}
 ::::{grid} 3 3 3 3
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_primary.zarr",
   "width": "210px",
@@ -479,8 +481,8 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_secondary.zarr",
   "width": "210px",
@@ -555,8 +557,8 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_mock.zarr",
   "width": "210px",
@@ -631,8 +633,10 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
+```
 ::::
+Immunofluorescence antibody controls.
+:::::
 
 :::{tip}
 Hidden by default, evaluate the calreticulin channel for reported reovirus-induced ER remodeling.

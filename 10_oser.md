@@ -7,11 +7,14 @@ label : oser_page
 
 Fluorescent proteins tend to oligomerize when confined to the ER, which can restructure the organelle into organized smooth ER (OSER) whorls [@doi:10.1083/jcb.200306020]. 
 This phenomenon is used to assess the propensity of fluorescent proteins to oligomerize [@doi:10.1111/j.1600-0854.2012.01336.x]. 
-Six fluorescent proteins were tested in an OSER assay using interactive microscopy maps. 
+Six fluorescent proteins were tested in an OSER assay using interactive microscopy maps (Figure 8.1).
 Four of these can be cross-referenced with published estimates of the percentage of cells lacking visible OSER whorls: mEGFP (98.8±1.2), mCherry (95.0±0.8), FusionRed (91.5±3.0), and mNeonGreen (90.4±2.1) [@doi:10.1038/nmeth.3891].
+Dendra2 formed whorls in most cells.
 
+:::::{figure}
+:label: figure8
 ::::{grid} 2 2 2 2
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/fusionred.zarr",
   "width": "323px",
@@ -33,8 +36,8 @@ Four of these can be cross-referenced with published estimates of the percentage
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/mcherry.zarr",
   "width": "323px",
@@ -56,8 +59,8 @@ Four of these can be cross-referenced with published estimates of the percentage
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/dendra2.zarr",
   "width": "323px",
@@ -79,8 +82,8 @@ Four of these can be cross-referenced with published estimates of the percentage
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/megfp.zarr",
   "width": "323px",
@@ -102,8 +105,8 @@ Four of these can be cross-referenced with published estimates of the percentage
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/mneongreen.zarr",
   "width": "323px",
@@ -125,8 +128,8 @@ Four of these can be cross-referenced with published estimates of the percentage
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/moxgfp.zarr",
   "width": "323px",
@@ -148,8 +151,10 @@ Four of these can be cross-referenced with published estimates of the percentage
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
+```
 ::::
+**Figure 8.1:** Qualitative OSER assay presented as interactive microscopy maps.
+:::::
 
 :::{dropdown} Methods
 3 × 10⁵ HeLa cells were seeded on 35 mm glass-bottom dishes. 

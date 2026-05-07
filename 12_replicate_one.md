@@ -10,7 +10,7 @@ Plasmid transfection was a potential confound for reovirus infection in this mod
 Two transfection reagents were compared, and TransIT-2020 was deemed more suitable, consistent with the original study.
 
 ::::{figure}
-:label: sfig11a
+:label: figure10a
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/Transit.zarr",
@@ -208,7 +208,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
   ],
   "annotations": [
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         226,
         677
@@ -220,7 +220,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2116,
         98
@@ -232,7 +232,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2139,
         23
@@ -244,7 +244,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1277,
         2539
@@ -256,7 +256,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1538,
         2527
@@ -268,7 +268,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         899,
         3635
@@ -280,7 +280,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         907,
         5407
@@ -292,7 +292,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         801,
         5741
@@ -304,7 +304,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         197,
         9656
@@ -316,7 +316,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         295,
         9748
@@ -328,7 +328,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4608,
         8776
@@ -340,7 +340,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4596,
         8587
@@ -352,7 +352,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4708,
         8347
@@ -364,7 +364,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5593,
         7819
@@ -376,7 +376,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5993,
         7922
@@ -388,7 +388,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3949,
         6820
@@ -400,7 +400,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4038,
         6985
@@ -412,7 +412,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3381,
         7622
@@ -424,7 +424,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3585,
         7672
@@ -436,7 +436,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2752,
         7199
@@ -448,7 +448,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3189,
         6309
@@ -460,7 +460,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3927,
         5162
@@ -472,7 +472,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3404,
         3561
@@ -484,7 +484,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3690,
         2719
@@ -496,7 +496,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3905,
         962
@@ -508,7 +508,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5302,
         1996
@@ -520,7 +520,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7114,
         835
@@ -532,7 +532,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7894,
         733
@@ -544,7 +544,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7438,
         7642
@@ -556,7 +556,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7273,
         8345
@@ -568,7 +568,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7962,
         8522
@@ -580,7 +580,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8584,
         8713
@@ -592,7 +592,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8762,
         5642
@@ -604,7 +604,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8013,
         5240
@@ -616,7 +616,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8258,
         5341
@@ -628,7 +628,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2265,
         3006
@@ -640,7 +640,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         578,
         909
@@ -652,7 +652,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1812,
         871
@@ -664,7 +664,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1681,
         1166
@@ -676,7 +676,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1576,
         1353
@@ -688,7 +688,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1892,
         1487
@@ -700,7 +700,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1297,
         1971
@@ -712,7 +712,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         414,
         1992
@@ -724,7 +724,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         853,
         2491
@@ -736,7 +736,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         179,
         3784
@@ -748,7 +748,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         94,
         4098
@@ -760,7 +760,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1662,
         1794
@@ -772,7 +772,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1034,
         2162
@@ -784,7 +784,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1189,
         3857
@@ -796,7 +796,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         467,
         4351
@@ -808,7 +808,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         405,
         4664
@@ -820,7 +820,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         601,
         4963
@@ -832,7 +832,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         622,
         5083
@@ -844,7 +844,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         111,
         5760
@@ -856,7 +856,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         972,
         5771
@@ -868,7 +868,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1131,
         5263
@@ -880,7 +880,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1192,
         5016
@@ -892,7 +892,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1398,
         5478
@@ -904,7 +904,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1861,
         5341
@@ -916,7 +916,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2298,
         6147
@@ -928,7 +928,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2343,
         6519
@@ -940,7 +940,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2478,
         7215
@@ -952,7 +952,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2638,
         7114
@@ -964,7 +964,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2129,
         7590
@@ -976,7 +976,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         471,
         8378
@@ -988,7 +988,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         855,
         8280
@@ -1000,7 +1000,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         721,
         9610
@@ -1012,7 +1012,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3005,
         8823
@@ -1024,7 +1024,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3284,
         8861
@@ -1036,7 +1036,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3203,
         8938
@@ -1048,7 +1048,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3177,
         8635
@@ -1060,7 +1060,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3149,
         9205
@@ -1072,7 +1072,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2799,
         9448
@@ -1084,7 +1084,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4614,
         4042
@@ -1096,7 +1096,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4487,
         4201
@@ -1108,7 +1108,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4382,
         4487
@@ -1120,7 +1120,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4630,
         4450
@@ -1132,7 +1132,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4836,
         3301
@@ -1144,7 +1144,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4489,
         2803
@@ -1156,7 +1156,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4014,
         2962
@@ -1168,7 +1168,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3650,
         1648
@@ -1180,7 +1180,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3682,
         1056
@@ -1192,7 +1192,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2873,
         899
@@ -1204,7 +1204,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3329,
         354
@@ -1216,7 +1216,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4411,
         475
@@ -1228,7 +1228,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4642,
         515
@@ -1240,7 +1240,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5794,
         506
@@ -1252,7 +1252,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6223,
         201
@@ -1264,7 +1264,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6885,
         1623
@@ -1276,7 +1276,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7086,
         1538
@@ -1288,7 +1288,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7276,
         894
@@ -1300,7 +1300,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8204,
         645
@@ -1312,7 +1312,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8159,
         1164
@@ -1324,7 +1324,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8261,
         1334
@@ -1336,7 +1336,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7001,
         3618
@@ -1348,7 +1348,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6864,
         4726
@@ -1360,7 +1360,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6867,
         4879
@@ -1372,7 +1372,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5927,
         5313
@@ -1384,7 +1384,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5224,
         4777
@@ -1396,7 +1396,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5079,
         4749
@@ -1408,7 +1408,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4990,
         5004
@@ -1420,7 +1420,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5044,
         5128
@@ -1432,7 +1432,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6731,
         6464
@@ -1444,7 +1444,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7440,
         6323
@@ -1456,7 +1456,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7371,
         6388
@@ -1468,7 +1468,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7864,
         6780
@@ -1480,7 +1480,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7919,
         6075
@@ -1492,7 +1492,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8666,
         5881
@@ -1504,7 +1504,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8760,
         6260
@@ -1516,7 +1516,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8199,
         4454
@@ -1528,7 +1528,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8231,
         3570
@@ -1540,7 +1540,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7687,
         3029
@@ -1552,7 +1552,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7247,
         1785
@@ -1564,7 +1564,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7252,
         1453
@@ -1576,7 +1576,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7772,
         1415
@@ -1588,7 +1588,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9179,
         338
@@ -1600,7 +1600,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8955,
         1570
@@ -1612,7 +1612,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8452,
         7461
@@ -1624,7 +1624,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8771,
         7882
@@ -1636,7 +1636,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6663,
         9036
@@ -1648,7 +1648,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6826,
         8991
@@ -1660,7 +1660,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6701,
         9348
@@ -1672,7 +1672,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6885,
         8666
@@ -1684,7 +1684,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6783,
         8440
@@ -1696,7 +1696,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5966,
         7763
@@ -1708,7 +1708,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5868,
         7492
@@ -1720,7 +1720,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5177,
         8236
@@ -1732,7 +1732,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4846,
         8522
@@ -1744,7 +1744,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4816,
         8738
@@ -1756,7 +1756,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4677,
         8943
@@ -1768,7 +1768,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4627,
         9689
@@ -1780,7 +1780,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3225,
         6031
@@ -1792,7 +1792,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3091,
         4248
@@ -1804,7 +1804,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2872,
         4003
@@ -1816,7 +1816,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2478,
         3255
@@ -1828,7 +1828,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2344,
         3395
@@ -1840,7 +1840,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2765,
         2510
@@ -1852,7 +1852,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2323,
         2401
@@ -1864,7 +1864,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3031,
         1719
@@ -1876,7 +1876,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2969,
         1829
@@ -1888,7 +1888,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6222,
         1563
@@ -1900,7 +1900,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6421,
         1816
@@ -1912,7 +1912,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6462,
         2803
@@ -1924,7 +1924,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5760,
         2767
@@ -1936,7 +1936,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5214,
         3354
@@ -1948,7 +1948,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5744,
         5079
@@ -1960,7 +1960,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7283,
         5360
@@ -1972,7 +1972,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7539,
         4801
@@ -1984,7 +1984,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7183,
         5188
@@ -1996,7 +1996,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6383,
         3921
@@ -2008,7 +2008,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6479,
         4020
@@ -2020,7 +2020,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6864,
         3000
@@ -2032,7 +2032,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1979,
         4280
@@ -2044,7 +2044,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2601,
         7439
@@ -2056,7 +2056,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9513,
         4151
@@ -2068,7 +2068,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9759,
         4468
@@ -2080,7 +2080,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9366,
         4678
@@ -2092,7 +2092,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9575,
         6997
@@ -2104,7 +2104,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7505,
         9085
@@ -2116,7 +2116,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6044,
         9495
@@ -2128,7 +2128,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6175,
         9624
@@ -2140,7 +2140,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9031,
         9291
@@ -2152,7 +2152,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8997,
         9366
@@ -2164,7 +2164,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8101,
         8446
@@ -2176,7 +2176,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7925,
         8617
@@ -2201,7 +2201,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
 ::::
 
 ::::{figure}
-:label: sfig11b
+:label: figure10b
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/LF3000.zarr",
@@ -2458,7 +2458,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
   ],
   "annotations": [
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1089,
         570
@@ -2470,7 +2470,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1668,
         517
@@ -2482,7 +2482,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         610,
         9264
@@ -2494,7 +2494,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7830,
         3959
@@ -2506,7 +2506,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9720,
         8972
@@ -2518,7 +2518,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4648,
         2861
@@ -2530,7 +2530,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3888,
         653
@@ -2542,7 +2542,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1997,
         2888
@@ -2554,7 +2554,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1104,
         1264
@@ -2566,7 +2566,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1248,
         1906
@@ -2578,7 +2578,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1069,
         2167
@@ -2590,7 +2590,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         725,
         3695
@@ -2602,7 +2602,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         379,
         5596
@@ -2614,7 +2614,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         933,
         5965
@@ -2626,7 +2626,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         610,
         6387
@@ -2638,7 +2638,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         425,
         6664
@@ -2650,7 +2650,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2907,
         7658
@@ -2662,7 +2662,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2507,
         7795
@@ -2674,7 +2674,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2459,
         8131
@@ -2686,7 +2686,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1099,
         9631
@@ -2698,7 +2698,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         63,
         8420
@@ -2710,7 +2710,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3067,
         9720
@@ -2722,7 +2722,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6391,
         9327
@@ -2734,7 +2734,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6701,
         8808
@@ -2746,7 +2746,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7205,
         9388
@@ -2758,7 +2758,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7758,
         9613
@@ -2770,7 +2770,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9141,
         9403
@@ -2782,7 +2782,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9481,
         8979
@@ -2794,7 +2794,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9563,
         8306
@@ -2806,7 +2806,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9141,
         7337
@@ -2818,7 +2818,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8830,
         6579
@@ -2830,7 +2830,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8365,
         5910
@@ -2842,7 +2842,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9459,
         5694
@@ -2854,7 +2854,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9192,
         5305
@@ -2866,7 +2866,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9727,
         5737
@@ -2878,7 +2878,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8811,
         4245
@@ -2890,7 +2890,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9184,
         3851
@@ -2902,7 +2902,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8110,
         3523
@@ -2914,7 +2914,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7629,
         3092
@@ -2926,7 +2926,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7528,
         2680
@@ -2938,7 +2938,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8089,
         2755
@@ -2950,7 +2950,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6963,
         2065
@@ -2962,7 +2962,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6768,
         1702
@@ -2974,7 +2974,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6503,
         1679
@@ -2986,7 +2986,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6185,
         931
@@ -2998,7 +2998,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4709,
         866
@@ -3010,7 +3010,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3726,
         319
@@ -3022,7 +3022,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7284,
         868
@@ -3034,7 +3034,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5682,
         3564
@@ -3046,7 +3046,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4103,
         4928
@@ -3058,7 +3058,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6449,
         4667
@@ -3070,7 +3070,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5928,
         5128
@@ -3082,7 +3082,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4825,
         4684
@@ -3094,7 +3094,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3488,
         3334
@@ -3106,7 +3106,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2652,
         2855
@@ -3118,7 +3118,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3355,
         2082
@@ -3130,7 +3130,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7994,
         143
@@ -3142,7 +3142,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8150,
         388
@@ -3154,7 +3154,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9255,
         384
@@ -3166,7 +3166,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9757,
         284
@@ -3178,7 +3178,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7219,
         1847
@@ -3190,7 +3190,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3956,
         6053
@@ -3202,7 +3202,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5934,
         7336
@@ -3214,7 +3214,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6952,
         7194
@@ -3226,7 +3226,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7717,
         7552
@@ -3238,7 +3238,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7028,
         8110
@@ -3250,7 +3250,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8144,
         8134
@@ -3262,7 +3262,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7702,
         6404
@@ -3274,7 +3274,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7779,
         6662
@@ -3286,7 +3286,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6896,
         6467
@@ -3298,7 +3298,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7415,
         5834
@@ -3310,7 +3310,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7070,
         5933
@@ -3322,7 +3322,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6883,
         5798
@@ -3334,7 +3334,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7687,
         5300
@@ -3346,7 +3346,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7870,
         4324
@@ -3358,7 +3358,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8069,
         4356
@@ -3370,7 +3370,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1146,
         4854
@@ -3382,7 +3382,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1455,
         4652
@@ -3403,11 +3403,11 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
   }
 }
 :::
-Transfected-infected cells. Transfection with Lipofectamine 3000 before reovirus infection.
+Transfected-infected cells. Uninfected with Lipofectamine 3000 before reovirus infection.
 ::::
 
 ::::{figure}
-:label: sfig11c
+:label: figure10c
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/Untransfected.zarr",

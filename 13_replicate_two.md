@@ -10,7 +10,7 @@ Other mCherry-ER reporters were tested, though few cells were found expressing m
 Signal intensity was low, particularly in the calreticulin channel, making it difficult to interpret ER morphology with the antibody.
 
 ::::{figure}
-:label: sfig12
+:label: figure11a
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-KDEL_T1L.zarr",
@@ -266,7 +266,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
   ],
   "annotations": [
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2965,
         1882
@@ -278,7 +278,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3397,
         3052
@@ -290,7 +290,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2096,
         4287
@@ -302,7 +302,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         53,
         7101
@@ -314,7 +314,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         221,
         9319
@@ -326,7 +326,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2420,
         14138
@@ -338,7 +338,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5586,
         7242
@@ -350,7 +350,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4171,
         5871
@@ -362,7 +362,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3363,
         6015
@@ -374,7 +374,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7133,
         3082
@@ -386,7 +386,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7577,
         3446
@@ -398,7 +398,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7061,
         1998
@@ -410,7 +410,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7661,
         1296
@@ -422,7 +422,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7006,
         1034
@@ -434,7 +434,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6987,
         914
@@ -446,7 +446,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7133,
         225
@@ -458,7 +458,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11983,
         451
@@ -470,7 +470,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12796,
         2162
@@ -482,7 +482,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13314,
         3319
@@ -494,7 +494,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12744,
         6035
@@ -506,7 +506,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12438,
         7840
@@ -518,7 +518,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12230,
         7953
@@ -530,7 +530,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12360,
         9426
@@ -542,7 +542,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11943,
         13580
@@ -554,7 +554,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14482,
         13557
@@ -566,7 +566,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13526,
         9259
@@ -578,7 +578,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13072,
         7857
@@ -590,7 +590,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13685,
         6199
@@ -602,7 +602,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14317,
         5686
@@ -614,7 +614,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10356,
         3063
@@ -626,7 +626,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9943,
         3684
@@ -638,7 +638,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7379,
         5177
@@ -650,7 +650,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7150,
         5332
@@ -662,7 +662,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7734,
         5311
@@ -674,7 +674,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7598,
         6878
@@ -686,7 +686,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7831,
         6987
@@ -698,7 +698,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7621,
         6704
@@ -710,7 +710,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7256,
         10558
@@ -722,7 +722,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7485,
         10902
@@ -734,7 +734,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8252,
         10745
@@ -746,7 +746,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8852,
         13084
@@ -758,7 +758,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9238,
         13064
@@ -770,7 +770,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8389,
         13701
@@ -782,7 +782,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3734,
         14418
@@ -794,7 +794,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2597,
         13985
@@ -806,7 +806,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2325,
         13882
@@ -818,7 +818,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2373,
         13443
@@ -830,7 +830,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1411,
         12840
@@ -842,7 +842,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10115,
         7931
@@ -854,7 +854,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10115,
         8119
@@ -866,7 +866,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9684,
         8799
@@ -878,7 +878,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5750,
         7642
@@ -890,7 +890,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3387,
         8911
@@ -902,7 +902,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1879,
         8786
@@ -914,7 +914,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11204,
         2785
@@ -926,7 +926,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4421,
         2504
@@ -938,7 +938,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2120,
         1027
@@ -950,7 +950,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1479,
         2159
@@ -962,7 +962,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1594,
         3033
@@ -974,7 +974,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2117,
         821
@@ -986,7 +986,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         996,
         1813
@@ -998,7 +998,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1056,
         2036
@@ -1010,7 +1010,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         117,
         2603
@@ -1022,7 +1022,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         189,
         2809
@@ -1034,7 +1034,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         709,
         3771
@@ -1046,7 +1046,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         689,
         4454
@@ -1058,7 +1058,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1255,
         4433
@@ -1070,7 +1070,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1442,
         4576
@@ -1082,7 +1082,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1337,
         5490
@@ -1094,7 +1094,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         948,
         6430
@@ -1106,7 +1106,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         160,
         6748
@@ -1118,7 +1118,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         174,
         8776
@@ -1130,7 +1130,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1046,
         8610
@@ -1142,7 +1142,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2111,
         8799
@@ -1154,7 +1154,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1800,
         9529
@@ -1166,7 +1166,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         970,
         11366
@@ -1178,7 +1178,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1200,
         11257
@@ -1190,7 +1190,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         711,
         14202
@@ -1202,7 +1202,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2671,
         14417
@@ -1214,7 +1214,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3030,
         12897
@@ -1226,7 +1226,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4079,
         10917
@@ -1238,7 +1238,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3135,
         10948
@@ -1250,7 +1250,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3548,
         9155
@@ -1262,7 +1262,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3033,
         9250
@@ -1274,7 +1274,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4126,
         7139
@@ -1286,7 +1286,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4179,
         7487
@@ -1298,7 +1298,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3768,
         7149
@@ -1310,7 +1310,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5570,
         8933
@@ -1322,7 +1322,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6266,
         8469
@@ -1334,7 +1334,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6117,
         8214
@@ -1346,7 +1346,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4889,
         7396
@@ -1358,7 +1358,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4315,
         7737
@@ -1370,7 +1370,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4515,
         7950
@@ -1382,7 +1382,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4648,
         6708
@@ -1394,7 +1394,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5532,
         5993
@@ -1406,7 +1406,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5782,
         5147
@@ -1418,7 +1418,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6631,
         4946
@@ -1430,7 +1430,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5956,
         3997
@@ -1442,7 +1442,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6279,
         3771
@@ -1454,7 +1454,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7585,
         2789
@@ -1466,7 +1466,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7703,
         3002
@@ -1478,7 +1478,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8271,
         2039
@@ -1490,7 +1490,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8000,
         2086
@@ -1502,7 +1502,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8213,
         1218
@@ -1514,7 +1514,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8165,
         655
@@ -1526,7 +1526,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8793,
         488
@@ -1538,7 +1538,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5765,
         377
@@ -1550,7 +1550,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10653,
         2031
@@ -1562,7 +1562,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11743,
         1517
@@ -1574,7 +1574,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11896,
         1520
@@ -1586,7 +1586,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12163,
         1773
@@ -1598,7 +1598,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14226,
         2405
@@ -1610,7 +1610,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14596,
         2069
@@ -1622,7 +1622,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12676,
         6523
@@ -1634,7 +1634,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13017,
         6644
@@ -1646,7 +1646,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11172,
         7727
@@ -1658,7 +1658,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11228,
         7349
@@ -1670,7 +1670,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11607,
         10755
@@ -1682,7 +1682,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12292,
         11216
@@ -1694,7 +1694,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12705,
         11176
@@ -1706,7 +1706,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12241,
         10974
@@ -1718,7 +1718,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10280,
         11236
@@ -1730,7 +1730,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10288,
         11060
@@ -1742,7 +1742,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10709,
         11022
@@ -1754,7 +1754,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9098,
         10017
@@ -1766,7 +1766,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8451,
         10233
@@ -1778,7 +1778,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7568,
         8775
@@ -1790,7 +1790,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7210,
         8857
@@ -1802,7 +1802,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9444,
         8881
@@ -1814,7 +1814,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8085,
         7927
@@ -1826,7 +1826,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7873,
         8112
@@ -1838,7 +1838,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9531,
         5201
@@ -1850,7 +1850,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10023,
         4067
@@ -1862,7 +1862,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10599,
         4443
@@ -1874,7 +1874,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10061,
         10403
@@ -1886,7 +1886,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10872,
         9893
@@ -1898,7 +1898,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11234,
         10337
@@ -1910,7 +1910,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12764,
         9603
@@ -1922,7 +1922,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12934,
         9837
@@ -1934,7 +1934,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13321,
         10013
@@ -1946,7 +1946,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13977,
         10668
@@ -1958,7 +1958,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14568,
         10464
@@ -1970,7 +1970,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14074,
         12424
@@ -1982,7 +1982,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13910,
         12598
@@ -1994,7 +1994,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13968,
         12850
@@ -2006,7 +2006,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13630,
         13035
@@ -2018,7 +2018,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13613,
         13382
@@ -2030,7 +2030,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14415,
         13222
@@ -2042,7 +2042,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13754,
         13714
@@ -2054,7 +2054,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10057,
         13958
@@ -2066,7 +2066,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10189,
         14211
@@ -2078,7 +2078,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10574,
         14044
@@ -2090,7 +2090,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7973,
         14566
@@ -2102,7 +2102,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8239,
         13165
@@ -2114,7 +2114,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8492,
         13031
@@ -2126,7 +2126,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7470,
         13063
@@ -2138,7 +2138,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7235,
         11052
@@ -2150,7 +2150,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7486,
         11153
@@ -2162,7 +2162,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7535,
         11415
@@ -2174,7 +2174,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7802,
         11249
@@ -2186,7 +2186,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7273,
         10109
@@ -2198,7 +2198,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6983,
         9961
@@ -2210,7 +2210,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4907,
         14418
@@ -2222,7 +2222,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6697,
         14345
@@ -2234,7 +2234,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9063,
         6813
@@ -2246,7 +2246,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8227,
         4549
@@ -2258,7 +2258,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7629,
         4689
@@ -2270,7 +2270,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8202,
         2214
@@ -2282,7 +2282,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8117,
         2474
@@ -2294,7 +2294,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11614,
         5204
@@ -2306,7 +2306,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11625,
         5552
@@ -2318,7 +2318,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12720,
         7774
@@ -2330,7 +2330,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14505,
         7934
@@ -2342,7 +2342,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14251,
         8062
@@ -2354,7 +2354,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14360,
         8321
@@ -2366,7 +2366,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14539,
         8219
@@ -2378,7 +2378,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13905,
         9927
@@ -2390,7 +2390,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14551,
         11631
@@ -2402,7 +2402,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14288,
         11663
@@ -2414,7 +2414,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13031,
         11211
@@ -2426,7 +2426,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8951,
         6336
@@ -2438,7 +2438,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9247,
         3847
@@ -2450,7 +2450,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2645,
         4787
@@ -2462,7 +2462,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3325,
         4379
@@ -2474,7 +2474,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3126,
         3588
@@ -2486,7 +2486,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3857,
         3455
@@ -2498,7 +2498,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4259,
         3742
@@ -2510,7 +2510,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9720,
         11415
@@ -2522,7 +2522,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9703,
         11788
@@ -2546,10 +2546,10 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
 Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020.
 ::::
 
-### Additional mCherry-ER reporters and uninfected control
-
+:::::{figure}
+:label: figure11b
 ::::{grid} 2 2 2 2
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-KDEL.zarr",
   "width": "323px",
@@ -2813,8 +2813,8 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-Climp63_T1L.zarr",
   "width": "323px",
@@ -2892,7 +2892,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
   ],
   "annotations": [
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9881,
         7352
@@ -2904,7 +2904,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2115,
         6584
@@ -2916,7 +2916,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3260,
         1602
@@ -2928,7 +2928,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7022,
         5940
@@ -2940,7 +2940,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8256,
         14363
@@ -2952,7 +2952,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2198,
         7793
@@ -2972,8 +2972,8 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-CytERM_T1L.zarr",
   "width": "323px",
@@ -3231,7 +3231,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
   ],
   "annotations": [
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2738,
         640
@@ -3243,7 +3243,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6230,
         1406
@@ -3255,7 +3255,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8265,
         896
@@ -3267,7 +3267,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6366,
         3056
@@ -3279,7 +3279,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7309,
         3193
@@ -3291,7 +3291,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12187,
         3043
@@ -3303,7 +3303,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12457,
         3114
@@ -3315,7 +3315,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12289,
         4700
@@ -3327,7 +3327,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11898,
         5925
@@ -3339,7 +3339,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11892,
         6974
@@ -3351,7 +3351,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11311,
         6303
@@ -3363,7 +3363,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10760,
         6727
@@ -3375,7 +3375,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8389,
         5918
@@ -3387,7 +3387,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8404,
         6387
@@ -3399,7 +3399,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5160,
         6037
@@ -3411,7 +3411,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5072,
         5716
@@ -3423,7 +3423,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4606,
         5775
@@ -3435,7 +3435,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5018,
         5338
@@ -3447,7 +3447,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5170,
         3207
@@ -3459,7 +3459,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1409,
         1077
@@ -3471,7 +3471,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         63,
         150
@@ -3483,7 +3483,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         796,
         3568
@@ -3495,7 +3495,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         104,
         5254
@@ -3507,7 +3507,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         556,
         6277
@@ -3519,7 +3519,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         173,
         7385
@@ -3531,7 +3531,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1423,
         11113
@@ -3543,7 +3543,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         788,
         11620
@@ -3555,7 +3555,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         565,
         11482
@@ -3567,7 +3567,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1338,
         13002
@@ -3579,7 +3579,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1875,
         13462
@@ -3591,7 +3591,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2080,
         13318
@@ -3603,7 +3603,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5004,
         12700
@@ -3615,7 +3615,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6165,
         12838
@@ -3627,7 +3627,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9202,
         13606
@@ -3639,7 +3639,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10661,
         13233
@@ -3651,7 +3651,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8905,
         12377
@@ -3663,7 +3663,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9324,
         12131
@@ -3675,7 +3675,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11323,
         11191
@@ -3687,7 +3687,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8315,
         9167
@@ -3699,7 +3699,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8558,
         8592
@@ -3711,7 +3711,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9092,
         8623
@@ -3723,7 +3723,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5174,
         11329
@@ -3735,7 +3735,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6261,
         11434
@@ -3747,7 +3747,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7557,
         12108
@@ -3759,7 +3759,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13251,
         14108
@@ -3771,7 +3771,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13921,
         14581
@@ -3783,7 +3783,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14321,
         13203
@@ -3795,7 +3795,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13031,
         11823
@@ -3807,7 +3807,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14111,
         2116
@@ -3819,7 +3819,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10319,
         2970
@@ -3831,7 +3831,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8763,
         870
@@ -3843,7 +3843,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6889,
         97
@@ -3855,7 +3855,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5252,
         569
@@ -3867,7 +3867,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7196,
         2693
@@ -3887,8 +3887,8 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-Sec61b_T1L.zarr",
   "width": "323px",
@@ -3966,7 +3966,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
   ],
   "annotations": [
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1594,
         1084
@@ -3978,7 +3978,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1629,
         3398
@@ -3990,7 +3990,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         594,
         4335
@@ -4002,7 +4002,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         677,
         5416
@@ -4014,7 +4014,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         451,
         7189
@@ -4026,7 +4026,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         924,
         7666
@@ -4038,7 +4038,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2600,
         8712
@@ -4050,7 +4050,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3598,
         8718
@@ -4062,7 +4062,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1936,
         11131
@@ -4074,7 +4074,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1277,
         12128
@@ -4086,7 +4086,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7573,
         12645
@@ -4098,7 +4098,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14547,
         13731
@@ -4110,7 +4110,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14296,
         12365
@@ -4122,7 +4122,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13415,
         12017
@@ -4134,7 +4134,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14475,
         10511
@@ -4146,7 +4146,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13581,
         8741
@@ -4158,7 +4158,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13284,
         7291
@@ -4170,7 +4170,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6203,
         6854
@@ -4182,7 +4182,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9678,
         3561
@@ -4194,7 +4194,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9018,
         3886
@@ -4206,7 +4206,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11016,
         2089
@@ -4218,7 +4218,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11375,
         386
@@ -4230,7 +4230,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5670,
         1921
@@ -4242,7 +4242,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6525,
         2807
@@ -4254,7 +4254,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10571,
         8940
@@ -4266,7 +4266,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11205,
         9416
@@ -4278,7 +4278,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6993,
         7969
@@ -4290,7 +4290,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7850,
         6195
@@ -4302,7 +4302,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2200,
         4802
@@ -4314,7 +4314,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2703,
         9138
@@ -4326,7 +4326,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4250,
         7955
@@ -4338,7 +4338,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         856,
         810
@@ -4350,7 +4350,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2165,
         372
@@ -4362,7 +4362,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3095,
         2167
@@ -4374,7 +4374,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         82,
         4500
@@ -4386,7 +4386,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         250,
         6610
@@ -4398,7 +4398,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2270,
         8665
@@ -4410,7 +4410,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2660,
         8324
@@ -4422,7 +4422,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2935,
         10007
@@ -4434,7 +4434,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6223,
         13507
@@ -4446,7 +4446,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5812,
         13001
@@ -4458,7 +4458,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6164,
         12811
@@ -4470,7 +4470,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7159,
         13725
@@ -4482,7 +4482,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8677,
         13301
@@ -4494,7 +4494,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11948,
         12145
@@ -4506,7 +4506,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12368,
         12421
@@ -4518,7 +4518,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13905,
         13260
@@ -4530,7 +4530,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13517,
         11692
@@ -4542,7 +4542,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14530,
         9122
@@ -4554,7 +4554,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13459,
         7994
@@ -4566,7 +4566,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13557,
         7985
@@ -4578,7 +4578,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13772,
         3785
@@ -4590,7 +4590,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13769,
         2871
@@ -4602,7 +4602,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13096,
         126
@@ -4614,7 +4614,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10262,
         6664
@@ -4626,7 +4626,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10557,
         6525
@@ -4638,7 +4638,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9350,
         7170
@@ -4650,7 +4650,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9587,
         7468
@@ -4662,7 +4662,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6588,
         6651
@@ -4674,7 +4674,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6601,
         6943
@@ -4686,7 +4686,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7005,
         4604
@@ -4698,7 +4698,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6521,
         193
@@ -4710,7 +4710,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5589,
         1299
@@ -4722,7 +4722,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5373,
         847
@@ -4734,7 +4734,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5223,
         1534
@@ -4746,7 +4746,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3144,
         384
@@ -4758,7 +4758,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3910,
         9229
@@ -4770,7 +4770,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8170,
         480
@@ -4782,7 +4782,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9779,
         1036
@@ -4794,7 +4794,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5588,
         10264
@@ -4806,7 +4806,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5685,
         9125
@@ -4826,8 +4826,10 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
+```
 ::::
+Additional mCherry-ER reporters and an uninfected control.
+:::::
 
 :::{dropdown} Methods
 Specimens were 35 mm glass-bottom dishes with 20 mm coverslips (no. 1.5 glass). 

@@ -5,10 +5,10 @@ numbering:
 ---
 
 The selectivity and specificity of the calreticulin monoclonal antibody was validated as an immunofluorescence marker of the ER. 
-The staining pattern was punctate but sufficient to observe ER elements.
+The staining pattern was punctate but sufficient to observe ER elements (Figure 5.1).
 
 ::::{figure}
-:label: calreticulin
+:label: figure5a
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/primary_secondary.zarr",
@@ -32,11 +32,13 @@ The staining pattern was punctate but sufficient to observe ER elements.
   }
 }
 :::
-Validating the α-calreticulin antibody in an immunofluorescence imaging assay.
+Immunofluorescence staining of calreticulin.
 ::::
 
+:::::{figure}
+:label: figure5b
 ::::{grid} 3 3 3 3
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/primary.zarr",
   "width": "210px",
@@ -58,8 +60,8 @@ Validating the α-calreticulin antibody in an immunofluorescence imaging assay.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/secondary.zarr",
   "width": "210px",
@@ -81,8 +83,8 @@ Validating the α-calreticulin antibody in an immunofluorescence imaging assay.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/mock.zarr",
   "width": "210px",
@@ -104,8 +106,10 @@ Validating the α-calreticulin antibody in an immunofluorescence imaging assay.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
+```
 ::::
+**Figure 5.2:** Immunofluorescence antibody controls.
+:::::
 
 :::{dropdown} Materials and immunofluorescence protocol
 The original study used an undisclosed polyclonal antiserum for calreticulin, so it was substituted with a monoclonal antibody for the replication. 

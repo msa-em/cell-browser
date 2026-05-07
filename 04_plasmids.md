@@ -8,13 +8,13 @@ numbering:
 
 mCherry-KDEL was the same construct used in the original study; mCherry-ER-3 plasmid (55041, Addgene).
 mCherry-CytERM-N-17 (55024, Addgene) was included as a positive control for ER remodelling because organized smooth endoplasmic reticulum (OSER) whorls form through fluorescent protein dimerization [@doi:10.1083/jcb.200306020].
-An [OSER assay](#oser_page) (see Supplemental) was performed to compare whorl formation across different fluorescent proteins relative to mCherry-CytERM.
+A supplementary [OSER assay](#oser_page) was performed to compare whorl formation across different fluorescent proteins relative to mCherry-CytERM.
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
-An earlier experiment combining moxGFP::μNS with these constructs was inconclusive (see [Archived Maps](#archival_page) in the Supplemental).
+An earlier experiment combining moxGFP::μNS with these constructs was inconclusive (Supplementary [Archived Maps](#archival_page)).
 
 Cells transiently expressing mCherry-ER fusions were fixed 24 hours after transfection with TransIT-2020 and Lipofectamine 3000.
 Parker identified saturated signal in the original experiment and advised Barkley to repeat it, adjusting illumination settings individually.  
-The corrected maps are presented below [Figure 3](#figure3), and the [saturated maps](#saturated_page) and [discarded maps](#discarded_page) are presented in the Supplemental.
+The corrected maps are presented below (Figure 3.1), and the [saturated maps](#saturated_page) and [discarded maps](#discarded_page) are presented in the Supplemental.
 
 :::::{figure}
 :label: figure3
@@ -765,12 +765,12 @@ The corrected maps are presented below [Figure 3](#figure3), and the [saturated 
 }
 ```
 ::::
-**Figure 3.1:** Microscopy maps of transfected cells expressing mCherry-ER fusion proteins.
+**Figure 3.1:** Cells expressing mCherry-ER fusion proteins. Select the 'ER remodeling' view from the menu to see representative fields of punctate structures suspected to be mCherry artifacts.
 :::::
 
 :::{important} Alternative hypothesis
 For each of the four mCherry-ER reporters, at least one cell exhibits what Barkley interprets as ER remodeling (see the preset views). 
-These artifacts were also observed in [live cells](#video_page), indicating that they are not a consequence of fixation. 
+These artifacts were also observed in [live cells](#figure9), indicating that they are not a consequence of fixation. 
 Since these cells were not infected, it is possible that previous investigators misinterpreted mCherry-ER reporter artifacts as an outcome of reovirus infection.
 :::
 
