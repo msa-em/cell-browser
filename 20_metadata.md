@@ -1,5 +1,5 @@
 ---
-title: Data and Metadata
+title: Metadata
 numbering:
   enumerator: 18.%s
 label : metadata_page
@@ -71,6 +71,9 @@ To view acquisition metadata, append `/metadata.json` to any URL.
 ```
 ::::
 
-Test caption — mCherry-KDEL imaged with LF3000 and Transit transfection reagents.
+**Figure 16.1** Test caption — mCherry-KDEL imaged with LF3000 and Transit transfection reagents.
 :::::
 
+
+
+Test reference [Figure 16.1](#test-figure).
