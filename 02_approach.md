@@ -14,12 +14,12 @@ Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:P
 Virtual microscopy. 1. Automated dataset collection with any suitable microscope. ZDC: Z-drift compensation. 2. Stitch tiles then convert the image to DZI or OME-Zarr, host online. 3. Image tiles or data chunks are retrieved from cloud storage as readers interact with microscopy maps.
 ```
 
-Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two methods of virtual microscopy based on OME-Zarr or [Deep Zoom](<wiki:Deep_Zoom>).
-Authors can also build custom viewers.
-Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article.
-[Vizarr](#vizarr), [OpenSeadragon](#openseadragon) and [microATLAS](#microatlas) are readily embeddable in Elemental Microscopy articles with the `:::{any:bundle}` directive.
-The :::{any:bundle} directive embeds an interactive viewer directly in the article. 
-Authors simply copy the markdown and replace the source URL with a link to their own data.
+Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two methods of virtual microscopy based on OME-Zarr or Deep Zoom. 
+Authors can also build custom viewers. 
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article. 
+All three viewers are readily embeddable in Elemental Microscopy. 
+For Vizarr and OpenSeadragon, authors simply copy the markdown and replace the source URL with a link to their own data. 
+For microATLAS, authors are encouraged to use the [figure builder widget](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate the markdown.
 
 ## OME-Zarr
 
@@ -67,7 +67,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ## Deep Zoom
 
-Deep Zoom is a free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], now embeddable in Elemental Microscopy.
+[Deep Zoom](<wiki:Deep_Zoom>) is a free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], now embeddable in Elemental Microscopy.
 Pyramidal Deep Zoom image (DZI) data hosted on Github Pages is streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
 By default, readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images.
 

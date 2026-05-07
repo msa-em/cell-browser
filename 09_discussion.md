@@ -41,4 +41,4 @@ Truth is not a straightforward concept.
 All truths can be challenged, and while some become more certain with the passage of time, they are never without caveats. 
 Science is the process of observing, imagining explanations for the observations, turning those explanations into hypotheses, and then testing them through experimentation. 
 The truths we derive from this process are "interpreted truths" that may become irrelevant as new information is gathered. 
-Our job as scientists is not to identify ground truths, but to test hypotheses and garner evidence that supports or contradicts them.
+Our job as scientists is not to identify ground truths, but to test hypotheses and garner evidence that supports or contradicts them, and to challenge the prevailing consensus.
