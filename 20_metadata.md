@@ -7,8 +7,10 @@ label : metadata_page
 
 ## Instructions
 
+Each dataset is stored as an OME-Zarr on the [Open Storage Network] (https://doi.org/10.6075/J0RR1ZCR).
+Acquisition metadata extracted from the Olympus .oir files using Bio-Formats is available as a JSON file within each Zarr store.
 Click any link to view the acquisition parameters directly in your browser, or right-click and copy the link address to use the URL directly. 
-To explore any dataset in [Vizarr](https://github.com/hms-dbmi/vizarr), remove /metadata.json from the copied URL and paste it after https://hms-dbmi.github.io/vizarr/?source= in your browser.
+To explore any dataset in [Vizarr](https://github.com/hms-dbmi/vizarr), remove `/metadata.json` from the URL and paste it after `https://hms-dbmi.github.io/vizarr/?source=` in your browser.
 
 ### Plasmids (Fig. 3)
 - [mCherry-KDEL, Lipofectamine](https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle_02.zarr/metadata.json)
