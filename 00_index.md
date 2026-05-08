@@ -45,4 +45,4 @@ All authors declared no conflicts of interest.
 
 ## Data Availability
 
-Acquisition metadata is available within each Zarr store, see [Metadata Availability](#metadata_page) for URLs.
+OME-Zarr data is hosted on the Open Storage Network (https://doi.org/10.6075/J0RR1ZCR), see [Metadata Availability](#metadata_page) for URLs.
