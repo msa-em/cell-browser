@@ -46,4 +46,4 @@ All authors declared no conflicts of interest.
 ## Data Availability
 
 OME-Zarr data is hosted on the Open Storage Network (https://doi.org/10.6075/J0RR1ZCR). 
-Acquisition metadata is available within each Zarr store, see [Metadata](#metadata_page) in the Supplemental for URLs.
+Acquisition metadata is available within each Zarr store, see [Metadata Availability](#metadata_page) for URLs.

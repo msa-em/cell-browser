@@ -770,7 +770,7 @@ The corrected maps are presented below (Figure 3.1) and the [saturated maps](#sa
 
 :::{important} Alternative hypothesis
 For each of the four mCherry-ER reporters, at least one cell exhibits what Barkley interprets as ER remodeling (see the preset views). 
-These artifacts were also observed in [live cells](#figure9), indicating that they are not a consequence of fixation. 
+These artifacts were also observed in live cells ([](#figure9)), indicating that they are not a consequence of fixation. 
 Since these cells were not infected, it is possible that previous investigators misinterpreted mCherry-ER reporter artifacts as an outcome of reovirus infection.
 :::
 
