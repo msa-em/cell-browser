@@ -5,8 +5,10 @@ numbering:
 label : antibody_page
 ---
 
-One experiment used AlexaFluor647 secondary antibodies paired with the chicken α-μNS antiserum, which was used in all replication attempts. 
+This experiment used AlexaFluor647 secondary antibodies paired with the chicken α-μNS antiserum, which was used in all replication attempts. 
 The other used AlexaFluor594 secondary antibodies with both the chicken and guinea pig α-μNS antisera, so that illumination settings were consistent between the two antisera.
+
+## Chicken polyclonal antiserum
 
 ::::{figure}
 :label: figure14a
@@ -90,6 +92,7 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
 ::::
 
 :::::{figure}
+:label: figure14b
 ::::{grid} 3 3 3 3
 ```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
@@ -323,8 +326,10 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
 **Figure 14.2:** Immunofluorescence antibody controls.
 :::::
 
+## Guinea pig polyclonal antiserum
+
 ::::{figure}
-:label: figure14b
+:label: figure14c
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_primary_secondary.zarr",
@@ -405,6 +410,7 @@ Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
 ::::
 
 :::::{figure}
+:label: figure14d
 ::::{grid} 3 3 3 3
 ```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
