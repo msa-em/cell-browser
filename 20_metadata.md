@@ -8,15 +8,12 @@ label : metadata_page
 :::{list-table} OME-Zarr Datasets
 :header-rows: 1
 
-* - Page
-  - Figure
+* - Figure
   - Sample
   - URL
-* - Video
-  - Figure 9.1
+* - Figure 9.1
   - mCherry-KDEL + mNeonGreen::μNS
-  - <https://nyu1.osn.mghpcc.org/barkley-replication/video.zarr/>
+  - <https://nyu1.osn.mghpcc.org/barkley-replication/video.zarr/metadata.json>
 :::
 
-To view acquisition metadata, append `/metadata.json` to any URL.
-To explore any dataset in [Vizarr](https://github.com/hms-dbmi/vizarr), paste the URL after https://hms-dbmi.github.io/vizarr/?source= in your browser.
+To explore any dataset in [Vizarr](https://github.com/hms-dbmi/vizarr), remove /metadata.json from the URL and paste it after https://hms-dbmi.github.io/vizarr/?source= in your browser.
