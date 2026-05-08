@@ -5,15 +5,18 @@ numbering:
 label : metadata_page
 ---
 
-```{list-table} OME-Zarr Datasets
+:::{list-table} OME-Zarr Datasets
 :header-rows: 1
 
-* - Experiment
+* - Page
+  - Figure
   - Sample
-  - Link
-* - Plasmids
-  - [Figure 3](#test-figure)
-  - https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-KDEL.zarr
+  - URL
+* - Video
+  - Figure 9.1
+  - mCherry-KDEL + mNeonGreen::μNS
+  - <https://nyu1.osn.mghpcc.org/barkley-replication/video.zarr/>
+:::
 
 To view acquisition metadata, append `/metadata.json` to any URL.
-```
+To explore any dataset in [Vizarr](https://github.com/hms-dbmi/vizarr), paste the URL after https://hms-dbmi.github.io/vizarr/?source= in your browser.

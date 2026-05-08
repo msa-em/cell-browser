@@ -19,7 +19,7 @@ Authors can also build custom viewers.
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article. 
 All three viewers are readily embeddable in Elemental Microscopy. 
 For Vizarr and OpenSeadragon, authors simply copy the markdown and replace the source URL with a link to their own data. 
-For microATLAS, authors are encouraged to use the [figure builder widget](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate the markdown.
+For microATLAS, authors are encouraged to use the [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate the code.
 
 ## OME-Zarr
 
