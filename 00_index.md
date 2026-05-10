@@ -7,12 +7,14 @@ numbering:
 
 +++ {"part": "abstract"}
 
-Static figures are the standard interface for scientific discourse and peer review, so microscopists invariably communicate experimental results through representative images and plots.
+Static figures are the standard interface for scientific discourse and peer review, so microscopists typically communicate experimental results through representative images and plots.
 This article focuses on virtual microscopy, a novel visualization strategy for researchers to share microscopy data in publications.
 Web-based microscopy maps improve the transparency, accessibility, and archival of bioimages as an unbiased alternative to representative images.
-These features made virtual microscopy useful for the critical appraisal of observational studies.
+These features make virtual microscopy useful for the critical appraisal of observational studies.
 Using this approach, an original claim of reovirus-induced endoplasmic reticulum remodeling was reexamined.
-Virtual microscopy improves the use, interpretation, and communication of scientific data, subjecting the results of replication experiments to unbiased peer review.
+Virtual microscopy subjects the results of qualitative experiments to unbiased peer review by giving readers direct access to the data.
+While data visualization can be refined to minimize subjective biases, the interpretation of data inevitably reflects the author's perspective.
+Virtual microscopy allows readers to interpret the same data as the author, which is a meaningful step forward, yet how authors determine the outcome of qualitative microscopy experiments remains unclear.
 
 +++
 
@@ -29,19 +31,18 @@ _Updated 2025 September 27_
 
 We thank the [Baker Institute for Animal Health](https://www.vet.cornell.edu/departments-centers-and-institutes/baker-institute-animal-health) for supporting this unfunded project.
 
+This work used the Open Storage Network through allocation BIO250450 from the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS) program, which is supported by U.S. National Science Foundation grants #2138259, #2138286, #2138307, #2137603, and #2138296 [@doi:10.1145/3569951.3597559].
+
 +++
 
 +++ {"part":"competing interests"}
 
 ## Competing Interests
 
-All authors declared no financial conflicts of interest.
-Last names were sometimes used to separate the author's voices, interpretations and contributions in the text.
+All authors declared no conflicts of interest.
 
 +++
 
 ## Data Availability
 
-NucleusNet was deposited to Zenodo [@doi:10.5281/zenodo.18776681].
-OME-Zarr data was hosted on the [Open Storage Network](https://openstoragenetwork.github.io/), funded by an [ACCESS allocation](https://allocations.access-ci.org/).
-Deep Zoom data was hosted on [Github](https://github.com/RussellBarkley).
+OME-Zarr data is hosted on the Open Storage Network (https://doi.org/10.6075/J0RR1ZCR), see [Metadata Availability](#metadata_page) for URLs.

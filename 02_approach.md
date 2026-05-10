@@ -4,31 +4,29 @@ numbering:
   enumerator: 1.%s
 ---
 
-This chapter critiques the quality and reproducibility of representative microscopy images as scientific evidence.
-The problem is that static figures motivate authors to cherry-pick desirable examples.
-Scientists also lack tools to evaluate the replicability of claims from representative images.
-A solution is cloud-based [virtual microscopy](<wiki:Virtual_microscopy>); using the internet to share image data.
-Often used for pedagogy and digital pathology, virtual microscopy could benefit research.
-Academics have proposed a variation of virtual microscopy for the unbiased presentation of electron microscopy data [@doi:10.1083/jcb.201201140].
-Today, there are free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] that have yet to be used in scientific publishing.
-Our approach involved automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) file formats, and embedded interactive viewers ([](#abstract)).
+Already adopted by some clinicians and educators, virtual microscopy could also benefit researchers as an interface for communicating and interpreting image data.
+Indeed, interactive microscopy maps were first proposed for precisely this purpose, as an unbiased way to present electron microscopy data [@doi:10.1083/jcb.201201140].
+Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now make this feasible, yet these tools have not been adopted in scientific publishing.
+Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
-Cloud-based virtual microscopy. 1. Automated image acquisition with any suitable microscope. ZDC: Z-drift compensation. 2. Stitch and reformat to pyramidal DZI or OME-Zarr and host online. 3. As readers interact with microscopy maps, image tiles or data chunks are retrieved from cloud storage.
+Virtual microscopy. 1. Automated dataset collection with any suitable microscope. ZDC: Z-drift compensation. 2. Stitch tiles then convert the image to DZI or OME-Zarr, host online. 3. Image tiles or data chunks are retrieved from cloud storage as readers interact with microscopy maps.
 ```
 
-Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling alternative methods of virtual microscopy based on OME-Zarr or [Deep Zoom](<wiki:Deep_Zoom>).
-Authors can also build custom viewers.
-Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article.
-[Vizarr](#vizarr), [OpenSeadragon](#openseadragon) and [microATLAS](#microatlas) are readily embeddable in Elemental Microscopy articles with the `:::{any:bundle}` directive.
+Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two methods of virtual microscopy based on OME-Zarr or Deep Zoom. 
+Authors can also build custom viewers. 
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article. 
+All three viewers are readily embeddable in Elemental Microscopy. 
+For Vizarr and OpenSeadragon, authors simply copy the markdown and replace the source URL with a link to their own data. 
+For microATLAS, authors are encouraged to use the [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate code.
 
 ## OME-Zarr
 
 OME-Zarr is a standardized and flexible image format developed for use cases like virtual microscopy [@doi:10.1007/s00418-023-02209-1].
 Most native microscopy file formats can be converted to OME-Zarr with preserved metadata using [Bio-Formats](https://www.openmicroscopy.org/bio-formats/).
 It is a chunked file type that can support multiple resolution levels.
-Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyramidal OME-Zarr data can be viewed online [@doi:10.1038/s41592-022-01482-7].
+As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyramidal OME-Zarr data can be viewed online [@doi:10.1038/s41592-022-01482-7].
 
 ### Vizarr
 
@@ -69,9 +67,9 @@ Considered an advanced implementation of microscopy maps [@doi:10.1242/jcs.26219
 
 ## Deep Zoom
 
-A free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], is now embeddable in Elemental Microscopy.
+[Deep Zoom](<wiki:Deep_Zoom>) is a free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], now embeddable in Elemental Microscopy.
 Pyramidal Deep Zoom image (DZI) data hosted on Github Pages is streamed to the [OpenSeadragon](https://openseadragon.github.io/) viewer.
-By default, readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images like NucleusNet.
+By default, readers cannot control dimensions like channels or time, so it is best suited for single-channel or composite images.
 
 ### OpenSeadragon
 
@@ -84,3 +82,10 @@ By default, readers cannot control dimensions like channels or time, so it is be
 }
 :::
 ```
+
+:::{dropdown} Imaging
+Data collection was fully-motorized for unbiased sampling of large panoramas from replicate immunofluorescence experiments.
+Grids of overlapping tiles were acquired with a robotic XY stage (IX3-SSU) and Z-drift compensation (IX3-ZDC).
+Coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens (Olympus model UPLAPO100X, NA 1.50) in immersion oil. 
+Pinholes in each channel were maximized to capture the widest depth of field.
+:::

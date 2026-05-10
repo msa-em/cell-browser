@@ -4,12 +4,12 @@ numbering:
   enumerator: 7.%s
 ---
 
-Conditions in the replicate experiment were kept consistent with the original study, but some reagents and protocols were adapted for internal needs.
-Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted and the cell line, plasmid, transfection reagent, and reovirus antibody were consistent.
-The goal of the experiment was to capture cells with coincident plasmid transfection and reovirus infection and this map has ~300 examples.
+This study is not an exact replication because some reagents and protocols were modified due to availability. 
+Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted, while the cell line, plasmid, transfection reagent, and reovirus antibody were consistent. 
+Rather than relying on a single representative image, the data is presented as an interactive figure ([Figure 7.1](#figure7)), allowing readers to observe hundreds of annotated cells.
 
 ::::{figure}
-:label: fig7
+:label: figure7
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_4/goodZDC.zarr",
@@ -256,7 +256,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
   ],
   "annotations": [
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2747,
         347
@@ -268,7 +268,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1290,
         1287
@@ -280,7 +280,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         124,
         2174
@@ -292,7 +292,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         663,
         2473
@@ -304,7 +304,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         56,
         2810
@@ -316,7 +316,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1553,
         4335
@@ -328,7 +328,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2669,
         3959
@@ -340,7 +340,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2977,
         4208
@@ -352,7 +352,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1510,
         5788
@@ -364,7 +364,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         162,
         7685
@@ -376,7 +376,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3029,
         9060
@@ -388,7 +388,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2739,
         10830
@@ -400,7 +400,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2219,
         11315
@@ -412,7 +412,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2913,
         12865
@@ -424,7 +424,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2184,
         15906
@@ -436,7 +436,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2292,
         18875
@@ -448,7 +448,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3391,
         18851
@@ -460,7 +460,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2695,
         19769
@@ -472,7 +472,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1637,
         20409
@@ -484,7 +484,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         921,
         20300
@@ -496,7 +496,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         291,
         20817
@@ -508,7 +508,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         283,
         23720
@@ -520,7 +520,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         172,
         24320
@@ -532,7 +532,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14,
         23867
@@ -544,7 +544,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1138,
         21554
@@ -556,7 +556,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1058,
         21660
@@ -568,7 +568,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2389,
         2956
@@ -580,7 +580,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2287,
         2247
@@ -592,7 +592,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4501,
         2451
@@ -604,7 +604,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4875,
         4079
@@ -616,7 +616,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5394,
         4151
@@ -628,7 +628,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5307,
         4373
@@ -640,7 +640,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3965,
         5458
@@ -652,7 +652,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3829,
         5228
@@ -664,7 +664,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3751,
         5850
@@ -676,7 +676,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2940,
         6565
@@ -688,7 +688,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2044,
         7371
@@ -700,7 +700,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5702,
         6970
@@ -712,7 +712,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6808,
         7574
@@ -724,7 +724,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4789,
         7951
@@ -736,7 +736,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6429,
         10167
@@ -748,7 +748,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6576,
         11240
@@ -760,7 +760,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5930,
         11010
@@ -772,7 +772,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4921,
         11575
@@ -784,7 +784,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5325,
         11826
@@ -796,7 +796,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3592,
         11920
@@ -808,7 +808,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3812,
         12256
@@ -820,7 +820,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5484,
         14421
@@ -832,7 +832,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6204,
         14603
@@ -844,7 +844,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5994,
         19189
@@ -856,7 +856,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6669,
         21512
@@ -868,7 +868,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8020,
         17480
@@ -880,7 +880,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8419,
         17518
@@ -892,7 +892,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8278,
         17895
@@ -904,7 +904,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7624,
         18243
@@ -916,7 +916,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7696,
         17981
@@ -928,7 +928,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9329,
         18804
@@ -940,7 +940,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8357,
         19779
@@ -952,7 +952,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6734,
         20681
@@ -964,7 +964,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5668,
         21414
@@ -976,7 +976,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5363,
         23588
@@ -988,7 +988,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5401,
         23973
@@ -1000,7 +1000,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7242,
         23093
@@ -1012,7 +1012,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8340,
         21689
@@ -1024,7 +1024,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8610,
         21991
@@ -1036,7 +1036,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8818,
         21959
@@ -1048,7 +1048,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9401,
         21881
@@ -1060,7 +1060,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8826,
         20635
@@ -1072,7 +1072,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6790,
         17552
@@ -1084,7 +1084,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8636,
         10382
@@ -1096,7 +1096,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7718,
         12436
@@ -1108,7 +1108,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8216,
         11883
@@ -1120,7 +1120,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9529,
         11098
@@ -1132,7 +1132,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9609,
         11389
@@ -1144,7 +1144,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10048,
         11381
@@ -1156,7 +1156,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9118,
         14238
@@ -1168,7 +1168,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7572,
         14064
@@ -1180,7 +1180,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8984,
         15001
@@ -1192,7 +1192,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9348,
         14897
@@ -1204,7 +1204,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11147,
         17117
@@ -1216,7 +1216,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10751,
         18354
@@ -1228,7 +1228,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11013,
         18343
@@ -1240,7 +1240,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10336,
         20616
@@ -1252,7 +1252,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10924,
         22706
@@ -1264,7 +1264,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13259,
         23270
@@ -1276,7 +1276,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13806,
         23276
@@ -1288,7 +1288,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12649,
         20102
@@ -1300,7 +1300,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12476,
         19555
@@ -1312,7 +1312,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13344,
         19442
@@ -1324,7 +1324,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14285,
         20626
@@ -1336,7 +1336,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14715,
         20540
@@ -1348,7 +1348,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7726,
         4772
@@ -1360,7 +1360,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7370,
         4482
@@ -1372,7 +1372,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8807,
         1720
@@ -1384,7 +1384,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7950,
         1923
@@ -1396,7 +1396,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7648,
         1563
@@ -1408,7 +1408,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8188,
         1267
@@ -1420,7 +1420,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9607,
         1023
@@ -1432,7 +1432,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12086,
         2466
@@ -1444,7 +1444,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12239,
         2402
@@ -1456,7 +1456,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13135,
         2102
@@ -1468,7 +1468,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13826,
         2226
@@ -1480,7 +1480,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13796,
         2670
@@ -1492,7 +1492,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14456,
         2407
@@ -1504,7 +1504,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14565,
         1697
@@ -1516,7 +1516,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14671,
         1946
@@ -1528,7 +1528,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13780,
         1488
@@ -1540,7 +1540,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13113,
         781
@@ -1552,7 +1552,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13036,
         615
@@ -1564,7 +1564,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14100,
         477
@@ -1576,7 +1576,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15090,
         709
@@ -1588,7 +1588,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14665,
         1411
@@ -1600,7 +1600,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16224,
         1483
@@ -1612,7 +1612,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15136,
         2922
@@ -1624,7 +1624,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14955,
         4068
@@ -1636,7 +1636,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13675,
         4645
@@ -1648,7 +1648,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13850,
         5834
@@ -1660,7 +1660,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13746,
         5940
@@ -1672,7 +1672,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12553,
         5599
@@ -1684,7 +1684,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12931,
         5769
@@ -1696,7 +1696,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13372,
         5867
@@ -1708,7 +1708,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12102,
         5988
@@ -1720,7 +1720,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11641,
         7840
@@ -1732,7 +1732,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11900,
         7411
@@ -1744,7 +1744,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13312,
         8327
@@ -1756,7 +1756,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13227,
         8553
@@ -1768,7 +1768,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13508,
         9464
@@ -1780,7 +1780,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13320,
         9453
@@ -1792,7 +1792,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13333,
         9903
@@ -1804,7 +1804,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13510,
         10142
@@ -1816,7 +1816,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13263,
         11685
@@ -1828,7 +1828,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13250,
         12041
@@ -1840,7 +1840,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13651,
         11916
@@ -1852,7 +1852,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13825,
         12906
@@ -1864,7 +1864,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14257,
         12977
@@ -1876,7 +1876,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13756,
         13018
@@ -1888,7 +1888,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12564,
         14035
@@ -1900,7 +1900,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12963,
         14333
@@ -1912,7 +1912,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12735,
         15188
@@ -1924,7 +1924,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14654,
         19551
@@ -1936,7 +1936,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14976,
         18995
@@ -1948,7 +1948,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14896,
         19591
@@ -1960,7 +1960,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15624,
         19171
@@ -1972,7 +1972,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15512,
         18635
@@ -1984,7 +1984,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15406,
         18385
@@ -1996,7 +1996,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15460,
         18139
@@ -2008,7 +2008,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17009,
         3569
@@ -2020,7 +2020,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16905,
         3754
@@ -2032,7 +2032,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17212,
         3918
@@ -2044,7 +2044,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20615,
         618
@@ -2056,7 +2056,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20431,
         409
@@ -2068,7 +2068,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22976,
         867
@@ -2080,7 +2080,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23048,
         942
@@ -2092,7 +2092,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22839,
         111
@@ -2104,7 +2104,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23165,
         1575
@@ -2116,7 +2116,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22477,
         2340
@@ -2128,7 +2128,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21820,
         2933
@@ -2140,7 +2140,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22073,
         3012
@@ -2152,7 +2152,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21383,
         3138
@@ -2164,7 +2164,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22972,
         3999
@@ -2176,7 +2176,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22401,
         4371
@@ -2188,7 +2188,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23055,
         5051
@@ -2200,7 +2200,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23074,
         5461
@@ -2212,7 +2212,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23316,
         5965
@@ -2224,7 +2224,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22184,
         6226
@@ -2236,7 +2236,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21800,
         6899
@@ -2248,7 +2248,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22720,
         7290
@@ -2260,7 +2260,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20267,
         6969
@@ -2272,7 +2272,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19627,
         6551
@@ -2284,7 +2284,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17121,
         6696
@@ -2296,7 +2296,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16631,
         6945
@@ -2308,7 +2308,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16142,
         6070
@@ -2320,7 +2320,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14099,
         7098
@@ -2332,7 +2332,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13561,
         6784
@@ -2344,7 +2344,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13760,
         7526
@@ -2356,7 +2356,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16875,
         7813
@@ -2368,7 +2368,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15028,
         10158
@@ -2380,7 +2380,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15100,
         11071
@@ -2392,7 +2392,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16201,
         12114
@@ -2404,7 +2404,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16505,
         11808
@@ -2416,7 +2416,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17001,
         12740
@@ -2428,7 +2428,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17161,
         12941
@@ -2440,7 +2440,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17027,
         13379
@@ -2452,7 +2452,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17919,
         13705
@@ -2464,7 +2464,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18608,
         12095
@@ -2476,7 +2476,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18963,
         11503
@@ -2488,7 +2488,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19335,
         11906
@@ -2500,7 +2500,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19538,
         7987
@@ -2512,7 +2512,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22061,
         11707
@@ -2524,7 +2524,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21555,
         12851
@@ -2536,7 +2536,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21187,
         13709
@@ -2548,7 +2548,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21081,
         14067
@@ -2560,7 +2560,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20783,
         14535
@@ -2572,7 +2572,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20370,
         14457
@@ -2584,7 +2584,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18853,
         15340
@@ -2596,7 +2596,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19061,
         15415
@@ -2608,7 +2608,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18295,
         14744
@@ -2620,7 +2620,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18835,
         16738
@@ -2632,7 +2632,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18202,
         17649
@@ -2644,7 +2644,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17455,
         20253
@@ -2656,7 +2656,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16014,
         21749
@@ -2668,7 +2668,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15436,
         21192
@@ -2680,7 +2680,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15097,
         22209
@@ -2692,7 +2692,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15816,
         23986
@@ -2704,7 +2704,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17167,
         23307
@@ -2716,7 +2716,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         17214,
         23010
@@ -2728,7 +2728,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18338,
         22495
@@ -2740,7 +2740,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18932,
         22225
@@ -2752,7 +2752,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19098,
         20384
@@ -2764,7 +2764,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19527,
         19914
@@ -2776,7 +2776,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19900,
         19640
@@ -2788,7 +2788,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20300,
         22116
@@ -2800,7 +2800,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20526,
         22529
@@ -2812,7 +2812,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20935,
         22732
@@ -2824,7 +2824,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20700,
         23002
@@ -2836,7 +2836,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19381,
         23782
@@ -2848,7 +2848,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         24037,
         23639
@@ -2860,7 +2860,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23040,
         23046
@@ -2872,7 +2872,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22761,
         20741
@@ -2884,7 +2884,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21698,
         20982
@@ -2896,7 +2896,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21034,
         21178
@@ -2908,7 +2908,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21129,
         19149
@@ -2920,7 +2920,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21320,
         19012
@@ -2932,7 +2932,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19704,
         18043
@@ -2944,7 +2944,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19989,
         18219
@@ -2956,7 +2956,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20873,
         17901
@@ -2968,7 +2968,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20277,
         17385
@@ -2980,7 +2980,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         24203,
         20628
@@ -2992,7 +2992,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         24266,
         19511
@@ -3004,7 +3004,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23377,
         18702
@@ -3016,7 +3016,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23785,
         17678
@@ -3028,7 +3028,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23661,
         17849
@@ -3040,7 +3040,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23230,
         17625
@@ -3052,7 +3052,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22787,
         16470
@@ -3064,7 +3064,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22657,
         15997
@@ -3076,7 +3076,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23451,
         16101
@@ -3088,7 +3088,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         24149,
         16149
@@ -3100,7 +3100,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         24036,
         14470
@@ -3112,7 +3112,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         23852,
         13260
@@ -3124,7 +3124,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20615,
         1084
@@ -3136,7 +3136,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18506,
         2686
@@ -3148,7 +3148,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16149,
         14724
@@ -3160,7 +3160,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15724,
         15068
@@ -3172,7 +3172,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14634,
         14630
@@ -3184,7 +3184,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14789,
         14939
@@ -3196,7 +3196,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11712,
         13085
@@ -3208,7 +3208,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11141,
         12926
@@ -3220,7 +3220,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11978,
         12869
@@ -3232,7 +3232,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12410,
         12560
@@ -3244,7 +3244,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10581,
         10733
@@ -3256,7 +3256,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9417,
         7917
@@ -3268,7 +3268,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9569,
         8031
@@ -3280,7 +3280,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8844,
         7492
@@ -3292,7 +3292,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8630,
         8260
@@ -3304,7 +3304,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7914,
         9046
@@ -3316,7 +3316,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4633,
         10730
@@ -3328,7 +3328,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         10516,
         7222
@@ -3340,7 +3340,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12543,
         15681
@@ -3352,7 +3352,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         14043,
         17053
@@ -3364,7 +3364,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11328,
         23860
@@ -3376,7 +3376,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11293,
         24170
@@ -3388,7 +3388,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7956,
         23957
@@ -3400,7 +3400,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7371,
         24116
@@ -3412,7 +3412,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3965,
         20129
@@ -3424,7 +3424,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         2844,
         24055
@@ -3436,7 +3436,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         7027,
         13281
@@ -3448,7 +3448,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6701,
         1486
@@ -3460,7 +3460,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8446,
         450
@@ -3472,7 +3472,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         21826,
         4788
@@ -3484,7 +3484,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5057,
         8332
@@ -3496,7 +3496,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         1119,
         965
@@ -3508,7 +3508,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         3164,
         12167
@@ -3520,7 +3520,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16662,
         512
@@ -3532,7 +3532,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         16412,
         665
@@ -3544,7 +3544,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2837,
         1787
@@ -3556,7 +3556,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2845,
         2117
@@ -3568,7 +3568,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2437,
         5884
@@ -3580,7 +3580,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2475,
         11406
@@ -3592,7 +3592,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2992,
         11478
@@ -3604,7 +3604,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2776,
         16467
@@ -3616,7 +3616,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         75,
         18747
@@ -3628,7 +3628,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         224,
         19017
@@ -3640,7 +3640,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         464,
         21772
@@ -3652,7 +3652,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1500,
         21561
@@ -3664,7 +3664,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3149,
         19657
@@ -3676,7 +3676,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         850,
         13967
@@ -3688,7 +3688,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1199,
         13846
@@ -3700,7 +3700,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3105,
         12306
@@ -3712,7 +3712,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3712,
         12617
@@ -3724,7 +3724,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1980,
         7725
@@ -3736,7 +3736,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         2954,
         6052
@@ -3748,7 +3748,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5233,
         3523
@@ -3760,7 +3760,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6999,
         1298
@@ -3772,7 +3772,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         5333,
         79
@@ -3784,7 +3784,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10224,
         741
@@ -3796,7 +3796,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         11223,
         3892
@@ -3808,7 +3808,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11196,
         5544
@@ -3820,7 +3820,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11305,
         5824
@@ -3832,7 +3832,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11654,
         6069
@@ -3844,7 +3844,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11616,
         6427
@@ -3856,7 +3856,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         6119,
         1563
@@ -3868,7 +3868,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9126,
         5812
@@ -3880,7 +3880,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9304,
         5085
@@ -3892,7 +3892,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         9012,
         5054
@@ -3904,7 +3904,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8892,
         6225
@@ -3916,7 +3916,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8380,
         6460
@@ -3928,7 +3928,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         9082,
         7113
@@ -3940,7 +3940,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         8946,
         8384
@@ -3952,7 +3952,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5643,
         10524
@@ -3964,7 +3964,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         5215,
         11084
@@ -3976,7 +3976,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         1593,
         10557
@@ -3988,7 +3988,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         760,
         11553
@@ -4000,7 +4000,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         752,
         12051
@@ -4012,7 +4012,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3070,
         21414
@@ -4024,7 +4024,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3507,
         22080
@@ -4036,7 +4036,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3050,
         22537
@@ -4048,7 +4048,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3940,
         22953
@@ -4060,7 +4060,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4365,
         24247
@@ -4072,7 +4072,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         4537,
         24062
@@ -4084,7 +4084,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12736,
         22734
@@ -4096,7 +4096,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13189,
         22723
@@ -4108,7 +4108,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13386,
         22276
@@ -4120,7 +4120,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13553,
         22726
@@ -4132,7 +4132,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14720,
         20969
@@ -4144,7 +4144,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14573,
         21418
@@ -4156,7 +4156,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13041,
         18305
@@ -4168,7 +4168,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         12890,
         17811
@@ -4180,7 +4180,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         13151,
         17285
@@ -4192,7 +4192,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13853,
         14316
@@ -4204,7 +4204,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         13092,
         11089
@@ -4216,7 +4216,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14339,
         11317
@@ -4228,7 +4228,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14395,
         11077
@@ -4240,7 +4240,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14613,
         11034
@@ -4252,7 +4252,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14739,
         11043
@@ -4264,7 +4264,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14921,
         11081
@@ -4276,7 +4276,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         15370,
         11019
@@ -4288,7 +4288,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         15761,
         8564
@@ -4300,7 +4300,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         15914,
         9183
@@ -4312,7 +4312,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14001,
         7289
@@ -4324,7 +4324,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14156,
         7820
@@ -4336,7 +4336,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14423,
         7731
@@ -4348,7 +4348,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         15166,
         7788
@@ -4360,7 +4360,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         15646,
         4658
@@ -4372,7 +4372,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         17142,
         2808
@@ -4384,7 +4384,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         16535,
         2001
@@ -4396,7 +4396,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         19035,
         1644
@@ -4408,7 +4408,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         18403,
         4397
@@ -4420,7 +4420,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         20518,
         6009
@@ -4432,7 +4432,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         20530,
         6231
@@ -4444,7 +4444,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19192,
         4797
@@ -4456,7 +4456,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20938,
         5109
@@ -4468,7 +4468,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19984,
         4545
@@ -4480,7 +4480,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19871,
         4392
@@ -4492,7 +4492,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19974,
         4075
@@ -4504,7 +4504,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19585,
         4198
@@ -4516,7 +4516,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20745,
         4282
@@ -4528,7 +4528,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         19296,
         3690
@@ -4540,7 +4540,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         18965,
         8275
@@ -4552,7 +4552,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         18084,
         11499
@@ -4564,7 +4564,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         17429,
         12288
@@ -4576,7 +4576,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         17941,
         12579
@@ -4588,7 +4588,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         16237,
         12409
@@ -4600,7 +4600,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         15953,
         12125
@@ -4612,7 +4612,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         21773,
         8223
@@ -4624,7 +4624,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         22622,
         7728
@@ -4636,7 +4636,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         21810,
         6189
@@ -4648,7 +4648,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         22428,
         5795
@@ -4660,7 +4660,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         24014,
         529
@@ -4672,7 +4672,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         24178,
         893
@@ -4684,7 +4684,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         23060,
         3561
@@ -4696,7 +4696,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         22278,
         2995
@@ -4708,7 +4708,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         19692,
         13684
@@ -4720,7 +4720,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         21348,
         14477
@@ -4732,7 +4732,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         20943,
         14774
@@ -4744,7 +4744,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         22821,
         20494
@@ -4756,7 +4756,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         22949,
         20593
@@ -4768,7 +4768,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         22838,
         20839
@@ -4780,7 +4780,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         21472,
         20425
@@ -4792,7 +4792,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         20672,
         23355
@@ -4804,7 +4804,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         17275,
         23508
@@ -4816,7 +4816,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         17717,
         18784
@@ -4828,7 +4828,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         14665,
         17750
@@ -4840,7 +4840,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         15787,
         22923
@@ -4852,7 +4852,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         12018,
         21544
@@ -4864,7 +4864,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         11925,
         21913
@@ -4876,7 +4876,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         7913,
         16541
@@ -4888,7 +4888,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         6231,
         12016
@@ -4900,7 +4900,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         4816,
         18286
@@ -4912,7 +4912,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Coincidence",
+      "name": "Infected",
       "target": [
         8993,
         18028
@@ -4924,7 +4924,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10254,
         19581
@@ -4936,7 +4936,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         10240,
         19784
@@ -4948,7 +4948,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         3092,
         13295
@@ -4960,7 +4960,7 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
       ]
     },
     {
-      "name": "Transfection",
+      "name": "Uninfected",
       "target": [
         18364,
         19834
@@ -4981,11 +4981,13 @@ The goal of the experiment was to capture cells with coincident plasmid transfec
   }
 }
 :::
-Immunofluorescence imaging of transfected-infected HeLa cells expressing mCherry-KDEL.
+Immunofluorescence imaging of reovirus-infected HeLa cells expressing mCherry-KDEL. Select preset views from the menu: "Compare mCherry-ER" navigates to fields containing both infected (red pin) and uninfected (blue pin) transfected cells for morphological comparison, while "mCherry-KDEL artifacts" shows an example of punctate ER structures potentially caused by the fluorescent protein.
 ::::
 
 Barkley annotated transfected cells using the [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to facilitate the comparison of ER morphology between infected and uninfected cells expressing mCherry-KDEL.
 This protocol was repeated five times over four experiments ([](#table5) and supplementary data).
+Across the five repetitions, the proportion of transfected cells co-infected with reovirus varied from 24% ([](#figure10a)) to 76% ([](#figure7)).
+This variability demonstrates that co-infection of transfected cells cannot be reliably assumed, as was done in the original study.
 
 ```{list-table} microATLAS annotation of transfected cell populations expressing mCherry-KDEL.
 :label: table5
@@ -4994,43 +4996,48 @@ This protocol was repeated five times over four experiments ([](#table5) and sup
 * - Sample
   - Infected
   - Uninfected
+  - Infection rate
   - Grid size (fields)
-* - [Figure 11.1](#sfig11a)
+* - [Figure 10.1](#figure10a)
   - 39
   - 126
+  - 24%
   - 10x10 (n=100)
-* - [Figure 12.1](#sfig12)
+* - [Figure 11.1](#figure11a)
   - 64
   - 125
+  - 34%
   - 15x15 (n=225)
-* - [Figure 13.1](#sfig13)
+* - [Figure 12.1](#figure12a)
   - 55
   - 40
+  - 58%
   - 15x15 (n=225)
-* - [Figure 7.1](#fig7)
+* - [Figure 7.1](#figure7)
   - 299
   - 94
+  - 76%
   - 25x25 (n=625)
-* - [Figure 14.1](#sfig14)
+* - [Figure 13.1](#figure13)
   - 227
   - 75
+  - 75%
   - 25x25 (n=625)
 ```
 
 ## Conclusion
 
-Barkley interpreted no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL.
-Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection.
-This suggests that fluorescent protein artifacts were misinterpreted as reovirus induced ER remodeling.
-Otherwise, there is no obvious difference in ER morphology between infected and uninfected transfected cells.
+Barkley found no robust evidence of reovirus-induced ER remodeling in transfected cells expressing mCherry-KDEL. 
+Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection, suggesting that fluorescent protein artifacts could have been misinterpreted as reovirus-induced ER remodeling. 
+As illustrated in the preset views titled _Compare mCherry-ER_, there was no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) transfected cells.
 
 :::{dropdown} Methods
-3e5 HeLa cells were seeded on 35mm diameter glass-bottom dishes with 20mm diameter 1.5 coverslips (Mattek, P35G-1.5-20-C).
-mCherry-KDEL was transfected with TransIT-2020 for 24 hours, then the cells were infected with reovirus T1L (MOI 100) for 24 hours before fixation (4% PFA, 20 minutes).
-Calreticulin and reovirus μNS antigens were detected by immunofluorescence assay.
-Chicken antiserum was paired with AlexaFluor647 secondary antibodies.
-Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS then an area of 625 fields (25x25 grid) was imaged.
-Barkley annotated transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection using the microATLAS builder.
-Transfected-infected cells were labelled 'Coincidence', while transfected-uninfected cells were labelled 'Transfection'.
-If unsure, the cell was left unlabelled and it is likely that some transfected cells were overlooked.
+3 × 10⁵ HeLa cells were seeded on 35 mm diameter glass-bottom dishes with 20 mm diameter no. 1.5 coverslips (Mattek, P35G-1.5-20-C). 
+mCherry-KDEL was transfected with TransIT-2020 for 24 hours, then cells were infected with reovirus T1L (MOI 100) for 24 hours before fixation (4% PFA, 20 minutes). 
+Calreticulin and reovirus μNS antigens were detected by immunofluorescence. 
+Chicken antiserum was paired with AlexaFluor647 secondary antibodies. 
+Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS, then a 25×25 grid of 625 fields was imaged. 
+Barkley annotated transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection using the microATLAS builder. 
+Transfected-infected cells were labelled "Coincidence" because the co-occurrence of transfection and infection in the same cell is incidental, while transfected-uninfected cells were labelled "Transfection".
+Ambiguous cells were left unlabelled, and it is likely that some transfected cells were overlooked.
 :::

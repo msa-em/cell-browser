@@ -4,27 +4,22 @@ numbering:
   enumerator: 4.%s
 ---
 
-## Infection protocol
-
-Stocks of purified reovirus T1L were titrated in L-929 cells to estimate the concentration of plaque-forming units (PFU).
-L-929, or L cells are permissive to reovirus infection and were also used for virus titration in the original study, so there was consistency in the calculation of multiplicity of infection (MOI).
-To clarify, MOI was PFU/cell, and PFU was estimated on L-929 cells in both the original and replication study.
-For infection, purified reovirus was diluted in a volume of 100μl of serum-free DMEM which was adsorbed to cells for one hour at room temperature with agitation every ten minutes.
-Thereafter, pre-warmed serum-containing DMEM was added to the cells, and the samples were incubated for one day before fixation.
-
 ## Mammalian orthoreovirus strains
 
-Parker described the morphology of reovirus strain Type 1 Lang (T1L) factories as _filamentous_ and T3D factories as _globular_ and found the M1(T1L)-P208S mutation that disrupted an interaction between μ2 and microtubules that determined the filamentous phenotype [@doi:10.1128/JVI.76.9.4483-4496.2002].
-No rationale was provided in the mBio study for using this M1(T1L)-P208S mutant, so it was substituted for wildtype reovirus strain T1L in the replication study.
-The difference is wildtype reovirus tends to form filamentous viral factories, while the M1(T1L)-P208S virus would have formed globular factories.
-A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included in this experiment to compare these morphologies.
-Others have reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19], so ten-fold dilutions from MOI 0 to 100 were tested.
-Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conjugated secondary antibodies.
-Most HeLa cells were infected with reovirus T1L at MOI 100, so this was used for replication experiments, an increase from MOI 1 used in the original study.
-At MOI 1, only a few infected cells were found and pinned on the map.
+Parker described the morphology of reovirus strain Type 1 Lang (T1L) factories as filamentous and T3D factories as globular, and identified the M1(T1L)-P208S mutation that disrupted an interaction between μ2 and microtubules determining the filamentous phenotype [@doi:10.1128/JVI.76.9.4483-4496.2002]. 
+The mBio study did not provide a rationale for using this M1(T1L)-P208S mutant, so wildtype T1L was used instead in the replication study. 
+Wildtype T1L tends to form filamentous viral factories, whereas the M1(T1L)-P208S mutant would have formed globular factories. 
+A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included to compare these morphologies. 
+Others have reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19], so ten-fold dilutions from MOI 0 to 100 were tested (Figure 4.1). 
+Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conjugated secondary antibodies. 
+Most HeLa cells were infected with reovirus T1L at MOI 100, so this concentration was used for replication experiments, an increase from MOI 1 used in the original study. 
+At MOI 1, only a few infected cells were positively identified and pinned on the map.
+
+:::::{figure}
+:label: reovirus-moi-figure
 
 ::::{grid} 2 2 2 2
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi0.zarr",
   "width": "323px",
@@ -99,8 +94,8 @@ At MOI 1, only a few infected cells were found and pinned on the map.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi0.zarr",
   "width": "323px",
@@ -175,8 +170,8 @@ At MOI 1, only a few infected cells were found and pinned on the map.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi1.zarr",
   "width": "323px",
@@ -277,8 +272,8 @@ At MOI 1, only a few infected cells were found and pinned on the map.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi1.zarr",
   "width": "323px",
@@ -427,8 +422,8 @@ At MOI 1, only a few infected cells were found and pinned on the map.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi10.zarr",
   "width": "323px",
@@ -503,8 +498,8 @@ At MOI 1, only a few infected cells were found and pinned on the map.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi10.zarr",
   "width": "323px",
@@ -579,8 +574,8 @@ At MOI 1, only a few infected cells were found and pinned on the map.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi100.zarr",
   "width": "323px",
@@ -655,8 +650,8 @@ At MOI 1, only a few infected cells were found and pinned on the map.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi100.zarr",
   "width": "323px",
@@ -731,10 +726,21 @@ At MOI 1, only a few infected cells were found and pinned on the map.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-:::
+```
 ::::
 
+**Figure 4.1:** Reovirus strains T1L (left) and T3D (right) 24 hours post infection, with increasing MOI from top to bottom (0, 1, 10, 100).
+:::::
+
+
 :::{tip}
-Evaluate the calreticulin channel for alleged reovirus-induced ER remodeling.
+Evaluate the calreticulin channel for reported reovirus-induced ER remodeling.
 The uninfected control is MOI 0 and ER morphology can be compared within populations.
+:::
+
+:::{dropdown} Infection protocol
+Stocks of purified reovirus T1L were titrated in L-929 (L) cells to estimate the concentration of plaque-forming units (PFU). 
+L cells were also used for virus titration in the original study, so the calculation of multiplicity of infection (MOI, PFU/cell) was consistent between studies. 
+For infection, purified reovirus was diluted in 100 µl of serum-free DMEM and adsorbed to cells for one hour at room temperature with agitation every ten minutes. 
+Thereafter, pre-warmed serum-containing DMEM was added and samples were incubated for one day before fixation.
 :::
