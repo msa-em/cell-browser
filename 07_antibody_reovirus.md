@@ -10,7 +10,7 @@ The original study labelled viral factories with anti-μNS and anti-σNS antibod
 The chicken antiserum was corroborated with an α-μNS antiserum from guinea pigs. 
 All samples were infected with reovirus T1L at MOI 100 and co-stained with calreticulin antibodies to observe ER elements. 
 Both the chicken ([Figure 6.1](#figure6a)) and guinea pig ([Figure 6.3](#figure6c)) α-μNS antisera were sufficient to observe virus-infected cells and intracellular viral factories at high magnification.
-Since the chicken antiserum paired with AlexaFluor647-conjugated secondary antibodies was the combination used in the replication study, a dedicated [repeat](#antibody_page) is presented in the Supplemental.
+Since the chicken antiserum paired with AlexaFluor647-conjugated secondary antibodies was the combination used in the replication study, a dedicated [repeat](#antibody_page) ([Figure 14.1](#figure14a)) is presented in the [Supplemental](#antibody_page).
 
 ## Chicken polyclonal antiserum
 

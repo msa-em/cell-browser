@@ -13,7 +13,7 @@ A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular
 Others have reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19], so ten-fold dilutions from MOI 0 to 100 were tested (Figure 4.1). 
 Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conjugated secondary antibodies. 
 Most HeLa cells were infected with reovirus T1L at MOI 100, so this concentration was used for replication experiments, an increase from MOI 1 used in the original study. 
-At MOI 1, only a few infected cells were found and pinned on the map.
+At MOI 1, only a few infected cells were positively identified and pinned on the map.
 
 :::::{figure}
 :label: reovirus-moi-figure
