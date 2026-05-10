@@ -11,7 +11,7 @@ Each dataset is stored as an OME-Zarr on the Open Storage Network (https://doi.o
 Acquisition metadata extracted from the Olympus .oir files using Bio-Formats is available as a JSON file within each Zarr store.
 Click any link to view the acquisition parameters directly in your browser, or right-click and copy the link address to use the URL directly.
 
-### Plasmids (Construct, Reagent)
+### Plasmids
 - Figure 3.1: [mCherry-KDEL, Lipofectamine 3000](https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle_02.zarr/metadata.json)
 - Figure 3.1: [mCherry-KDEL, Trans-IT 2020](https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_KDEL_Cycle_02.zarr/metadata.json)
 - Figure 3.1: [mCherry-CytERM, Lipofectamine 3000](https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_cytER_Cycle.zarr/metadata.json)
@@ -95,7 +95,7 @@ Click any link to view the acquisition parameters directly in your browser, or r
 - Figure 14.4: [Guinea Pig Antiserum: - Primary + Secondary](https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_secondary.zarr/metadata.json)
 - Figure 14.4: [Guinea Pig Antiserum: - Primary - Secondary](https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_mock.zarr/metadata.json)
 
-### Saturated Maps (Construct, Reagent)
+### Saturated Maps
 - Figure 15.1: [mCherry-KDEL, Lipofectamine 3000](https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-KDEL.zarr/metadata.json)
 - Figure 15.1: [mCherry-KDEL, Trans-IT 2020](https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-KDEL.zarr/metadata.json)
 - Figure 15.1: [mCherry-CytERM, Lipofectamine 3000](https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-CytERM.zarr/metadata.json)
@@ -105,7 +105,7 @@ Click any link to view the acquisition parameters directly in your browser, or r
 - Figure 15.1: [mCherry-Climp63, Lipofectamine 3000](https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-Climp63.zarr/metadata.json)
 - Figure 15.1: [mCherry-Climp63, Trans-IT 2020](https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-Climp63.zarr/metadata.json)
 
-### Discarded Maps (Construct, Reagent)
+### Discarded Maps
 - Figure 16.1: [mCherry-KDEL, Lipofectamine 3000](https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle_01.zarr/metadata.json)
 - Figure 16.2: [mCherry-KDEL, Lipofectamine 3000](https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle.zarr/metadata.json)
 - Figure 16.3: [mCherry-Sec61β, Lipofectamine 3000](https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_sec61_Cycle_01.zarr/metadata.json)
