@@ -64,11 +64,12 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 :::
 ```
 
-:::{figure} ./thumbnail.gif
+```{figure} ./thumbnail.gif
+:label: demo
 Interacting with microATLAS: 
 Use the menu (☰, top-left corner) to change the displayed channels, colours, or contrast.
 Scroll (↕) to zoom into cells of interest.
-:::
+```
 
 ## Deep Zoom
 
