@@ -2,7 +2,7 @@
 version: 1
 project:
   id: msa-em-cell-browser-1
-  title: Reimaging representative images
+  title: Reimag(in)ing representative images
   description: Web-based microscopy maps as an unbiased method to replicate highly magnified representative microscopy images.
   short_title: Virtual Microscopy
   keywords:

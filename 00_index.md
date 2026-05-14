@@ -1,5 +1,5 @@
 ---
-title: 'Reimaging Representative Images'
+title: 'Reimag(in)ing Representative Images'
 short_title: Virtual Microscopy
 numbering:
   heading_2: false
