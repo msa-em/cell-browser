@@ -15,11 +15,11 @@ Virtual microscopy. 1. Automated dataset collection with any suitable microscope
 ```
 
 Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two methods of virtual microscopy based on OME-Zarr or Deep Zoom. 
-Authors can also build custom viewers. 
+Authors can also build custom viewers, and embed them within online articles.
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article. 
 All three viewers are readily embeddable in Elemental Microscopy. 
 For Vizarr and OpenSeadragon, authors simply copy the markdown and replace the source URL with a link to their own data. 
-For microATLAS, authors are encouraged to use the [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate code.
+For microATLAS, authors are encouraged to use the [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate embedding code that specifies both the image and relevant customizations.
 
 ## OME-Zarr
 
