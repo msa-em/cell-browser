@@ -8,7 +8,7 @@ Every academic discipline has its own ways of deciding what counts as valid know
 If biomedical researchers endorse empiricism and objectivity, then why are representative images sufficient to make claims?
 A representative image shows that an observation is possible, but a single image cannot capture frequency or variance.
 The scientific method demands reproducibility, yet representative images offer no way to communicate repeatability without quantitative analysis.
-In practice, representative images often show idealized or exaggerated examples to best illustrate the authors' interpretations, but these often do not capture the variability found in the data.
+In practice, representative images often show idealized or exaggerated examples to best illustrate the authors' interpretations, but these may not capture the variability found in the data.
 The literature is full of exciting outcomes, but at the bench, experimental results are nuanced.
 
 Representative images are figures, which should not be confused with data.
