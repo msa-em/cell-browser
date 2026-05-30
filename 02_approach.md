@@ -6,7 +6,7 @@ numbering:
 
 Already adopted by some clinicians and educators, virtual microscopy could also benefit researchers as an interface for communicating and interpreting image data.
 Indeed, interactive microscopy maps were first proposed for precisely this purpose, as an unbiased way to present electron microscopy data [@doi:10.1083/jcb.201201140].
-Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now make this feasible, yet these tools have not been adopted in scientific publishing.
+Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now make this feasible, yet these tools have not been used in scientific publishing.
 Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png
