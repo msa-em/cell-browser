@@ -10,7 +10,7 @@ Today, roughly three-quarters of publications in biomedical journals report at l
 Readers expect these images to be honest and accurate.
 However, microscopy image selection and quantitative analyses thereof are vulnerable to bias and deception [@doi:10.1242/jcs.261567].
 Besides cherry-picking, scientists can sincerely misinterpret observations. 
-Although narratively useful, selection of representative images inherently discards the vast majority of collected data, precluding independent analysis of results by readers. 
+Although narratively useful, representative images inherently discard data, precluding independent analysis of results by readers.
 Furthermore, archiving and review of primary microscopy data are disorganized and time-consuming, if available at all.
 These problems can be addressed with novel visualization strategies such as [virtual microscopy](<wiki:Virtual_microscopy>), which transmit entire interactive datasets over the internet.
 An example is the unbiased presentation of electron microscopy data to readers as interactive digital maps — or microscopy maps [@doi:10.1083/jcb.201201140].
