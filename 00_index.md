@@ -9,12 +9,13 @@ numbering:
 
 Static figures are the standard interface for scientific discourse and peer review, so microscopists typically communicate experimental results through representative images and plots.
 This article focuses on virtual microscopy, a novel visualization strategy for researchers to share microscopy data in publications.
-Web-based microscopy maps improve the transparency, accessibility, and archival of bioimages as an unbiased alternative to representative images.
-These features make virtual microscopy useful for the critical appraisal of observational studies.
+Web-based microscopy maps improve the transparency, accessibility, and archival of bioimages as an unbiased alternative to representative images. 
+With the use of purpose-built image display components, the benefits of virtual microscopy can be realized without sacrificing the narrative advantages of traditional representative figures. 
+Together, these features make virtual microscopy useful for the critical appraisal of observational studies.
 Using this approach, an original claim of reovirus-induced endoplasmic reticulum remodeling was reexamined.
 Virtual microscopy subjects the results of qualitative experiments to unbiased peer review by giving readers direct access to the data.
 While data visualization can be refined to minimize subjective biases, the interpretation of data inevitably reflects the author's perspective.
-Virtual microscopy allows readers to interpret the same data as the author.
+Virtual microscopy allows readers to interpret the same data as the author and draw their own conclusions.
 
 +++
 
