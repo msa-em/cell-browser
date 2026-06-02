@@ -15,7 +15,7 @@ Virtual microscopy. 1. Automated dataset collection with any suitable microscope
 ```
 
 Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two methods of virtual microscopy based on OME-Zarr or Deep Zoom. 
-Authors can also build custom viewers, and embed them within online articles.
+Authors can also build custom viewers and embed them within online articles.
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article. 
 All three viewers are readily embeddable in Elemental Microscopy. 
 For Vizarr and OpenSeadragon, authors simply copy the markdown and replace the source URL with a link to their own data. 
@@ -90,7 +90,7 @@ By default, readers cannot control dimensions like channels or time, so it is be
 ```
 
 :::{dropdown} Imaging
-Data collection was fully-motorized for unbiased sampling of large panoramas from replicate immunofluorescence experiments.
+Data collection was fully motorized for unbiased sampling of large panoramas from replicate immunofluorescence experiments.
 Grids of overlapping tiles were acquired with a robotic XY stage (IX3-SSU) and Z-drift compensation (IX3-ZDC).
 Coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens (Olympus model UPLAPO100X, NA 1.50) in immersion oil. 
 Pinholes in each channel were maximized to capture the widest depth of field.
