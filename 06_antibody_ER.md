@@ -9,7 +9,7 @@ The staining pattern was punctate but sufficient to observe ER elements (Figure 
 
 ::::{figure}
 :label: figure5a
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/primary_secondary.zarr",
   "width": "500px",
@@ -35,10 +35,12 @@ The staining pattern was punctate but sufficient to observe ER elements (Figure 
 Immunofluorescence staining of calreticulin.
 ::::
 
-:::::{figure}
+::::::{figure}
 :label: figure5b
-::::{grid} 3 3 3 3
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::::{grid} 1 3 3 3
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/primary.zarr",
   "width": "210px",
@@ -60,8 +62,11 @@ Immunofluorescence staining of calreticulin.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/secondary.zarr",
   "width": "210px",
@@ -83,8 +88,11 @@ Immunofluorescence staining of calreticulin.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/mock.zarr",
   "width": "210px",
@@ -106,12 +114,13 @@ Immunofluorescence staining of calreticulin.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
+:::
 ::::
-**Figure 5.2:** Immunofluorescence antibody controls.
 :::::
+**Figure 5.2:** Immunofluorescence antibody controls.
+::::::
 
-:::{dropdown} Materials and immunofluorescence protocol
+### Materials and immunofluorescence protocol
 The original study used an undisclosed polyclonal antiserum for calreticulin, so it was substituted with a monoclonal antibody for the replication. 
 Mouse calreticulin monoclonal antibody (MA5-15382, Thermo) was stored at -20°C in 5 µl aliquots for use at 1:1000 dilution. 
 Donkey α-mouse antibodies conjugated to AlexaFluor488 (715-545-150) were used at 1:800 dilution.
@@ -122,4 +131,3 @@ After fixation, cells were permeabilized and blocked for twenty minutes in PBS w
 Antibodies were diluted in this buffer and incubated for one hour at room temperature in the dark, each followed by three PBS washes. 
 Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS. 
 Coverslips were mounted (P36980, Fisher) on glass slides (1255015, Fisher) and cured overnight in the dark.
-:::

@@ -22,7 +22,7 @@ Virtual microscopy allows readers to interpret the same data as the author and i
 
 :::{warning} Pre-print
 This article has not yet been peer-reviewed.  
-_Updated 2025 September 27_
+_Updated 2026 June 4_
 :::
 
 +++

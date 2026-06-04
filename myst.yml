@@ -14,25 +14,18 @@ project:
     - OME-Zarr
     - Deep Zoom
   github: https://github.com/msa-em/cell-browser 
-  jupyter: true
-  # jupyter:
-  #   server:
-  #     url: 'http://localhost:8888'
-  #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  # jupyter: true
+  # # jupyter:
+  # #   server:
+  # #     url: 'http://localhost:8888'
+  # #     token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   banner: banner.png
   thumbnail: thumbnail.gif
-  date: 2025-09-26
-  requirements:
-    - 'Dockerfile'
-    - requirements.in
-  resources:
-    - 'notebooks/**/*'
+  date: 2026-06-04
   references:
     mystmd: https://mystmd.org/guide
-  exports:
-    - format: meca
   exclude:
     - README.md
   authors:

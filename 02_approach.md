@@ -33,7 +33,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 ```{code}
 :label: vizarr
 :caption: Minimal markdown to embed Vizarr in Elemental Microscopy. Replace the source with your data.
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{anywidget} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
   "height": "600px"
@@ -46,7 +46,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 ```{code}
 :label: microatlas
 :caption: Example markdown to embed microATLAS in Elemental Microscopy. Create your own with the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
-:::{any:bundle} https://ladinthelab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://ladinthelab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
   "views": [
@@ -82,16 +82,15 @@ By default, readers cannot control dimensions like channels or time, so it is be
 ```{code}
 :label: openseadragon
 :caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+:::{anywidget} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://your-github.github.io/your-repository/sample.dzi"
 }
 :::
 ```
 
-:::{dropdown} Imaging
+## Imaging
 Data collection was fully motorized for unbiased sampling of large panoramas from replicate immunofluorescence experiments.
 Grids of overlapping tiles were acquired with a robotic XY stage (IX3-SSU) and Z-drift compensation (IX3-ZDC).
 Coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens (Olympus model UPLAPO100X, NA 1.50) in immersion oil. 
 Pinholes in each channel were maximized to capture the widest depth of field.
-:::

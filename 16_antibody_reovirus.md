@@ -12,7 +12,7 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
 
 ::::{figure}
 :label: figure14a
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_primary_secondary.zarr",
   "width": "500px",
@@ -91,10 +91,11 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
 Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
 ::::
 
-:::::{figure}
+::::::{figure}
 :label: figure14b
-::::{grid} 3 3 3 3
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::::{grid} 1 3 3 3
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_primary.zarr",
   "width": "210px",
@@ -169,8 +170,11 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_secondary.zarr",
   "width": "210px",
@@ -245,8 +249,11 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_mock.zarr",
   "width": "210px",
@@ -321,16 +328,17 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
+:::
 ::::
-**Figure 14.2:** Immunofluorescence antibody controls.
 :::::
+**Figure 14.2:** Immunofluorescence antibody controls.
+::::::
 
 ## Guinea pig polyclonal antiserum
 
 ::::{figure}
 :label: figure14c
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_primary_secondary.zarr",
   "width": "500px",
@@ -409,10 +417,11 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
 Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
 ::::
 
-:::::{figure}
+::::::{figure}
 :label: figure14d
-::::{grid} 3 3 3 3
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::::{grid} 1 3 3 3
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_primary.zarr",
   "width": "210px",
@@ -487,8 +496,11 @@ Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_secondary.zarr",
   "width": "210px",
@@ -563,8 +575,11 @@ Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_mock.zarr",
   "width": "210px",
@@ -639,20 +654,20 @@ Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
+:::
 ::::
-**Figure 14.4:** Immunofluorescence antibody controls.
 :::::
+**Figure 14.4:** Immunofluorescence antibody controls.
+::::::
 
 :::{tip}
 Hidden by default, evaluate the calreticulin channel for reported reovirus-induced ER remodeling.
 ER morphology can be compared within populations of infected cells.
 :::
 
-:::{dropdown} Methods
+### Methods
 HeLa cells were seeded on 12 mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar). 
 All samples were infected with reovirus T1L (MOI 100) for 24 hours. 
 AlexaFluor594 was used with the guinea pig α-μNS antiserum, while AlexaFluor647 was used with the chicken α-μNS antiserum. 
 Z-drift compensation malfunctioned, possibly due to the specimen, resulting in visible stitching artifacts. 
 Overlapping tiles were cropped rather than blended to preserve these artifacts as evidence of the autofocus failure.
-:::

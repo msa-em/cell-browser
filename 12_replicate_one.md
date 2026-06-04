@@ -11,7 +11,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
 
 ::::{figure}
 :label: figure10a
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/Transit.zarr",
   "width": "500px",
@@ -2202,7 +2202,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
 
 ::::{figure}
 :label: figure10b
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/LF3000.zarr",
   "width": "500px",
@@ -3408,7 +3408,7 @@ Transfected-infected cells. Uninfected with Lipofectamine 3000 before reovirus i
 
 ::::{figure}
 :label: figure10c
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/Untransfected.zarr",
   "width": "500px",
@@ -3497,8 +3497,7 @@ Transfected-infected cells. Uninfected with Lipofectamine 3000 before reovirus i
 Untransfected control. Mock transfection (no plasmid or reagent) before reovirus infection.
 ::::
 
-:::{dropdown} Methods
+### Methods
 Specimens were glass coverslips (1.0 glass) mounted on slides. 
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies, each incubated for one hour. 
 A 10×10 grid of 100 fields was recorded.
-:::

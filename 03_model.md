@@ -19,7 +19,6 @@ Overview of the replication experiment. mCherry-KDEL transfected cells (TransIT-
 Over the following pages, individual components of this model were tested before combining them in the final replication experiment. 
 In the results, Barkley annotated transfected cells by infection status to compare ER morphology across hundreds of cells in a navigable dataset.
 
-:::{dropdown} Cells
+### Cells
 HeLa CCL-2 cells were cultured in Dulbecco’s modification of Eagle’s Medium (DMEM) (50-003-PB, Corning) supplemented with 10% fetal bovine serum (FS-0500-AD, Atlas).
 Antibiotics were not used in the replication study, although the original study used 100 U/ml penicillin G, 100μg/ml streptomycin and 0.25μg/ml amphotericin B.
-:::

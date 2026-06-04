@@ -11,7 +11,7 @@ Maps not used in the main figure are shown here.
 
 ::::{figure}
 :label: figure16a
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle_01.zarr",
   "width": "500px",
@@ -39,7 +39,7 @@ Pixel saturation in the mCherry channel.
 
 ::::{figure}
 :label: figure16b
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_kdel_Cycle.zarr",
   "width": "500px",
@@ -67,7 +67,7 @@ Pixel saturation in the mCherry channel and an air bubble.
 
 ::::{figure}
 :label: figure16c
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/lf3000_sec61_Cycle_01.zarr",
   "width": "500px",
@@ -95,7 +95,7 @@ Pixel saturation in the mCherry channel.
 
 ::::{figure}
 :label: figure16d
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_cytER_Cycle_01.zarr",
   "width": "500px",
@@ -123,7 +123,7 @@ Air bubbles.
 
 ::::{figure}
 :label: figure16e
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/plasmid_repeat/transit_sec61b_Cycle_04.zarr",
   "width": "500px",

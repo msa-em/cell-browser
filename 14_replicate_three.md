@@ -6,7 +6,7 @@ numbering:
 
 ::::{figure}
 :label: figure12a
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-KDEL_T1L.zarr",
   "width": "500px",
@@ -1418,7 +1418,7 @@ Transfected-infected cells expressing mCherry-KDEL.
 :::::{figure}
 :label: figure12b
 ::::{grid} 2 2 2 2
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-Sec61b_T1L.zarr",
   "width": "323px",
@@ -2859,7 +2859,7 @@ Transfected-infected cells expressing mCherry-KDEL.
   }
 }
 ```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-CytERM_T1L.zarr",
   "width": "323px",
@@ -3632,9 +3632,8 @@ Transfected-infected cells expressing mCherry-KDEL.
 **Figure 12.2:** Additional mCherry-ER reporters.
 :::::
 
-:::{dropdown} Methods
+### Methods
 Specimens were 35 mm glass-bottom dishes with 20 mm coverslips (no. 1.5 glass). 
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies. 
 Primary and secondary antibodies were each multiplexed and incubated overnight at 4°C in the dark. 
 A 15×15 grid of 225 fields was recorded.
-:::

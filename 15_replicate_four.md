@@ -6,7 +6,7 @@ numbering:
 
 ::::{figure}
 :label: figure13
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_4/badZDC.zarr",
   "width": "500px",
@@ -3649,7 +3649,7 @@ numbering:
 Duplicate sample of the transfected-infected cell model expressing mCherry-KDEL.
 ::::
 
-:::{dropdown} Methods
+### Methods
 HeLa cells were seeded on 35 mm glass-bottom dishes with 20 mm coverslips (no. 1.5 glass). 
 Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondary antibodies. 
 Primary antibodies were multiplexed and incubated overnight at 4°C in the dark. 
@@ -3657,4 +3657,3 @@ Secondary antibodies were multiplexed and incubated over two consecutive nights.
 A 25×25 grid of 625 fields was recorded. 
 Z-drift compensation malfunctioned in Figure 14.1 but functioned correctly in Figure 7.1. 
 Overlapping edges were blended to reduce the appearance of stitching artifacts.
-:::

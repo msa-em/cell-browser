@@ -16,7 +16,7 @@ Since the chicken antiserum paired with AlexaFluor647-conjugated secondary antib
 
 ::::{figure}
 :label: figure6a
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/chicken_primary_secondary_Cycle_02.zarr",
   "width": "500px",
@@ -95,10 +95,11 @@ Since the chicken antiserum paired with AlexaFluor647-conjugated secondary antib
 Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 ::::
 
-:::::{figure}
+::::::{figure}
 :label: figure6b
-::::{grid} 3 3 3 3
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::::{grid} 1 3 3 3
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/chicken_primary_Cycle_02.zarr",
   "width": "210px",
@@ -173,8 +174,11 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/chicken_secondary_Cycle.zarr",
   "width": "210px",
@@ -249,8 +253,11 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/chicken_noantibody_Cycle.zarr",
   "width": "210px",
@@ -325,16 +332,17 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
+:::
 ::::
-**Figure 6.2:** Immunofluorescence antibody controls.
 :::::
+**Figure 6.2:** Immunofluorescence antibody controls.
+::::::
 
 ## Guinea pig polyclonal antiserum
 
 ::::{figure}
 :label: figure6c
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/guineapig_primary_secondary_Cycle_01.zarr",
   "width": "500px",
@@ -413,10 +421,11 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 ::::
 
-:::::{figure}
+::::::{figure}
 :label: figure6d
-::::{grid} 3 3 3 3
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::::{grid} 1 3 3 3
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/guineapig_primary_Cycle_02.zarr",
   "width": "210px",
@@ -491,8 +500,11 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/guineapig_secondary_Cycle.zarr",
   "width": "210px",
@@ -567,8 +579,11 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/antibody_repeat/guineapig_noantibody_Cycle.zarr",
   "width": "210px",
@@ -643,17 +658,18 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
+:::
 ::::
-**Figure 6.4:** Immunofluorescence antibody controls.
 :::::
+**Figure 6.4:** Immunofluorescence antibody controls.
+::::::
 
 :::{tip}
 Hidden by default, evaluate the calreticulin channel for reported reovirus-induced ER remodeling.
 ER morphology can be compared within populations of infected cells.
 :::
 
-:::{dropdown} Materials and immunofluorescence protocol
+### Materials and immunofluorescence protocol
 Chicken anti-μNS serum from the Parker lab (1:1000 dilution) was the same used in the original study. 
 Guinea pig anti-μNS serum was gifted by the Stanifer lab (1:5000 dilution). 
 Donkey anti-chicken antibodies conjugated to AlexaFluor647 (703-605-155), donkey anti-chicken conjugated to AlexaFluor594 (703-585-155), and donkey anti-guinea pig conjugated to AlexaFluor594 (706-585-148) were stored in 1:1 glycerol and used at 1:800 dilution.
@@ -662,4 +678,3 @@ Calreticulin antibodies were used in all samples.
 Combinations of primary and secondary antibodies to reovirus μNS were tested, with AlexaFluor594-conjugated secondary antibodies used for both antisera to maintain consistent illumination settings. 
 Antibodies were multiplexed and incubated overnight, primaries and secondaries separately. 
 Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reagent (containing DAPI) (R37606, Fisher) diluted in PBS, and cells were imaged in this solution.
-:::

@@ -10,7 +10,7 @@ Rather than relying on a single representative image, the data is presented as a
 
 ::::{figure}
 :label: figure7
-:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_4/goodZDC.zarr",
   "width": "500px",
@@ -5031,7 +5031,7 @@ Barkley found no robust evidence of reovirus-induced ER remodeling in transfecte
 Irregular ER morphologies were observed in transfected cells expressing mCherry-KDEL, with or without reovirus infection, suggesting that fluorescent protein artifacts could have been misinterpreted as reovirus-induced ER remodeling. 
 As illustrated in the preset views titled _Compare mCherry-ER_, there was no obvious difference in ER morphology between infected (red pin) and uninfected (blue pin) transfected cells.
 
-:::{dropdown} Methods
+### Methods
 3 × 10⁵ HeLa cells were seeded on 35 mm diameter glass-bottom dishes with 20 mm diameter no. 1.5 coverslips (Mattek, P35G-1.5-20-C). 
 mCherry-KDEL was transfected with TransIT-2020 for 24 hours, then cells were infected with reovirus T1L (MOI 100) for 24 hours before fixation (4% PFA, 20 minutes). 
 Calreticulin and reovirus μNS antigens were detected by immunofluorescence. 
@@ -5040,4 +5040,3 @@ Nuclei were labelled for 15 minutes in Nucblue Fixed Cell Stain ReadyProbes reag
 Barkley annotated transfected cells expressing mCherry-KDEL based on the presence or absence of reovirus infection using the microATLAS builder. 
 Transfected-infected cells were labelled "Infected", while transfected-uninfected cells were labelled "Uninfected".
 Ambiguous cells were left unlabelled, and it is likely that some transfected cells were overlooked.
-:::

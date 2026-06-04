@@ -11,10 +11,11 @@ The original maps are preserved here (Figure 15.1).
 
 ## Lipofectamine 3000 (left) and TransIT-2020 (right)
 
-:::::{figure}
+::::::{figure}
 :label: figure15
-::::{grid} 2 2 2 2
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::::{grid} 1 2 2 2
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-KDEL.zarr",
   "width": "323px",
@@ -47,8 +48,11 @@ The original maps are preserved here (Figure 15.1).
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-KDEL.zarr",
   "width": "323px",
@@ -81,8 +85,11 @@ The original maps are preserved here (Figure 15.1).
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-CytERM.zarr",
   "width": "323px",
@@ -115,8 +122,11 @@ The original maps are preserved here (Figure 15.1).
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-CytERM.zarr",
   "width": "323px",
@@ -149,8 +159,11 @@ The original maps are preserved here (Figure 15.1).
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-Sec61b.zarr",
   "width": "323px",
@@ -183,8 +196,11 @@ The original maps are preserved here (Figure 15.1).
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-Sec61b.zarr",
   "width": "323px",
@@ -217,8 +233,11 @@ The original maps are preserved here (Figure 15.1).
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-Climp63.zarr",
   "width": "323px",
@@ -251,8 +270,11 @@ The original maps are preserved here (Figure 15.1).
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-Climp63.zarr",
   "width": "323px",
@@ -285,14 +307,14 @@ The original maps are preserved here (Figure 15.1).
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
+:::
 ::::
-**Figure 15.1:** Original transfection experiment showing the distributions of mCherry-ER reporters.
 :::::
+**Figure 15.1:** Original transfection experiment showing the distributions of mCherry-ER reporters.
+::::::
 
-:::{dropdown} Methods
+### Methods
 HeLa cells were seeded on 12 mm diameter glass coverslips (1.0 glass) (1254580, Fisher) in 12-well plates (665180, Cellstar). 
 Lipofectamine 3000 (L3000015, Invitrogen) volumes were based on 12-well plates: 62.5 µl Opti-MEM (31985-062, Gibco) was mixed with 2.5 µl P3000 reagent and 1.25 µg DNA, and a separate tube of 62.5 µl Opti-MEM was mixed with 1.875 µl Lipofectamine 3000 reagent. 
 The tubes were combined, incubated for 20 minutes, then added dropwise to the samples. 
 TransIT-2020 reagent (MIR 5400, Mirus) volumes were based on 12-well plates: 125 µl Opti-MEM was mixed with 1.25 µg DNA and mixed gently, then 3.75 µl TransIT-2020 was added and mixed, followed by 20 minutes of incubation and dropwise addition to the samples.
-:::

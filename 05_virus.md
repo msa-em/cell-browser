@@ -15,11 +15,12 @@ Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conj
 Most HeLa cells were infected with reovirus T1L at MOI 100, so this concentration was used for replication experiments, an increase from MOI 1 used in the original study. 
 At MOI 1, only a few infected cells were positively identified and pinned on the map.
 
-:::::{figure}
+::::::{figure}
 :label: reovirus-moi-figure
 
-::::{grid} 2 2 2 2
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::::{grid} 1 2 2 2
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi0.zarr",
   "width": "323px",
@@ -94,8 +95,11 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi0.zarr",
   "width": "323px",
@@ -170,8 +174,11 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi1.zarr",
   "width": "323px",
@@ -272,8 +279,11 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi1.zarr",
   "width": "323px",
@@ -422,8 +432,11 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi10.zarr",
   "width": "323px",
@@ -498,8 +511,11 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi10.zarr",
   "width": "323px",
@@ -574,8 +590,11 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi100.zarr",
   "width": "323px",
@@ -650,8 +669,11 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
-```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::
+::::
+
+::::{grid-item}
+:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi100.zarr",
   "width": "323px",
@@ -726,11 +748,12 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
     "color": "rgba(255,255,255,0.9)"
   }
 }
-```
+:::
 ::::
+:::::
 
 **Figure 4.1:** Reovirus strains T1L (left) and T3D (right) 24 hours post infection, with increasing MOI from top to bottom (0, 1, 10, 100).
-:::::
+::::::
 
 
 :::{tip}
@@ -738,9 +761,8 @@ Evaluate the calreticulin channel for reported reovirus-induced ER remodeling.
 The uninfected control is MOI 0 and ER morphology can be compared within populations.
 :::
 
-:::{dropdown} Infection protocol
+### Infection protocol
 Stocks of purified reovirus T1L were titrated in L-929 (L) cells to estimate the concentration of plaque-forming units (PFU). 
 L cells were also used for virus titration in the original study, so the calculation of multiplicity of infection (MOI, PFU/cell) was consistent between studies. 
 For infection, purified reovirus was diluted in 100 µl of serum-free DMEM and adsorbed to cells for one hour at room temperature with agitation every ten minutes. 
 Thereafter, pre-warmed serum-containing DMEM was added and samples were incubated for one day before fixation.
-:::
