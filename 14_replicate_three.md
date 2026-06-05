@@ -3629,7 +3629,7 @@ Transfected-infected cells expressing mCherry-KDEL.
 }
 ```
 ::::
-**Figure 12.2:** Additional mCherry-ER reporters.
+Additional mCherry-ER reporters.
 :::::
 
 ### Methods

@@ -7,7 +7,7 @@ label : oser_page
 
 Fluorescent proteins tend to oligomerize when confined to the ER, which can restructure the organelle into organized smooth ER (OSER) whorls [@doi:10.1083/jcb.200306020]. 
 This phenomenon is used to assess the propensity of fluorescent proteins to oligomerize [@doi:10.1111/j.1600-0854.2012.01336.x]. 
-Six fluorescent proteins were tested in an OSER assay using interactive microscopy maps (Figure 8.1).
+Six fluorescent proteins were tested in an OSER assay using interactive microscopy maps (@figure8).
 Four of these can be cross-referenced with published estimates of the percentage of cells lacking visible OSER whorls: mEGFP (98.8±1.2), mCherry (95.0±0.8), FusionRed (91.5±3.0), and mNeonGreen (90.4±2.1) [@doi:10.1038/nmeth.3891].
 Among the samples tested here, Dendra2 formed the most prominent whorls, visible in the majority of cells.
 
@@ -170,7 +170,7 @@ Among the samples tested here, Dendra2 formed the most prominent whorls, visible
 :::
 ::::
 :::::
-**Figure 8.1:** Qualitative OSER assay presented as interactive microscopy maps.
+Qualitative OSER assay presented as interactive microscopy maps.
 ::::::
 
 ### Methods

@@ -9,8 +9,8 @@ Mammalian orthoreoviruses are thought to replicate and assemble viral particles 
 The original study labelled viral factories with anti-μNS and anti-σNS antibodies, including an α-μNS chicken polyclonal serum from our laboratory. 
 The chicken antiserum was corroborated with an α-μNS antiserum from guinea pigs. 
 All samples were infected with reovirus T1L at MOI 100 and co-stained with calreticulin antibodies to observe ER elements. 
-Both the chicken ([Figure 6.1](#figure6a)) and guinea pig ([Figure 6.3](#figure6c)) α-μNS antisera were sufficient to observe virus-infected cells and intracellular viral factories at high magnification.
-Since the chicken antiserum paired with AlexaFluor647-conjugated secondary antibodies was the combination used in the replication study, a dedicated [repeat](#antibody_page) ([Figure 14.1](#figure14a)) is presented in the Supplemental.
+Both the chicken ([@figure6a](#figure6a)) and guinea pig ([@figure6c](#figure6c)) α-μNS antisera were sufficient to observe virus-infected cells and intracellular viral factories at high magnification.
+Since the chicken antiserum paired with AlexaFluor647-conjugated secondary antibodies was the combination used in the replication study, a dedicated [repeat](#antibody_page) ([@figure14a](#figure14a)) is presented in the Supplemental.
 
 ## Chicken polyclonal antiserum
 
@@ -335,7 +335,7 @@ Testing the chicken α-μNS antiserum in cells infected with reovirus T1L.
 :::
 ::::
 :::::
-**Figure 6.2:** Immunofluorescence antibody controls.
+Immunofluorescence antibody controls.
 ::::::
 
 ## Guinea pig polyclonal antiserum
@@ -661,7 +661,7 @@ Testing the guinea pig α-μNS antiserum in cells infected with reovirus T1L.
 :::
 ::::
 :::::
-**Figure 6.4:** Immunofluorescence antibody controls.
+Immunofluorescence antibody controls.
 ::::::
 
 :::{tip}

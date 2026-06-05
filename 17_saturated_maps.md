@@ -7,7 +7,7 @@ label : saturated_page
 
 Illumination settings were set based on the mCherry-KDEL sample with TransIT-2020, resulting in pixel saturation in some samples. 
 Parker identified the saturated signal and advised repeating the experiment. 
-The original maps are preserved here (Figure 15.1).
+The original maps are preserved here (@figure15).
 
 ## Lipofectamine 3000 (left) and TransIT-2020 (right)
 
@@ -310,7 +310,7 @@ The original maps are preserved here (Figure 15.1).
 :::
 ::::
 :::::
-**Figure 15.1:** Original transfection experiment showing the distributions of mCherry-ER reporters.
+Original transfection experiment showing the distributions of mCherry-ER reporters.
 ::::::
 
 ### Methods

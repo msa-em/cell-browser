@@ -6,7 +6,7 @@ numbering:
 
 This study is not an exact replication because some reagents and protocols were modified due to availability. 
 Specifically, the reovirus strain, MOI, and calreticulin antibody were substituted, while the cell line, plasmid, transfection reagent, and reovirus antibody were consistent. 
-Rather than relying on a single representative image, the data is presented as an interactive figure ([Figure 7.1](#figure7)), allowing readers to observe hundreds of annotated cells.
+Rather than relying on a single representative image, the data is presented as an interactive figure ([@figure7](#figure7)), allowing readers to observe hundreds of annotated cells.
 
 ::::{figure}
 :label: figure7
@@ -4998,27 +4998,27 @@ This variability demonstrates that co-infection of transfected cells cannot be r
   - Uninfected
   - Infection rate
   - Grid size (fields)
-* - [Figure 10.1](#figure10a)
+* - [@figure10a](#figure10a)
   - 39
   - 126
   - 24%
   - 10x10 (n=100)
-* - [Figure 11.1](#figure11a)
+* - [@figure11a](#figure11a)
   - 64
   - 125
   - 34%
   - 15x15 (n=225)
-* - [Figure 12.1](#figure12a)
+* - [@figure12a](#figure12a)
   - 55
   - 40
   - 58%
   - 15x15 (n=225)
-* - [Figure 7.1](#figure7)
+* - [@figure7](#figure7)
   - 299
   - 94
   - 76%
   - 25x25 (n=625)
-* - [Figure 13.1](#figure13)
+* - [@figure13](#figure13)
   - 227
   - 75
   - 75%

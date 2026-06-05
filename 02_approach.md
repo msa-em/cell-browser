@@ -30,8 +30,8 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ### Vizarr
 
-```{code}
-:label: vizarr
+```{code} markdown
+:label: vizarr_code
 :caption: Minimal markdown to embed Vizarr in Elemental Microscopy. Replace the source with your data.
 :::{anywidget} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
@@ -43,8 +43,8 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ### microATLAS
 
-```{code}
-:label: microatlas
+```{code} markdown
+:label: microatlas_code
 :caption: Example markdown to embed microATLAS in Elemental Microscopy. Create your own with the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
 :::{anywidget} https://ladinthelab.github.io/microATLAS-widget/widget.js
 {
@@ -79,8 +79,8 @@ By default, readers cannot control dimensions like channels or time, so it is be
 
 ### OpenSeadragon
 
-```{code}
-:label: openseadragon
+```{code} markdown
+:label: openseadragon_code
 :caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
 :::{anywidget} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {

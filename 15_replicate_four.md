@@ -3655,5 +3655,5 @@ Reovirus μNS was detected with chicken α-μNS serum and AlexaFluor647 secondar
 Primary antibodies were multiplexed and incubated overnight at 4°C in the dark. 
 Secondary antibodies were multiplexed and incubated over two consecutive nights. 
 A 25×25 grid of 625 fields was recorded. 
-Z-drift compensation malfunctioned in Figure 14.1 but functioned correctly in Figure 7.1. 
+Z-drift compensation malfunctioned in @figure14a but functioned correctly in @figure7. 
 Overlapping edges were blended to reduce the appearance of stitching artifacts.

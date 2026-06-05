@@ -8,7 +8,7 @@ label : archival_page
 We were interested in the finding that reovirus μNS colocalized with the ER [@doi:10.1128/mBio.01253-18], so we performed experiments with moxGFP::μNS and mCherry-ER reporters.
 The results were unclear, so this research direction was abandoned.
 Fortunately, overlapping tiles were recorded in an experiment dated _September 14 2022_.
-This data was stitched and converted to OME-Zarr for reinterpretation as interactive microscopy maps (Figure 17.1).
+This data was stitched and converted to OME-Zarr for reinterpretation as interactive microscopy maps (@figure17).
 
 ::::::{figure}
 :label: figure17
@@ -117,5 +117,5 @@ This data was stitched and converted to OME-Zarr for reinterpretation as interac
 :::
 ::::
 :::::
-**Figure 17.1:** Reinterpretation of archived μNS–ER colocalization data as interactive microscopy maps.
+Reinterpretation of archived μNS–ER colocalization data as interactive microscopy maps.
 ::::::

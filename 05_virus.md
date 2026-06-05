@@ -10,13 +10,13 @@ Parker described the morphology of reovirus strain Type 1 Lang (T1L) factories a
 The mBio study did not provide a rationale for using this M1(T1L)-P208S mutant, so wildtype T1L was used instead in the replication study. 
 Wildtype T1L tends to form filamentous viral factories, whereas the M1(T1L)-P208S mutant would have formed globular factories. 
 A stock of unpurified reovirus strain Type 3 Dearing (T3D), which forms globular viral factories, was included to compare these morphologies. 
-Others have reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19], so ten-fold dilutions from MOI 0 to 100 were tested (Figure 4.1). 
+Others have reported using MOI 100 due to the low permissivity of HeLa cells to reovirus [@doi:10.1128/jvi.00199-19], so ten-fold dilutions from MOI 0 to 100 were tested (@figure4). 
 Infected cells were visualized with α-μNS chicken serum and AlexaFluor647-conjugated secondary antibodies. 
 Most HeLa cells were infected with reovirus T1L at MOI 100, so this concentration was used for replication experiments, an increase from MOI 1 used in the original study. 
 At MOI 1, only a few infected cells were positively identified and pinned on the map.
 
 ::::::{figure}
-:label: reovirus-moi-figure
+:label: figure4
 
 :::::{grid} 1 2 2 2
 ::::{grid-item}
@@ -752,7 +752,7 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
 ::::
 :::::
 
-**Figure 4.1:** Reovirus strains T1L (left) and T3D (right) 24 hours post infection, with increasing MOI from top to bottom (0, 1, 10, 100).
+Reovirus strains T1L (left) and T3D (right) 24 hours post infection, with increasing MOI from top to bottom (0, 1, 10, 100).
 ::::::
 
 

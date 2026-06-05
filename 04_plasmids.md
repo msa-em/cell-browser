@@ -8,13 +8,13 @@ numbering:
 
 mCherry-KDEL was the same construct used in the original study; mCherry-ER-3 plasmid (55041, Addgene).
 mCherry-CytERM-N-17 (55024, Addgene) was included as a positive control for ER remodelling because organized smooth endoplasmic reticulum (OSER) whorls form through fluorescent protein dimerization [@doi:10.1083/jcb.200306020].
-An [OSER assay](#oser_page) (Figure 8.1) was performed to compare whorl formation across different fluorescent proteins relative to mCherry-CytERM.
+An [OSER assay](#oser_page) (@figure8) was performed to compare whorl formation across different fluorescent proteins relative to mCherry-CytERM.
 Two additional constructs were included with ER proteins fused to mCherry; mCh-Climp63 (136293, Addgene) and mCh-Sec61β (49155, Addgene).
-An earlier experiment combining moxGFP::μNS with these constructs was inconclusive (Figure 17.1).
+An earlier experiment combining moxGFP::μNS with these constructs was inconclusive (@figure17).
 
 Cells transiently expressing mCherry-ER fusions were fixed 24 hours after transfection with TransIT-2020 and Lipofectamine 3000.
 Parker identified saturated signal in the original experiment and advised Barkley to repeat it, adjusting illumination settings individually.  
-The corrected maps are presented below (Figure 3.1), and the [saturated maps](#saturated_page) (Figure 15.1) and [discarded maps](#discarded_page) (Figures 16.1 to 16.5) are presented in the Supplemental.
+The corrected maps are presented below (@figure3), and the [saturated maps](#saturated_page) (@figure15) and [discarded maps](#discarded_page) (Figures 16.1 to 16.5) are presented in the Supplemental.
 
 ::::::{figure}
 :label: figure3
@@ -788,7 +788,7 @@ The corrected maps are presented below (Figure 3.1), and the [saturated maps](#s
 :::
 ::::
 :::::
-**Figure 3.1:** Cells expressing mCherry-ER fusion proteins. Select the 'ER remodeling' view from the menu to see representative fields of punctate structures suspected to be mCherry artifacts.
+Cells expressing mCherry-ER fusion proteins. Select the 'ER remodeling' view from the menu to see representative fields of punctate structures suspected to be mCherry artifacts.
 ::::::
 
 :::{important} Alternative hypothesis
