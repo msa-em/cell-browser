@@ -12,7 +12,7 @@ The other used AlexaFluor594 secondary antibodies with both the chicken and guin
 
 ::::{figure}
 :label: figure14a
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_primary_secondary.zarr",
   "width": "500px",
@@ -95,7 +95,7 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
 :label: figure14b
 :::::{grid} 1 3 3 3
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_primary.zarr",
   "width": "210px",
@@ -174,7 +174,7 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_secondary.zarr",
   "width": "210px",
@@ -253,7 +253,7 @@ Immunofluorescence imaging of infected cells with chicken α-μNS antisera.
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/chix_mock.zarr",
   "width": "210px",
@@ -338,7 +338,7 @@ Immunofluorescence antibody controls.
 
 ::::{figure}
 :label: figure14c
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_primary_secondary.zarr",
   "width": "500px",
@@ -421,7 +421,7 @@ Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
 :label: figure14d
 :::::{grid} 1 3 3 3
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_primary.zarr",
   "width": "210px",
@@ -500,7 +500,7 @@ Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_secondary.zarr",
   "width": "210px",
@@ -579,7 +579,7 @@ Immunofluorescence imaging of infected cells with guinea pig α-μNS antisera.
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_antibody/gp_mock.zarr",
   "width": "210px",

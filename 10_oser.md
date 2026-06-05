@@ -15,7 +15,7 @@ Among the samples tested here, Dendra2 formed the most prominent whorls, visible
 :label: figure8
 :::::{grid} 1 2 2 2
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/fusionred.zarr",
   "width": "323px",
@@ -41,7 +41,7 @@ Among the samples tested here, Dendra2 formed the most prominent whorls, visible
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/mcherry.zarr",
   "width": "323px",
@@ -67,7 +67,7 @@ Among the samples tested here, Dendra2 formed the most prominent whorls, visible
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/dendra2.zarr",
   "width": "323px",
@@ -93,7 +93,7 @@ Among the samples tested here, Dendra2 formed the most prominent whorls, visible
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/megfp.zarr",
   "width": "323px",
@@ -119,7 +119,7 @@ Among the samples tested here, Dendra2 formed the most prominent whorls, visible
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/mneongreen.zarr",
   "width": "323px",
@@ -145,7 +145,7 @@ Among the samples tested here, Dendra2 formed the most prominent whorls, visible
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/oser_assay/moxgfp.zarr",
   "width": "323px",

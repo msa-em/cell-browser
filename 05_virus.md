@@ -20,7 +20,7 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
 
 :::::{grid} 1 2 2 2
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi0.zarr",
   "width": "323px",
@@ -99,7 +99,7 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi0.zarr",
   "width": "323px",
@@ -178,7 +178,7 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi1.zarr",
   "width": "323px",
@@ -283,7 +283,7 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi1.zarr",
   "width": "323px",
@@ -436,7 +436,7 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi10.zarr",
   "width": "323px",
@@ -515,7 +515,7 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi10.zarr",
   "width": "323px",
@@ -594,7 +594,7 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t1lmoi100.zarr",
   "width": "323px",
@@ -673,7 +673,7 @@ At MOI 1, only a few infected cells were positively identified and pinned on the
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/reovirus_moi/t3dmoi100.zarr",
   "width": "323px",

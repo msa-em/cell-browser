@@ -14,7 +14,7 @@ This data was stitched and converted to OME-Zarr for reinterpretation as interac
 :label: figure17
 :::::{grid} 1 2 2 2
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/archival/FLclimp.zarr",
   "width": "323px",
@@ -40,7 +40,7 @@ This data was stitched and converted to OME-Zarr for reinterpretation as interac
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/archival/FLsec61b.zarr",
   "width": "323px",
@@ -66,7 +66,7 @@ This data was stitched and converted to OME-Zarr for reinterpretation as interac
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/archival/MRclimp.zarr",
   "width": "323px",
@@ -92,7 +92,7 @@ This data was stitched and converted to OME-Zarr for reinterpretation as interac
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/archival/MRsec61b.zarr",
   "width": "323px",

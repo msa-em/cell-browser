@@ -11,7 +11,7 @@ Signal intensity was low, particularly in the calreticulin channel, making it di
 
 ::::{figure}
 :label: figure11a
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-KDEL_T1L.zarr",
   "width": "500px",
@@ -2549,7 +2549,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
 :::::{figure}
 :label: figure11b
 ::::{grid} 2 2 2 2
-```{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-KDEL.zarr",
   "width": "323px",
@@ -2814,7 +2814,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
   }
 }
 ```
-```{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-Climp63_T1L.zarr",
   "width": "323px",
@@ -2973,7 +2973,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
   }
 }
 ```
-```{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-CytERM_T1L.zarr",
   "width": "323px",
@@ -3888,7 +3888,7 @@ Transfected-infected cells transiently expressing mCherry-KDEL with TransIT-2020
   }
 }
 ```
-```{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_2/mCh-Sec61b_T1L.zarr",
   "width": "323px",

@@ -33,7 +33,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 ```{code} markdown
 :label: vizarr_code
 :caption: Minimal markdown to embed Vizarr in Elemental Microscopy. Replace the source with your data.
-:::{anywidget} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
   "height": "600px"
@@ -46,7 +46,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 ```{code} markdown
 :label: microatlas_code
 :caption: Example markdown to embed microATLAS in Elemental Microscopy. Create your own with the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
-:::{anywidget} https://ladinthelab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://ladinthelab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
   "views": [
@@ -82,7 +82,7 @@ By default, readers cannot control dimensions like channels or time, so it is be
 ```{code} markdown
 :label: openseadragon_code
 :caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
-:::{anywidget} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://your-github.github.io/your-repository/sample.dzi"
 }

@@ -11,7 +11,7 @@ Two transfection reagents were compared, and TransIT-2020 was deemed more suitab
 
 ::::{figure}
 :label: figure10a
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/Transit.zarr",
   "width": "500px",
@@ -2202,7 +2202,7 @@ Transfected-infected cells. TransIT-2020 transfection before reovirus T1L infect
 
 ::::{figure}
 :label: figure10b
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/LF3000.zarr",
   "width": "500px",
@@ -3408,7 +3408,7 @@ Transfected-infected cells. Uninfected with Lipofectamine 3000 before reovirus i
 
 ::::{figure}
 :label: figure10c
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_1/Untransfected.zarr",
   "width": "500px",

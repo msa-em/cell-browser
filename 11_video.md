@@ -7,7 +7,7 @@ label : video_page
 
 ::::{figure}
 :label: figure9
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/video.zarr",
   "width": "500px",

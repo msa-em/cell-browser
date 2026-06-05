@@ -10,7 +10,7 @@ Rather than relying on a single representative image, the data is presented as a
 
 ::::{figure}
 :label: figure7
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_4/goodZDC.zarr",
   "width": "500px",

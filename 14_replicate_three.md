@@ -6,7 +6,7 @@ numbering:
 
 ::::{figure}
 :label: figure12a
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-KDEL_T1L.zarr",
   "width": "500px",
@@ -1418,7 +1418,7 @@ Transfected-infected cells expressing mCherry-KDEL.
 :::::{figure}
 :label: figure12b
 ::::{grid} 2 2 2 2
-```{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-Sec61b_T1L.zarr",
   "width": "323px",
@@ -2859,7 +2859,7 @@ Transfected-infected cells expressing mCherry-KDEL.
   }
 }
 ```
-```{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+```{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/replicate_3/mCh-CytERM_T1L.zarr",
   "width": "323px",

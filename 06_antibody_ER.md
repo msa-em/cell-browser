@@ -9,7 +9,7 @@ The staining pattern was punctate but sufficient to observe ER elements (@figure
 
 ::::{figure}
 :label: figure5a
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/primary_secondary.zarr",
   "width": "500px",
@@ -40,7 +40,7 @@ Immunofluorescence staining of calreticulin.
 :::::{grid} 1 3 3 3
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/primary.zarr",
   "width": "210px",
@@ -66,7 +66,7 @@ Immunofluorescence staining of calreticulin.
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/secondary.zarr",
   "width": "210px",
@@ -92,7 +92,7 @@ Immunofluorescence staining of calreticulin.
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/calreticulin_antibody/mock.zarr",
   "width": "210px",

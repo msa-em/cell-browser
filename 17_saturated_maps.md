@@ -15,7 +15,7 @@ The original maps are preserved here (@figure15).
 :label: figure15
 :::::{grid} 1 2 2 2
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-KDEL.zarr",
   "width": "323px",
@@ -52,7 +52,7 @@ The original maps are preserved here (@figure15).
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-KDEL.zarr",
   "width": "323px",
@@ -89,7 +89,7 @@ The original maps are preserved here (@figure15).
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-CytERM.zarr",
   "width": "323px",
@@ -126,7 +126,7 @@ The original maps are preserved here (@figure15).
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-CytERM.zarr",
   "width": "323px",
@@ -163,7 +163,7 @@ The original maps are preserved here (@figure15).
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-Sec61b.zarr",
   "width": "323px",
@@ -200,7 +200,7 @@ The original maps are preserved here (@figure15).
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-Sec61b.zarr",
   "width": "323px",
@@ -237,7 +237,7 @@ The original maps are preserved here (@figure15).
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/LF3000_mCh-Climp63.zarr",
   "width": "323px",
@@ -274,7 +274,7 @@ The original maps are preserved here (@figure15).
 ::::
 
 ::::{grid-item}
-:::{anywidget} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/mCherry-ER_plasmids/Transit_mCh-Climp63.zarr",
   "width": "323px",
