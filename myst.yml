@@ -1,6 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.69761/ggmj4852
   id: msa-em-cell-browser-1
   title: Reimag(in)ing representative images
   description: Web-based microscopy maps as an unbiased method to replicate highly magnified representative microscopy images.
@@ -13,7 +14,7 @@ project:
     - Replication
     - OME-Zarr
     - Deep Zoom
-  github: https://github.com/msa-em/cell-browser 
+  github: https://github.com/msa-em/cell-browser
   # jupyter: true
   # # jupyter:
   # #   server:
@@ -24,6 +25,10 @@ project:
   banner: banner.png
   thumbnail: thumbnail.gif
   date: 2026-06-04
+  venue:
+    title: Elemental Microscopy
+    short_title: EM
+    doi: 10.69761/EM
   references:
     mystmd: https://mystmd.org/guide
   exclude:
@@ -55,9 +60,9 @@ project:
       orcid: 0009-0000-6389-0643
       affiliations:
         - id: maryland
-          department: 
+          department:
           institution: University of Maryland
-          address: 
+          address:
           ror: 047s2c258
       roles:
         - Conceptualization
