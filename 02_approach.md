@@ -7,7 +7,9 @@ numbering:
 Already adopted by some clinicians and educators, virtual microscopy could also benefit researchers as an interface for communicating and interpreting image data.
 Indeed, interactive microscopy maps were first proposed for this purpose — as an unbiased way to present electron microscopy data [@doi:10.1083/jcb.201201140].
 Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now make this feasible, yet these tools have not been used in scientific publishing.
-Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
+Most journals publish articles as static pages that cannot run code, so interactive figures must be provided as links to external pages.
+To our knowledge, Elemental Microscopy is the first journal that allows interactive viewers to be embedded directly within the article.
+Our approach to virtual microscopy combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
@@ -18,7 +20,7 @@ Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.c
 Authors can also build custom viewers and embed them within online articles.
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article.
 [Find Nuclei](https://www.find-nuclei.com/) provides a web-based dashboard of tools and infrastructure for working with OME-Zarr bioimages [@FindNuclei2026].
-All four viewers are embeddable in Elemental Microscopy articles. 
+All four viewers are embeddable in Elemental Microscopy.
 For Vizarr and OpenSeadragon, authors simply copy the markdown and replace the source URL with a link to their own data. 
 For microATLAS, authors are encouraged to use the [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate embedding code that specifies both the image and relevant customizations.
 
