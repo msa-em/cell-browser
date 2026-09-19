@@ -51,7 +51,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ### microATLAS viewer
 
-:::{any:bundle} microatlas-local.mjs
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
   "width": "600px",
