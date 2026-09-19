@@ -17,8 +17,8 @@ Virtual microscopy. 1. Automated dataset collection with any suitable microscope
 Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two methods of virtual microscopy based on OME-Zarr or Deep Zoom. 
 Authors can also build custom viewers and embed them within online articles.
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article.
-[Find Nuclei](https://www.find-nuclei.com/) is a web-based dashboard to organize, analyze and share bioimages, built on OME-Zarr.
-All four viewers are embeddable in Elemental Microscopy. 
+[Find Nuclei](https://www.find-nuclei.com/) is a web-based dashboard to view, analyze, and share OME-Zarr bioimages.
+All four viewers are embeddable in Elemental Microscopy articles. 
 For Vizarr and OpenSeadragon, authors simply copy the markdown and replace the source URL with a link to their own data. 
 For microATLAS, authors are encouraged to use the [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate embedding code that specifies both the image and relevant customizations.
 
@@ -95,39 +95,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
   "width": "600px",
-  "height": "600px",
-  "views": [
-    {
-      "name": "inferno",
-      "zoom": -2.866,
-      "target": [
-        137103,
-        166506,
-        0
-      ],
-      "appearance": {
-        "channelsVisible": [
-          true
-        ],
-        "channelColors": [
-          [
-            255,
-            255,
-            255
-          ]
-        ],
-        "contrastLimits": [
-          [
-            0,
-            255
-          ]
-        ],
-        "blendMode": "merged",
-        "colormap": "inferno"
-      },
-      "default": true
-    }
-  ]
+  "height": "600px"
 }
 :::
 ```
@@ -166,8 +134,6 @@ By default, readers cannot control dimensions like channels or time, so it is be
 
 ### OpenSeadragon
 
-:label: openseadragon_code
-:caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
