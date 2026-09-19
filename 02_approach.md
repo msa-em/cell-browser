@@ -16,8 +16,9 @@ Virtual microscopy. 1. Automated dataset collection with any suitable microscope
 
 Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two methods of virtual microscopy based on OME-Zarr or Deep Zoom. 
 Authors can also build custom viewers and embed them within online articles.
-Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article. 
-All three viewers are readily embeddable in Elemental Microscopy. 
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article.
+[Find Nuclei](https://www.find-nuclei.com/) is a web-based dashboard to view, analyze and share microscopy images, built on OME-Zarr.
+All four viewers are embeddable in Elemental Microscopy. 
 For Vizarr and OpenSeadragon, authors simply copy the markdown and replace the source URL with a link to their own data. 
 For microATLAS, authors are encouraged to use the [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate embedding code that specifies both the image and relevant customizations.
 
@@ -33,7 +34,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 ```{code} markdown
 :label: vizarr_code
 :caption: Minimal markdown to embed Vizarr in Elemental Microscopy. Replace the source with your data.
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{anywidget} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
   "height": "600px"
@@ -46,7 +47,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 ```{code} markdown
 :label: microatlas_code
 :caption: Example markdown to embed microATLAS in Elemental Microscopy. Create your own with the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
-:::{any:bundle} https://ladinthelab.github.io/microATLAS-widget/widget.js
+:::{anywidget} microatlas-local.mjs
 {
   "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
   "views": [
@@ -71,6 +72,30 @@ Use the menu (☰, top-left corner) to change the displayed channels, colours, o
 Scroll (↕) to zoom into cells of interest.
 ```
 
+### Find Nuclei
+
+:::{any:bundle} https://find-nuclei.github.io/embed/v1/widget.mjs
+{
+  "url": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
+  "channels": "0:on:FFFFFF:0:240",
+  "x": 2115, "y": 1688, "zoom": -1.9,
+  "height": "500"
+}
+:::
+
+```{code} markdown
+:label: findnuclei_code
+:caption: Example markdown to embed Find Nuclei in Elemental Microscopy.
+:::{any:bundle} https://find-nuclei.github.io/embed/v1/widget.mjs
+{
+  "url": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
+  "channels": "0:on:FFFFFF:0:240",
+  "x": 2115, "y": 1688, "zoom": -1.9,
+  "height": "500"
+}
+:::
+```
+
 ## Deep Zoom
 
 [Deep Zoom](<wiki:Deep_Zoom>) is a free and open-source solution, described elsewhere [@doi:10.1242/jcs.262198], now embeddable in Elemental Microscopy.
@@ -82,7 +107,7 @@ By default, readers cannot control dimensions like channels or time, so it is be
 ```{code} markdown
 :label: openseadragon_code
 :caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+:::{anywidget} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://your-github.github.io/your-repository/sample.dzi"
 }
