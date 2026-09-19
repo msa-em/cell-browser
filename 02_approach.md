@@ -8,7 +8,7 @@ Already adopted by some clinicians and educators, virtual microscopy could also 
 Indeed, interactive microscopy maps were first proposed for this purpose — as an unbiased way to present electron microscopy data [@doi:10.1083/jcb.201201140].
 Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now make this feasible, yet these tools have not been used in scientific publishing.
 Most journals publish articles as static pages that cannot run code, so interactive figures must be provided as links to external pages.
-To our knowledge, Elemental Microscopy is the first journal that allows interactive viewers to be embedded directly within the article.
+To our knowledge, Elemental Microscopy is among the first journals that allows interactive viewers to be embedded directly within the article.
 Our approach to virtual microscopy combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png
