@@ -31,12 +31,9 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ### Vizarr viewer
 
-:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
-{
-  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
-  "height": "600px"
-}
-:::
+```{iframe} https://hms-dbmi.github.io/vizarr/?source=https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr&viewState={%22target%22:[124547.79378129813,32310.74580437236],%22zoom%22:-3.8361114954494266}
+:width: 100%
+```
 
 ```{code} markdown
 :label: vizarr_code
@@ -84,7 +81,8 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
         ],
         "blendMode": "merged",
         "colormap": "inferno"
-      }
+      },
+      "default": true
     }
   ]
 }
