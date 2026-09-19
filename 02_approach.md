@@ -7,7 +7,9 @@ numbering:
 Already adopted by some clinicians and educators, virtual microscopy could also benefit researchers as an interface for communicating and interpreting image data.
 Indeed, interactive microscopy maps were first proposed for this purpose — as an unbiased way to present electron microscopy data [@doi:10.1083/jcb.201201140].
 Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now make this feasible, yet these tools have not been used in scientific publishing.
-Our approach combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
+Most journals publish articles as static pages that cannot run code, so interactive figures must be provided as links to external pages.
+To our knowledge, Elemental Microscopy is among the first journals that allows interactive viewers to be embedded directly within the article.
+Our approach to virtual microscopy combined automated image acquisition, multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats and embedded interactive viewers ([](#abstract)).
 
 ```{figure} ./figures/Virtual_microscopy.png
 :label: abstract
@@ -16,8 +18,9 @@ Virtual microscopy. 1. Automated dataset collection with any suitable microscope
 
 Elemental Microscopy supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), enabling two methods of virtual microscopy based on OME-Zarr or Deep Zoom. 
 Authors can also build custom viewers and embed them within online articles.
-Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article. 
-All three viewers are readily embeddable in Elemental Microscopy. 
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget), which was used to view OME-Zarr data in this article.
+[Find Nuclei](https://www.find-nuclei.com/) provides a web-based dashboard of tools and infrastructure for working with OME-Zarr bioimages [@FindNuclei2026].
+All four viewers are embeddable in Elemental Microscopy.
 For Vizarr and OpenSeadragon, authors simply copy the markdown and replace the source URL with a link to their own data. 
 For microATLAS, authors are encouraged to use the [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) to generate embedding code that specifies both the image and relevant customizations.
 
@@ -30,12 +33,16 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ### Vizarr
 
+```{iframe} https://hms-dbmi.github.io/vizarr/?source=https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr&viewState={%22target%22:[124547.79378129813,32310.74580437236],%22zoom%22:-3.8361114954494266}
+:width: 100%
+```
+
 ```{code} markdown
 :label: vizarr_code
 :caption: Minimal markdown to embed Vizarr in Elemental Microscopy. Replace the source with your data.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
-  "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
   "height": "600px"
 }
 :::
@@ -43,32 +50,82 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ### microATLAS
 
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
+{
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
+  "width": "600px",
+  "height": "600px",
+  "views": [
+    {
+      "name": "inferno",
+      "zoom": -2.866,
+      "target": [
+        137103,
+        166506,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true
+        ],
+        "channelColors": [
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            255
+          ]
+        ],
+        "blendMode": "merged",
+        "colormap": "inferno"
+      },
+      "default": true
+    }
+  ]
+}
+:::
+
 ```{code} markdown
 :label: microatlas_code
 :caption: Example markdown to embed microATLAS in Elemental Microscopy. Create your own with the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
-:::{any:bundle} https://ladinthelab.github.io/microATLAS-widget/widget.js
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
-  "source": "https://your-bucket.s3.amazonaws.com/sample.zarr/",
-  "views": [
-    {
-      "name": "Overview",
-      "zoom": -4,
-      "target": [4886, 4886, 0]
-    }
-  ],
-  "annotations": [
-    { "name": "Region A", "target": [2400, 2400], "color": [100, 200, 255] }
-  ],
-  "scaleBar": { "maxWidth": 120, "position": "bottom-right" }
+  "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
+  "width": "600px",
+  "height": "600px"
 }
 :::
 ```
 
-```{figure} ./thumbnail.gif
-:label: demo
-Interacting with microATLAS: 
-Use the menu (☰, top-left corner) to change the displayed channels, colours, or contrast.
-Scroll (↕) to zoom into cells of interest.
+### Find Nuclei
+
+:::{any:bundle} https://find-nuclei.github.io/embed/v1/widget.mjs
+{
+  "url": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
+  "channels": "0:on:FFFFFF:0:240",
+  "x": 2115, "y": 1688, "zoom": -1.9,
+  "height": "600",
+  "invert": true
+}
+:::
+
+```{code} markdown
+:label: findnuclei_code
+:caption: Example markdown to embed [Find Nuclei](https://www.find-nuclei.com/) in Elemental Microscopy [@FindNuclei2026].
+:::{any:bundle} https://find-nuclei.github.io/embed/v1/widget.mjs
+{
+  "url": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
+  "channels": "0:on:FFFFFF:0:240",
+  "x": 2115, "y": 1688, "zoom": -1.9,
+  "height": "600",
+  "invert": true
+}
+:::
 ```
 
 ## Deep Zoom
@@ -79,18 +136,18 @@ By default, readers cannot control dimensions like channels or time, so it is be
 
 ### OpenSeadragon
 
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
+}
+:::
+
 ```{code} markdown
 :label: openseadragon_code
 :caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
-    "tileSources": "https://your-github.github.io/your-repository/sample.dzi"
+    "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
 }
 :::
 ```
-
-## Imaging
-Data collection was fully motorized for unbiased sampling of large panoramas from replicate immunofluorescence experiments.
-Grids of overlapping tiles were acquired with a robotic XY stage (IX3-SSU) and Z-drift compensation (IX3-ZDC).
-Coverslips were imaged with an Olympus Fluoview FV3000 confocal microscope using a 100X objective lens (Olympus model UPLAPO100X, NA 1.50) in immersion oil. 
-Pinholes in each channel were maximized to capture the widest depth of field.
