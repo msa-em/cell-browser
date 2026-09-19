@@ -29,7 +29,7 @@ Most native microscopy file formats can be converted to OME-Zarr with preserved 
 It is a chunked file type that can support multiple resolution levels.
 As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyramidal OME-Zarr data can be viewed online [@doi:10.1038/s41592-022-01482-7].
 
-### Vizarr viewer
+### Vizarr
 
 ```{iframe} https://hms-dbmi.github.io/vizarr/?source=https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr&viewState={%22target%22:[124547.79378129813,32310.74580437236],%22zoom%22:-3.8361114954494266}
 :width: 100%
@@ -38,7 +38,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 ```{code} markdown
 :label: vizarr_code
 :caption: Minimal markdown to embed Vizarr in Elemental Microscopy. Replace the source with your data.
-:::{anywidget} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
   "height": "600px"
@@ -46,7 +46,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 :::
 ```
 
-### microATLAS viewer
+### microATLAS
 
 :::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
@@ -91,25 +91,48 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 ```{code} markdown
 :label: microatlas_code
 :caption: Example markdown to embed microATLAS in Elemental Microscopy. Create your own with the [builder](https://ladinthelab.github.io/microATLAS-widget/builder.html).
-:::{anywidget} microatlas-local.mjs
+:::{any:bundle} https://LadInTheLab.github.io/microATLAS-widget/widget.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
+  "width": "600px",
+  "height": "600px",
   "views": [
     {
-      "name": "Overview",
-      "zoom": -4,
-      "target": [4886, 4886, 0]
+      "name": "inferno",
+      "zoom": -2.866,
+      "target": [
+        137103,
+        166506,
+        0
+      ],
+      "appearance": {
+        "channelsVisible": [
+          true
+        ],
+        "channelColors": [
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        "contrastLimits": [
+          [
+            0,
+            255
+          ]
+        ],
+        "blendMode": "merged",
+        "colormap": "inferno"
+      },
+      "default": true
     }
-  ],
-  "annotations": [
-    { "name": "Region A", "target": [2400, 2400], "color": [100, 200, 255] }
-  ],
-  "scaleBar": { "maxWidth": 120, "position": "bottom-right" }
+  ]
 }
 :::
 ```
 
-### Find Nuclei viewer
+### Find Nuclei
 
 :::{any:bundle} https://find-nuclei.github.io/embed/v1/widget.mjs
 {
@@ -129,7 +152,8 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
   "url": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
   "channels": "0:on:FFFFFF:0:240",
   "x": 2115, "y": 1688, "zoom": -1.9,
-  "height": "500"
+  "height": "600",
+  "invert": true
 }
 :::
 ```
@@ -142,12 +166,20 @@ By default, readers cannot control dimensions like channels or time, so it is be
 
 ### OpenSeadragon
 
+:label: openseadragon_code
+:caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+{
+    "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
+}
+:::
+
 ```{code} markdown
 :label: openseadragon_code
 :caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
-:::{anywidget} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
-    "tileSources": "https://your-github.github.io/your-repository/sample.dzi"
+    "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
 }
 :::
 ```
