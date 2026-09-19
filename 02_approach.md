@@ -118,7 +118,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
   "url": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
   "channels": "0:on:FFFFFF:0:240",
   "x": 2115, "y": 1688, "zoom": -1.9,
-  "height": "600"
+  "height": "600",
   "invert": true
 }
 :::
