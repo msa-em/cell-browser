@@ -31,7 +31,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ### Vizarr viewer
 
-:::{anywidget} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
+:::{any:bundle} https://curvenote.github.io/widgets/widgets/vizarr-viewer.js
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
   "height": "600px"
@@ -51,7 +51,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ### microATLAS viewer
 
-:::{anywidget} microatlas-local.mjs
+:::{any:bundle} microatlas-local.mjs
 {
   "source": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
   "width": "600px",
