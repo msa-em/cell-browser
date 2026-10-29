@@ -8,7 +8,7 @@ Already adopted by some clinicians and educators, virtual microscopy could also 
 Indeed, interactive microscopy maps were proposed as an unbiased way to present electron microscopy data [@doi:10.1083/jcb.201201140].
 Free and open-source solutions [@doi:10.1242/jcs.262198] and recent advances in file formats [@doi:10.1007/s00418-023-02209-1] now make this feasible, yet virtual microscopy remains rare in scientific publishing.
 Most journals publish articles as static pages that cannot run code, so interactive figures must be provided as links to external pages.
-Even Elsevier's Virtual Microscope, developed for high-resolution pathology images, is opened from links in figure captions.
+Even [Elsevier's Virtual Microscope](https://www-prod.elsevier.com/researcher/author/tools-and-resources/data-visualization/virtual-microscope) is opened from links in figure captions.
 To our knowledge, Elemental Microscopy is among the first journals that allows interactive viewers to be embedded directly within the article, so that each figure is a live view of the full-resolution dataset rather than a static rendering of it.
 Here we describe a workflow for this kind of virtual microscopy: datasets are acquired automatically, converted to multi-scale [pyramid](<wiki:Pyramid_(image_processing)>) formats, hosted in the cloud, and streamed to viewers embedded in the article ([](#abstract)).
 
@@ -21,12 +21,13 @@ Elemental Microscopy natively supports two interactive viewers; [Vizarr](https:/
 To use either viewer, authors copy the provided markdown and replace the source URL with a link to their own data.
 Authors can also build custom viewers and embed them within their online articles.
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) to present the large multiplexed immunofluorescence datasets in this article, and its [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) generates embedding code that specifies both the image and its display settings.
-A third route is to integrate existing open-source viewers.
-In collaboration with the developers of [Find Nuclei](https://www.find-nuclei.com/), a browser-based dashboard for OME-Zarr datasets [@FindNuclei2026], we made their viewer embeddable in Elemental Microscopy.
-Its toolbar embed button (<>) generates MyST code to embed the current view.
+We also collaborated with the developers of [Find Nuclei](https://www.find-nuclei.com/), a browser-based dashboard for OME-Zarr datasets, so that its toolbar embed button generates MyST code for embedding the viewer in Elemental Microscopy articles [@FindNuclei2026].
 
-To compare these viewers, we embed each one below with the same dataset: a mosaic of roughly one million nucleus images [@doi:10.5281/zenodo.18776682] in OME-Zarr, and a 10,000-image subset in Deep Zoom.
-This nucleus dataset was not analyzed in this article; it was included only to demonstrate how each viewer handles a very large image.
+The four figures below are interactive microscopy maps for readers to try, each showing the same demonstration sataset: a mosaic of roughly one million nucleus images [@doi:10.5281/zenodo.18776682].
+This data is not analyzed in this article; it is included only to show how each viewer handles very large data.
+Three figures stream OME-Zarr data from cloud object storage to Vizarr, microATLAS and Find Nuclei, while the fourth streams a smaller Deep Zoom (DZI) subset from GitHub Pages to OpenSeadragon.
+Each viewer is embedded with a single MyST directive, shown below its figure.
+For Vizarr and OpenSeadragon, authors replace the source URL with a link to their own data, while microATLAS and Find Nuclei generate the embedding code for a chosen view, so adding an interactive figure amounts to pasting a short block of markup.
 
 ## OME-Zarr
 
