@@ -23,8 +23,8 @@ Authors can also build custom viewers and embed them within their online article
 Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) to present the large multiplexed immunofluorescence datasets in this article, and its [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) generates embedding code that specifies both the image and its display settings.
 We also collaborated with the developers of [Find Nuclei](https://www.find-nuclei.com/), a browser-based dashboard for OME-Zarr datasets, so that its toolbar embed button generates MyST code for embedding the viewer in Elemental Microscopy articles [@FindNuclei2026].
 
-The four figures below are interactive microscopy maps for readers to try, each showing the same demonstration dataset: a mosaic of roughly one million nucleus images [@doi:10.5281/zenodo.18776682].
-This data is not analyzed in this article; it is included only to show how each viewer handles very large data.
+The four figures below are interactive microscopy maps for readers to try, each showing the same demo dataset: a mosaic of around one million nucleus images [@doi:10.5281/zenodo.18776682].
+This data is not analyzed in this article; it is included only to show how each viewer handles very large images.
 Three figures stream OME-Zarr data from cloud object storage to Vizarr, microATLAS and Find Nuclei, while the fourth streams a smaller Deep Zoom (DZI) subset from GitHub Pages to OpenSeadragon.
 Each viewer is embedded with a single MyST directive, shown below its figure.
 For Vizarr and OpenSeadragon, authors replace the source URL with a link to their own data, while microATLAS and Find Nuclei generate the embedding code, so adding an interactive figure amounts to pasting a block of markup.
