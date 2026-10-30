@@ -17,9 +17,9 @@ Here we describe a workflow for this kind of virtual microscopy: datasets are ac
 Virtual microscopy. 1. Automated dataset collection with any suitable microscope. ZDC: Z-drift compensation. 2. Stitch tiles then convert the image to DZI or OME-Zarr, host online. 3. Image tiles or data chunks are retrieved from cloud storage as readers interact with microscopy maps.
 ```
 
-Elemental Microscopy natively supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), which enable virtual microscopy of OME-Zarr and Deep Zoom images, respectively.
+Elemental Microscopy natively supports two interactive viewers; [Vizarr](https://github.com/hms-dbmi/vizarr) [@doi:10.1038/s41592-022-01482-7] and [OpenSeadragon](https://openseadragon.github.io/), which enable virtual microscopy of OME-Zarr and Deep Zoom images.
 Authors can also build custom viewers.
-Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) to present the multiplexed immunofluorescence imaging datasets in this article, and its [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) generates embedding code that specifies both the image and its display settings.
+Brodrick developed [microATLAS](https://github.com/LadInTheLab/microATLAS-widget) to present the multiplexed immunofluorescence OME-Zarr datasets in this article, and its [widget builder](https://ladinthelab.github.io/microATLAS-widget/builder.html) generates embedding code that specifies both the image and its display settings.
 We also collaborated with the developers of [Find Nuclei](https://www.find-nuclei.com/), a browser-based dashboard for OME-Zarr datasets, so that its toolbar generates MyST code for embedding the viewer in Elemental Microscopy articles [@FindNuclei2026].
 
 The four figures below are interactive microscopy maps for readers to try, each using the same dataset: a mosaic of roughly one million nucleus images [@doi:10.5281/zenodo.18776682].
