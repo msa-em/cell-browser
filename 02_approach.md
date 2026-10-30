@@ -120,7 +120,7 @@ As an advanced implementation of microscopy maps [@doi:10.1242/jcs.262198], pyra
 
 ```{code} markdown
 :label: findnuclei_code
-:caption: Example markdown to embed Find Nuclei [@FindNuclei2026]. Create your own with the [viewer](https://find-nuclei.github.io/).
+:caption: Example markdown to embed Find Nuclei. Create your own with the [viewer](https://find-nuclei.github.io/).
 :::{any:bundle} https://find-nuclei.github.io/embed/v1/widget.mjs
 {
   "url": "https://nyu1.osn.mghpcc.org/barkley-replication/nuclei_mosaic.zarr",
@@ -148,7 +148,7 @@ By default, readers cannot control dimensions like channels or time, so it is be
 
 ```{code} markdown
 :label: openseadragon_code
-:caption: Minimal markdown to embed OpenSeadragon in Elemental Microscopy. Replace the source with your DZI.
+:caption: Example markdown to embed OpenSeadragon. Replace the source with your DZI.
 :::{any:bundle} https://curvenote.github.io/widgets/widgets/openseadragon.mjs
 {
     "tileSources": "https://russellbarkley.github.io/nucleusnet-10k/nucleusnet_10k.dzi"
